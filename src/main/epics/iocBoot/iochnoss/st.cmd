@@ -38,7 +38,7 @@ hnoss_registerRecordDeviceDriver pdbbase
 < "${TOP}/iocBoot/iochnoss/userPreDriverConf.cmd"
 < "${TOP}/iocBoot/iochnoss/threadSchedulingConf.cmd"
 < "${TOP}/iocBoot/iochnoss/dbToLoad.cmd"
-< "${TOP}/iocBoot/iochnoss/iochnoss-preSaveRestore.cmd"
+#< "${TOP}/iocBoot/iochnoss/iochnoss-preSaveRestore.cmd"
 
 #############################################
 ## IOC Logging                             ##
@@ -51,7 +51,7 @@ iocLogInit
 cd "${TOP}/db"
 iocInit
 
-< "${TOP}/iocBoot/iochnoss/iochnoss-postSaveRestore.cmd"
+#< "${TOP}/iocBoot/iochnoss/iochnoss-postSaveRestore.cmd"
 < "${TOP}/iocBoot/iochnoss/sddSeqToLoad.cmd"
 < "${TOP}/iocBoot/iochnoss/seqToLoad.cmd"
 < "${TOP}/iocBoot/iochnoss/sddPostDriverConf.cmd"
