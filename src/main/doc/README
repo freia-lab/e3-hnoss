@@ -1,0 +1,7 @@
+Start the ioc server with the command:
+iocsh -r ioc-hnoss-freia[,version] -c "requireSnippet(hnoss-freia.cmd, "PLC_IPADDR=<ip_address>")"
+
+To start it automatically on diskless target write a following in /opt/startup/ioc/<target_name>/{ioc_name}/st.cmd:
+
+require ioc-hnoss-freia[,version]
+requireSnippet(hnoss-freia.cmd, "PLC_IPADDR=<ip_address>")
