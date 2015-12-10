@@ -1,4 +1,4 @@
-#!../../bin/linux-x86_64/hnoss
+#!../../bin/linux-x86_64/hnoss-freia
 #+======================================================================
 # $HeadURL: https://svnpub.iter.org/codac/iter/codac/dev/units/m-epics-iter-templates/tags/CODAC-CORE-4.1.0/templates/genericBoot/ioc/st.cmd $
 # $Id: st.cmd 35402 2013-04-07 15:41:49Z zagara $
@@ -31,14 +31,13 @@ cd "${TOP}"
 ## Register all support components         ##
 #############################################
 
-dbLoadDatabase "dbd/hnoss.dbd"
-hnoss_registerRecordDeviceDriver pdbbase
+dbLoadDatabase "dbd/hnoss-freia.dbd"
+hnoss_freia_registerRecordDeviceDriver pdbbase
 
-< "${TOP}/iocBoot/iochnoss/sddPreDriverConf.cmd"
-< "${TOP}/iocBoot/iochnoss/userPreDriverConf.cmd"
-< "${TOP}/iocBoot/iochnoss/threadSchedulingConf.cmd"
-< "${TOP}/iocBoot/iochnoss/dbToLoad.cmd"
-#< "${TOP}/iocBoot/iochnoss/iochnoss-preSaveRestore.cmd"
+< "${TOP}/iocBoot/iochnoss-freia/userPreDriverConf.cmd"
+< "${TOP}/iocBoot/iochnoss-freia/threadSchedulingConf.cmd"
+< "${TOP}/iocBoot/iochnoss-freia/dbToLoad.cmd"
+#< "${TOP}/iocBoot/iochnoss-freia/iochnoss-freia-preSaveRestore.cmd"
 
 #############################################
 ## IOC Logging                             ##
@@ -51,10 +50,8 @@ iocLogInit
 cd "${TOP}/db"
 iocInit
 
-#< "${TOP}/iocBoot/iochnoss/iochnoss-postSaveRestore.cmd"
-< "${TOP}/iocBoot/iochnoss/sddSeqToLoad.cmd"
-< "${TOP}/iocBoot/iochnoss/seqToLoad.cmd"
-< "${TOP}/iocBoot/iochnoss/sddPostDriverConf.cmd"
-< "${TOP}/iocBoot/iochnoss/userPostDriverConf.cmd"
+#< "${TOP}/iocBoot/iochnoss-freia/iochnoss-freia-postSaveRestore.cmd"
+< "${TOP}/iocBoot/iochnoss-freia/seqToLoad.cmd"
+< "${TOP}/iocBoot/iochnoss-freia/userPostDriverConf.cmd"
 
 

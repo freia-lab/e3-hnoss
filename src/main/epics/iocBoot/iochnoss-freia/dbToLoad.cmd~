@@ -2,11 +2,9 @@
 ## DB loading                              ##
 #############################################
 
-cd "$(TOP)"
-#dbLoadRecords("xxx.db","user=konradHost")
-#dbLoadTemplate(xxx.substitutions)
-dbLoadRecords("db/General.db","user=nicklasbpHost")
-dbLoadTemplate("db/hnoss.substitutions")
+cd "$(TOP)/db"
+dbLoadRecords("General.db","user=nicklasbpHost")
+dbLoadTemplate("hnoss.substitutions")
 
 # PLC communication 
 #cd "$(EPICS_MODULES)/s7plc/db"

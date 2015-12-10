@@ -28,65 +28,65 @@ include $(TOP)/configure/CONFIG
 #=============================
 # Build the IOC support library
 
-PROD_IOC += hnoss
+PROD_IOC += hnoss-freia
 
-# hnoss.dbd will be created and installed
-DBD += hnoss.dbd
+# hnoss-freia.dbd will be created and installed
+DBD += hnoss-freia.dbd
 
-# hnoss.dbd will be made up from base.dbd and module dbds listed below:
-hnoss_DBD += base.dbd
+# hnoss-freia.dbd will be made up from base.dbd and module dbds listed below:
+hnoss-freia_DBD += base.dbd
 
-# hnoss_registerRecordDeviceDriver.cpp derives from hnoss.dbd
-hnoss_SRCS += hnoss_registerRecordDeviceDriver.cpp
+# hnoss-freia_registerRecordDeviceDriver.cpp derives from hnoss-freia.dbd
+hnoss-freia_SRCS += hnoss-freia_registerRecordDeviceDriver.cpp
 
 # Build the main IOC entry point on workstation OSs.
-hnoss_SRCS_DEFAULT += hnossMain.cpp
-hnoss_SRCS_vxWorks += -nil-
+hnoss-freia_SRCS_DEFAULT += hnoss-freiaMain.cpp
+hnoss-freia_SRCS_vxWorks += -nil-
 
 #=============================
 # Add support for the following uncommented modules:
 
 # # AUTOSAVE
-hnoss_DBD += asSupport.dbd
-hnoss_LIBS += autosave
+hnoss-freia_DBD += asSupport.dbd
+hnoss-freia_LIBS += autosave
 
 # # IOC Monitor
-hnoss_DBD += iocmon.dbd
-hnoss_LIBS += iocmon
+hnoss-freia_DBD += iocmon.dbd
+hnoss-freia_LIBS += iocmon
 
 # # System Monitor
-hnoss_DBD += sysmon.dbd
-hnoss_LIBS += sysmon
+hnoss-freia_DBD += sysmon.dbd
+hnoss-freia_LIBS += sysmon
 
 # # STD
-hnoss_DBD += std.dbd
-hnoss_LIBS += std
+hnoss-freia_DBD += std.dbd
+hnoss-freia_LIBS += std
 
 # # ASYN
-#hnoss_DBD += asyn.dbd
-#hnoss_LIBS += asyn
+#hnoss-freia_DBD += asyn.dbd
+#hnoss-freia_LIBS += asyn
 
 # # NI SYNC
-#hnoss_DBD += nisync.dbd
-#hnoss_LIBS += nisync-epics
+#hnoss-freia_DBD += nisync.dbd
+#hnoss-freia_LIBS += nisync-epics
 
 # # NI SYNC General Time
-#hnoss_DBD += nisync-generalTime.dbd
-#hnoss_LIBS += nisync-generalTime
+#hnoss-freia_DBD += nisync-generalTime.dbd
+#hnoss-freia_LIBS += nisync-generalTime
 
 # # NI PXI-6259
-#hnoss_DBD += ni6259.dbd
-#hnoss_LIBS += ni6259
+#hnoss-freia_DBD += ni6259.dbd
+#hnoss-freia_LIBS += ni6259
 
 # # S7PLC
-hnoss_DBD += s7plc.dbd
-hnoss_LIBS += s7plc
+hnoss-freia_DBD += s7plc.dbd
+hnoss-freia_LIBS += s7plc
 
 -include ../*.snlprog
 #=============================
 
 # Finally link to the EPICS Base libraries
-hnoss_LIBS += $(EPICS_BASE_IOC_LIBS)
+hnoss-freia_LIBS += $(EPICS_BASE_IOC_LIBS)
 
 #=============================
 

@@ -3,13 +3,8 @@
 #############################################
 
 cd "$(TOP)/db"
-#dbLoadRecords("xxx.db","user=konradHost")
-#dbLoadTemplate(xxx.substitutions)
-dbLoadRecords("General.db","user=nicklasbpHost")
-dbLoadTemplate("hnoss.substitutions")
-
-#dbLoadRecords("linde.db")
-#dbLoadTemplate("lindeCryosystem.substitutions")
+dbLoadRecords("General.db")
+dbLoadTemplate("hnoss-freia.substitutions")
 
 # PLC communication 
 #cd "$(EPICS_MODULES)/s7plc/db"
