@@ -1,0 +1,7 @@
+Start the server with ./server_hnoss & command.
+The server can use another then default (2000) port for communication with the IOC.
+Another port can be selected by starting the server with comman line argument:
+./server_hnoss <port> &
+
+for example:
+ ./server_hnoss 2001 &

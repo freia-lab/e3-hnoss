@@ -3,4 +3,5 @@
 #############################################
 
 dbLoadRecords("General.db")
-dbLoadTemplate("hnoss-freia.substitutions")
+#dbLoadTemplate("hnoss-freia.substitutions")
+dbLoadRecords("hnoss-freia.db")

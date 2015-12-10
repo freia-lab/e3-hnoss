@@ -12,7 +12,19 @@ include $(TOP)/configure/CONFIG
 # databases, templates, substitutions like this
 
 DB += General.db
-DB += hnoss-freia.substitutions
+DB += AI.template
+DB += AValves.template
+DB += DI.template
+DB += Evalves.template
+DB += SQ0_1_2.template
+DB += SQanalog.template
+DB += SQbinary.template
+DB += SQbinPar.template
+DB += Heater1.template
+DB += Heater2.template
+DB += PID.template
+DB += Valves.template
+DB += hnoss.substitutions
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add

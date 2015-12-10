@@ -17,8 +17,6 @@ requireSnippet(dbToLoad-hnoss-freia.cmd)
 
 iocInit
 
-#< "${TOP}/iocBoot/iochnoss-freia/iochnoss-freia-postSaveRestore.cmd"
-< "${TOP}/iocBoot/iochnoss-freia/seqToLoad.cmd"
-< "${TOP}/iocBoot/iochnoss-freia/userPostDriverConf.cmd"
-
+#requireSnippet(hnoss-freia-postSaveRestore.cmd)
+requireSnippet(userPostDriverConf-hnoss-freia.cmd)
 
