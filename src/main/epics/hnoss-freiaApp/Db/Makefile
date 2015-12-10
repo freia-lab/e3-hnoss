@@ -24,7 +24,7 @@ DB += Heater1.template
 DB += Heater2.template
 DB += PID.template
 DB += Valves.template
-DB += hnoss.substitutions
+DB += hnoss-freia.substitutions
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add
