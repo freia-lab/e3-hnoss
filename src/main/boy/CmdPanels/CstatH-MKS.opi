@@ -100,7 +100,7 @@
     <font>
       <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
-    <width>218</width>
+    <width>219</width>
     <border_style>0</border_style>
     <rules>
       <rule name="VisibilityRule" prop_id="visible" out_exp="false">
@@ -598,7 +598,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>240</y>
+    <y>270</y>
     <actions hook="false" hook_all="false" />
     <x>173</x>
     <tooltip>$(pv_name)
@@ -668,7 +668,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
-    <y>270</y>
+    <y>240</y>
     <actions hook="false" hook_all="false" />
     <x>173</x>
     <tooltip>$(pv_name)
@@ -775,6 +775,12 @@ $(pv_value)</tooltip>
           <value>9</value>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
+      </rule>
+      <rule name="OutOfRange" prop_id="pv_value" out_exp="true">
+        <exp bool_exp="pv0==9999">
+          <value>"OVR"</value>
+        </exp>
+        <pv trig="true">$(pv_name)</pv>
       </rule>
     </rules>
     <pv_value />

@@ -865,19 +865,7 @@ $(pv_value)</tooltip>
         <exp bool_exp="pv0==1">
           <value>9</value>
         </exp>
-        <exp bool_exp="pv1==0">
-          <value>1</value>
-        </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
-        <pv trig="true">$(name):sAuto</pv>
-      </rule>
-      <rule name="bordercolor" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>
-            <color name="Minor" red="255" green="255" blue="0" />
-          </value>
-        </exp>
-        <pv trig="true">$(name):sAuto</pv>
       </rule>
     </rules>
     <degree>0</degree>
@@ -885,17 +873,7 @@ $(pv_value)</tooltip>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <y>242</y>
-    <actions hook="true" hook_all="false">
-      <action type="OPEN_OPI_IN_VIEW">
-        <path>../CmdPanels/CstatH-Cvalve.opi</path>
-        <macros>
-          <include_parent_macros>true</include_parent_macros>
-          <Cvalve>$(name)</Cvalve>
-        </macros>
-        <Position>4</Position>
-        <description></description>
-      </action>
-    </actions>
+    <actions hook="true" hook_all="false" />
     <x>527</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
@@ -966,19 +944,7 @@ $(pv_value)</tooltip>
         <exp bool_exp="pv0==1">
           <value>9</value>
         </exp>
-        <exp bool_exp="pv1==0">
-          <value>1</value>
-        </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
-        <pv trig="true">$(name):sAuto</pv>
-      </rule>
-      <rule name="bordercolor" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>
-            <color name="Minor" red="255" green="255" blue="0" />
-          </value>
-        </exp>
-        <pv trig="true">$(name):sAuto</pv>
       </rule>
     </rules>
     <degree>0</degree>
@@ -986,17 +952,7 @@ $(pv_value)</tooltip>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <y>383</y>
-    <actions hook="true" hook_all="false">
-      <action type="OPEN_OPI_IN_VIEW">
-        <path>../CmdPanels/CstatH-Cvalve.opi</path>
-        <macros>
-          <include_parent_macros>true</include_parent_macros>
-          <Cvalve>$(name)</Cvalve>
-        </macros>
-        <Position>4</Position>
-        <description></description>
-      </action>
-    </actions>
+    <actions hook="true" hook_all="false" />
     <x>527</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
@@ -1067,19 +1023,7 @@ $(pv_value)</tooltip>
         <exp bool_exp="pv0==1">
           <value>9</value>
         </exp>
-        <exp bool_exp="pv1==0">
-          <value>1</value>
-        </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
-        <pv trig="true">$(name):sAuto</pv>
-      </rule>
-      <rule name="bordercolor" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>
-            <color name="Minor" red="255" green="255" blue="0" />
-          </value>
-        </exp>
-        <pv trig="true">$(name):sAuto</pv>
       </rule>
     </rules>
     <degree>0</degree>
@@ -1087,17 +1031,7 @@ $(pv_value)</tooltip>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <y>502</y>
-    <actions hook="true" hook_all="false">
-      <action type="OPEN_OPI_IN_VIEW">
-        <path>../CmdPanels/CstatH-Cvalve.opi</path>
-        <macros>
-          <include_parent_macros>true</include_parent_macros>
-          <Cvalve>$(name)</Cvalve>
-        </macros>
-        <Position>4</Position>
-        <description></description>
-      </action>
-    </actions>
+    <actions hook="true" hook_all="false" />
     <x>530</x>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
