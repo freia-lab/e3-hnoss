@@ -24,6 +24,7 @@ DB += Heater1.template
 DB += Heater2.template
 DB += PID.template
 DB += Valves.template
+DB += Valve-alias.template
 DB += hnoss-freia.substitutions
 
 #----------------------------------------------------

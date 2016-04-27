@@ -188,10 +188,11 @@ file "AValves.template" { pattern
 {LN2,	CV201,   2426,	   1558,   0,	100,  percent}
 {SHe,	CV301,   2436,	   1564,   0,	100,  percent}
 {SHe,	CV302,   2446,	   1570,   0,	100,  percent}
-{RHtr,	CV550,   2456,	   1576,   0,	100,  percent}
-{RHtr,	CV551,   2466,	   1582,   0,	100,  percent}
-{RHtr,	CV552,   2476,	   1588,   0,	100,  percent}
 }
+
+#{RHtr,	CV550,   2456,	   1576,   0,	100,  percent}
+#{RHtr,	CV551,   2466,	   1582,   0,	100,  percent}
+#{RHtr,	CV552,   2476,	   1588,   0,	100,  percent}
 
 file "PID.template" { pattern
 {SUBS,   DEV,     OFFS,   OFFS2,    EGU}
@@ -456,5 +457,9 @@ file "SQ0_1_2.template" { pattern
 {SQ2, 4385}
 }
 
-
-
+file "Valve-alias.template" { pattern
+{P,       MKS,     CV}
+{CstatH,  MKS1,	   CV552}
+{CstatH,  MKS2,	   CV550}
+{CstatH,  MKS3,	   CV551}
+}
