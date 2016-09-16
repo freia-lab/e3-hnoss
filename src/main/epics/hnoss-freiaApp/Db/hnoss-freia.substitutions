@@ -127,6 +127,15 @@ file "AI.template" { pattern
 {IBoxHe,TT500,   1460,     928,   0,    500,   K}
 {IBoxHe,TT501,   1470,     934,   0,    500,   K}
 {IBoxHe,TT502,   1480,     940,   0,    500,   K}
+{Spare, TT01x,   1490,     946,   0,    500,   K}
+{Spare, TT02x,   1500,     952,   0,    500,   K}
+{Spare, TT03x,   1510,     958,   0,    500,   K}
+{Spare, TT04x,   1520,     964,   0,    500,   K}
+{Spare, TT05x,   1530,     970,   0,    500,   K}
+{Spare, TT06x,   1540,     976,   0,    500,   K}
+{Spare, TT07x,   1550,     982,   0,    500,   K}
+{Spare, TT08x,   1560,     988,   0,    500,   K}
+{Spare, TT09x,   1570,     994,   0,    500,   K}
 {RHtr,  PT551,   1700,    1072,   0,    500,   mbar}
 {RHtr,  PT552,   1710,    1078,   0,    500,   mbar}
 {LHe,   PT100,   1720,    1084,   0,    500,   mbar}
