@@ -88,12 +88,15 @@
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ0</seq_no>
           <seq_title>Seq. 0: Transfer Line L000 - Conditioning He circuits</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking parameters</step1>
+          <step2>Checking equipment</step2>
+          <step4>Pumping down</step4>
+          <step6>Keeping vacuum</step6>
+          <step8>Filling up with GHe</step8>
+          <step10>Keeping overpressure</step10>
+          <step12>Vacuum leak - waiting for Ack </step12>
+          <step14>Overpressure leak -waiting for Ack</step14>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -150,12 +153,15 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ1</seq_no>
           <seq_title>Sequence 1: Cryostat, conditioning He circuits</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking parameters</step1>
+          <step2>Checking equipment</step2>
+          <step4>Pumping down</step4>
+          <step6>Keeping vacuum</step6>
+          <step8>Filling up with GHe</step8>
+          <step10>Keeping overpressure</step10>
+          <step12>Vacuum leak - waiting for Ack </step12>
+          <step14>Overpressure leak -waiting for Ack</step14>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -211,12 +217,15 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ2</seq_no>
           <seq_title>Sequence 2: Couplers, conditioning He circuit</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking parameters</step1>
+          <step2>Checking equipment</step2>
+          <step4>Pumping down</step4>
+          <step6>Keeping vacuum</step6>
+          <step8>Filling up with GHe</step8>
+          <step10>Keeping overpressure</step10>
+          <step12>Vacuum leak - waiting for Ack </step12>
+          <step14>Overpressure leak -waiting for Ack</step14>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -1094,7 +1103,7 @@ Conditioning He circuits</tooltip>
     <wuid>-21b2ca35:148a7786110:3657</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>44</height>
+    <height>38</height>
     <name>Label Template_3</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1114,9 +1123,9 @@ Conditioning He circuits</tooltip>
     <text>Automatic 
 sequences</text>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
-    <width>110</width>
+    <width>98</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -1294,7 +1303,7 @@ sequences</text>
       <visible>true</visible>
       <wuid>-21b2ca35:148a7786110:374a</wuid>
       <scripts />
-      <height>875</height>
+      <height>876</height>
       <name>Overview</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -1312,7 +1321,7 @@ sequences</text>
       <enabled>true</enabled>
       <widget_type>Grouping Container</widget_type>
       <font>
-        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
       <width>1437</width>
       <border_style>0</border_style>
@@ -1352,7 +1361,7 @@ sequences</text>
         <enabled>true</enabled>
         <widget_type>Grouping Container</widget_type>
         <font>
-          <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
         </font>
         <width>442</width>
         <border_style>0</border_style>
@@ -1394,7 +1403,7 @@ sequences</text>
           <font>
             <opifont.name fontName="arial" height="14" style="1">IO Title</opifont.name>
           </font>
-          <width>35</width>
+          <width>34</width>
           <border_style>0</border_style>
           <rules />
           <border_width>2</border_width>
@@ -1523,7 +1532,7 @@ $(pv_value)</tooltip>
           <font>
             <opifont.name fontName="arial" height="14" style="1">IO Title</opifont.name>
           </font>
-          <width>35</width>
+          <width>34</width>
           <border_style>0</border_style>
           <rules />
           <border_width>2</border_width>
@@ -1800,7 +1809,7 @@ $(pv_value)</tooltip>
           <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
           <precision>0</precision>
           <font>
-            <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Fine Print</opifont.name>
           </font>
           <width>63</width>
           <border_style>5</border_style>
@@ -1851,7 +1860,7 @@ $(pv_value)</tooltip>
           <text>Open/close</text>
           <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
           <font>
-            <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+            <opifont.name fontName="Sans" height="8" style="0">Fine Print</opifont.name>
           </font>
           <width>70</width>
           <border_style>6</border_style>
@@ -2032,7 +2041,7 @@ $(pv_value)</tooltip>
         <font>
           <opifont.name fontName="arial" height="12" style="1">IO SubTitle</opifont.name>
         </font>
-        <width>160</width>
+        <width>155</width>
         <border_style>0</border_style>
         <rules />
         <border_width>2</border_width>
@@ -2071,7 +2080,7 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <widget_type>Grouping Container</widget_type>
         <font>
-          <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
         </font>
         <width>196</width>
         <border_style>14</border_style>
@@ -2113,7 +2122,7 @@ $(pv_value)</tooltip>
           <font>
             <opifont.name fontName="arial" height="12" style="1">IO SubTitle</opifont.name>
           </font>
-          <width>78</width>
+          <width>79</width>
           <border_style>0</border_style>
           <rules />
           <border_width>2</border_width>
@@ -2564,7 +2573,7 @@ $(pv_value)</tooltip>
         <font>
           <opifont.name fontName="arial" height="12" style="1">IO SubTitle</opifont.name>
         </font>
-        <width>57</width>
+        <width>58</width>
         <border_style>0</border_style>
         <rules />
         <border_width>2</border_width>
@@ -2803,7 +2812,7 @@ $(pv_value)</tooltip>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <precision>1</precision>
         <font>
-          <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Fine Print</opifont.name>
         </font>
         <width>53</width>
         <border_style>5</border_style>
@@ -2861,7 +2870,7 @@ $(pv_value)</tooltip>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <precision>1</precision>
         <font>
-          <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Fine Print</opifont.name>
         </font>
         <width>53</width>
         <border_style>5</border_style>
@@ -2919,7 +2928,7 @@ $(pv_value)</tooltip>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <precision>1</precision>
         <font>
-          <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Fine Print</opifont.name>
         </font>
         <width>53</width>
         <border_style>5</border_style>
@@ -3032,7 +3041,7 @@ $(pv_value)</tooltip>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <precision>1</precision>
         <font>
-          <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Fine Print</opifont.name>
         </font>
         <width>53</width>
         <border_style>5</border_style>
@@ -3090,7 +3099,7 @@ $(pv_value)</tooltip>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <precision>1</precision>
         <font>
-          <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Fine Print</opifont.name>
         </font>
         <width>53</width>
         <border_style>5</border_style>
@@ -3196,7 +3205,7 @@ $(pv_value)</tooltip>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <precision>1</precision>
         <font>
-          <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+          <opifont.name fontName="Sans" height="8" style="0">Fine Print</opifont.name>
         </font>
         <width>53</width>
         <border_style>5</border_style>
@@ -3308,7 +3317,7 @@ Helium</text>
         <font>
           <opifont.name fontName="arial" height="12" style="1">IO SubTitle</opifont.name>
         </font>
-        <width>105</width>
+        <width>100</width>
         <border_style>0</border_style>
         <rules />
         <border_width>2</border_width>
@@ -3864,7 +3873,7 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <widget_type>Grouping Container</widget_type>
         <font>
-          <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
         </font>
         <width>46</width>
         <border_style>0</border_style>
@@ -4049,7 +4058,7 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <widget_type>Grouping Container</widget_type>
         <font>
-          <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
         </font>
         <width>46</width>
         <border_style>0</border_style>
@@ -4236,7 +4245,7 @@ $(pv_value)</tooltip>
         <font>
           <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
         </font>
-        <width>17</width>
+        <width>16</width>
         <border_style>0</border_style>
         <rules>
           <rule name="Tooltip" prop_id="tooltip" out_exp="true">
@@ -4332,7 +4341,7 @@ $(pv_value)</tooltip>
         <font>
           <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
         </font>
-        <width>17</width>
+        <width>16</width>
         <border_style>0</border_style>
         <rules>
           <rule name="Tooltip" prop_id="tooltip" out_exp="true">
@@ -4457,7 +4466,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>-21b2ca35:148a7786110:3c6e</wuid>
       <scripts />
-      <height>875</height>
+      <height>876</height>
       <name>2K Pumps</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -4475,7 +4484,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <widget_type>Grouping Container</widget_type>
       <font>
-        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
       <width>1437</width>
       <border_style>0</border_style>
@@ -4515,7 +4524,7 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <widget_type>Grouping Container</widget_type>
         <font>
-          <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
         </font>
         <width>186</width>
         <border_style>13</border_style>
@@ -4896,7 +4905,7 @@ $(pv_value)</tooltip>
           <wuid>-262d394c:148ffbdd3df:-785</wuid>
           <auto_size>true</auto_size>
           <scripts />
-          <height>22</height>
+          <height>19</height>
           <name>Label Template</name>
           <scale_options>
             <width_scalable>true</width_scalable>
@@ -4915,9 +4924,9 @@ $(pv_value)</tooltip>
           <enabled>true</enabled>
           <text>Faults</text>
           <font>
-            <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+            <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
           </font>
-          <width>61</width>
+          <width>55</width>
           <border_style>0</border_style>
           <rules />
           <border_width>2</border_width>
@@ -5118,7 +5127,7 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <widget_type>Grouping Container</widget_type>
         <font>
-          <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
         </font>
         <width>260</width>
         <border_style>13</border_style>
@@ -5426,7 +5435,7 @@ $(pv_value)</tooltip>
           <enabled>true</enabled>
           <widget_type>Grouping Container</widget_type>
           <font>
-            <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
           </font>
           <width>236</width>
           <border_style>13</border_style>
@@ -5477,7 +5486,7 @@ $(pv_value)</tooltip>
             <font>
               <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
             </font>
-            <width>107</width>
+            <width>104</width>
             <border_style>0</border_style>
             <rules />
             <border_width>2</border_width>
@@ -5642,7 +5651,7 @@ $(pv_value)</tooltip>
             <font>
               <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
             </font>
-            <width>110</width>
+            <width>108</width>
             <border_style>0</border_style>
             <rules />
             <border_width>2</border_width>
@@ -5682,7 +5691,7 @@ $(pv_value)</tooltip>
           <enabled>true</enabled>
           <widget_type>Grouping Container</widget_type>
           <font>
-            <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+            <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
           </font>
           <width>236</width>
           <border_style>13</border_style>
@@ -5733,7 +5742,7 @@ $(pv_value)</tooltip>
             <font>
               <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
             </font>
-            <width>119</width>
+            <width>115</width>
             <border_style>0</border_style>
             <rules />
             <border_width>2</border_width>
@@ -5836,7 +5845,7 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <widget_type>Grouping Container</widget_type>
         <font>
-          <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
         </font>
         <width>551</width>
         <border_style>0</border_style>
@@ -7521,7 +7530,7 @@ $(pv_value)</tooltip>
           <font>
             <opifont.name fontName="arial" height="8" style="0">IO Label 3</opifont.name>
           </font>
-          <width>71</width>
+          <width>74</width>
           <border_style>0</border_style>
           <rules />
           <border_width>2</border_width>
@@ -7561,7 +7570,7 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <widget_type>Grouping Container</widget_type>
         <font>
-          <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
         </font>
         <width>271</width>
         <border_style>0</border_style>
@@ -8203,7 +8212,7 @@ $(pv_value)</tooltip>
           <font>
             <opifont.name fontName="arial" height="8" style="0">IO Label 3</opifont.name>
           </font>
-          <width>176</width>
+          <width>169</width>
           <border_style>0</border_style>
           <rules />
           <border_width>2</border_width>
@@ -8248,7 +8257,7 @@ Temp. Reg.</text>
           <font>
             <opifont.name fontName="arial" height="9" style="0">IO Label 2</opifont.name>
           </font>
-          <width>75</width>
+          <width>74</width>
           <border_style>0</border_style>
           <rules />
           <border_width>2</border_width>
@@ -8290,7 +8299,7 @@ Temp. Reg.</text>
 Normally DV freq is set to 100% and the pressure is adjusted by setting WH pumps frequency. 
 </text>
         <font>
-          <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
         </font>
         <width>247</width>
         <border_style>14</border_style>
@@ -8314,7 +8323,7 @@ Normally DV freq is set to 100% and the pressure is adjusted by setting WH pumps
       <visible>false</visible>
       <wuid>-2e82a095:14e62aaf961:-df5</wuid>
       <scripts />
-      <height>875</height>
+      <height>876</height>
       <name>Global Operation View</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -8332,7 +8341,7 @@ Normally DV freq is set to 100% and the pressure is adjusted by setting WH pumps
       <enabled>true</enabled>
       <widget_type>Grouping Container</widget_type>
       <font>
-        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
       <width>1437</width>
       <border_style>0</border_style>
@@ -8356,7 +8365,7 @@ Normally DV freq is set to 100% and the pressure is adjusted by setting WH pumps
         <auto_size>true</auto_size>
         <scripts />
         <zoom_to_fit>true</zoom_to_fit>
-        <height>825</height>
+        <height>828</height>
         <name>Linking Container Template</name>
         <scale_options>
           <width_scalable>true</width_scalable>
@@ -8376,7 +8385,7 @@ Normally DV freq is set to 100% and the pressure is adjusted by setting WH pumps
         <font>
           <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
         </font>
-        <width>1458</width>
+        <width>1437</width>
         <border_style>0</border_style>
         <rules />
         <border_width>2</border_width>
@@ -8668,7 +8677,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>65090fd1:14e6909c5fc:-216f</wuid>
       <scripts />
-      <height>875</height>
+      <height>876</height>
       <name>Purging system</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -8686,7 +8695,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <widget_type>Grouping Container</widget_type>
       <font>
-        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
       <width>1437</width>
       <border_style>0</border_style>
@@ -8912,7 +8921,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>65090fd1:14e6909c5fc:-25d</wuid>
       <scripts />
-      <height>875</height>
+      <height>876</height>
       <name>Helium Pumping and Reheating</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -8930,7 +8939,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <widget_type>Grouping Container</widget_type>
       <font>
-        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
       <width>1437</width>
       <border_style>0</border_style>
@@ -8994,7 +9003,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>65090fd1:14e6909c5fc:2e51</wuid>
       <scripts />
-      <height>875</height>
+      <height>876</height>
       <name>Supercritical Helium</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -9012,7 +9021,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <widget_type>Grouping Container</widget_type>
       <font>
-        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
       <width>1437</width>
       <border_style>0</border_style>
@@ -9130,7 +9139,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>65090fd1:14ecf9f9c18:-4a14</wuid>
       <scripts />
-      <height>875</height>
+      <height>876</height>
       <name>Interconnection Box - LHe</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -9148,7 +9157,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <widget_type>Grouping Container</widget_type>
       <font>
-        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
       <width>1437</width>
       <border_style>0</border_style>
@@ -9320,7 +9329,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>65090fd1:14ecf9f9c18:-3c0</wuid>
       <scripts />
-      <height>875</height>
+      <height>876</height>
       <name>Interconnection Box - LN2</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -9338,7 +9347,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <widget_type>Grouping Container</widget_type>
       <font>
-        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
       <width>1437</width>
       <border_style>0</border_style>
@@ -9456,7 +9465,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>65090fd1:14ed4c84976:-79ed</wuid>
       <scripts />
-      <height>875</height>
+      <height>876</height>
       <name>Liquid Nitrogen</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -9474,7 +9483,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <widget_type>Grouping Container</widget_type>
       <font>
-        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
       <width>1437</width>
       <border_style>0</border_style>
@@ -9495,7 +9504,7 @@ $(pv_value)</tooltip>
         <wuid>65090fd1:14ed4c84976:-5dd9</wuid>
         <auto_size>true</auto_size>
         <scripts />
-        <height>18</height>
+        <height>17</height>
         <name>Label Template</name>
         <scale_options>
           <width_scalable>true</width_scalable>
@@ -9514,9 +9523,9 @@ $(pv_value)</tooltip>
         <enabled>true</enabled>
         <text>To interconnection box</text>
         <font>
-          <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
         </font>
-        <width>170</width>
+        <width>147</width>
         <border_style>0</border_style>
         <rules />
         <border_width>2</border_width>
@@ -9633,7 +9642,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>-262d394c:148ffbdd3df:-d5a</wuid>
       <scripts />
-      <height>875</height>
+      <height>876</height>
       <name>Tab 4</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -9651,7 +9660,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <widget_type>Grouping Container</widget_type>
       <font>
-        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
       <width>1437</width>
       <border_style>0</border_style>
@@ -9693,7 +9702,7 @@ $(pv_value)</tooltip>
         <font>
           <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
         </font>
-        <width>107</width>
+        <width>103</width>
         <border_style>0</border_style>
         <rules />
         <border_width>2</border_width>
@@ -10134,7 +10143,7 @@ $(pv_value)</tooltip>
     <wuid>-21b2ca35:148a7786110:3b49</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>30</height>
+    <height>29</height>
     <name>Label Template_4</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -10153,9 +10162,9 @@ $(pv_value)</tooltip>
     <enabled>false</enabled>
     <text>HNOSS</text>
     <font>
-      <opifont.name fontName="Cantarell" height="19" style="1">Header 1</opifont.name>
+      <opifont.name fontName="Sans" height="18" style="1">Header 1</opifont.name>
     </font>
-    <width>98</width>
+    <width>93</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
