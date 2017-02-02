@@ -100,7 +100,7 @@
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>180</width>
+    <width>181</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -111,7 +111,7 @@
     <actions hook="false" hook_all="false" />
     <y>131</y>
     <wrap_words>true</wrap_words>
-    <tooltip></tooltip>
+    <tooltip>TT403</tooltip>
     <x>40</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -141,7 +141,7 @@
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>218</width>
+    <width>219</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -152,7 +152,7 @@
     <actions hook="false" hook_all="false" />
     <y>156</y>
     <wrap_words>true</wrap_words>
-    <tooltip></tooltip>
+    <tooltip>TT205, TT206, TT214B &amp; TT216D</tooltip>
     <x>40</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -182,7 +182,7 @@
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>218</width>
+    <width>219</width>
     <border_style>0</border_style>
     <rules />
     <border_width>2</border_width>
@@ -193,7 +193,7 @@
     <actions hook="false" hook_all="false" />
     <y>181</y>
     <wrap_words>true</wrap_words>
-    <tooltip></tooltip>
+    <tooltip>TT205, TT206, TT214B &amp; TT216D</tooltip>
     <x>40</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">

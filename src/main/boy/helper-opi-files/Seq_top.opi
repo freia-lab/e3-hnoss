@@ -397,7 +397,7 @@ $(pv_value)</tooltip>
         <pv trig="false">sim://const($(step4))</pv>
         <pv trig="false">sim://const($(step6))</pv>
         <pv trig="false">sim://const($(step8))</pv>
-        <pv trig="false">sim://const($step10))</pv>
+        <pv trig="false">sim://const($(step10))</pv>
         <pv trig="false">sim://const($(step12))</pv>
         <pv trig="false">sim://const($(step14))</pv>
       </rule>
