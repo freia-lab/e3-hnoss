@@ -304,6 +304,7 @@ file "SQanalog.template" { pattern
 {SQ1,	cP_CV105,      2948, FLOAT, sP_CV105, 4356,   ""}
 {SQ1,	cP_CV550,      2952, FLOAT, sP_CV550, 4360,   ""}
 {SQ1,	cP_CV551,      2956, FLOAT, sP_CV551, 4364,   ""}
+{SQ1,	cP_CV552,      2960, FLOAT, sP_CV552, 4368,   ""}
 {SQ2,	cNcycle,       2978, INT16, sNcycle, 4404,   ""}
 {SQ2,	cVacRate,      2980, INT16, sVacRate, 4406	"s"}
 {SQ2,	cPressRate,    2982, INT16, sPressRate, 4408	"s"}
@@ -449,6 +450,8 @@ file "SQbinPar.template" { pattern
 {SQ10,	 P_Ft,          3733, 3,    5320, 3}
 {SQ11,	 P_MS,          3817, 0,    5422, 0}
 {SQ11,	 P_Tbl,         3817, 1,    5422, 1}
+{SQ11,	 P_C1,          3817, 2,    5422, 2}
+{SQ11,	 P_C2,          3817, 3,    5422, 3}
 {SQ13,	 P_Isolated,    4069, 0,    5728, 0}
 {SQ20,	 P_CondCryo,    4153, 0,    5830, 0}
 {SQ20,	 P_CondCoupl,   4153, 1,    5830, 1}
