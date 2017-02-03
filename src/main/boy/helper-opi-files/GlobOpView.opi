@@ -6570,10 +6570,10 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>0</y>
+    <y>17</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
-    <x>367</x>
+    <x>468</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -15881,7 +15881,7 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>345</x>
+    <x>513</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -19099,7 +19099,7 @@ $(pv_value)</tooltip>
       <wuid>1216ffd:157330eb8c2:-7084</wuid>
       <auto_size>true</auto_size>
       <scripts />
-      <height>21</height>
+      <height>16</height>
       <name>Label Template_63</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -19120,7 +19120,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
       </font>
-      <width>50</width>
+      <width>37</width>
       <border_style>0</border_style>
       <rules />
       <border_width>2</border_width>
@@ -19198,7 +19198,7 @@ $(pv_value)</tooltip>
       <wuid>1216ffd:157330eb8c2:-7038</wuid>
       <auto_size>true</auto_size>
       <scripts />
-      <height>21</height>
+      <height>16</height>
       <name>Label Template_1</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -19219,7 +19219,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
       </font>
-      <width>50</width>
+      <width>37</width>
       <border_style>0</border_style>
       <rules />
       <border_width>2</border_width>
@@ -19297,7 +19297,7 @@ $(pv_value)</tooltip>
       <wuid>1216ffd:157330eb8c2:-6ff6</wuid>
       <auto_size>true</auto_size>
       <scripts />
-      <height>21</height>
+      <height>16</height>
       <name>Label Template_2</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -19318,7 +19318,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
       </font>
-      <width>50</width>
+      <width>37</width>
       <border_style>0</border_style>
       <rules />
       <border_width>2</border_width>
