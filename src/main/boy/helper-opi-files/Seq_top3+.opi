@@ -239,8 +239,20 @@ $(pv_value)</tooltip>
         <exp bool_exp="pv0== 4">
           <value>pvStr5</value>
         </exp>
-        <exp bool_exp="pv0== 5">
+        <exp bool_exp="pv0== 6">
           <value>pvStr6</value>
+        </exp>
+        <exp bool_exp="pv0== 8">
+          <value>pvStr7</value>
+        </exp>
+        <exp bool_exp="pv0== 10">
+          <value>pvStr8</value>
+        </exp>
+        <exp bool_exp="pv0== 12">
+          <value>pvStr9</value>
+        </exp>
+        <exp bool_exp="pv0== 14">
+          <value>pvStr10</value>
         </exp>
         <pv trig="true">$(pv_name)</pv>
         <pv trig="false">sim://const($(step0))</pv>
@@ -248,7 +260,11 @@ $(pv_value)</tooltip>
         <pv trig="false">sim://const($(step2))</pv>
         <pv trig="false">sim://const($(step3))</pv>
         <pv trig="false">sim://const($(step4))</pv>
-        <pv trig="false">sim://const($(step5))</pv>
+        <pv trig="false">sim://const($(step6))</pv>
+        <pv trig="false">sim://const($(step8))</pv>
+        <pv trig="false">sim://const($(step10))</pv>
+        <pv trig="false">sim://const($(step12))</pv>
+        <pv trig="false">sim://const($(step14))</pv>
       </rule>
     </rules>
     <pv_value />

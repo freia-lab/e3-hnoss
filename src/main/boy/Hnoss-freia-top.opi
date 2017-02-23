@@ -281,12 +281,12 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ3A</seq_no>
           <seq_title>Sequence 3A: ICB, thermal shield cooling</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking equipment</step1>
+          <step2>Checking parameters</step2>
+          <step4>Cooling down</step4>
+          <step6>Keeping cooled - LN2 flow on</step6>
+          <step8>Keeping cooled - LN2 flow off</step8>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -342,12 +342,11 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ3B</seq_no>
           <seq_title>Sequence 3B: Cryostat, thermal shield cooling</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking equipment</step1>
+          <step2>Checking parameters</step2>
+          <step4>Cooling down</step4>
+          <step6>Keeping cooled</step6>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -403,12 +402,11 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ4</seq_no>
           <seq_title>Sequence 4: Tesla couplers cooling</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking equipment</step1>
+          <step2>Checking parameters</step2>
+          <step4>Cooling down</step4>
+          <step6>Keeping cooled</step6>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -464,12 +462,11 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ10</seq_no>
           <seq_title>Sequence 10: Supercritical circuits operation</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking equipment</step1>
+          <step2>Checking parameters</step2>
+          <step4>Waiting for selection of part to be cooled</step4>
+          <step6>Keeping cooled</step6>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -525,12 +522,11 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ11</seq_no>
           <seq_title>Sequence 11: Standby 40 K</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking equipment</step1>
+          <step2>Checking parameters</step2>
+          <step4>Waiting for selection of part(s)</step4>
+          <step6>Keeping at Set point temperature</step6>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -586,12 +582,10 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ12A</seq_no>
           <seq_title>Sequence 12A: ICB Warm-up</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking equipment</step1>
+          <step2>Checking parameters</step2>
+          <step4>Warming up</step4>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -647,12 +641,10 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ12B</seq_no>
           <seq_title>Sequence 12B: Cryostat Warm-up</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking equipment</step1>
+          <step2>Checking parameters</step2>
+          <step4>Warming up</step4>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -717,12 +709,13 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ5</seq_no>
           <seq_title>Sequence 5: Control level 4K vessel</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking equipment</step1>
+          <step2>Checking parameters</step2>
+          <step4>Waiting for filling to Low level</step4>
+          <step6>Waiting for achieving Filling temp.</step6>
+          <step8>LHe filling or kept at set point</step8>
+          <step10>Waiting to go below Low level</step10>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -778,12 +771,10 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ6</seq_no>
           <seq_title>Sequence 6: LHe level measurement</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking equipment</step1>
+          <step2>Checking parameters</step2>
+          <step4>Doing measurements</step4>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -839,12 +830,11 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ7</seq_no>
           <seq_title>Sequence 7: Cryostat, cool-down He circuits</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking equipment</step1>
+          <step2>Checking parameters</step2>
+          <step4>Waiting for selection of part to be cooled</step4>
+          <step6>Cooling...</step6>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -900,12 +890,10 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ8</seq_no>
           <seq_title>Sequence 8: 4K Operation</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking equipment</step1>
+          <step2>Checking parameters</step2>
+          <step6>Keeping cooled</step6>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -961,12 +949,13 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ13</seq_no>
           <seq_title>Sequence 13: Cryostat, isolated</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking equipment</step1>
+          <step2>Checking parameters</step2>
+          <step4>Isolated - checking alarm levels and checkbox</step4>
+          <step6>Waiting for pressures to go below settings</step6>
+          <step8>Waiting for pressures to go below settings</step8>
+          <step10>Waiting for the checkbox</step10>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -1022,12 +1011,12 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ20</seq_no>
           <seq_title>Sequence 20: Semi-automatic sequences</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step2>Waiting for SQ3A state >= 4</step2>
+          <step4>Isolated - checking alarm levels and checkbox</step4>
+          <step6>Step 6</step6>
+          <step8>Step 8</step8>
+          <step10>Step 10</step10>
         </macros>
         <Position>4</Position>
         <description></description>
@@ -1083,12 +1072,18 @@ Conditioning He circuits</tooltip>
           <include_parent_macros>true</include_parent_macros>
           <seq_no>SQ9</seq_no>
           <seq_title>Sequence 9: 2K Operation</seq_title>
-          <step0>Grafcet state 0</step0>
-          <step1>Grafcet state 1</step1>
-          <step2>Grafcet state 2</step2>
-          <step3>Grafcet state 3</step3>
-          <step4>Grafcet state 4</step4>
-          <step5></step5>
+          <step0>Not running</step0>
+          <step1>Checking equipment</step1>
+          <step2>Checking parameters</step2>
+          <step4>Waiting for switching to 2K exhaust</step4>
+          <step6>Waiting 2K pumps running. Press Accept to go on.</step6>
+          <step8>Waiting 10 s for closing CV552 and FV552.</step8>
+          <step12>Keeping cold</step12>
+          <step14>Stopping - waiting for PT101 to rise</step14>
+          <step16>Stopping - waiting 10s</step16>
+          <step18>Waiting for stopping 2K pumps. Press Accept to go on.</step18>
+          <step20>Stopping - step 20</step20>
+          <step30>Stopping - step 30</step30>
         </macros>
         <Position>4</Position>
         <description></description>
