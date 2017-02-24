@@ -1012,7 +1012,7 @@ Conditioning He circuits</tooltip>
           <seq_no>SQ20</seq_no>
           <seq_title>Sequence 20: Semi-automatic sequences</seq_title>
           <step0>Not running</step0>
-          <step2>Waiting for SQ3A state >= 4</step2>
+          <step2>Waiting for SQ3A state &gt;= 4</step2>
           <step4>Isolated - checking alarm levels and checkbox</step4>
           <step6>Step 6</step6>
           <step8>Step 8</step8>
@@ -1159,7 +1159,7 @@ sequences</text>
     <active_tab>0</active_tab>
     <tab_9_title>Tab 4</tab_9_title>
     <tab_1_title>2K Pumps</tab_1_title>
-    <border_style>12</border_style>
+    <border_style>15</border_style>
     <tab_3_icon_path></tab_3_icon_path>
     <tab_9_enabled>true</tab_9_enabled>
     <tab_9_background_color>
@@ -1211,7 +1211,7 @@ sequences</text>
       <color name="IO Border" red="215" green="215" blue="215" />
     </border_color>
     <actions hook="false" hook_all="false" />
-    <y>13</y>
+    <y>5</y>
     <tab_6_background_color>
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
     </tab_6_background_color>
@@ -1227,7 +1227,7 @@ sequences</text>
     <tab_6_font>
       <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
     </tab_6_font>
-    <height>928</height>
+    <height>945</height>
     <tab_5_enabled>true</tab_5_enabled>
     <horizontal_tabs>true</horizontal_tabs>
     <tab_1_font>
@@ -1295,10 +1295,10 @@ sequences</text>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <visible>true</visible>
+      <visible>false</visible>
       <wuid>-21b2ca35:148a7786110:374a</wuid>
       <scripts />
-      <height>876</height>
+      <height>911</height>
       <name>Overview</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -1318,7 +1318,7 @@ sequences</text>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>1437</width>
+      <width>1435</width>
       <border_style>0</border_style>
       <rules />
       <fc>false</fc>
@@ -4461,7 +4461,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>-21b2ca35:148a7786110:3c6e</wuid>
       <scripts />
-      <height>876</height>
+      <height>911</height>
       <name>2K Pumps</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -4481,7 +4481,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>1437</width>
+      <width>1435</width>
       <border_style>0</border_style>
       <rules />
       <fc>false</fc>
@@ -8318,7 +8318,7 @@ Normally DV freq is set to 100% and the pressure is adjusted by setting WH pumps
       <visible>false</visible>
       <wuid>-2e82a095:14e62aaf961:-df5</wuid>
       <scripts />
-      <height>876</height>
+      <height>911</height>
       <name>Global Operation View</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -8338,7 +8338,7 @@ Normally DV freq is set to 100% and the pressure is adjusted by setting WH pumps
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>1437</width>
+      <width>1435</width>
       <border_style>0</border_style>
       <rules />
       <fc>false</fc>
@@ -8672,7 +8672,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>65090fd1:14e6909c5fc:-216f</wuid>
       <scripts />
-      <height>876</height>
+      <height>911</height>
       <name>Purging system</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -8692,7 +8692,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>1437</width>
+      <width>1435</width>
       <border_style>0</border_style>
       <rules />
       <fc>false</fc>
@@ -8916,7 +8916,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>65090fd1:14e6909c5fc:-25d</wuid>
       <scripts />
-      <height>876</height>
+      <height>911</height>
       <name>Helium Pumping and Reheating</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -8936,7 +8936,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>1437</width>
+      <width>1435</width>
       <border_style>0</border_style>
       <rules />
       <fc>false</fc>
@@ -8998,7 +8998,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>65090fd1:14e6909c5fc:2e51</wuid>
       <scripts />
-      <height>876</height>
+      <height>911</height>
       <name>Supercritical Helium</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -9018,7 +9018,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>1437</width>
+      <width>1435</width>
       <border_style>0</border_style>
       <rules />
       <fc>false</fc>
@@ -9111,7 +9111,7 @@ $(pv_value)</tooltip>
         <border_color>
           <color name="IO Border" red="215" green="215" blue="215" />
         </border_color>
-        <y>55</y>
+        <y>65</y>
         <actions hook="false" hook_all="false">
           <action type="EXECUTE_JAVASCRIPT">
             <path></path>
@@ -9124,7 +9124,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(3);]]></scriptText>
         </actions>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>990</x>
+        <x>950</x>
       </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -9134,7 +9134,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>65090fd1:14ecf9f9c18:-4a14</wuid>
       <scripts />
-      <height>876</height>
+      <height>911</height>
       <name>Interconnection Box - LHe</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -9154,7 +9154,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>1437</width>
+      <width>1435</width>
       <border_style>0</border_style>
       <rules />
       <fc>false</fc>
@@ -9324,7 +9324,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>65090fd1:14ecf9f9c18:-3c0</wuid>
       <scripts />
-      <height>876</height>
+      <height>911</height>
       <name>Interconnection Box - LN2</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -9344,7 +9344,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>1437</width>
+      <width>1435</width>
       <border_style>0</border_style>
       <rules />
       <fc>false</fc>
@@ -9457,10 +9457,10 @@ $(pv_value)</tooltip>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <visible>false</visible>
+      <visible>true</visible>
       <wuid>65090fd1:14ed4c84976:-79ed</wuid>
       <scripts />
-      <height>876</height>
+      <height>911</height>
       <name>Liquid Nitrogen</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -9480,7 +9480,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>1437</width>
+      <width>1435</width>
       <border_style>0</border_style>
       <rules />
       <fc>false</fc>
@@ -9543,7 +9543,7 @@ $(pv_value)</tooltip>
         <auto_size>true</auto_size>
         <scripts />
         <zoom_to_fit>true</zoom_to_fit>
-        <height>916</height>
+        <height>950</height>
         <name>Linking Container Template</name>
         <scale_options>
           <width_scalable>true</width_scalable>
@@ -9614,7 +9614,7 @@ $(pv_value)</tooltip>
         <border_color>
           <color name="IO Border" red="215" green="215" blue="215" />
         </border_color>
-        <y>75</y>
+        <y>70</y>
         <actions hook="false" hook_all="false">
           <action type="EXECUTE_JAVASCRIPT">
             <path></path>
@@ -9637,7 +9637,7 @@ $(pv_value)</tooltip>
       <visible>false</visible>
       <wuid>-262d394c:148ffbdd3df:-d5a</wuid>
       <scripts />
-      <height>876</height>
+      <height>911</height>
       <name>Tab 4</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -9657,7 +9657,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>1437</width>
+      <width>1435</width>
       <border_style>0</border_style>
       <rules />
       <fc>false</fc>
