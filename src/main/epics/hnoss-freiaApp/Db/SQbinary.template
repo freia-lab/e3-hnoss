@@ -58,6 +58,29 @@ record(ai, "CstatH-Ctrl:$(SUBS):sInitCond") {
   field(SCAN, "I/O Intr")
 }
 
+record(mbbi, "CstatH-Ctrl:$(SUBS):sInitCondS") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS)+36 T=INT16")
+  field(NOBT, "16")
+  field(ZRVL, "0")
+  field(ZRST, "")
+  field(ONVL, "1")
+  field(ONST, "$(ONST)")
+  field(TWVL, "2")
+  field(TWST, "$(TWST)")
+  field(THVL, "3")
+  field(THST, "$(THST)")
+  field(FRVL, "4")
+  field(FRST, "$(FRST)")
+  field(FVVL, "5")
+  field(FVST, "$(FVST)")
+  field(SXVL, "6")
+  field(SXST, "$(SXST)")
+  field(SVVL, "7")
+  field(SVST, "$(SVST)")
+  field(SCAN, "I/O Intr")
+}
+
 record(bi, "CstatH-Ctrl:$(SUBS):sActivate") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=0")

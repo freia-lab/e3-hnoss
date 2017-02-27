@@ -256,24 +256,24 @@ file "Heater2.template" { pattern
 }
 
 file "SQbinary.template" { pattern
-{SUBS, OFFS2, OFFS}
-{SQ0,   2808, 4180}
-{SQ1,   2892, 4282}
-{SQ2,   2976, 4384}
-{SQ3A,  3060, 4486}
-{SQ3B,  3144, 4588}
-{SQ4,   3228, 4690}
-{SQ5,   3312, 4792}
-{SQ6,   3396, 4894}
-{SQ7,   3480, 4996}
-{SQ8,   3564, 5098}
-{SQ9,   3648, 5200}
-{SQ10,  3732, 5302}
-{SQ11,  3816, 5404}
-{SQ12A, 3900, 5506}
-{SQ12B, 3984, 5608}
-{SQ13,  4068, 5710}
-{SQ20,  4152, 5812}
+{SUBS, OFFS2, OFFS, ONST, TWST, THST, FRST. FVST, SXST, SVST}
+{SQ0,   2808, 4180, "SQ1 mustn't be running", "SQ2 mustn't be running", "", "", "", "", ""}
+{SQ1,   2892, 4282, "SQ0 mustn't be running", "SQ2 mustn't be running", "", "", "", "", ""}
+{SQ2,   2976, 4384, "SQ0 mustn't be running", "SQ1 mustn't be running", "", "", "", "", ""}
+{SQ3A,  3060, 4486, "", "", "", "", "", "", ""}
+{SQ3B,  3144, 4588, "SQ3A must be running", "", "", "", "", "", ""}
+{SQ4,   3228, 4690, "SQ3A must be running", "SQ3B must be running", "", "", "", "", ""}
+{SQ5,   3312, 4792, "", "", "", "", "", "", ""}
+{SQ6,   3396, 4894, "", "", "", "", "", "", ""}
+{SQ7,   3480, 4996, "SQ5 must be running", "", "", "", "", "", ""}
+{SQ8,   3564, 5098, "SQ5 must be running", "SQ9 mustn't be running", "", "", "", "", ""}
+{SQ9,   3648, 5200, "SQ5 must be running", "SQ8 mustn't be running", "", "", "", "", ""}
+{SQ10,  3732, 5302, "", "", "", "", "", "", ""}
+{SQ11,  3816, 5404, "SQ5 must be running", "", "", "", "", "", ""}
+{SQ12A, 3900, 5506, "SQ3A mustn't be running", "SQ3B mustn't be running","SQ4 mustn't be running", "SQ5 mustn't be running","SQ7 mustn't be running", "SQ8 mustn't be running","SQ9 mustn't be running"}
+{SQ12B, 3984, 5608, "SQ3A mustn't be running", "SQ3B mustn't be running","SQ4 mustn't be running", "SQ5 mustn't be running","SQ7 mustn't be running", "SQ8 mustn't be running","SQ9 mustn't be running"}
+{SQ13,  4068, 5710, "", "", "", "", "", "", ""}
+{SQ20,  4152, 5812, "", "", "", "", "", "", ""}
 }
 
 file "SQanalog.template" { pattern
