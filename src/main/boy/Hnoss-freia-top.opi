@@ -1075,7 +1075,7 @@ Conditioning He circuits</tooltip>
           <step0>Not running</step0>
           <step1>Checking equipment</step1>
           <step2>Checking parameters</step2>
-          <step4>Waiting for switching to 2K exhaust</step4>
+          <step4>Waiting for switching to 2K exhaust to Kaeser</step4>
           <step6>Waiting 2K pumps running. Press Accept to go on.</step6>
           <step8>Waiting 10 s for closing CV552 and FV552.</step8>
           <step12>Keeping cold</step12>
@@ -1295,7 +1295,7 @@ sequences</text>
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <visible>false</visible>
+      <visible>true</visible>
       <wuid>-21b2ca35:148a7786110:374a</wuid>
       <scripts />
       <height>911</height>
@@ -8315,7 +8315,7 @@ Normally DV freq is set to 100% and the pressure is adjusted by setting WH pumps
       <macros>
         <include_parent_macros>true</include_parent_macros>
       </macros>
-      <visible>true</visible>
+      <visible>false</visible>
       <wuid>-2e82a095:14e62aaf961:-df5</wuid>
       <scripts />
       <height>911</height>
