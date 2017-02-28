@@ -63,7 +63,7 @@ record(mbbi, "CstatH-Ctrl:$(SUBS):sInitCondS") {
   field(INP, "@PLC:HNOSS/$(OFFS)+36 T=INT16")
   field(NOBT, "16")
   field(ZRVL, "0")
-  field(ZRST, "")
+  field(ZRST, " ")
   field(ONVL, "1")
   field(ONST, "$(ONST)")
   field(TWVL, "2")
