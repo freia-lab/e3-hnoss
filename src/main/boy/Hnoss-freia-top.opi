@@ -894,6 +894,7 @@ Conditioning He circuits</tooltip>
           <step1>Checking equipment</step1>
           <step2>Checking parameters</step2>
           <step6>Keeping cooled</step6>
+          <step20>4K operation in stopped state</step20>
         </macros>
         <Position>4</Position>
         <description></description>
