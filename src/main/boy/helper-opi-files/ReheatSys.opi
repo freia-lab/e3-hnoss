@@ -2932,7 +2932,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <auto_size>true</auto_size>
     <scripts />
-    <height>45</height>
+    <height>36</height>
     <data_type>0</data_type>
     <show_boolean_label>false</show_boolean_label>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -2955,7 +2955,7 @@ $(pv_value)</tooltip>
         <col>6.123233995736766E-17</col>
       </row>
     </permutation_matrix>
-    <width>45</width>
+    <width>36</width>
     <border_style>15</border_style>
     <flip_vertical>false</flip_vertical>
     <pv_value />
@@ -3117,7 +3117,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <auto_size>true</auto_size>
     <scripts />
-    <height>45</height>
+    <height>36</height>
     <data_type>0</data_type>
     <show_boolean_label>false</show_boolean_label>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -3140,7 +3140,7 @@ $(pv_value)</tooltip>
         <col>1.0</col>
       </row>
     </permutation_matrix>
-    <width>45</width>
+    <width>36</width>
     <border_style>15</border_style>
     <flip_vertical>false</flip_vertical>
     <pv_value />
@@ -3573,7 +3573,7 @@ Helium lines</text>
     <visible>true</visible>
     <wuid>65090fd1:14e6909c5fc:-49a</wuid>
     <scripts />
-    <height>105</height>
+    <height>146</height>
     <name>Panel 2_16</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -3593,7 +3593,7 @@ Helium lines</text>
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>381</width>
+    <width>382</width>
     <border_style>0</border_style>
     <rules />
     <fc>false</fc>
@@ -3602,7 +3602,7 @@ Helium lines</text>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
-    <y>107</y>
+    <y>67</y>
     <actions hook="false" hook_all="false">
       <action type="WRITE_PV">
         <pv_name>CstatH-RHtr:opMode:</pv_name>
@@ -3626,7 +3626,7 @@ Helium lines</text>
         <color name="IO Foreground" red="0" green="0" blue="0" />
       </bg_gradient_color>
       <scripts />
-      <height>105</height>
+      <height>145</height>
       <anti_alias>true</anti_alias>
       <corner_height>16</corner_height>
       <name>Rounded Rectangle Template</name>
@@ -3673,47 +3673,6 @@ $(pv_value)</tooltip>
       <x>0</x>
       <gradient>false</gradient>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <visible>true</visible>
-      <vertical_alignment>1</vertical_alignment>
-      <wuid>65090fd1:14e6909c5fc:-5a7</wuid>
-      <auto_size>true</auto_size>
-      <scripts />
-      <height>17</height>
-      <name>Label Template_76</name>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <transparent>true</transparent>
-      <show_scrollbar>false</show_scrollbar>
-      <background_color>
-        <color name="IO Background" red="255" green="255" blue="205" />
-      </background_color>
-      <foreground_color>
-        <color name="IO Text Fg" red="0" green="32" blue="92" />
-      </foreground_color>
-      <widget_type>Label</widget_type>
-      <enabled>false</enabled>
-      <text>Select Circuit</text>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>86</width>
-      <border_style>0</border_style>
-      <rules />
-      <border_width>2</border_width>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215" />
-      </border_color>
-      <horizontal_alignment>0</horizontal_alignment>
-      <actions hook="false" hook_all="false" />
-      <y>13</y>
-      <wrap_words>true</wrap_words>
-      <tooltip></tooltip>
-      <x>148</x>
-    </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
@@ -3728,7 +3687,7 @@ $(pv_value)</tooltip>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name></pv_name>
+      <pv_name>CstatH-RHtr:opMode:cmdRst4KtoBaloon</pv_name>
       <background_color>
         <color name="IO Button" red="178" green="178" blue="178" />
       </background_color>
@@ -3753,7 +3712,7 @@ $(pv_value)</tooltip>
       <border_color>
         <color name="IO Border" red="215" green="215" blue="215" />
       </border_color>
-      <y>65</y>
+      <y>50</y>
       <actions hook="false" hook_all="false">
         <action type="WRITE_PV">
           <pv_name>CstatH-RHtr:opMode:cmdRst4KtoBaloon</pv_name>
@@ -3781,7 +3740,7 @@ $(pv_value)</tooltip>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name></pv_name>
+      <pv_name>CstatH-RHtr:opMode:cmdSet4KtoBaloon</pv_name>
       <background_color>
         <color name="IO Button" red="178" green="178" blue="178" />
       </background_color>
@@ -3806,7 +3765,7 @@ $(pv_value)</tooltip>
       <border_color>
         <color name="IO Border" red="215" green="215" blue="215" />
       </border_color>
-      <y>65</y>
+      <y>50</y>
       <actions hook="false" hook_all="false">
         <action type="WRITE_PV">
           <pv_name>CstatH-RHtr:opMode:cmdSet4KtoBaloon</pv_name>
@@ -3834,7 +3793,7 @@ $(pv_value)</tooltip>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name></pv_name>
+      <pv_name>CstatH-RHtr:opMode:cmdRst2KtoBaloon</pv_name>
       <background_color>
         <color name="IO Button" red="178" green="178" blue="178" />
       </background_color>
@@ -3859,7 +3818,7 @@ $(pv_value)</tooltip>
       <border_color>
         <color name="IO Border" red="215" green="215" blue="215" />
       </border_color>
-      <y>65</y>
+      <y>50</y>
       <actions hook="false" hook_all="false">
         <action type="WRITE_PV">
           <pv_name>CstatH-RHtr:opMode:cmdRst2KtoBaloon</pv_name>
@@ -3887,7 +3846,7 @@ $(pv_value)</tooltip>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name></pv_name>
+      <pv_name>CstatH-RHtr:opMode:cmdSet2KtoBaloon</pv_name>
       <background_color>
         <color name="IO Button" red="178" green="178" blue="178" />
       </background_color>
@@ -3912,7 +3871,7 @@ $(pv_value)</tooltip>
       <border_color>
         <color name="IO Border" red="215" green="215" blue="215" />
       </border_color>
-      <y>65</y>
+      <y>50</y>
       <actions hook="false" hook_all="false">
         <action type="WRITE_PV">
           <pv_name>CstatH-RHtr:opMode:cmdSet2KtoBaloon</pv_name>
@@ -3962,7 +3921,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>45</y>
+      <y>30</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>60</x>
@@ -4003,10 +3962,167 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>45</y>
+      <y>30</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>240</x>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <wuid>-21f0b7b:15a70b07e12:-4672</wuid>
+      <auto_size>true</auto_size>
+      <scripts />
+      <height>17</height>
+      <name>Label Template_79</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <transparent>true</transparent>
+      <show_scrollbar>false</show_scrollbar>
+      <background_color>
+        <color name="IO Background" red="255" green="255" blue="205" />
+      </background_color>
+      <foreground_color>
+        <color name="IO Text Fg" red="0" green="32" blue="92" />
+      </foreground_color>
+      <widget_type>Label</widget_type>
+      <enabled>false</enabled>
+      <text>Current settings</text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>104</width>
+      <border_style>0</border_style>
+      <rules />
+      <border_width>2</border_width>
+      <border_color>
+        <color name="IO Border" red="215" green="215" blue="215" />
+      </border_color>
+      <horizontal_alignment>0</horizontal_alignment>
+      <actions hook="false" hook_all="false" />
+      <y>85</y>
+      <wrap_words>true</wrap_words>
+      <tooltip></tooltip>
+      <x>148</x>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+      <visible>true</visible>
+      <vertical_alignment>0</vertical_alignment>
+      <show_units>true</show_units>
+      <wuid>-21f0b7b:15a70b07e12:-4617</wuid>
+      <auto_size>false</auto_size>
+      <rotation_angle>0.0</rotation_angle>
+      <scripts />
+      <height>22</height>
+      <name>Text Update Template</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <format_type>0</format_type>
+      <precision_from_pv>true</precision_from_pv>
+      <transparent>false</transparent>
+      <pv_name>CstatH-RHtr:opMode:s4KHeBaloon</pv_name>
+      <background_color>
+        <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+      </background_color>
+      <foreground_color>
+        <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      </foreground_color>
+      <widget_type>Text Update</widget_type>
+      <enabled>true</enabled>
+      <text>######</text>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <precision>0</precision>
+      <font>
+        <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+      </font>
+      <width>172</width>
+      <border_style>5</border_style>
+      <rules>
+        <rule name="BorderRule" prop_id="border_style" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>9</value>
+          </exp>
+          <pv trig="true">$(pv_name).SIMM</pv>
+        </rule>
+      </rules>
+      <pv_value />
+      <border_width>2</border_width>
+      <border_color>
+        <color name="IO Border" red="215" green="215" blue="215" />
+      </border_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <actions hook="false" hook_all="false" />
+      <y>113</y>
+      <wrap_words>false</wrap_words>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <x>13</x>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+      <visible>true</visible>
+      <vertical_alignment>0</vertical_alignment>
+      <show_units>true</show_units>
+      <wuid>-21f0b7b:15a70b07e12:-45f6</wuid>
+      <auto_size>false</auto_size>
+      <rotation_angle>0.0</rotation_angle>
+      <scripts />
+      <height>22</height>
+      <name>Text Update Template</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <format_type>0</format_type>
+      <precision_from_pv>true</precision_from_pv>
+      <transparent>false</transparent>
+      <pv_name>CstatH-RHtr:opMode:s2KHeBaloon</pv_name>
+      <background_color>
+        <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+      </background_color>
+      <foreground_color>
+        <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+      </foreground_color>
+      <widget_type>Text Update</widget_type>
+      <enabled>true</enabled>
+      <text>######</text>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <precision>0</precision>
+      <font>
+        <opifont.name fontName="arial" height="10" style="1">IO Input 1</opifont.name>
+      </font>
+      <width>172</width>
+      <border_style>5</border_style>
+      <rules>
+        <rule name="BorderRule" prop_id="border_style" out_exp="false">
+          <exp bool_exp="pv0==1">
+            <value>9</value>
+          </exp>
+          <pv trig="true">$(pv_name).SIMM</pv>
+        </rule>
+      </rules>
+      <pv_value />
+      <border_width>2</border_width>
+      <border_color>
+        <color name="IO Border" red="215" green="215" blue="215" />
+      </border_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <actions hook="false" hook_all="false" />
+      <y>113</y>
+      <wrap_words>false</wrap_words>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <x>195</x>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -4483,5 +4599,46 @@ $(pv_value)</tooltip>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
     <x>778</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <wuid>65090fd1:14e6909c5fc:-5a7</wuid>
+    <auto_size>true</auto_size>
+    <scripts />
+    <height>17</height>
+    <name>Label Template_76</name>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <transparent>true</transparent>
+    <show_scrollbar>false</show_scrollbar>
+    <background_color>
+      <color name="IO Background" red="255" green="255" blue="205" />
+    </background_color>
+    <foreground_color>
+      <color name="IO Text Fg" red="0" green="32" blue="92" />
+    </foreground_color>
+    <widget_type>Label</widget_type>
+    <enabled>false</enabled>
+    <text>Select Circuit</text>
+    <font>
+      <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+    </font>
+    <width>86</width>
+    <border_style>0</border_style>
+    <rules />
+    <border_width>2</border_width>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <horizontal_alignment>0</horizontal_alignment>
+    <actions hook="false" hook_all="false" />
+    <y>75</y>
+    <wrap_words>true</wrap_words>
+    <tooltip></tooltip>
+    <x>193</x>
   </widget>
 </display>
