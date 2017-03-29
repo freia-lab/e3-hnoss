@@ -6283,56 +6283,6 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
     <x>208</x>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
-    <wuid>-2e82a095:14e62aaf961:440b</wuid>
-    <auto_size>true</auto_size>
-    <scripts />
-    <height>17</height>
-    <name>Label Template</name>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <transparent>true</transparent>
-    <show_scrollbar>false</show_scrollbar>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205" />
-    </background_color>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92" />
-    </foreground_color>
-    <widget_type>Label</widget_type>
-    <enabled>false</enabled>
-    <text>To purging system</text>
-    <font>
-      <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>119</width>
-    <border_style>0</border_style>
-    <rules />
-    <border_width>2</border_width>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </border_color>
-    <horizontal_alignment>0</horizontal_alignment>
-    <actions hook="false" hook_all="true">
-      <action type="EXECUTE_JAVASCRIPT">
-        <path></path>
-        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
-
-display.getWidget("tabcontainer").setActiveTabIndex(1);]]></scriptText>
-        <embedded>true</embedded>
-        <description></description>
-      </action>
-    </actions>
-    <y>3</y>
-    <wrap_words>true</wrap_words>
-    <tooltip></tooltip>
-    <x>210</x>
-  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <fill_arrow>true</fill_arrow>
@@ -6386,8 +6336,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(1);]]></scriptText>
     </border_color>
     <actions hook="false" hook_all="false" />
     <y>21</y>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip>To purging system</tooltip>
     <x>295</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.symbol.bool.BoolMonitorWidget" version="1.0.0">
@@ -6616,47 +6565,6 @@ $(pv_value)</tooltip>
     <tooltip></tooltip>
     <x>367</x>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
-    <wuid>-2e82a095:14e62aaf961:4772</wuid>
-    <auto_size>true</auto_size>
-    <scripts />
-    <height>17</height>
-    <name>Label Template_31</name>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <transparent>true</transparent>
-    <show_scrollbar>false</show_scrollbar>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205" />
-    </background_color>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92" />
-    </foreground_color>
-    <widget_type>Label</widget_type>
-    <enabled>false</enabled>
-    <text>To interconnection box</text>
-    <font>
-      <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>147</width>
-    <border_style>0</border_style>
-    <rules />
-    <border_width>2</border_width>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </border_color>
-    <horizontal_alignment>0</horizontal_alignment>
-    <actions hook="false" hook_all="false" />
-    <y>3</y>
-    <wrap_words>true</wrap_words>
-    <tooltip></tooltip>
-    <x>445</x>
-  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <fill_arrow>true</fill_arrow>
@@ -6708,8 +6616,7 @@ $(pv_value)</tooltip>
     </border_color>
     <actions hook="false" hook_all="false" />
     <y>19</y>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip>To interconnection box</tooltip>
     <x>460</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.symbol.bool.BoolMonitorWidget" version="1.0.0">
@@ -7949,12 +7856,12 @@ $(pv_value)</tooltip>
     <border_style>0</border_style>
     <rules />
     <fc>false</fc>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
-    <y>-1</y>
+    <y>0</y>
     <actions hook="false" hook_all="false" />
     <x>897</x>
     <tooltip></tooltip>
@@ -7992,7 +7899,7 @@ $(pv_value)</tooltip>
       <image></image>
       <rules>
         <rule name="borderstyle" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0">
+          <exp bool_exp="pv0==0">
             <value>1</value>
           </exp>
           <pv trig="true">CstatH-MKS:$(name):sAuto</pv>
@@ -8985,7 +8892,7 @@ $(pv_value)</tooltip>
     <border_style>0</border_style>
     <rules />
     <fc>false</fc>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
@@ -12747,7 +12654,7 @@ $(pv_value)</tooltip>
     <border_style>0</border_style>
     <rules />
     <fc>false</fc>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
@@ -13026,47 +12933,6 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
     <vertical_alignment>1</vertical_alignment>
-    <wuid>65090fd1:14e6909c5fc:-6cae</wuid>
-    <auto_size>true</auto_size>
-    <scripts />
-    <height>17</height>
-    <name>Label Template_91</name>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <transparent>true</transparent>
-    <show_scrollbar>false</show_scrollbar>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205" />
-    </background_color>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92" />
-    </foreground_color>
-    <widget_type>Label</widget_type>
-    <enabled>false</enabled>
-    <text>To purging unit</text>
-    <font>
-      <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>96</width>
-    <border_style>0</border_style>
-    <rules />
-    <border_width>2</border_width>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </border_color>
-    <horizontal_alignment>0</horizontal_alignment>
-    <actions hook="false" hook_all="false" />
-    <y>184</y>
-    <wrap_words>true</wrap_words>
-    <tooltip></tooltip>
-    <x>1328</x>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
     <wuid>65090fd1:14e6909c5fc:-3140</wuid>
     <auto_size>true</auto_size>
     <scripts />
@@ -13159,53 +13025,9 @@ $(pv_value)</tooltip>
     </border_color>
     <actions hook="false" hook_all="false" />
     <y>89</y>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip>Helium Pumping System</tooltip>
     <x>1279</x>
     <gradient>false</gradient>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
-    <wuid>-2e82a095:14e680ba254:-7e4d</wuid>
-    <auto_size>true</auto_size>
-    <scripts />
-    <height>36</height>
-    <name>Label Template_57</name>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <transparent>true</transparent>
-    <show_scrollbar>false</show_scrollbar>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205" />
-    </background_color>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92" />
-    </foreground_color>
-    <widget_type>Label</widget_type>
-    <enabled>false</enabled>
-    <text>Helium
-Pumping
-System</text>
-    <font>
-      <fontdata fontName="Sans" height="7" style="0" />
-    </font>
-    <width>42</width>
-    <border_style>0</border_style>
-    <rules />
-    <border_width>2</border_width>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </border_color>
-    <horizontal_alignment>0</horizontal_alignment>
-    <actions hook="false" hook_all="false" />
-    <y>93</y>
-    <wrap_words>true</wrap_words>
-    <tooltip></tooltip>
-    <x>1283</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0.0">
     <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -13261,51 +13083,9 @@ System</text>
     </border_color>
     <actions hook="false" hook_all="false" />
     <y>38</y>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip>Reheater</tooltip>
     <x>825</x>
     <gradient>false</gradient>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
-    <wuid>-2e82a095:14e62aaf961:6bdd</wuid>
-    <auto_size>true</auto_size>
-    <scripts />
-    <height>17</height>
-    <name>Label Template_37</name>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <transparent>true</transparent>
-    <show_scrollbar>false</show_scrollbar>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205" />
-    </background_color>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92" />
-    </foreground_color>
-    <widget_type>Label</widget_type>
-    <enabled>false</enabled>
-    <text>Reheater</text>
-    <font>
-      <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>58</width>
-    <border_style>0</border_style>
-    <rules />
-    <border_width>2</border_width>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </border_color>
-    <horizontal_alignment>0</horizontal_alignment>
-    <actions hook="false" hook_all="false" />
-    <y>39</y>
-    <wrap_words>true</wrap_words>
-    <tooltip></tooltip>
-    <x>837</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -13347,47 +13127,6 @@ $(pv_value)</tooltip>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
     <x>847</x>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
-    <wuid>-2e82a095:14e62aaf961:-25bb</wuid>
-    <auto_size>true</auto_size>
-    <scripts />
-    <height>16</height>
-    <name>Label Template</name>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <transparent>true</transparent>
-    <show_scrollbar>false</show_scrollbar>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205" />
-    </background_color>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92" />
-    </foreground_color>
-    <widget_type>Label</widget_type>
-    <enabled>false</enabled>
-    <text>EH103AC</text>
-    <font>
-      <opifont.name fontName="arial" height="10" style="0">IO Normal</opifont.name>
-    </font>
-    <width>59</width>
-    <border_style>0</border_style>
-    <rules />
-    <border_width>2</border_width>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </border_color>
-    <horizontal_alignment>0</horizontal_alignment>
-    <actions hook="false" hook_all="false" />
-    <y>661</y>
-    <wrap_words>true</wrap_words>
-    <tooltip></tooltip>
-    <x>323</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <border_alarm_sensitive>true</border_alarm_sensitive>
