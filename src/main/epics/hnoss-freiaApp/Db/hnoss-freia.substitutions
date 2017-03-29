@@ -214,9 +214,9 @@ file "PID.template" { pattern
 {SHe,    TIC302,  2828,   1780,    unknown}
 {SHe,    FIC302,  2850,   1790,    unknown}
 {LHe,    TIC101,  2872,   1800,    unknown}
-{MKS,    MKS1,    2894,   1810,    unknown}
-{MKS,    MKS2,    2916,   1820,    unknown}
-{MKS,    MKS3,    2938,   1830,    unknown}
+{MKS,    MKS1,    2894,   1810,    "%"}
+{MKS,    MKS2,    2916,   1820,    "%"}
+{MKS,    MKS3,    2938,   1830,    "%"}
 {LHe,    LIC100,  2960,   1840,    unknown}
 {LHe,    LIC101A, 2982,   1850,    unknown}
 {LHe,    LIC101B, 3004,   1860,    unknown}
@@ -256,7 +256,7 @@ file "Heater2.template" { pattern
 }
 
 file "SQbinary.template" { pattern
-{SUBS, OFFS2, OFFS, ONST, TWST, THST, FRST. FVST, SXST, SVST}
+{SUBS, OFFS2, OFFS, ONST, TWST, THST, FRST, FVST, SXST, SVST}
 {SQ0,   2808, 4180, "SQ1 mustn't be running", "SQ2 mustn't be running", "", "", "", "", ""}
 {SQ1,   2892, 4282, "SQ0 mustn't be running", "SQ2 mustn't be running", "", "", "", "", ""}
 {SQ2,   2976, 4384, "SQ0 mustn't be running", "SQ1 mustn't be running", "", "", "", "", ""}

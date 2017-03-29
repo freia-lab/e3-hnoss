@@ -1,7 +1,7 @@
 record(bi, "CstatH-$(SUBS):$(DEV):sAuto")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=0")
-  field(OSV, "MAJOR")
+  field(ZSV, "MINOR")
   field(ONAM, "Auto")
   field(ZNAM, "Manual")
   field(PINI, "YES")
