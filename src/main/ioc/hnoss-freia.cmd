@@ -1,5 +1,4 @@
-require s7plc
-require autosave
+#require autosave
 
 epicsEnvSet("AUTOSAVE_SYSM_PV_PREFIX","hnoss:")
 
