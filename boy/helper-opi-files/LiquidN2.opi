@@ -2683,7 +2683,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>28</height>
     <image></image>
     <name>CstatH-LN2:FIC200</name>
     <push_action_index>0</push_action_index>
@@ -2721,7 +2721,7 @@ $(pv_value)</tooltip>
     <width>61</width>
     <wuid>65090fd1:14ecf9f9c18:5d18</wuid>
     <x>306</x>
-    <y>70</y>
+    <y>66</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -2923,7 +2923,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>27</height>
     <image></image>
     <name>CstatH-LN2:FIC201</name>
     <push_action_index>0</push_action_index>
@@ -2961,7 +2961,7 @@ $(pv_value)</tooltip>
     <width>61</width>
     <wuid>65090fd1:14ecf9f9c18:5f92</wuid>
     <x>549</x>
-    <y>58</y>
+    <y>55</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -3164,7 +3164,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>27</height>
     <image></image>
     <name>CstatH-LN2:TIC200</name>
     <push_action_index>0</push_action_index>
@@ -3202,7 +3202,7 @@ $(pv_value)</tooltip>
     <width>61</width>
     <wuid>65090fd1:14ecf9f9c18:62a6</wuid>
     <x>473</x>
-    <y>498</y>
+    <y>495</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -3289,7 +3289,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>27</height>
     <image></image>
     <name>CstatH-LN2:TIC201</name>
     <push_action_index>0</push_action_index>
@@ -3327,7 +3327,7 @@ $(pv_value)</tooltip>
     <width>61</width>
     <wuid>65090fd1:14ecf9f9c18:62d3</wuid>
     <x>637</x>
-    <y>498</y>
+    <y>495</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />

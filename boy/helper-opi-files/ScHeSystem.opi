@@ -1465,65 +1465,6 @@ $(pv_value)</tooltip>
     <x>600</x>
     <y>336</y>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <alarm_pulsing>false</alarm_pulsing>
-    <auto_size>false</auto_size>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <border_alarm_sensitive>true</border_alarm_sensitive>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </border_color>
-    <border_style>0</border_style>
-    <border_width>2</border_width>
-    <enabled>true</enabled>
-    <font>
-      <opifont.name fontName="Cantarell" height="9" style="0" pixels="false">Fine Print</opifont.name>
-    </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
-    </foreground_color>
-    <format_type>0</format_type>
-    <height>20</height>
-    <horizontal_alignment>0</horizontal_alignment>
-    <name>Text Update Template_60</name>
-    <precision>1</precision>
-    <precision_from_pv>false</precision_from_pv>
-    <pv_name>CstatH-SHe:CV302:sRdV</pv_name>
-    <pv_value />
-    <rotation_angle>0.0</rotation_angle>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv trig="true">$(pv_name).SIMM</pv>
-      </rule>
-    </rules>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts />
-    <show_units>false</show_units>
-    <text>###</text>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <transparent>true</transparent>
-    <vertical_alignment>0</vertical_alignment>
-    <visible>true</visible>
-    <widget_type>Text Update</widget_type>
-    <width>70</width>
-    <wrap_words>true</wrap_words>
-    <wuid>65090fd1:14e6909c5fc:22d6</wuid>
-    <x>543</x>
-    <y>365</y>
-  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
     <auto_size>true</auto_size>
@@ -2717,7 +2658,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>30</height>
     <image></image>
     <name>CstatH-SHe:TIC302</name>
     <push_action_index>0</push_action_index>
@@ -2755,7 +2696,7 @@ $(pv_value)</tooltip>
     <width>61</width>
     <wuid>65090fd1:14e6909c5fc:272a</wuid>
     <x>448</x>
-    <y>721</y>
+    <y>715</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -2900,7 +2841,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>29</height>
     <image></image>
     <name>CstatH-SHe:TIC301</name>
     <push_action_index>0</push_action_index>
@@ -2938,7 +2879,7 @@ $(pv_value)</tooltip>
     <width>61</width>
     <wuid>65090fd1:14e6909c5fc:275a</wuid>
     <x>141</x>
-    <y>130</y>
+    <y>125</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -3083,7 +3024,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>28</height>
     <image></image>
     <name>CstatH-SHe:FIC302</name>
     <push_action_index>0</push_action_index>
@@ -3121,7 +3062,7 @@ $(pv_value)</tooltip>
     <width>61</width>
     <wuid>65090fd1:14e6909c5fc:2a80</wuid>
     <x>470</x>
-    <y>417</y>
+    <y>413</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -3321,7 +3262,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="IO Foreground" red="0" green="0" blue="0" />
     </foreground_color>
-    <height>24</height>
+    <height>29</height>
     <image></image>
     <name>CstatH-SHe:FIC301</name>
     <push_action_index>0</push_action_index>
@@ -3359,7 +3300,7 @@ $(pv_value)</tooltip>
     <width>61</width>
     <wuid>65090fd1:14e6909c5fc:2d19</wuid>
     <x>470</x>
-    <y>165</y>
+    <y>160</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -4717,5 +4658,64 @@ $(pv_value)</tooltip>
     <wuid>-63f6a454:15a66ac46b9:cf9</wuid>
     <x>733</x>
     <y>429</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <auto_size>false</auto_size>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>2</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="Cantarell" height="9" style="0" pixels="false">Fine Print</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+    </foreground_color>
+    <format_type>0</format_type>
+    <height>20</height>
+    <horizontal_alignment>0</horizontal_alignment>
+    <name>Text Update Template_60</name>
+    <precision>1</precision>
+    <precision_from_pv>false</precision_from_pv>
+    <pv_name>CstatH-SHe:CV302:sRdV</pv_name>
+    <pv_value />
+    <rotation_angle>0.0</rotation_angle>
+    <rules>
+      <rule name="BorderRule" prop_id="border_style" out_exp="false">
+        <exp bool_exp="pv0==1">
+          <value>9</value>
+        </exp>
+        <pv trig="true">$(pv_name).SIMM</pv>
+      </rule>
+    </rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <show_units>false</show_units>
+    <text>###</text>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparent>true</transparent>
+    <vertical_alignment>0</vertical_alignment>
+    <visible>true</visible>
+    <widget_type>Text Update</widget_type>
+    <width>70</width>
+    <wrap_words>false</wrap_words>
+    <wuid>65090fd1:14e6909c5fc:22d6</wuid>
+    <x>543</x>
+    <y>365</y>
   </widget>
 </display>

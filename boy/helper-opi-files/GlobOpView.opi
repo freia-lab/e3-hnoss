@@ -20005,4 +20005,71 @@ $(pv_value)</tooltip>
       <wuid>1216ffd:157330eb8c2:-706e</wuid>
     </widget>
   </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>../CmdPanels/CstatH-MKS.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <MKS>CstatH-MKS:$(name)</MKS>
+          <MKSname>$(name)</MKSname>
+        </macros>
+        <mode>6</mode>
+        <description></description>
+      </action>
+    </actions>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <border_style>6</border_style>
+    <border_width>2</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color name="IO Foreground" red="0" green="0" blue="0" />
+    </foreground_color>
+    <height>26</height>
+    <image></image>
+    <name>MKS2</name>
+    <push_action_index>0</push_action_index>
+    <pv_name></pv_name>
+    <pv_value />
+    <rules>
+      <rule name="borderstyle" prop_id="border_style" out_exp="false">
+        <exp bool_exp="pv0==0">
+          <value>1</value>
+        </exp>
+        <pv trig="true">CstatH-MKS:$(name):sAuto</pv>
+      </rule>
+      <rule name="bordercolor" prop_id="border_color" out_exp="false">
+        <exp bool_exp="pv0==0">
+          <value>
+            <color name="Minor" red="255" green="128" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">CstatH-MKS:$(name):sAuto</pv>
+      </rule>
+    </rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <style>1</style>
+    <text>$(name)</text>
+    <toggle_button>false</toggle_button>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <visible>true</visible>
+    <widget_type>Action Button</widget_type>
+    <width>61</width>
+    <wuid>43747e41:15ca16677b2:-6576</wuid>
+    <x>902</x>
+    <y>174</y>
+  </widget>
 </display>
