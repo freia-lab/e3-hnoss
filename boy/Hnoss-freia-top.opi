@@ -1064,8 +1064,8 @@ sequences</text>
     <width>89</width>
     <wrap_words>true</wrap_words>
     <wuid>-21b2ca35:148a7786110:3657</wuid>
-    <x>38</x>
-    <y>98</y>
+    <x>35</x>
+    <y>85</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.tab" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -1703,7 +1703,7 @@ $(pv_value)</tooltip>
           <stretch_to_fit>false</stretch_to_fit>
           <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-          <transparency>false</transparency>
+          <transparency>true</transparency>
           <visible>true</visible>
           <widget_type>Boolean Symbol Image Monitor</widget_type>
           <width>51</width>
@@ -2277,7 +2277,7 @@ $(pv_value)</tooltip>
           <stretch_to_fit>true</stretch_to_fit>
           <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-          <transparency>false</transparency>
+          <transparency>true</transparency>
           <visible>true</visible>
           <widget_type>Boolean Symbol Monitor</widget_type>
           <width>52</width>
@@ -2428,7 +2428,7 @@ $(pv_value)</tooltip>
         <stretch_to_fit>true</stretch_to_fit>
         <tooltip>$(pv_name)
 Click for details</tooltip>
-        <transparency>false</transparency>
+        <transparency>true</transparency>
         <visible>true</visible>
         <widget_type>Boolean Symbol Monitor</widget_type>
         <width>52</width>
@@ -2671,7 +2671,7 @@ $(pv_value)</tooltip>
         <stretch_to_fit>true</stretch_to_fit>
         <tooltip>$(pv_name)
 Click for details</tooltip>
-        <transparency>false</transparency>
+        <transparency>true</transparency>
         <visible>true</visible>
         <widget_type>Boolean Symbol Monitor</widget_type>
         <width>52</width>
@@ -3438,7 +3438,7 @@ $(pv_value)</tooltip>
         <stretch_to_fit>false</stretch_to_fit>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <transparency>false</transparency>
+        <transparency>true</transparency>
         <visible>true</visible>
         <widget_type>Boolean Symbol Image Monitor</widget_type>
         <width>51</width>
@@ -3713,7 +3713,7 @@ $(pv_value)</tooltip>
         <stretch_to_fit>false</stretch_to_fit>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <transparency>false</transparency>
+        <transparency>true</transparency>
         <visible>true</visible>
         <widget_type>Boolean Symbol Monitor</widget_type>
         <width>36</width>
@@ -3820,7 +3820,7 @@ $(pv_value)</tooltip>
         <stretch_to_fit>false</stretch_to_fit>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <transparency>false</transparency>
+        <transparency>true</transparency>
         <visible>true</visible>
         <widget_type>Boolean Symbol Monitor</widget_type>
         <width>36</width>
@@ -3847,7 +3847,7 @@ $(pv_value)</tooltip>
           <color red="192" green="192" blue="192" />
         </foreground_color>
         <height>46</height>
-        <lock_children>true</lock_children>
+        <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -4008,7 +4008,7 @@ $(pv_value)</tooltip>
           <stretch_to_fit>false</stretch_to_fit>
           <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-          <transparency>false</transparency>
+          <transparency>true</transparency>
           <visible>true</visible>
           <widget_type>Boolean Symbol Monitor</widget_type>
           <width>46</width>
@@ -4036,7 +4036,7 @@ $(pv_value)</tooltip>
           <color red="192" green="192" blue="192" />
         </foreground_color>
         <height>46</height>
-        <lock_children>true</lock_children>
+        <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -4197,7 +4197,7 @@ $(pv_value)</tooltip>
           <stretch_to_fit>false</stretch_to_fit>
           <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-          <transparency>false</transparency>
+          <transparency>true</transparency>
           <visible>true</visible>
           <widget_type>Boolean Symbol Monitor</widget_type>
           <width>46</width>
@@ -4481,7 +4481,7 @@ $(pv_value)</tooltip>
       <show_scrollbar>true</show_scrollbar>
       <tooltip></tooltip>
       <transparent>true</transparent>
-      <visible>false</visible>
+      <visible>true</visible>
       <widget_type>Grouping Container</widget_type>
       <width>1439</width>
       <wuid>-21b2ca35:148a7786110:3c6e</wuid>
@@ -4505,7 +4505,7 @@ $(pv_value)</tooltip>
         <foreground_color>
           <color red="192" green="192" blue="192" />
         </foreground_color>
-        <height>481</height>
+        <height>501</height>
         <lock_children>false</lock_children>
         <macros>
           <include_parent_macros>true</include_parent_macros>
@@ -4523,7 +4523,7 @@ $(pv_value)</tooltip>
         <transparent>true</transparent>
         <visible>true</visible>
         <widget_type>Grouping Container</widget_type>
-        <width>186</width>
+        <width>201</width>
         <wuid>-262d394c:148ffbdd3df:-cb8</wuid>
         <x>910</x>
         <y>10</y>
@@ -8457,7 +8457,7 @@ Normally DV freq is set to 100% and the pressure is adjusted by setting WH pumps
       <show_scrollbar>true</show_scrollbar>
       <tooltip></tooltip>
       <transparent>true</transparent>
-      <visible>true</visible>
+      <visible>false</visible>
       <widget_type>Grouping Container</widget_type>
       <width>1439</width>
       <wuid>-2e82a095:14e62aaf961:-df5</wuid>
