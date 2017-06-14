@@ -287,8 +287,8 @@ $(pv_value)</tooltip>
     <width>99</width>
     <wrap_words>true</wrap_words>
     <wuid>65090fd1:14ecf9f9c18:-32f0</wuid>
-    <x>160</x>
-    <y>90</y>
+    <x>155</x>
+    <y>85</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.symbol.bool.BoolMonitorWidget" version="1.0.0">
     <actions hook="true" hook_all="false">
@@ -477,7 +477,7 @@ $(pv_value)</tooltip>
     <wrap_words>true</wrap_words>
     <wuid>65090fd1:14ecf9f9c18:-32ed</wuid>
     <x>160</x>
-    <y>685</y>
+    <y>675</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <actions hook="false" hook_all="false" />
