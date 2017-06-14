@@ -219,64 +219,50 @@ $(pv_value)</tooltip>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
       </rule>
-      <rule name="TextRule" prop_id="text" out_exp="true">
+      <rule name="TextRule" prop_id="text" out_exp="false">
         <exp bool_exp="pv0== 0">
-          <value>pvStr1</value>
+          <value>$(step0)</value>
         </exp>
         <exp bool_exp="pv0== 1">
-          <value>pvStr2</value>
+          <value>$(step1)</value>
         </exp>
         <exp bool_exp="pv0== 2">
-          <value>pvStr3</value>
+          <value>$(step2)</value>
         </exp>
         <exp bool_exp="pv0== 3">
-          <value>pvStr4</value>
+          <value>$(step3)</value>
         </exp>
         <exp bool_exp="pv0== 4">
-          <value>pvStr5</value>
+          <value>$(step4)</value>
         </exp>
         <exp bool_exp="pv0== 6">
-          <value>pvStr6</value>
+          <value>$(step6)</value>
         </exp>
         <exp bool_exp="pv0== 8">
-          <value>pvStr7</value>
+          <value>$(step8)</value>
         </exp>
         <exp bool_exp="pv0== 10">
-          <value>pvStr8</value>
+          <value>$(step10)</value>
         </exp>
         <exp bool_exp="pv0== 12">
-          <value>pvStr9</value>
+          <value>$(step12)</value>
         </exp>
         <exp bool_exp="pv0== 14">
-          <value>pvStr10</value>
+          <value>$(step14)</value>
         </exp>
         <exp bool_exp="pv0== 16">
-          <value>pvStr11</value>
+          <value>$(step16)</value>
         </exp>
         <exp bool_exp="pv0== 18">
-          <value>pvStr12</value>
+          <value>$(step18)</value>
         </exp>
         <exp bool_exp="pv0== 20">
-          <value>pvStr13</value>
+          <value>$(step20)</value>
         </exp>
         <exp bool_exp="pv0== 30">
-          <value>pvStr14</value>
+          <value>$(step30)</value>
         </exp>
         <pv trig="true">$(pv_name)</pv>
-        <pv trig="false">sim://const($(step0))</pv>
-        <pv trig="false">sim://const($(step1))</pv>
-        <pv trig="false">sim://const($(step2))</pv>
-        <pv trig="false">sim://const($(step3))</pv>
-        <pv trig="false">sim://const($(step4))</pv>
-        <pv trig="false">sim://const($(step6))</pv>
-        <pv trig="false">sim://const($(step8))</pv>
-        <pv trig="false">sim://const($(step10))</pv>
-        <pv trig="false">sim://const($(step12))</pv>
-        <pv trig="false">sim://const($(step14))</pv>
-        <pv trig="false">sim://const($(step16))</pv>
-        <pv trig="false">sim://const($(step18))</pv>
-        <pv trig="false">sim://const($(step20))</pv>
-        <pv trig="false">sim://const($(step30))</pv>
       </rule>
     </rules>
     <scale_options>
