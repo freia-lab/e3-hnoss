@@ -87,6 +87,7 @@ file "AI.template" { pattern
 {RHtr,  FT550,    850,     562,   0,    500,   m3/h}
 {RHtr,  FT551,    860,     568,   0,    500,   m3/h}
 {RHtr,  FT552,    870,     574,   0,    500,   m3/h}
+{RHtr,  TT131,    880,     580,   0, 	500,   "K"}
 {LHe,   TT100,   1090,     706,   0,    500,   K}
 {LHe,   TT101,   1100,     712,   0,    500,   K}
 {LHe,   TT102,   1110,     718,   0,    500,   K}
@@ -248,6 +249,7 @@ file "Heater1.template" { pattern
 {SHe,	EH303,     3632,    2260}
 {IBoxN2,EH400,     3642,    2270}
 {IBoxN2,EH401,     3652,    2280}
+{Rhtr,  EH131,     3662,    2290}
 }
 
 file "Heater2.template" { pattern

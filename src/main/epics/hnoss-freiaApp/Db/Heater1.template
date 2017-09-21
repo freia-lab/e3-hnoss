@@ -22,7 +22,6 @@ record(bi, "CstatH-$(SUBS):$(DEV):sTsw")  {
 record(bi, "CstatH-$(SUBS):$(DEV):sCmd")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=2")
-  field(OSV, "MAJOR")
   field(ONAM, "True")
   field(ZNAM, "False")
   field(PINI, "YES")
