@@ -27,6 +27,15 @@ record(bi, "CstatH-$(SUBS):$(DEV):sCmd")  {
   field(SCAN, "I/O Intr")
 }
 
+record(bi, "CstatH-$(SUBS):$(DEV):sCmdAuto")  {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS)+1 T=BYTE B=1")
+  field(ONAM, "CmdAutoOpen")
+  field(ZNAM, "CmdAutoClose")
+  field(PINI, "YES")
+  field(SCAN, "I/O Intr")
+}
+
 record(bi, "CstatH-$(SUBS):$(DEV):sOn")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=3")
@@ -70,6 +79,16 @@ record(bi, "CstatH-$(SUBS):$(DEV):sOffFlt")  {
   field(OSV, "MAJOR")
   field(ONAM, "True")
   field(ZNAM, "False")
+  field(PINI, "YES")
+  field(SCAN, "I/O Intr")
+}
+
+record(bi, "CstatH-$(SUBS):$(DEV):sFlt")  {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS)+1 T=BYTE B=0")
+  field(OSV, "MAJOR")
+  field(ONAM, "Fault")
+  field(ZNAM, "No fault")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
 }
