@@ -178,7 +178,7 @@
           <col>1.0</col>
         </row>
       </permutation_matrix>
-      <pv_name>$(name):sCmd</pv_name>
+      <pv_name>$(name):sHtrOn</pv_name>
       <pv_value />
       <rules>
         <rule name="bordercolor" prop_id="border_color" out_exp="false">
@@ -212,7 +212,7 @@
       <stretch_to_fit>false</stretch_to_fit>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-      <transparency>false</transparency>
+      <transparency>true</transparency>
       <visible>true</visible>
       <widget_type>Boolean Symbol Image Monitor</widget_type>
       <width>125</width>
@@ -414,7 +414,7 @@ $(pv_value)</tooltip>
       <stretch_to_fit>false</stretch_to_fit>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-      <transparency>false</transparency>
+      <transparency>true</transparency>
       <visible>true</visible>
       <widget_type>Boolean Symbol Image Monitor</widget_type>
       <width>51</width>
@@ -476,7 +476,7 @@ $(pv_value)</tooltip>
       <visible>true</visible>
       <widget_type>Text Update</widget_type>
       <width>64</width>
-      <wrap_words>true</wrap_words>
+      <wrap_words>false</wrap_words>
       <wuid>-644c3022:14e1b80341b:-13cd</wuid>
       <x>9</x>
       <y>65</y>
@@ -601,7 +601,7 @@ $(pv_value)</tooltip>
       <stretch_to_fit>false</stretch_to_fit>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-      <transparency>false</transparency>
+      <transparency>true</transparency>
       <visible>true</visible>
       <widget_type>Boolean Symbol Image Monitor</widget_type>
       <width>125</width>
@@ -1186,7 +1186,7 @@ $(pv_value)</tooltip>
       <stretch_to_fit>false</stretch_to_fit>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-      <transparency>false</transparency>
+      <transparency>true</transparency>
       <visible>true</visible>
       <widget_type>Boolean Symbol Image Monitor</widget_type>
       <width>125</width>
@@ -1335,7 +1335,7 @@ $(pv_value)</tooltip>
     <stretch_to_fit>false</stretch_to_fit>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparency>false</transparency>
+    <transparency>true</transparency>
     <visible>true</visible>
     <widget_type>Boolean Symbol Monitor</widget_type>
     <width>46</width>
@@ -1524,7 +1524,7 @@ $(pv_value)</tooltip>
     <stretch_to_fit>false</stretch_to_fit>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <transparency>false</transparency>
+    <transparency>true</transparency>
     <visible>true</visible>
     <widget_type>Boolean Symbol Monitor</widget_type>
     <width>46</width>

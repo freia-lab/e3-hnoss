@@ -88,7 +88,7 @@ record(ai, "CstatH-$(SUBS):$(DEV):sRdV") {
 
 record(ai, "CstatH-$(SUBS):$(DEV):sAutoRdV") {
   field(DTYP, "S7plc")
-  field(INP, "@PLC:HNOSS/$(OFFS)+2 T=FLOAT")
+  field(INP, "@PLC:HNOSS/$(OFFS)+6 T=FLOAT")
   field(PREC, "6")
   field(SCAN, "I/O Intr")
   field(PINI, "YES")
