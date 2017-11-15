@@ -4,7 +4,7 @@ file "DI.template" { pattern
 
 #PSL SUBS?
 {SUBS,	DEV,       OFFS,   OFFS2}
-{Rhtr,	LS550,      84,	    84}
+{RHtr,	LS550,      84,	    84}
 {PSL,	PSL,        86,     86}
 }
  
@@ -250,12 +250,12 @@ file "Heater1.template" { pattern
 {SHe,	EH303,     3632,    2260}
 {IBoxN2,EH400,     3642,    2270}
 {IBoxN2,EH401,     3652,    2280}
-{Rhtr,  EH131,     3662,    2290}
+{RHtr,  EH131,     3662,    2290}
 }
 
 file "Heater2.template" { pattern
 {SUBS,	DEV,       OFFS,   OFFS2}
-{Rhtr,	EH550,     3872,    2500}
+{RHtr,	EH550,     3872,    2500}
 }
 
 file "SQbinary.template" { pattern
