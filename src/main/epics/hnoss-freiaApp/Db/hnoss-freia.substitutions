@@ -82,8 +82,8 @@ file "AI.template" { pattern
 {LN2,   FT200,    800,     532,   0,    500,   m3/h}
 {LN2,   FT201,    810,     538,   0,    500,   m3/h}
 {LN2,   FT202,    820,     544,   0,    500,   m3/h}
-{SHe,   FT301,    830,     550,   0,    500,   m3/h}
-{SHe,   FT302,    840,     556,   0,    500,   m3/h}
+{SHe,   FT301,    830,     550,   0,    500,   mg/s}
+{SHe,   FT302,    840,     556,   0,    500,   mg/s}
 {RHtr,  FT550,    850,     562,   0,    500,   m3/h}
 {RHtr,  FT551,    860,     568,   0,    500,   m3/h}
 {RHtr,  FT552,    870,     574,   0,    500,   m3/h}
@@ -138,17 +138,12 @@ file "AI.template" { pattern
 {Spare, TT07x,   1550,     982,   0,    500,   K}
 {Spare, TT08x,   1560,     988,   0,    500,   K}
 {Spare, TT09x,   1570,     994,   0,    500,   K}
-{RHtr,  PT551,   1700,    1072,   0,    500,   mbar}
-{RHtr,  PT552,   1710,    1078,   0,    500,   mbar}
-{LHe,   PT100,   1720,    1084,   0,    500,   mbar}
-{RHtr,  PT550,   1730,    1090,   0,    500,   mbar}
-{LHe,   PT101,   1740,    1096,   0,    500,   mbar}
-{LHe,   PT102,   1750,    1102,   0,    500,   mbar}
 {Vac,   PT000,   1970,    1234,   0,    500,   mbar}
-{Vac,   PT001,   1980,    1240,   0,    500,   mbar}
+{Vac,   PT001,   1980,    1240,   0,    1000,  mbar}
 {Vac,   PT002,   1990,    1246,   0,    500,   mbar}
 {Vac,   PT003,   2000,    1252,   0,    500,   mbar}
-{Vac,   PT004,   2010,    1258,   0,    500,   mbar}
+{Vac,   PT004,   2010,    1258,   0,    1000,  mbar}
+{Vac,   PT005,   2020,    1264,   0,    1000,  mbar}
 }
 
 file "Valves.template" { pattern
@@ -179,6 +174,17 @@ file "Valves.template" { pattern
 {RHtr,  FV557,     2324,    1484}
 {RHtr,  FV558,     2326,    1486}
 }
+
+file "AI_MKS.template" { pattern
+{SUBS,	DEV,       OFFS,   OFFS2, LOPR, HOPR, EGU,  MKS}
+{RHtr,  PT551,   1700,    1072,   0,    1330, mbar, MKS1}
+{RHtr,  PT552,   1710,    1078,   0,    133,  mbar, MKS1}
+{LHe,   PT100,   1720,    1084,   0,    500,  mbar, MKS2}
+{RHtr,  PT550,   1730,    1090,   0,    500,  mbar, MKS2}
+{LHe,   PT101,   1740,    1096,   0,    500,  mbar, MKS3}
+{LHe,   PT102,   1750,    1102,   0,    500,  mbar, MKS3}
+}
+
 
 file "Evalves.template" { pattern
 {SUBS,	DEV,       OFFS,   OFFS2}

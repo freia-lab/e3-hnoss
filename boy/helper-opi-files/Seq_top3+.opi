@@ -10,7 +10,7 @@
   <background_color>
     <color name="IO Border" red="215" green="215" blue="215" />
   </background_color>
-  <boy_version>5.1.0.201703221304</boy_version>
+  <boy_version>5.1.0.201708071144</boy_version>
   <foreground_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
   </foreground_color>
@@ -92,7 +92,7 @@
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>15</height>
+    <height>19</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_1</name>
     <rules />
@@ -109,77 +109,11 @@
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>35</width>
+    <width>42</width>
     <wrap_words>true</wrap_words>
     <wuid>7227629f:14836633357:-7931</wuid>
     <x>7</x>
     <y>103</y>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
-    <actions hook="false" hook_all="false" />
-    <alarm_pulsing>false</alarm_pulsing>
-    <auto_size>false</auto_size>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255" />
-    </background_color>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215" />
-    </border_color>
-    <border_style>5</border_style>
-    <border_width>2</border_width>
-    <enabled>true</enabled>
-    <font>
-      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
-    </font>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
-    </foreground_color>
-    <format_type>0</format_type>
-    <height>21</height>
-    <horizontal_alignment>0</horizontal_alignment>
-    <name>Text Update Template</name>
-    <precision>0</precision>
-    <precision_from_pv>false</precision_from_pv>
-    <pv_name>CstatH-Ctrl:$(seq_no):sStep</pv_name>
-    <pv_value />
-    <rotation_angle>0.0</rotation_angle>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv trig="true">$(pv_name).SIMM</pv>
-      </rule>
-    </rules>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <scripts>
-      <path pathString="EmbeddedPy" checkConnect="true" sfe="false" seoe="false">
-        <scriptName>EmbeddedScript</scriptName>
-        <scriptText><![CDATA[from org.csstudio.opibuilder.scriptUtil import PVUtil
-]]></scriptText>
-        <pv trig="true">CstatH-Ctrl:$(seq_no):sStep</pv>
-      </path>
-    </scripts>
-    <show_units>true</show_units>
-    <text>##</text>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <transparent>false</transparent>
-    <vertical_alignment>0</vertical_alignment>
-    <visible>true</visible>
-    <widget_type>Text Update</widget_type>
-    <width>36</width>
-    <wrap_words>true</wrap_words>
-    <wuid>7227629f:14836633357:-7870</wuid>
-    <x>51</x>
-    <y>100</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -204,7 +138,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <format_type>0</format_type>
-    <height>21</height>
+    <height>24</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update Template_2</name>
     <precision>0</precision>
@@ -794,7 +728,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="IO Text Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>34</height>
+    <height>42</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Label Template_2</name>
     <rules />
@@ -812,7 +746,7 @@ Cond.</text>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>31</width>
+    <width>38</width>
     <wrap_words>true</wrap_words>
     <wuid>2808fd33:159ee725f1e:-54e4</wuid>
     <x>463</x>
@@ -915,5 +849,71 @@ in the web browser</tooltip>
     <wuid>-21f0b7b:15a70b07e12:-2247</wuid>
     <x>220</x>
     <y>67</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <auto_size>false</auto_size>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <border_style>5</border_style>
+    <border_width>2</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+    </foreground_color>
+    <format_type>0</format_type>
+    <height>21</height>
+    <horizontal_alignment>0</horizontal_alignment>
+    <name>Text Update Template</name>
+    <precision>0</precision>
+    <precision_from_pv>false</precision_from_pv>
+    <pv_name>CstatH-Ctrl:$(seq_no):sStep</pv_name>
+    <pv_value />
+    <rotation_angle>0.0</rotation_angle>
+    <rules>
+      <rule name="BorderRule" prop_id="border_style" out_exp="false">
+        <exp bool_exp="pv0==1">
+          <value>9</value>
+        </exp>
+        <pv trig="true">$(pv_name).SIMM</pv>
+      </rule>
+    </rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts>
+      <path pathString="EmbeddedPy" checkConnect="true" sfe="false" seoe="false">
+        <scriptName>EmbeddedScript</scriptName>
+        <scriptText><![CDATA[from org.csstudio.opibuilder.scriptUtil import PVUtil
+]]></scriptText>
+        <pv trig="true">CstatH-Ctrl:$(seq_no):sStep</pv>
+      </path>
+    </scripts>
+    <show_units>true</show_units>
+    <text>##</text>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparent>false</transparent>
+    <vertical_alignment>0</vertical_alignment>
+    <visible>true</visible>
+    <widget_type>Text Update</widget_type>
+    <width>36</width>
+    <wrap_words>false</wrap_words>
+    <wuid>7227629f:14836633357:-7870</wuid>
+    <x>51</x>
+    <y>100</y>
   </widget>
 </display>

@@ -129,7 +129,24 @@ record (calc, "CstatH-Ctrl:Alarms:sMKS1") {
   field(INPE, "0x0F")
   field(PREC, "10")
   field(CALC, "(A>>5)+(B<<5)+(C<<13)+((D&E)<<21)")
+  field (FLNK, "CstatH-Ctrl:MKS1:SEV")
 }
+record (mbbi, "CstatH-Ctrl:MKS1:SEV") {
+   field (DESC, "PV to propagate the severity")
+   field (DTYP, "Raw Soft Channel")
+   field (INP, "CstatH-Ctrl:Alarms:sMKS1 MSS")
+   field(MASK, "1")
+   field(NOBT, "1")
+   field(VAL, "0")
+   field(ZRVL, "1")
+   field(ZRST, "INVALID")
+   field(ZRSV, "INVALID")
+   field(ONVL, "0")
+   field(ONST, "NO_ALARM")
+   field(ONSV, "NO_ALARM")
+   field(PINI, "YES")
+}
+
 record (calc, "CstatH-Ctrl:Alarms:sMKS2") {
   field(SCAN, "1 second")
   field(INPA, "CstatH-Ctrl:Alarms:sAlarmB4")
@@ -139,7 +156,24 @@ record (calc, "CstatH-Ctrl:Alarms:sMKS2") {
   field(INPE, "0x07")
   field(PREC, "10")
   field(CALC, "(A>>4)+(B<<4)+(C<<12)+((D&E)<<20)")
+  field (FLNK, "CstatH-Ctrl:MKS2:SEV")
 }
+record (mbbi, "CstatH-Ctrl:MKS2:SEV") {
+   field (DESC, "PV to propagate the severity")
+   field (DTYP, "Raw Soft Channel")
+   field (INP, "CstatH-Ctrl:Alarms:sMKS2 MSS")
+   field(MASK, "1")
+   field(NOBT, "1")
+   field(VAL, "0")
+   field(ZRVL, "1")
+   field(ZRST, "INVALID")
+   field(ZRSV, "INVALID")
+   field(ONVL, "0")
+   field(ONST, "NO_ALARM")
+   field(ONSV, "NO_ALARM")
+   field(PINI, "YES")
+}
+
 record (calc, "CstatH-Ctrl:Alarms:sMKS3") {
   field(SCAN, "1 second")
   field(INPA, "CstatH-Ctrl:Alarms:sAlarmB7")
@@ -149,6 +183,22 @@ record (calc, "CstatH-Ctrl:Alarms:sMKS3") {
   field(INPE, "0x03")
   field(PREC, "10")
   field(CALC, "(A>>3)+(B<<3)+(C<<11)+((D&E)<<19)")
+  field (FLNK, "CstatH-Ctrl:MKS3:SEV")
+}
+record (mbbi, "CstatH-Ctrl:MKS3:SEV") {
+   field (DESC, "PV to propagate the severity")
+   field (DTYP, "Raw Soft Channel")
+   field (INP, "CstatH-Ctrl:Alarms:sMKS3 MSS")
+   field(MASK, "1")
+   field(NOBT, "1")
+   field(VAL, "0")
+   field(ZRVL, "1")
+   field(ZRST, "INVALID")
+   field(ZRSV, "INVALID")
+   field(ONVL, "0")
+   field(ONST, "NO_ALARM")
+   field(ONSV, "NO_ALARM")
+   field(PINI, "YES")
 }
 
 record (bo, "CstatH-Ctrl:opMode:cmdSetParam") {
@@ -229,6 +279,17 @@ record (calc, "CstatH-Ctrl:s7-disconnect-counter")
    field (INPB, "CstatH-Ctrl:s7-disconnect-counter.LA")
    field (INPC, "CstatH-Ctrl:s7-disconnect-counter")
    field (CALC, "(A=0&&B=1)?C+1:C")
+}
+
+record (calc, "CstatH-RHtr:FT551:sCalcV")
+{
+   field (INPA, "CstatH-RHtr:FT551:RdV")
+   field (INPB, "CstatH-2Kpumps:TT557:RdV")
+   field (INPC, "CstatH-2Kpumps:PT557:RdV")
+   field (SCAN, "1 second")
+   filed (EGU, "g/s")
+   filed (HIGH, "10,0")
+   field (CALC, "A")
 }
 
 # Heart-bit to the PLC
