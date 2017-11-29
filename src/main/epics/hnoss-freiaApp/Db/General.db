@@ -287,8 +287,8 @@ record (calc, "CstatH-RHtr:FT551:sCalcV")
    field (INPB, "CstatH-2Kpumps:TT557:RdV")
    field (INPC, "CstatH-2Kpumps:PT557:RdV")
    field (SCAN, "1 second")
-   filed (EGU, "g/s")
-   filed (HIGH, "10,0")
+   field (EGU, "g/s")
+   field (HIGH, "10.0")
    field (CALC, "A")
 }
 
