@@ -283,13 +283,15 @@ record (calc, "CstatH-Ctrl:s7-disconnect-counter")
 
 record (calc, "CstatH-RHtr:FT551:sCalcV")
 {
-   field (INPA, "CstatH-RHtr:FT551:RdV")
-   field (INPB, "CstatH-2Kpumps:TT557:RdV")
-   field (INPC, "CstatH-2Kpumps:PT557:RdV")
+   field (INPA, "CstatH-RHtr:FT551:sRdV")
+   field (INPB, "CstatH-2Kpumps:TT557:sRdV")
+   field (INPC, "CstatH-2Kpumps:PT557:sRdV")
+   field (INPD, "13.3667")
+   field (INPE, "273.15")
    field (SCAN, "1 second")
-   field (EGU, "g/s")
-   field (HIGH, "10.0")
-   field (CALC, "A")
+   field (EGU, "mg/s")
+   field (HIGH, "1000.0")
+   field (CALC, "D*A*C/(B+E)")
 }
 
 # Heart-bit to the PLC
