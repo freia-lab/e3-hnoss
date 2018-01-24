@@ -82,7 +82,7 @@ record(ao, "CstatH-$(SUBS):$(DEV):cSetV") {
   field(LOPR, "$(LOPR)")
   field(HOPR, "$(HOPR)")
   field(PINI, "NO")
-  field(PREC, "6")
+  field(PREC, "$(PREC)")
   field(FLNK, "CstatH-$(SUBS):$(DEV):cmdSet-link")
   field(EGU, "$(EGU)")
 }
@@ -90,7 +90,7 @@ record(ao, "CstatH-$(SUBS):$(DEV):cSetV") {
 record(ai, "CstatH-$(SUBS):$(DEV):sRdV") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS)+2 T=FLOAT")
-  field(PREC, "6")
+  field(PREC, "$(PREC)")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
   field(EGU, "$(EGU)")
@@ -99,7 +99,7 @@ record(ai, "CstatH-$(SUBS):$(DEV):sRdV") {
 record(ai, "CstatH-$(SUBS):$(DEV):sRealRdV") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS)+6 T=FLOAT")
-  field(PREC, "6")
+  field(PREC, "$(PREC)")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
   field(EGU, "$(EGU)")
