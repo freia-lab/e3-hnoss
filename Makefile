@@ -1,5 +1,5 @@
 
-#EXCLUDE_VERSIONS = 3.15.2
+EXCLUDE_VERSIONS = 3.14
 
 include ${EPICS_ENV_PATH}/module.Makefile
 
