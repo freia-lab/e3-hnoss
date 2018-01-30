@@ -177,13 +177,13 @@ file "Valves.template" { pattern
 }
 
 file "AI_MKS.template" { pattern
-{SUBS,	DEV,       OFFS,   OFFS2, LOPR, HOPR, EGU,  MKS}
-{RHtr,  PT551,   1700,    1072,   0,    1330, mbar, MKS1}
-{RHtr,  PT552,   1710,    1078,   0,    133,  mbar, MKS1}
-{LHe,   PT100,   1720,    1084,   0,    500,  mbar, MKS2}
-{RHtr,  PT550,   1730,    1090,   0,    500,  mbar, MKS2}
-{LHe,   PT101,   1740,    1096,   0,    500,  mbar, MKS3}
-{LHe,   PT102,   1750,    1102,   0,    500,  mbar, MKS3}
+{SUBS,	DEV,       OFFS,   OFFS2, LOPR, HOPR, EGU,  MKS, PREC}
+{RHtr,  PT551,   1700,    1072,   0,    1330, mbar, MKS1, 2}
+{RHtr,  PT552,   1710,    1078,   0,    133,  mbar, MKS1, 2}
+{LHe,   PT100,   1720,    1084,   0,    500,  mbar, MKS2, 2}
+{RHtr,  PT550,   1730,    1090,   0,    500,  mbar, MKS2, 2}
+{LHe,   PT101,   1740,    1096,   0,    500,  mbar, MKS3, 2}
+{LHe,   PT102,   1750,    1102,   0,    500,  mbar, MKS3, 2}
 }
 
 
