@@ -1,5 +1,5 @@
 
-record(bi, "CstatH-$(SUBS):$(DEV):sAuto")  {
+record(bi, "CstatH-$(SUBS):$(DEV):sAuto") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=0")
   field(ZSV, "MINOR")
@@ -9,7 +9,7 @@ record(bi, "CstatH-$(SUBS):$(DEV):sAuto")  {
   field(SCAN, "I/O Intr")
 }
 
-record(bi, "CstatH-$(SUBS):$(DEV):sTsw")  {
+record(bi, "CstatH-$(SUBS):$(DEV):sTsw") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=1")
   field(OSV, "MAJOR")
@@ -19,7 +19,7 @@ record(bi, "CstatH-$(SUBS):$(DEV):sTsw")  {
   field(SCAN, "I/O Intr")
 }
 
-record(bi, "CstatH-$(SUBS):$(DEV):sCmd")  {
+record(bi, "CstatH-$(SUBS):$(DEV):sCmd") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=2")
   field(ONAM, "True")
@@ -28,7 +28,7 @@ record(bi, "CstatH-$(SUBS):$(DEV):sCmd")  {
   field(SCAN, "I/O Intr")
 }
 
-record(bi, "CstatH-$(SUBS):$(DEV):sCmdAuto")  {
+record(bi, "CstatH-$(SUBS):$(DEV):sCmdAuto") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=3")
   field(ONAM, "True")
@@ -37,7 +37,7 @@ record(bi, "CstatH-$(SUBS):$(DEV):sCmdAuto")  {
   field(SCAN, "I/O Intr")
 }
 
-record(bi, "CstatH-$(SUBS):$(DEV):sHtrOn")  {
+record(bi, "CstatH-$(SUBS):$(DEV):sHtrOn") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=4")
   field(ONAM, "On")
@@ -57,20 +57,23 @@ record(ai, "CstatH-$(SUBS):$(DEV):sHL") {
 
 record(calcout, "CstatH-$(SUBS):$(DEV):sHL-cHL-link") {
   field(INPA, "CstatH-$(SUBS):$(DEV):sHL.VAL NPP")
-  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto PP")
-  field(INPC, "CstatH-Ctrl:opMode:sLocal PP")
-  field(CALC, "(B=0&&C=0)?VAL:A")
+#  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto PP")
+#  field(INPC, "CstatH-Ctrl:opMode:sLocal PP")
+  field(CALC, "A")
   field(OOPT, "On Change")
+  field(PHAS, "1")
   field(OUT, "CstatH-$(SUBS):$(DEV):cHL PP")
 }
 
 record(calcout, "CstatH-$(SUBS):$(DEV):sHL-cHL-remInitLink") {
-  field(SDIS, "CstatH-Ctrl:opMode:sLocal PP")
+#  field(SDIS, "CstatH-Ctrl:opMode:sLocal PP")
   field(INPA, "CstatH-$(SUBS):$(DEV):sHL.VAL PP")
-  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto PP")
-  field(CALC, "(B=0)?A:VAL")
-  field(OOPT, "On Change")
+#  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto PP")
+#  field(CALC, "(B=0)?A:VAL")
+  field(CALC, "A")
+#  field(OOPT, "On Change")
   field(PINI, "YES")
+  field(PHAS, "1")
   field(OUT, "CstatH-$(SUBS):$(DEV):cHL PP")
 }
 
@@ -80,25 +83,27 @@ record(ai, "CstatH-$(SUBS):$(DEV):sLL") {
   field(PREC, "6")
   field(SCAN, "I/O Intr")
   field(PINI, "YES")
-  field(FLNK, "CstatH-$(SUBS):$(DEV):sLL-cHL-link")
+  field(FLNK, "CstatH-$(SUBS):$(DEV):sLL-cLL-link")
 }
 
-record(calcout, "CstatH-$(SUBS):$(DEV):sLL-cHL-link") {
+record(calcout, "CstatH-$(SUBS):$(DEV):sLL-cLL-link") {
   field(INPA, "CstatH-$(SUBS):$(DEV):sLL.VAL NPP")
-  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto PP")
-  field(INPC, "CstatH-Ctrl:opMode:sLocal PP")
-  field(CALC, "(B=0&&C=0)?VAL:A")
+#  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto PP")
+#  field(INPC, "CstatH-Ctrl:opMode:sLocal PP")
+  field(CALC, "A")
   field(OOPT, "On Change")
+  field(PHAS, "1")
   field(OUT, "CstatH-$(SUBS):$(DEV):cLL PP")
 }
 
-record(calcout, "CstatH-$(SUBS):$(DEV):sLL-cHL-remInitLink") {
-  field(SDIS, "CstatH-Ctrl:opMode:sLocal PP")
+record(calcout, "CstatH-$(SUBS):$(DEV):sLL-cLL-remInitLink") {
+#  field(SDIS, "CstatH-Ctrl:opMode:sLocal PP")
   field(INPA, "CstatH-$(SUBS):$(DEV):sLL.VAL PP")
-  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto PP")
-  field(CALC, "(B=0)?A:VAL")
-  field(OOPT, "On Change")
+#  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto PP")
+  field(CALC, "A")
+#  field(OOPT, "On Change")
   field(PINI, "YES")
+  field(PHAS, "1")
   field(OUT, "CstatH-$(SUBS):$(DEV):cLL PP")
 }
 
@@ -188,6 +193,7 @@ record(ao, "CstatH-$(SUBS):$(DEV):cHL") {
   field(FLNK, "CstatH-$(SUBS):$(DEV):cmdHL-link")
 }
 
+
 record(ao, "CstatH-$(SUBS):$(DEV):cLL") {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/$(OFFS2)+6 T=FLOAT")
@@ -195,3 +201,4 @@ record(ao, "CstatH-$(SUBS):$(DEV):cLL") {
   field(PREC, "6")
   field(FLNK, "CstatH-$(SUBS):$(DEV):cmdLL-link")
 }
+

@@ -7,6 +7,8 @@ epicsEnvSet("AUTOSAVE_SYSM_PV_PREFIX","hnoss:")
 #############################################
 
 requireSnippet(userPreDriverConf-hnoss-freia.cmd, IP_ADDR=$(PLC_IPADDR))
+sleep 2
+
 requireSnippet(dbToLoad-hnoss-freia.cmd)
 #requireSnippet(hnoss-freia-preSaveRestore.cmd)
 
