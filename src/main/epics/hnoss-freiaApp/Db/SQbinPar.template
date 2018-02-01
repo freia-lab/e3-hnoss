@@ -12,7 +12,6 @@ record(bo, "CstatH-Ctrl:$(SUBS):c$(SIG)") {
   field(OUT, "@PLC:HNOSS/$(OFFS2) T=BYTE B=$(BIT2)")
   field(ZNAM, "False")
   field(ONAM, "True")
-#  field(SDIS, "CstatH-Ctrl:opMode:sLocal")
   field(FLNK, "CstatH-Ctrl:$(SUBS):c$(SIG):cmdSetParam-link")
 }
 
@@ -21,15 +20,15 @@ record(calcout, "CstatH-Ctrl:$(SUBS):s$(SIG)-c$(SIG)-link") {
   field(INPB, "CstatH-Ctrl:opMode:sLocal PP")
   field(CALC, "(B=0)?VAL:A")
   field(OOPT, "On Change")
+  field(PHAS, "1")
   field(OUT, "CstatH-Ctrl:$(SUBS):c$(SIG) PP")
 }
 
 record(calcout, "CstatH-Ctrl:$(SUBS):s$(SIG)-c$(SIG)-remInitLink") {
-  field(SDIS, "CstatH-Ctrl:opMode:sLocal PP")
   field(INPA, "CstatH-Ctrl:$(SUBS):s$(SIG).VAL PP")
   field(CALC, "A")
-  field(OOPT, "On Change")
   field(PINI, "YES")
+  field(PHAS, "1")
   field(OUT, "CstatH-Ctrl:$(SUBS):c$(SIG) PP")
 }
 
@@ -38,6 +37,7 @@ record(bi, "CstatH-Ctrl:$(SUBS):s$(SIG)") {
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=$(BIT)")
   field(ZNAM, "False")
   field(ONAM, "True")
+  field(PINI, "YES")
   field(SCAN, "I/O Intr")
   field(FLNK, "CstatH-Ctrl:$(SUBS):s$(SIG)-c$(SIG)-link")
 }

@@ -20,15 +20,16 @@ record(calcout, "CstatH-Ctrl:$(SUBS):$(SIG2)-$(SIG)-link") {
   field(INPB, "CstatH-Ctrl:opMode:sLocal PP")
   field(CALC, "(B=0)?VAL:A")
   field(OOPT, "On Change")
+  field(PHAS, "1")
   field(OUT, "CstatH-Ctrl:$(SUBS):$(SIG) PP")
 }
 
 record(calcout, "CstatH-Ctrl:$(SUBS):$(SIG2)-$(SIG)-remInitLink") {
-  field(SDIS, "CstatH-Ctrl:opMode:sLocal PP")
   field(INPA, "CstatH-Ctrl:$(SUBS):$(SIG2).VAL PP")
   field(CALC, "A")
-  field(OOPT, "On Change")
+#  field(OOPT, "On Change")
   field(PINI, "YES")
+  field(PHAS, "1")
   field(OUT, "CstatH-Ctrl:$(SUBS):$(SIG) PP")
 }
 
