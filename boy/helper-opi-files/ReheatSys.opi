@@ -329,7 +329,7 @@ $(pv_value)</tooltip>
       <color red="192" green="192" blue="192" />
     </foreground_color>
     <height>292</height>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <macros>
       <include_parent_macros>true</include_parent_macros>
     </macros>
@@ -493,7 +493,17 @@ $(pv_value)</tooltip>
       <y>3</y>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
-      <actions hook="false" hook_all="false" />
+      <actions hook="true" hook_all="false">
+        <action type="OPEN_DISPLAY">
+          <path>../CmdPanels/CstatH-DI.opi</path>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+            <DI>$(P)-RHtr:LS550</DI>
+          </macros>
+          <mode>6</mode>
+          <description></description>
+        </action>
+      </actions>
       <alarm_pulsing>false</alarm_pulsing>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <background_color>
@@ -530,7 +540,7 @@ $(pv_value)</tooltip>
         <color red="0" green="255" blue="0" />
       </on_color>
       <on_label>ON</on_label>
-      <pv_name>CstatH-RHtr:LS550:sInp</pv_name>
+      <pv_name>$(P)-RHtr:LS550:sProcInp</pv_name>
       <pv_value />
       <rules>
         <rule name="BorderRule" prop_id="border_style" out_exp="false">
@@ -548,7 +558,8 @@ $(pv_value)</tooltip>
       <scripts />
       <show_boolean_label>false</show_boolean_label>
       <square_led>true</square_led>
-      <tooltip>$(pv_name)
+      <tooltip>Water level switch
+$(pv_name)
 $(pv_value)</tooltip>
       <visible>true</visible>
       <widget_type>LED</widget_type>

@@ -11,9 +11,16 @@ record(bi, "CstatH-$(SUBS):$(DEV):sForced")  {
 record(bi, "CstatH-$(SUBS):$(DEV):sInp")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=1")
-  field(OSV, "MAJOR")
+#  field(OSV, "MAJOR")
   field(ONAM, "True")
   field(ZNAM, "False")
+  field(PINI, "YES")
+  field(SCAN, "I/O Intr")
+}
+
+record(bi, "CstatH-$(SUBS):$(DEV):sProcInp-raw")  {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=2")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
 }
@@ -21,11 +28,13 @@ record(bi, "CstatH-$(SUBS):$(DEV):sInp")  {
 record(bi, "CstatH-$(SUBS):$(DEV):sProcInp")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=2")
-  field(OSV, "MAJOR")
+#  field(OSV, "MAJOR")
   field(ONAM, "True")
   field(ZNAM, "False")
-  field(PINI, "YES")
   field(SCAN, "I/O Intr")
+  field(SIML, "CstatH-$(SUBS):$(DEV):sForced")
+  field(SIOL, "CstatH-$(SUBS):$(DEV):sProcInp-raw")
+  field(SIMS, "INVALID")
 }
 
 record(bo, "CstatH-$(SUBS):$(DEV):cmdNorm") {
