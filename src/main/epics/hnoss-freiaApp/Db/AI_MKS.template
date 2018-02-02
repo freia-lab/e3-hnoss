@@ -27,7 +27,6 @@ record(mbbi, "CstatH-$(SUBS):$(DEV):sRdV-stat")  {
   field(SCAN, "I/O Intr")
   field(SDIS, "CstatH-Ctrl:$(MKS):SEV.VAL NPP MS")
   field(DISV, "-1") # Will never disable, but will propagate severity
-#  field(FLNK, "CstatH-$(SUBS):$(DEV):sRdV-cSetV-tranLink")
 }
 
 record(calcout, "CstatH-$(SUBS):$(DEV):sRdV-cSetV-link") {
@@ -36,26 +35,22 @@ record(calcout, "CstatH-$(SUBS):$(DEV):sRdV-cSetV-link") {
   field(CALC, "(B=1)?A:VAL")
   field(OOPT, "On Change")
   field(OUT, "CstatH-$(SUBS):$(DEV):cSetV PP")
-  field(DISV, "0")
-  field(SDIS, "CstatH-Ctrl:opMode:sLocal")
+  field(PHAS, "1")
 }
 
 record(calcout, "CstatH-$(SUBS):$(DEV):sRdV-cSetV-tranLink") {
-  field(SDIS, "CstatH-$(SUBS):$(DEV):sForced")
-  field(DISV, "0")
-  field(INPA, "CstatH-$(SUBS):$(DEV):sRdV.VAL NPP")
-  field(CALC, "A")
-  field(OOPT, "On Change")
-  field(OUT, "CstatH-$(SUBS):$(DEV):cSetV PP")
+  field(INPA, "CstatH-$(SUBS):$(DEV):sForced.VAL")
+  field(CALC, "1")
+  field(PHAS, "1")
+  field(OOPT, "Transition To Non-zero")
+  field(OUT, "CstatH-$(SUBS):$(DEV):sRdV-cSetV-initLink.PROC")
 }
 
 record(calcout, "CstatH-$(SUBS):$(DEV):sRdV-cSetV-initLink") {
-  field(INPA, "CstatH-$(SUBS):$(DEV):sRdV.VAL PP")
-  field(INPB, "CstatH-$(SUBS):$(DEV):sForced PP")
-  field(INPC, "CstatH-Ctrl:opMode:sLocal PP")
-  field(CALC, "(C=1&&B=1)?VAL:A")
-  field(OOPT, "On Change")
+  field(INPA, "CstatH-$(SUBS):$(DEV):sRdV-raw.VAL PP")
+  field(CALC, "A")
   field(PINI, "YES")
+  field(PHAS, "1")
   field(OUT, "CstatH-$(SUBS):$(DEV):cSetV PP")  
 }
 
