@@ -4,8 +4,6 @@ record(bi, "CstatH-$(SUBS):$(DEV):sForced")  {
   field(OSV, "MAJOR")
   field(ONAM, "Forced")
   field(ZNAM, "Normal")
-  field(PINI, "YES")
-  field(SCAN, "I/O Intr")
   field(FLNK, "CstatH-$(SUBS):$(DEV):sRdV-cSetV-tranLink")
 }
 
@@ -110,6 +108,7 @@ record(ai, "CstatH-$(SUBS):$(DEV):sRdV-raw") {
   field(INP, "@PLC:HNOSS/$(OFFS)+2 T=FLOAT")
   field(PREC, "$(PREC)")
   field(PINI, "YES")
+  field(FLNK, "CstatH-$(SUBS):$(DEV):sForced")
   field(SCAN, "I/O Intr")
   field(EGU, "$(EGU)")
   field(SDIS, "CstatH-Ctrl:$(MKS):SEV.VAL NPP MS")
