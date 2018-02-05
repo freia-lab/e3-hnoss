@@ -36,7 +36,7 @@ record(calcout, "CstatH-$(SUBS):$(DEV):sRdV-cSetV-link") {
 
 record(calcout, "CstatH-$(SUBS):$(DEV):sRdV-cSetV-tranLink") {
   field(INPA, "CstatH-$(SUBS):$(DEV):sForced.VAL NPP")
-  field(CALC, "1")
+  field(CALC, "A")
   field(PHAS, "1")
   field(OOPT, "Transition To Non-zero")
   field(OUT, "CstatH-$(SUBS):$(DEV):sRdV-cSetV-initLink.PROC")

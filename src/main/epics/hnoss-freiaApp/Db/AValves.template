@@ -11,7 +11,7 @@ record(bi, "CstatH-$(SUBS):$(DEV):sAuto") {
 
 record(calcout, "CstatH-$(SUBS):$(DEV):sRdV-cSetV-manInitLink") {
   field(INPA, "CstatH-$(SUBS):$(DEV):sAuto.VAL")
-  field(CALC, "1")
+  field(CALC, "A")
   field(OOPT, "Transition To Zero")
   field(OUT, "CstatH-$(SUBS):$(DEV):sRdV-cSetV-remInitLink.PROC")
 }
