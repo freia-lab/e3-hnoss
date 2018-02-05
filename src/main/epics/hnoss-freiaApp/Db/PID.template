@@ -22,7 +22,7 @@ record(ai, "CstatH-$(SUBS):$(DEV):sSetP") {
   field(PREC, "6")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
-  field(EGU, "$(EGU)")
+  field(EGU, "$(EGU_SP)")
   field(FLNK, "CstatH-$(SUBS):$(DEV):sSetP-cSetP-link")
 }
 
@@ -32,7 +32,7 @@ record(ai, "CstatH-$(SUBS):$(DEV):sOutV") {
   field(PREC, "6")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
-  field(EGU, "$(EGU)")
+  field(EGU, "$(EGU_OUT)")
   field(FLNK, "CstatH-$(SUBS):$(DEV):sOutV-cOutput-link")
 }
 
@@ -41,7 +41,6 @@ record(ai, "CstatH-$(SUBS):$(DEV):sKp") {
   field(INP, "@PLC:HNOSS/$(OFFS)+10 T=FLOAT")
   field(PREC, "6")
   field(SCAN, "I/O Intr")
-  field(EGU, "$(EGU)")
 }
 
 record(ai, "CstatH-$(SUBS):$(DEV):sTi") {
@@ -49,7 +48,7 @@ record(ai, "CstatH-$(SUBS):$(DEV):sTi") {
   field(INP, "@PLC:HNOSS/$(OFFS)+14 T=FLOAT")
   field(PREC, "6")
   field(SCAN, "I/O Intr")
-  field(EGU, "$(EGU)")
+  field(EGU, "s")
 }
 
 record(ai, "CstatH-$(SUBS):$(DEV):sTd") {
@@ -57,7 +56,7 @@ record(ai, "CstatH-$(SUBS):$(DEV):sTd") {
   field(INP, "@PLC:HNOSS/$(OFFS)+18 T=FLOAT")
   field(PREC, "6")
   field(SCAN, "I/O Intr")
-  field(EGU, "$(EGU)")
+  field(EGU, "s")
 }
 
 record(calcout, "CstatH-$(SUBS):$(DEV):sSetP-cSetP-link") {
@@ -172,7 +171,7 @@ record(ao, "CstatH-$(SUBS):$(DEV):cSetP") {
   field(OUT, "@PLC:HNOSS/$(OFFS2)+2 T=FLOAT")
   field(PINI, "YES")
   field(PREC, "6")
-  field(EGU, "$(EGU)")
+  field(EGU, "$(EGU_SP)")
   field(FLNK, "CstatH-$(SUBS):$(DEV):cmdSetP-link")
 }
 
@@ -190,7 +189,7 @@ record(ao, "CstatH-$(SUBS):$(DEV):cOutput") {
   field(OUT, "@PLC:HNOSS/$(OFFS2)+6 T=FLOAT")
   field(PINI, "YES")
   field(PREC, "6")
-  field(EGU, "$(EGU)")
+  field(EGU, "$(EGU_OUT)")
   field(FLNK, "CstatH-$(SUBS):$(DEV):cmdOutput-link")
 }
 

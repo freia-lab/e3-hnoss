@@ -213,22 +213,22 @@ file "AValves.template" { pattern
 #{RHtr,	CV552,   2476,	   1588,   0,	100,  percent}
 
 file "PID.template" { pattern
-{SUBS,   DEV,     OFFS,   OFFS2,    EGU}
-{LN2,    TIC200,  2696,   1720,    unknown}
-{LN2,    FIC200,  2718,   1730,    unknown}
-{LN2,    TIC201,  2740,   1740,    unknown}
-{LN2,    FIC201,  2762,   1750,    unknown}
-{SHe,    TIC301,  2784,   1760,    unknown}
-{SHe,    FIC301,  2806,   1770,    unknown}
-{SHe,    TIC302,  2828,   1780,    unknown}
-{SHe,    FIC302,  2850,   1790,    unknown}
-{LHe,    TIC101,  2872,   1800,    unknown}
-{MKS,    MKS1,    2894,   1810,    "%"}
-{MKS,    MKS2,    2916,   1820,    "%"}
-{MKS,    MKS3,    2938,   1830,    "%"}
-{LHe,    LIC100,  2960,   1840,    unknown}
-{LHe,    LIC101A, 2982,   1850,    unknown}
-{LHe,    LIC101B, 3004,   1860,    unknown}
+{SUBS,   DEV,     OFFS,   OFFS2,    EGU_OUT,	EGU_SP}
+{LN2,    TIC200,  2696,   1720,    "%",		"K"}
+{LN2,    FIC200,  2718,   1730,    "%",		"m3/h"}
+{LN2,    TIC201,  2740,   1740,    "%",		"K"}
+{LN2,    FIC201,  2762,   1750,    "%",		"m3/h"}
+{SHe,    TIC301,  2784,   1760,    "%",		"K"}
+{SHe,    FIC301,  2806,   1770,    "%",		"mg/s"}
+{SHe,    TIC302,  2828,   1780,    "%",		"K"}
+{SHe,    FIC302,  2850,   1790,    "%",		"mg/s"}
+{LHe,    TIC101,  2872,   1800,    "%",		"K"}
+{MKS,    MKS1,    2894,   1810,    "%",		"mbar"}
+{MKS,    MKS2,    2916,   1820,    "%",		"mbar"}
+{MKS,    MKS3,    2938,   1830,    "%",		"mbar"}
+{LHe,    LIC100,  2960,   1840,    "%",		"%"}
+{LHe,    LIC101A, 2982,   1850,    "%",		"%"}
+{LHe,    LIC101B, 3004,   1860,    "%",		"%"}
 }
 
 file "Heater1.template" { pattern
