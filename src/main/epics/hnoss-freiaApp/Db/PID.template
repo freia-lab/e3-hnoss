@@ -6,7 +6,7 @@ record(bi, "CstatH-$(SUBS):$(DEV):sAuto") {
   field(ZNAM, "Manual")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
-  field(FLNK, "CstatH-$(SUBS):$(DEV):SetP-cSetP-manInitLink")
+  field(FLNK, "CstatH-$(SUBS):$(DEV):sSetP-cSetP-manInitLink")
 }
 
 record(bi, "CstatH-$(SUBS):$(DEV):sRegOn") {
@@ -63,7 +63,7 @@ record(ai, "CstatH-$(SUBS):$(DEV):sTd") {
 
 record(calcout, "CstatH-$(SUBS):$(DEV):sSetP-cSetP-link") {
   field(INPA, "CstatH-$(SUBS):$(DEV):sSetP.VAL NPP")
-  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto PP")
+  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto NPP")
   field(INPC, "CstatH-Ctrl:opMode:sLocal PP")
   field(CALC, "(B=0&&C=0)?VAL:A")
   field(OOPT, "On Change")
@@ -88,7 +88,7 @@ record(calcout, "CstatH-$(SUBS):$(DEV):sSetP-cSetP-remInitLink") {
 
 record(calcout, "CstatH-$(SUBS):$(DEV):sOutV-cOutput-link") {
   field(INPA, "CstatH-$(SUBS):$(DEV):sOutV.VAL NPP")
-  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto PP")
+  field(INPB, "CstatH-$(SUBS):$(DEV):sAuto NPP")
   field(INPC, "CstatH-Ctrl:opMode:sLocal PP")
   field(CALC, "(B=0&&C=0)?VAL:A")
   field(OOPT, "On Change")
