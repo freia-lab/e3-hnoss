@@ -294,19 +294,19 @@ record (calc, "CstatH-RHtr:FT551:sCalcV")
    field (CALC, "D*A*C/(B+E)")
 }
 
-# Heart-bit to the PLC
+# Heart-bit to the PLC (Copy from Gersemi)
 
-record(calc, "CstatH-Ctrl:HeartBeat:counter") {
-  field(INPA, "CstatH-Ctrl:HeartBeat:counter")
-  field(CALC, "A+1")
-#  field(OUT, "CstatH-Ctrl:HeartBeat:HBcounter")
+record(longin, "CstatH-Ctrl:HeartBeat:Gersemi") {
+  field (DTYP, "S7plc")
+  field (INP,  "@PLC:HNOSS/2 T=UINT16")
+  field (SCAN, "I/O Intr")
 }
 
 record(ao, CstatH-Ctrl:HeartBeat:HBcounter) {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/2 T=INT16")
   field(SCAN, "10 second")
-  field(DOL, "CstatH-Ctrl:HeartBeat:counter PP")
+  field(DOL, "CstatH-Ctrl:HeartBeat:Gersemi")
   field(OMSL, "closed_loop")
 }
 
