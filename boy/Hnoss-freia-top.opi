@@ -962,7 +962,7 @@ Conditioning He circuits</tooltip>
           <step14>Stopping - waiting for PT101 to rise</step14>
           <step16>Stopping - waiting 10s</step16>
           <step18>Waiting for stopping 2K pumps. Press Accept to go on.</step18>
-          <step20>Stopping - step 20</step20>
+          <step20>Stopping - step 20. Press Accept again to go on.</step20>
           <step30>Stopping - step 30</step30>
         </macros>
         <mode>6</mode>
@@ -1405,13 +1405,13 @@ $(pv_value)</tooltip>
             <color name="IO PV OFF" red="77" green="77" blue="77" />
           </color_fillbackground>
           <color_hi>
-            <color name="Minor" red="255" green="255" blue="0" />
+            <color name="Minor" red="255" green="128" blue="0" />
           </color_hi>
           <color_hihi>
             <color name="Major" red="255" green="0" blue="0" />
           </color_hihi>
           <color_lo>
-            <color name="Minor" red="255" green="255" blue="0" />
+            <color name="Minor" red="255" green="128" blue="0" />
           </color_lo>
           <color_lolo>
             <color name="Major" red="255" green="0" blue="0" />
@@ -1535,13 +1535,13 @@ $(pv_value)</tooltip>
             <color name="IO PV OFF" red="77" green="77" blue="77" />
           </color_fillbackground>
           <color_hi>
-            <color name="Minor" red="255" green="255" blue="0" />
+            <color name="Minor" red="255" green="128" blue="0" />
           </color_hi>
           <color_hihi>
             <color name="Major" red="255" green="0" blue="0" />
           </color_hihi>
           <color_lo>
-            <color name="Minor" red="255" green="255" blue="0" />
+            <color name="Minor" red="255" green="128" blue="0" />
           </color_lo>
           <color_lolo>
             <color name="Major" red="255" green="0" blue="0" />
@@ -3751,7 +3751,7 @@ $(pv_value)</tooltip>
             </exp>
             <exp bool_exp="pv1==0">
               <value>
-                <color name="Minor" red="255" green="255" blue="0" />
+                <color name="Minor" red="255" green="128" blue="0" />
               </value>
             </exp>
             <pv trig="true">$(pv_name).SIMM</pv>
@@ -3858,7 +3858,7 @@ $(pv_value)</tooltip>
             </exp>
             <exp bool_exp="pv1==0">
               <value>
-                <color name="Minor" red="255" green="255" blue="0" />
+                <color name="Minor" red="255" green="128" blue="0" />
               </value>
             </exp>
             <pv trig="true">$(pv_name).SIMM</pv>
@@ -4046,7 +4046,7 @@ $(pv_value)</tooltip>
               </exp>
               <exp bool_exp="pv1==0">
                 <value>
-                  <color name="Minor" red="255" green="255" blue="0" />
+                  <color name="Minor" red="255" green="128" blue="0" />
                 </value>
               </exp>
               <pv trig="true">$(pv_name).SIMM</pv>
@@ -4235,7 +4235,7 @@ $(pv_value)</tooltip>
               </exp>
               <exp bool_exp="pv1==0">
                 <value>
-                  <color name="Minor" red="255" green="255" blue="0" />
+                  <color name="Minor" red="255" green="128" blue="0" />
                 </value>
               </exp>
               <pv trig="true">$(pv_name).SIMM</pv>
@@ -7745,13 +7745,13 @@ $(pv_value)</tooltip>
         <border_style>12</border_style>
         <border_width>2</border_width>
         <color_hi>
-          <color name="Minor" red="255" green="255" blue="0" />
+          <color name="Minor" red="255" green="128" blue="0" />
         </color_hi>
         <color_hihi>
           <color name="Major" red="255" green="0" blue="0" />
         </color_hihi>
         <color_lo>
-          <color name="Minor" red="255" green="255" blue="0" />
+          <color name="Minor" red="255" green="128" blue="0" />
         </color_lo>
         <color_lolo>
           <color name="Major" red="255" green="0" blue="0" />
@@ -7835,13 +7835,13 @@ $(pv_value)</tooltip>
           <color name="IO PV OFF" red="77" green="77" blue="77" />
         </color_fillbackground>
         <color_hi>
-          <color name="Minor" red="255" green="255" blue="0" />
+          <color name="Minor" red="255" green="128" blue="0" />
         </color_hi>
         <color_hihi>
           <color name="Major" red="255" green="0" blue="0" />
         </color_hihi>
         <color_lo>
-          <color name="Minor" red="255" green="255" blue="0" />
+          <color name="Minor" red="255" green="128" blue="0" />
         </color_lo>
         <color_lolo>
           <color name="Major" red="255" green="0" blue="0" />
@@ -7930,13 +7930,13 @@ $(pv_value)</tooltip>
           <color name="IO PV OFF" red="77" green="77" blue="77" />
         </color_fillbackground>
         <color_hi>
-          <color name="Minor" red="255" green="255" blue="0" />
+          <color name="Minor" red="255" green="128" blue="0" />
         </color_hi>
         <color_hihi>
           <color name="Major" red="255" green="0" blue="0" />
         </color_hihi>
         <color_lo>
-          <color name="Minor" red="255" green="255" blue="0" />
+          <color name="Minor" red="255" green="128" blue="0" />
         </color_lo>
         <color_lolo>
           <color name="Major" red="255" green="0" blue="0" />
@@ -8025,13 +8025,13 @@ $(pv_value)</tooltip>
           <color name="IO PV OFF" red="77" green="77" blue="77" />
         </color_fillbackground>
         <color_hi>
-          <color name="Minor" red="255" green="255" blue="0" />
+          <color name="Minor" red="255" green="128" blue="0" />
         </color_hi>
         <color_hihi>
           <color name="Major" red="255" green="0" blue="0" />
         </color_hihi>
         <color_lo>
-          <color name="Minor" red="255" green="255" blue="0" />
+          <color name="Minor" red="255" green="128" blue="0" />
         </color_lo>
         <color_lolo>
           <color name="Major" red="255" green="0" blue="0" />

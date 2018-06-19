@@ -281,6 +281,14 @@ record (calc, "CstatH-Ctrl:s7-disconnect-counter")
    field (CALC, "(A=0&&B=1)?C+1:C")
 }
 
+record (calc, "CstatH-Ctrl:s7-mod-scounter")
+{
+   field (INPA, "CstatH-Ctrl:s7-status-counter")
+   field (CALC, "A%1000")
+   field (SCAN, "10 second")
+   field (FLNK, "CstatH-Ctrl:HBcounter-ioc")
+}
+
 record (calc, "CstatH-RHtr:FT551:sCalcV")
 {
    field (INPA, "CstatH-RHtr:FT551:sRdV")
@@ -307,6 +315,15 @@ record(ao, CstatH-Ctrl:HeartBeat:HBcounter) {
   field(OUT, "@PLC:HNOSS/2 T=INT16")
   field(SCAN, "10 second")
   field(DOL, "CstatH-Ctrl:HeartBeat:Gersemi")
+  field(OMSL, "closed_loop")
+}
+
+# Heart-bit to the PLC (from this IOC)
+
+record(ao, "CstatH-Ctrl:HBcounter-ioc") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/4 T=INT16")
+  field(DOL, "CstatH-Ctrl:s7-mod-scounter")
   field(OMSL, "closed_loop")
 }
 
@@ -342,6 +359,16 @@ record(ao, CstatH-Cryo:Dwr:UY5202-PercOut) {
   field(OMSL, "closed_loop")
 }
 
+record(ao, CstatH-Cryo:Dwr:UY5201-PercOut) {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/36 T=FLOAT")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field(DOL, "Cryo-Dwr:V:UY5201-PercOut CA")
+  field(PREC, "2")
+  field(OMSL, "closed_loop")
+}
+
 record(ao, CstatH-2Kpumps:AllPumps:sFreq) {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/32 T=FLOAT")
@@ -360,6 +387,49 @@ record(bo, CstatH-Cryo:Dwr:CV5202_Slctd) {
   field (ONAM,  "Open")
   field (ZNAM,  "Closed")
   field(DOL, "Cryo-Dwr:Dwr:StCV5202_Slctd CA")
+  field(OMSL, "closed_loop")
+}
+record(bo, CstatH-Cryo:Dwr:CV5201_Slctd) {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/1 T=BYTE B=1")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field (ONAM,  "Open")
+  field (ZNAM,  "Closed")
+  field(DOL, "Cryo-Dwr:Dwr:StCV5201_Slctd CA")
+  field(OMSL, "closed_loop")
+}
+
+record(bo, "CstatH:Ctrl:sPBcomOK") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/1 T=BYTE B=2")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field (ONAM,  "Comm OK")
+  field (ZNAM,  "Comm Err")
+  field(DOL, "CstatH-2Kpumps:Ctrl:sPBcomOK CA")
+  field(OMSL, "closed_loop")
+}
+
+record(bo, "CstatH:Ctrl:sIocConn") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/1 T=BYTE B=3")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field (ONAM,  "Connected")
+  field (ZNAM,  "Disconnected")
+  field(DOL, "PLC-WTRVAC:status CA")
+  field(OMSL, "closed_loop")
+}
+
+record(bo, "CstatH:Ctrl:sIocConn-stat") {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/1 T=BYTE B=4")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field (ONAM,  "Connected")
+  field (ZNAM,  "Disconnected")
+  field(DOL, "PLC-WTRVAC:status.STAT CA")
   field(OMSL, "closed_loop")
 }
 
