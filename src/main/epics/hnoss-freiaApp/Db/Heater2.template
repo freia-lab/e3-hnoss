@@ -12,8 +12,8 @@ record(bi, "CstatH-$(SUBS):$(DEV):sTsw")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=1")
   field(OSV, "MAJOR")
-  field(ONAM, "True")
-  field(ZNAM, "False")
+  field(ONAM, "Fault")
+  field(ZNAM, "OK")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
 }
@@ -21,9 +21,8 @@ record(bi, "CstatH-$(SUBS):$(DEV):sTsw")  {
 record(bi, "CstatH-$(SUBS):$(DEV):sCmd1")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=2")
-  field(OSV, "MAJOR")
-  field(ONAM, "True")
-  field(ZNAM, "False")
+  field(ONAM, "On")
+  field(ZNAM, "Off")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
 }
@@ -31,9 +30,8 @@ record(bi, "CstatH-$(SUBS):$(DEV):sCmd1")  {
 record(bi, "CstatH-$(SUBS):$(DEV):sCmd2")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=3")
-  field(OSV, "MAJOR")
-  field(ONAM, "True")
-  field(ZNAM, "False")
+  field(ONAM, "On")
+  field(ZNAM, "Off")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
 }
@@ -41,9 +39,8 @@ record(bi, "CstatH-$(SUBS):$(DEV):sCmd2")  {
 record(bi, "CstatH-$(SUBS):$(DEV):sCmd3")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=4")
-  field(OSV, "MAJOR")
-  field(ONAM, "True")
-  field(ZNAM, "False")
+  field(ONAM, "On")
+  field(ZNAM, "Off")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
 }
@@ -61,9 +58,8 @@ record(bi, "CstatH-$(SUBS):$(DEV):sLs")  {
 record(bi, "CstatH-$(SUBS):$(DEV):sHtrOn")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=6")
-  field(OSV, "MAJOR")
-  field(ONAM, "True")
-  field(ZNAM, "False")
+  field(ONAM, "On")
+  field(ZNAM, "Off")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
 }
@@ -82,8 +78,8 @@ record(bi, "CstatH-$(SUBS):$(DEV):sFlt")  {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS)+1 T=BYTE B=0")
   field(OSV, "MAJOR")
-  field(ONAM, "True")
-  field(ZNAM, "False")
+  field(ONAM, "Fault")
+  field(ZNAM, "OK")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
 }

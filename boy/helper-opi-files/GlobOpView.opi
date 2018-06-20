@@ -649,7 +649,7 @@ $(pv_value)</tooltip>
         <color name="IO InputPV Fg" red="0" green="32" blue="92" />
       </foreground_color>
       <height>103</height>
-      <image_file>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HX General A.svg</image_file>
+      <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
       <name>$(system):EH100</name>
       <no_animation>false</no_animation>
       <off_color>
@@ -1815,7 +1815,7 @@ $(pv_value)</tooltip>
         <color name="IO InputPV Fg" red="0" green="32" blue="92" />
       </foreground_color>
       <height>103</height>
-      <image_file>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HX General A.svg</image_file>
+      <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
       <name>$(system):EH105</name>
       <no_animation>false</no_animation>
       <off_color>
@@ -2117,7 +2117,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>57</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</image_file>
     <name>$(system):CV102</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -2263,7 +2263,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>57</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</image_file>
     <name>$(system):CV103</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -2949,7 +2949,7 @@ $(pv_value)</tooltip>
         <color name="IO InputPV Fg" red="0" green="32" blue="92" />
       </foreground_color>
       <height>103</height>
-      <image_file>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HX General A.svg</image_file>
+      <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
       <name>$(system):EH102</name>
       <no_animation>false</no_animation>
       <off_color>
@@ -3884,7 +3884,7 @@ HI</text>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>57</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</image_file>
     <name>$(system):CV105</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -4231,7 +4231,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>57</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</image_file>
     <name>$(system):CV104</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -5168,7 +5168,7 @@ $(pv_value)</tooltip>
         <color name="IO InputPV Fg" red="0" green="32" blue="92" />
       </foreground_color>
       <height>103</height>
-      <image_file>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HX General A.svg</image_file>
+      <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
       <name>$(system):EH106</name>
       <no_animation>false</no_animation>
       <off_color>
@@ -6566,7 +6566,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>57</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</image_file>
     <name>$(system):CV100</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -7431,7 +7431,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>46</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</image_file>
     <name>CstatH-RHtr:CV550</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -8498,7 +8498,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>46</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</image_file>
     <name>CstatH-RHtr:CV552</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -8938,7 +8938,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>46</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</image_file>
     <name>CstatH-RHtr:CV551</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -10337,7 +10337,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>103</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HX General A.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
     <name>CstatH-SHe:EH300</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -10565,7 +10565,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>103</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HX General A.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
     <name>$(system):EH101</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -10892,7 +10892,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>125</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HX General A.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
     <name>CstatH-SHe:EH303</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -11342,7 +11342,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>46</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</image_file>
     <name>CstatH-SHe:CV302</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -11775,7 +11775,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>103</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HX General A.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
     <name>CstatH-SHe:EH301</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -12003,7 +12003,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>46</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</image_file>
     <name>CstatH-SHe:CV301</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -12543,7 +12543,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>57</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</image_file>
     <name>$(system):CV101</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -15822,7 +15822,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>103</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HX General A.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
     <name>$(system):EH104</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -16282,7 +16282,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>103</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HX General A.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
     <name>$(system):EH103</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -16592,7 +16592,7 @@ $(pv_value)</tooltip>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
     <height>103</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HX General A.svg</image_file>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
     <name>CstatH-SHe:EH302</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -20887,8 +20887,8 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>125</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HX General A.svg</image_file>
+    <height>124</height>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
     <name>$(system):EH108</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -20944,7 +20944,7 @@ $(pv_value)</tooltip>
     <transparency>true</transparency>
     <visible>true</visible>
     <widget_type>Boolean Symbol Image Monitor</widget_type>
-    <width>103</width>
+    <width>102</width>
     <wuid>-2e82a095:14e62aaf961:1560</wuid>
     <x>847</x>
     <y>680</y>
@@ -21051,8 +21051,8 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>125</height>
-    <image_file>../../SymbolLibrary/SVG/Fluid/Heat_Exchangers/HX General A.svg</image_file>
+    <height>124</height>
+    <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
     <name>$(system):EH107</name>
     <no_animation>false</no_animation>
     <off_color>
@@ -21108,7 +21108,7 @@ $(pv_value)</tooltip>
     <transparency>true</transparency>
     <visible>true</visible>
     <widget_type>Boolean Symbol Image Monitor</widget_type>
-    <width>103</width>
+    <width>102</width>
     <wuid>-2e82a095:14e62aaf961:15b7</wuid>
     <x>162</x>
     <y>677</y>

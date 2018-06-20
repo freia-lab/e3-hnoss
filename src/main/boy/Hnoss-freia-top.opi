@@ -1723,7 +1723,7 @@ $(pv_value)</tooltip>
           <bit>0</bit>
           <on_label>Open</on_label>
           <border_width>2</border_width>
-          <image_file>../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
+          <image_file>../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</image_file>
           <crop_right>0</crop_right>
           <crop_left>0</crop_left>
           <wuid>-262d394c:148ea617cf1:-669b</wuid>
@@ -2294,7 +2294,7 @@ $(pv_value)</tooltip>
           <bit>0</bit>
           <on_label>ON</on_label>
           <border_width>2</border_width>
-          <image_file>../SymbolLibrary/SVG/Fluid/Pumps/PV Vacuum Pump.svg</image_file>
+          <image_file>../SymbolLibrary/PNG/Fluid/Pumps/PV Vacuum Pump.png</image_file>
           <crop_right>0</crop_right>
           <crop_left>0</crop_left>
           <wuid>-262d394c:149bd45c177:-7385</wuid>
@@ -2429,7 +2429,7 @@ $(pv_value)</tooltip>
         <on_state>OK</on_state>
         <on_label>ON</on_label>
         <border_width>2</border_width>
-        <image_file>../SymbolLibrary/SVG/Fluid/Pumps/PV Vacuum Pump.svg</image_file>
+        <image_file>../SymbolLibrary/PNG/Fluid/Pumps/PV Vacuum Pump.png</image_file>
         <crop_right>0</crop_right>
         <crop_left>0</crop_left>
         <wuid>-262d394c:149bd45c177:-4aa1</wuid>
@@ -2674,7 +2674,7 @@ $(pv_value)</tooltip>
         <bit>-1</bit>
         <on_label>ON</on_label>
         <border_width>2</border_width>
-        <image_file>../SymbolLibrary/SVG/Fluid/Pumps/PV Vacuum Pump.svg</image_file>
+        <image_file>../SymbolLibrary/PNG/Fluid/Pumps/PV Vacuum Pump.png</image_file>
         <crop_right>0</crop_right>
         <crop_left>0</crop_left>
         <wuid>-262d394c:149bd45c177:-2f21</wuid>

@@ -1699,7 +1699,7 @@ $(pv_value)</tooltip>
             <color name="IO InputPV Fg" red="0" green="32" blue="92" />
           </foreground_color>
           <height>46</height>
-          <image_file>../SymbolLibrary/SVG/Fluid/Valves/VC 2 way-Valves Control.svg</image_file>
+          <image_file>../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</image_file>
           <name>Boolean Symbol Image Monitor Template</name>
           <no_animation>false</no_animation>
           <off_color>
@@ -2296,7 +2296,7 @@ $(pv_value)</tooltip>
             <color name="IO InputPV Fg" red="0" green="32" blue="92" />
           </foreground_color>
           <height>63</height>
-          <image_file>../SymbolLibrary/SVG/Fluid/Pumps/PV Vacuum Pump.svg</image_file>
+          <image_file>../SymbolLibrary/PNG/Fluid/Pumps/PV Vacuum Pump.png</image_file>
           <name>Boolean Symbol Image Control Template</name>
           <no_animation>false</no_animation>
           <off_color>
@@ -2445,7 +2445,7 @@ $(pv_value)</tooltip>
           <color name="IO InputPV Fg" red="0" green="32" blue="92" />
         </foreground_color>
         <height>63</height>
-        <image_file>../SymbolLibrary/SVG/Fluid/Pumps/PV Vacuum Pump.svg</image_file>
+        <image_file>../SymbolLibrary/PNG/Fluid/Pumps/PV Vacuum Pump.png</image_file>
         <name>Boolean Symbol Image Control Template</name>
         <no_animation>false</no_animation>
         <off_color>
@@ -2698,7 +2698,7 @@ $(pv_value)</tooltip>
           <color name="IO InputPV Fg" red="0" green="32" blue="92" />
         </foreground_color>
         <height>63</height>
-        <image_file>../SymbolLibrary/SVG/Fluid/Pumps/PV Vacuum Pump.svg</image_file>
+        <image_file>../SymbolLibrary/PNG/Fluid/Pumps/PV Vacuum Pump.png</image_file>
         <name>Boolean Symbol Image Control Template</name>
         <no_animation>false</no_animation>
         <off_color>
