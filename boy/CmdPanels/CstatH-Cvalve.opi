@@ -10,7 +10,7 @@
   <background_color>
     <color name="IO Shape Fill" red="188" green="188" blue="188" />
   </background_color>
-  <boy_version>5.1.0.201708071144</boy_version>
+  <boy_version>5.1.0</boy_version>
   <foreground_color>
     <color name="IO Grid" red="215" green="215" blue="215" />
   </foreground_color>
@@ -150,7 +150,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="Major" red="255" green="0" blue="0" />
     </foreground_color>
-    <height>30</height>
+    <height>28</height>
     <horizontal_alignment>1</horizontal_alignment>
     <name>Label Template_5</name>
     <rules>
@@ -174,7 +174,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>249</width>
+    <width>250</width>
     <wrap_words>true</wrap_words>
     <wuid>-644c3022:14e1b80341b:-79d0</wuid>
     <x>10</x>
@@ -215,7 +215,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>129</width>
+    <width>132</width>
     <wrap_words>true</wrap_words>
     <wuid>-644c3022:14e1b80341b:-761f</wuid>
     <x>30</x>
@@ -242,7 +242,7 @@ $(pv_value)</tooltip>
     </font>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <foreground_color>
-      <color name="IO OutputPV Fg" red="255" green="255" blue="255" />
+      <color name="IO OutputPV Fg" red="0" green="0" blue="0" />
     </foreground_color>
     <format_type>0</format_type>
     <height>21</height>
@@ -254,7 +254,7 @@ $(pv_value)</tooltip>
     <name>Text Input Template</name>
     <next_focus>0</next_focus>
     <password_input>false</password_input>
-    <precision>0</precision>
+    <precision>1</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>$(Cvalve):cSetV</pv_name>
     <pv_value />
@@ -334,7 +334,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>133</width>
+    <width>136</width>
     <wrap_words>true</wrap_words>
     <wuid>-644c3022:14e1b80341b:-735b</wuid>
     <x>30</x>
@@ -375,7 +375,7 @@ $(pv_value)</tooltip>
     <vertical_alignment>1</vertical_alignment>
     <visible>true</visible>
     <widget_type>Label</widget_type>
-    <width>93</width>
+    <width>95</width>
     <wrap_words>true</wrap_words>
     <wuid>-644c3022:14e1b80341b:-1ee7</wuid>
     <x>30</x>
@@ -407,7 +407,7 @@ $(pv_value)</tooltip>
     <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update Template_1</name>
-    <precision>0</precision>
+    <precision>1</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>$(Cvalve):sRdV</pv_name>
     <pv_value />
@@ -466,7 +466,7 @@ $(pv_value)</tooltip>
     <height>21</height>
     <horizontal_alignment>0</horizontal_alignment>
     <name>Text Update Template_2</name>
-    <precision>0</precision>
+    <precision>1</precision>
     <precision_from_pv>false</precision_from_pv>
     <pv_name>$(Cvalve):sAutoRdV</pv_name>
     <pv_value />

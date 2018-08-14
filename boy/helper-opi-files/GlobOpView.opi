@@ -185,7 +185,7 @@ $(pv_value)</tooltip>
       <rule name="Border color" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -392,7 +392,7 @@ $(pv_value)</tooltip>
         <rule name="Border color" prop_id="border_color" out_exp="false">
           <exp bool_exp="pv0==0">
             <value>
-              <color name="Minor" red="255" green="128" blue="0" />
+              <color name="Minor" red="255" green="255" blue="0" />
             </value>
           </exp>
           <pv trig="true">$(name):sAuto</pv>
@@ -676,7 +676,7 @@ $(pv_value)</tooltip>
         <rule name="bordercolor" prop_id="border_color" out_exp="false">
           <exp bool_exp="pv0==0">
             <value>
-              <color name="Minor" red="255" green="128" blue="0" />
+              <color name="Minor" red="255" green="255" blue="0" />
             </value>
           </exp>
           <pv trig="true">$(name):sAuto</pv>
@@ -1842,7 +1842,7 @@ $(pv_value)</tooltip>
         <rule name="bordercolor" prop_id="border_color" out_exp="false">
           <exp bool_exp="pv0==0">
             <value>
-              <color name="Minor" red="255" green="128" blue="0" />
+              <color name="Minor" red="255" green="255" blue="0" />
             </value>
           </exp>
           <pv trig="true">$(name):sAuto</pv>
@@ -2154,7 +2154,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -2300,7 +2300,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -2401,7 +2401,7 @@ $(pv_value)</tooltip>
       <rule name="Border color" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -2976,7 +2976,7 @@ $(pv_value)</tooltip>
         <rule name="bordercolor" prop_id="border_color" out_exp="false">
           <exp bool_exp="pv0==0">
             <value>
-              <color name="Minor" red="255" green="128" blue="0" />
+              <color name="Minor" red="255" green="255" blue="0" />
             </value>
           </exp>
           <pv trig="true">$(name):sAuto</pv>
@@ -3921,7 +3921,7 @@ HI</text>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -4268,7 +4268,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -4309,13 +4309,13 @@ $(pv_value)</tooltip>
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
     </color_fillbackground>
     <color_hi>
-      <color name="Minor" red="255" green="128" blue="0" />
+      <color name="Minor" red="255" green="255" blue="0" />
     </color_hi>
     <color_hihi>
       <color name="Major" red="255" green="0" blue="0" />
     </color_hihi>
     <color_lo>
-      <color name="Minor" red="255" green="128" blue="0" />
+      <color name="Minor" red="255" green="255" blue="0" />
     </color_lo>
     <color_lolo>
       <color name="Major" red="255" green="0" blue="0" />
@@ -4541,7 +4541,7 @@ $(pv_value)</tooltip>
       <rule name="Border color" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -5195,7 +5195,7 @@ $(pv_value)</tooltip>
         <rule name="bordercolor" prop_id="border_color" out_exp="false">
           <exp bool_exp="pv0==0">
             <value>
-              <color name="Minor" red="255" green="128" blue="0" />
+              <color name="Minor" red="255" green="255" blue="0" />
             </value>
           </exp>
           <pv trig="true">$(name):sAuto</pv>
@@ -6165,7 +6165,7 @@ $(pv_value)</tooltip>
         </exp>
         <exp bool_exp="pv1==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
@@ -6450,7 +6450,7 @@ $(pv_value)</tooltip>
         </exp>
         <exp bool_exp="pv1==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
@@ -6603,7 +6603,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -6915,7 +6915,7 @@ $(pv_value)</tooltip>
         </exp>
         <exp bool_exp="pv1==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
@@ -7622,7 +7622,7 @@ $(pv_value)</tooltip>
         <rule name="bordercolor" prop_id="border_color" out_exp="false">
           <exp bool_exp="pv0==0">
             <value>
-              <color name="Minor" red="255" green="128" blue="0" />
+              <color name="Minor" red="255" green="255" blue="0" />
             </value>
           </exp>
           <pv trig="true">CstatH-MKS:$(name):sAuto</pv>
@@ -7861,7 +7861,7 @@ $(pv_value)</tooltip>
         </exp>
         <exp bool_exp="pv1==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
@@ -8009,7 +8009,7 @@ $(pv_value)</tooltip>
         </exp>
         <exp bool_exp="pv1==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
@@ -8310,7 +8310,7 @@ $(pv_value)</tooltip>
         </exp>
         <exp bool_exp="pv1==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
@@ -8673,7 +8673,7 @@ $(pv_value)</tooltip>
         <rule name="bordercolor" prop_id="border_color" out_exp="false">
           <exp bool_exp="pv0==0">
             <value>
-              <color name="Minor" red="255" green="128" blue="0" />
+              <color name="Minor" red="255" green="255" blue="0" />
             </value>
           </exp>
           <pv trig="true">CstatH-MKS:$(name):sAuto</pv>
@@ -8832,7 +8832,7 @@ $(pv_value)</tooltip>
         </exp>
         <exp bool_exp="pv1==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
@@ -9162,7 +9162,7 @@ $(pv_value)</tooltip>
         </exp>
         <exp bool_exp="pv1==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
@@ -9310,7 +9310,7 @@ $(pv_value)</tooltip>
         </exp>
         <exp bool_exp="pv1==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
@@ -9515,7 +9515,7 @@ $(pv_value)</tooltip>
         </exp>
         <exp bool_exp="pv1==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
@@ -10364,7 +10364,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -10592,7 +10592,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -10891,7 +10891,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>125</height>
+    <height>124</height>
     <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
     <name>CstatH-SHe:EH303</name>
     <no_animation>false</no_animation>
@@ -10919,7 +10919,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -10948,7 +10948,7 @@ $(pv_value)</tooltip>
     <transparency>true</transparency>
     <visible>true</visible>
     <widget_type>Boolean Symbol Image Monitor</widget_type>
-    <width>103</width>
+    <width>102</width>
     <wuid>-2e82a095:14e680ba254:-64e5</wuid>
     <x>1148</x>
     <y>180</y>
@@ -11379,7 +11379,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -11520,7 +11520,7 @@ $(pv_value)</tooltip>
         </exp>
         <exp bool_exp="pv1==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
@@ -11774,7 +11774,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>103</height>
+    <height>102</height>
     <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
     <name>CstatH-SHe:EH301</name>
     <no_animation>false</no_animation>
@@ -11802,7 +11802,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -11831,7 +11831,7 @@ $(pv_value)</tooltip>
     <transparency>true</transparency>
     <visible>true</visible>
     <widget_type>Boolean Symbol Image Monitor</widget_type>
-    <width>125</width>
+    <width>124</width>
     <wuid>-8eebde:14e687c837b:-7c44</wuid>
     <x>987</x>
     <y>391</y>
@@ -12040,7 +12040,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -12181,7 +12181,7 @@ $(pv_value)</tooltip>
         </exp>
         <exp bool_exp="pv1==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(pv_name).SIMM</pv>
@@ -12379,7 +12379,7 @@ $(pv_value)</tooltip>
         <rule name="bordercolor" prop_id="border_color" out_exp="false">
           <exp bool_exp="pv0==0">
             <value>
-              <color name="Minor" red="255" green="128" blue="0" />
+              <color name="Minor" red="255" green="255" blue="0" />
             </value>
           </exp>
           <pv trig="true">CstatH-MKS:$(name):sAuto</pv>
@@ -12421,13 +12421,13 @@ $(pv_value)</tooltip>
       <color name="IO Shape Fill" red="188" green="188" blue="188" />
     </color_fillbackground>
     <color_hi>
-      <color name="Minor" red="255" green="128" blue="0" />
+      <color name="Minor" red="255" green="255" blue="0" />
     </color_hi>
     <color_hihi>
       <color name="Major" red="255" green="0" blue="0" />
     </color_hihi>
     <color_lo>
-      <color name="Minor" red="255" green="128" blue="0" />
+      <color name="Minor" red="255" green="255" blue="0" />
     </color_lo>
     <color_lolo>
       <color name="Major" red="255" green="0" blue="0" />
@@ -12580,7 +12580,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -15821,7 +15821,7 @@ $(pv_value)</tooltip>
     <foreground_color>
       <color name="IO InputPV Fg" red="0" green="32" blue="92" />
     </foreground_color>
-    <height>103</height>
+    <height>102</height>
     <image_file>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</image_file>
     <name>$(system):EH104</name>
     <no_animation>false</no_animation>
@@ -15849,7 +15849,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -15878,7 +15878,7 @@ $(pv_value)</tooltip>
     <transparency>true</transparency>
     <visible>true</visible>
     <widget_type>Boolean Symbol Image Monitor</widget_type>
-    <width>125</width>
+    <width>124</width>
     <wuid>-2e82a095:14e62aaf961:-25ec</wuid>
     <x>679</x>
     <y>646</y>
@@ -16309,7 +16309,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -16619,7 +16619,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -19409,11 +19409,11 @@ $(pv_value)</tooltip>
     <vertical_alignment>0</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>70</width>
+    <width>58</width>
     <wrap_words>false</wrap_words>
     <wuid>-8eebde:14e687c837b:-7beb</wuid>
-    <x>1313</x>
-    <y>335</y>
+    <x>1329</x>
+    <y>330</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -19468,11 +19468,11 @@ $(pv_value)</tooltip>
     <vertical_alignment>0</vertical_alignment>
     <visible>true</visible>
     <widget_type>Text Update</widget_type>
-    <width>70</width>
+    <width>50</width>
     <wrap_words>false</wrap_words>
     <wuid>-8eebde:14e687c837b:-7d8c</wuid>
-    <x>1319</x>
-    <y>408</y>
+    <x>1333</x>
+    <y>402</y>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
     <actions hook="false" hook_all="false" />
@@ -20915,7 +20915,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -21079,7 +21079,7 @@ $(pv_value)</tooltip>
       <rule name="bordercolor" prop_id="border_color" out_exp="false">
         <exp bool_exp="pv0==0">
           <value>
-            <color name="Minor" red="255" green="128" blue="0" />
+            <color name="Minor" red="255" green="255" blue="0" />
           </value>
         </exp>
         <pv trig="true">$(name):sAuto</pv>
@@ -21171,5 +21171,165 @@ $(pv_value)</tooltip>
     <wuid>65090fd1:14e6909c5fc:-3141</wuid>
     <x>181</x>
     <y>786</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <alpha>255</alpha>
+    <anti_alias>true</anti_alias>
+    <arrow_length>20</arrow_length>
+    <arrows>0</arrows>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color name="IO Link" red="0" green="32" blue="92" />
+    </background_color>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>1</border_width>
+    <enabled>true</enabled>
+    <fill_arrow>true</fill_arrow>
+    <fill_level>0.0</fill_level>
+    <font>
+      <opifont.name fontName="Cantarell" height="11" style="0" pixels="false">Default</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <height>11</height>
+    <horizontal_fill>true</horizontal_fill>
+    <line_style>1</line_style>
+    <line_width>1</line_width>
+    <name>Polyline</name>
+    <points>
+      <point x="425" y="63" />
+      <point x="458" y="73" />
+      <point x="458" y="73" />
+      <point x="458" y="73" />
+      <point x="458" y="73" />
+    </points>
+    <pv_name></pv_name>
+    <pv_value />
+    <rotation_angle>0.0</rotation_angle>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <widget_type>Polyline</widget_type>
+    <width>34</width>
+    <wuid>-5b8fdf1d:1653899e768:-70b8</wuid>
+    <x>425</x>
+    <y>63</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <auto_size>true</auto_size>
+    <background_color>
+      <color name="IO Background" red="255" green="255" blue="205" />
+    </background_color>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <border_style>0</border_style>
+    <border_width>2</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="arial" height="10" style="0" pixels="false">IO Normal</opifont.name>
+    </font>
+    <foreground_color>
+      <color name="IO Text Fg" red="0" green="32" blue="92" />
+    </foreground_color>
+    <height>38</height>
+    <horizontal_alignment>0</horizontal_alignment>
+    <name>Label Template_127</name>
+    <rules />
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <show_scrollbar>false</show_scrollbar>
+    <text>PT300
+</text>
+    <tooltip></tooltip>
+    <transparent>true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <visible>true</visible>
+    <widget_type>Label</widget_type>
+    <width>48</width>
+    <wrap_words>true</wrap_words>
+    <wuid>-5b8fdf1d:1653899e768:-708f</wuid>
+    <x>1362</x>
+    <y>203</y>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+    <actions hook="false" hook_all="false" />
+    <alarm_pulsing>false</alarm_pulsing>
+    <auto_size>false</auto_size>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color name="IO InputPV Bg" red="255" green="255" blue="255" />
+    </background_color>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215" />
+    </border_color>
+    <border_style>1</border_style>
+    <border_width>2</border_width>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="arial" height="10" style="1" pixels="false">IO Input 1</opifont.name>
+    </font>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <foreground_color>
+      <color name="IO InputPV Fg" red="0" green="32" blue="92" />
+    </foreground_color>
+    <format_type>0</format_type>
+    <height>38</height>
+    <horizontal_alignment>0</horizontal_alignment>
+    <name>Text Update Template_144</name>
+    <precision>2</precision>
+    <precision_from_pv>false</precision_from_pv>
+    <pv_name>CstatH-SHe:PT300:sRdV</pv_name>
+    <pv_value />
+    <rotation_angle>0.0</rotation_angle>
+    <rules>
+      <rule name="BorderRule" prop_id="border_style" out_exp="false">
+        <exp bool_exp="pv0==1">
+          <value>9</value>
+        </exp>
+        <pv trig="true">$(pv_name).SIMM</pv>
+      </rule>
+    </rules>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <scripts />
+    <show_units>true</show_units>
+    <text>###</text>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <transparent>true</transparent>
+    <vertical_alignment>0</vertical_alignment>
+    <visible>true</visible>
+    <widget_type>Text Update</widget_type>
+    <width>78</width>
+    <wrap_words>true</wrap_words>
+    <wuid>-5b8fdf1d:1653899e768:-708e</wuid>
+    <x>1344</x>
+    <y>223</y>
   </widget>
 </display>
