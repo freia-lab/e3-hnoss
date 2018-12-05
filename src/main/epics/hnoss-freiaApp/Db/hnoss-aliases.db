@@ -1,0 +1,3 @@
+# Aliases for the cryomodule
+alias("CstatH-LHe:PT101:sRdV", "CM-CM:PT02:sRdV")
+alias("CstatH-LHe:PT102:sRdV", "CM-CM:PT03:sRdV")
