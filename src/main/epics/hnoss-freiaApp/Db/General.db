@@ -77,7 +77,7 @@ record(mbbi, "CstatH-RHtr:opMode:sStep_2K_X") {
   field (SHFT, "0")
   field (ZRST, "Idle")
   field (ONVL, "2")
-  field (ONST, "Closing CV550")
+  field (ONST, "Closing CV552")
   field (TWVL, "4")
   field (TWST, "Finishing...")
   field (PINI, "YES")
