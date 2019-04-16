@@ -444,9 +444,27 @@ record(bo, CstatH-Cryo:Dwr:CV5202_Slctd) {
   field(SCAN, "10 second")
   field (ONAM,  "Open")
   field (ZNAM,  "Closed")
-  field(DOL, "Cryo-Dwr:Dwr:StCV5202_Slctd CA")
+  field(DOL, "Cryo-Dwr:Dwr:StCV5202_Slctd CA MSI")
+  field(OMSL, "closed_loop")
+  field(FLNK, "CstatH-Cryo:Dwr:CV5202_int")
+}
+record(calc, CstatH-Cryo:Dwr:CV5202_int) {
+  field(PINI, "NO")
+  field(INPA, "CstatH-Cryo:Dwr:CV5202_Slctd.SEVR NMS")
+  field(CALC, "(A<3)?1:0")
+  field(FLNK, "CstatH-Cryo:Dwr:CV5202_Valid")
+}
+record(bo, CstatH-Cryo:Dwr:CV5202_Valid) {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/1 T=BYTE B=7")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field (ONAM,  "Valid")
+  field (ZNAM,  "Invalid")
+  field(DOL, "CstatH-Cryo:Dwr:CV5202_int NMS")
   field(OMSL, "closed_loop")
 }
+
 record(bo, CstatH-Cryo:Dwr:CV5203_Slctd) {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/1 T=BYTE B=1")
@@ -454,7 +472,7 @@ record(bo, CstatH-Cryo:Dwr:CV5203_Slctd) {
   field(SCAN, "10 second")
   field (ONAM,  "Open")
   field (ZNAM,  "Closed")
-  field(DOL, "Cryo-Dwr:Dwr:StCV5203_Slctd CA")
+  field(DOL, "Cryo-Dwr:Dwr:StCV5203_Slctd CA MSI")
   field(OMSL, "closed_loop")
 }
 
