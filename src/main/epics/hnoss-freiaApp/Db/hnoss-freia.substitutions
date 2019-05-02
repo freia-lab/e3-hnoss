@@ -360,6 +360,7 @@ file "SQanalog.template" { pattern
 {SQ7,	cP_CV102,      3544,  FLOAT, sP_CV102,   5078	"%"}
 {SQ7,	cP_CV103,      3548,  FLOAT, sP_CV103,   5082	"%%"}
 {SQ7,	cP_CV104,      3552,  FLOAT, sP_CV104,   5086	"%"}
+{SQ7,	cP_CM_SP_MKS2, 3556,  FLOAT, sP_CM_SP_MKS2,5090 "mbar"}
 {SQ8,	cP_CV550,      3584,  FLOAT, sP_CV550,   5136	"%"}
 {SQ8,	cP_LowLt,      3588,  FLOAT, sP_LowLt,   5140	"K"}
 {SQ8,	cP_HighLt,     3592,  FLOAT, sP_HighLt,  5144	"K"}
@@ -369,6 +370,7 @@ file "SQanalog.template" { pattern
 {SQ8,	cP_CV552,      3608,  FLOAT, sP_CV552,   5160	"%"}
 {SQ8,	cP_CV104,      3612,  FLOAT, sP_CV104,   5164	"%"}
 {SQ8,	cP_SP_LIC101,  3616,  FLOAT, sP_SP_LIC101,5168	"%"}
+{SQ8,	cP_CM_SP_MKS2, 3620,  FLOAT, sP_CM_SP_MKS2,5172	"mbar"}
 {SQ9,	cP_CV550,      3668,  FLOAT, sP_CV550,   5238	"%"}
 {SQ9,	cP_LowLt,      3672,  FLOAT, sP_LowLt,   5242	"K"}
 {SQ9,	cP_HighLt,     3676,  FLOAT, sP_HighLt,  5246	"K"}

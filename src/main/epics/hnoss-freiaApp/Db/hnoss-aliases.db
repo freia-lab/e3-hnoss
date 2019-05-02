@@ -1,3 +1,7 @@
 # Aliases for the cryomodule
 alias("CstatH-LHe:PT101:sRdV", "CM-CM:PT02:sRdV")
 alias("CstatH-LHe:PT102:sRdV", "CM-CM:PT03:sRdV")
+alias("CstatH-Ctrl:SQ7:sP_CM_SP_MKS2", "CM-Ctrl:S5:sP_SP_PT01")
+alias("CstatH-Ctrl:SQ7:cP_CM_SP_MKS2", "CM-Ctrl:S5:cP_SP_PT01")
+alias("CstatH-Ctrl:SQ8:sP_CM_SP_MKS2", "CM-Ctrl:S6:sP_SP_PT01")
+alias("CstatH-Ctrl:SQ8:cP_CM_SP_MKS2", "CM-Ctrl:S6:cP_SP_PT01")
