@@ -277,7 +277,7 @@ file "SQbinary.template" { pattern
 {SQ6,   3396, 4894, "", "", "", "", "", "", ""}
 {SQ7,   3480, 4996, "SQ5 must be running", "", "", "", "", "", ""}
 {SQ8,   3564, 5098, "SQ5 must be running", "SQ9 mustn't be running", "", "", "", "", ""}
-{SQ9,   3648, 5200, "SQ5 must be running", "SQ8 mustn't be running", "", "", "", "", ""}
+{SQ9,   3648, 5200, "SQ5 must be running", "SQ8 mustn't be running", "CM mode and Com Fault", "CM: must be 2K/4K state", "", "", ""}
 {SQ10,  3732, 5302, "", "", "", "", "", "", ""}
 {SQ11,  3816, 5404, "SQ5 must be running", "", "", "", "", "", ""}
 {SQ12A, 3900, 5506, "SQ3A mustn't be running", "SQ3B mustn't be running","SQ4 mustn't be running", "SQ5 mustn't be running","SQ7 mustn't be running", "SQ8 mustn't be running","SQ9 mustn't be running"}
@@ -380,6 +380,7 @@ file "SQanalog.template" { pattern
 {SQ9,	cP_CV551_Reg,  3692,  FLOAT, sP_CV551_Reg,5262	"%"}
 {SQ9,	cP_Final_Pt,   3696,  FLOAT, sP_Final_Pt,5266	"mbar"}
 {SQ9,	cP_SP_LIC101,  3700,  FLOAT, sP_SP_LIC101,5270	"%"}
+{SQ9,	cP_CM_SP_MKS2, 3704,  FLOAT, sP_CM_SP_MKS2,5274	"mbar"}
 {SQ9,	cP_CV551_Pt00, 4740,  FLOAT, sP_CV551_Pt00,6526	"mbar"}
 {SQ9,	cP_CV551_Pt01, 4744,  FLOAT, sP_CV551_Pt01,6530	"mbar"}
 {SQ9,	cP_CV551_Pt02, 4748,  FLOAT, sP_CV551_Pt02,6534	"mbar"}
