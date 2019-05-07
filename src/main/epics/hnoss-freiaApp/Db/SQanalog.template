@@ -39,5 +39,6 @@ record(ai, "CstatH-Ctrl:$(SUBS):$(SIG2)") {
   field(PREC, "1")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
+  field(EGU, "$(EGU)")
   field(FLNK, "CstatH-Ctrl:$(SUBS):$(SIG2)-$(SIG)-link")
 }

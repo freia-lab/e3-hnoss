@@ -21,8 +21,8 @@ record(bi, "CstatH-$(SUBS):$(DEV):sRegOn") {
 record(bi, "CstatH-$(SUBS):$(DEV):sAnalogSP") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS) T=BYTE B=2")
-  field(ONAM, "Analog Setpoint")
-  field(ZNAM, "No Analog Setpoint")
+  field(ONAM, "Analog SP")
+  field(ZNAM, "No Analog SP")
   field(SCAN, "I/O Intr")
 #  field(FLNK, "CstatH-$(SUBS):$(DEV):sOutV-cOutput-manInitLink")
 }
