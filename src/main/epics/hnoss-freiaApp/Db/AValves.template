@@ -91,6 +91,8 @@ record(ai, "CstatH-$(SUBS):$(DEV):sRdV") {
   field(PINI, "YES")
   field(FLNK, "CstatH-$(SUBS):$(DEV):sRdV-cSetV-link")
   field(EGU, "$(EGU)")
+  field(SDIS, "CstatH-$(SUBS):$(DEV):sAuto.VAL NPP MS")
+  field(DISV, "-1") # Will never disable, but will propagate severity
 }
 
 record(ai, "CstatH-$(SUBS):$(DEV):sAutoRdV") {

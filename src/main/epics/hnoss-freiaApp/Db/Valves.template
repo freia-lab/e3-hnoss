@@ -43,6 +43,8 @@ record(bi, "CstatH-$(SUBS):$(DEV):sOn")  {
   field(ZNAM, "False")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
+  field(SDIS, "CstatH-$(SUBS):$(DEV):SEV.VAL NPP MS")
+  field(DISV, "-1") # Will never disable, but will propagate severity
 }
 
 record(bi, "CstatH-$(SUBS):$(DEV):sOff")  {
@@ -91,6 +93,32 @@ record(bi, "CstatH-$(SUBS):$(DEV):sFlt")  {
   field(ZNAM, "No fault")
   field(PINI, "YES")
   field(SCAN, "I/O Intr")
+  field(FLNK, "CstatH-$(SUBS):$(DEV):VisSev")
+}
+
+record(calc, "CstatH-$(SUBS):$(DEV):VisSev") {
+  field(INPA, "CstatH-$(SUBS):$(DEV):sAuto")
+  field(INPB, "CstatH-$(SUBS):$(DEV):sFlt")
+  field(CALC, "A+2*B")
+  field(FLNK, "CstatH-$(SUBS):$(DEV):SEV")
+}
+
+record (mbbi, "CstatH-$(SUBS):$(DEV):SEV") {
+   field (DESC, "PV to propagate the severity")
+   field (INP, "CstatH-$(SUBS):$(DEV):VisSev MSS")
+   field(VAL, "0")
+   field(ZRVL, "0")
+   field(ZRST, "MANUAL")
+   field(ZRSV, "MINOR")
+   field(ONVL, "1")
+   field(ONST, "OK")
+   field(ONSV, "NO_ALARM")
+   field(TWVL, "2")
+   field(TWST, "FAULT & MANUAL")
+   field(TWSV, "MAJOR")
+   field(THVL, "3")
+   field(THST, "FAULT")
+   field(THSV, "MAJOR")
 }
 
 record(bo, "CstatH-$(SUBS):$(DEV):cmdAuto") {
