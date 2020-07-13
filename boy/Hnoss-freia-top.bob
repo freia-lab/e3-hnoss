@@ -1241,7 +1241,7 @@ $(pv_value)</tooltip>
             <x>572</x>
             <y>403</y>
             <width>48</width>
-            <height>15</height>
+            <height>14</height>
             <font>
               <font name="IO SubTitle" family="arial" style="BOLD" size="11.881188118811881">
               </font>
@@ -1540,7 +1540,7 @@ $(pv_value)</tooltip>
             <x>835</x>
             <y>455</y>
             <width>9</width>
-            <height>13</height>
+            <height>12</height>
             <font>
               <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
               </font>
@@ -2065,7 +2065,7 @@ $(pv_value)</tooltip>
             <x>835</x>
             <y>475</y>
             <width>13</width>
-            <height>13</height>
+            <height>12</height>
             <font>
               <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
               </font>
@@ -2101,7 +2101,7 @@ $(pv_value)</tooltip>
             <x>575</x>
             <y>150</y>
             <width>9</width>
-            <height>13</height>
+            <height>12</height>
             <font>
               <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
               </font>
@@ -2137,7 +2137,7 @@ $(pv_value)</tooltip>
             <x>575</x>
             <y>170</y>
             <width>13</width>
-            <height>13</height>
+            <height>12</height>
             <font>
               <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
               </font>
@@ -2173,7 +2173,7 @@ $(pv_value)</tooltip>
             <x>650</x>
             <y>230</y>
             <width>9</width>
-            <height>13</height>
+            <height>12</height>
             <font>
               <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
               </font>
@@ -2209,7 +2209,7 @@ $(pv_value)</tooltip>
             <x>910</x>
             <y>535</y>
             <width>9</width>
-            <height>13</height>
+            <height>12</height>
             <font>
               <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
               </font>
@@ -3746,7 +3746,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(7);]]></text>
             <x>40</x>
             <y>30</y>
             <width>90</width>
-            <height>13</height>
+            <height>12</height>
             <font>
               <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
               </font>
@@ -3923,7 +3923,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(7);]]></text>
     <x>30</x>
     <y>10</y>
     <width>109</width>
-    <height>48</height>
+    <height>46</height>
     <font>
       <font name="Header 1" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
       </font>
