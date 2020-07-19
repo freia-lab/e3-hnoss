@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <width>950</width>
+  <macros>
+    <system>CstatH-SHe</system>
+  </macros>
+  <width>1100</width>
   <height>840</height>
   <background_color>
-    <color name="IO Shape Fill" red="188" green="188" blue="188">
+    <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
   </background_color>
   <actions>
   </actions>
+  <grid_visible>false</grid_visible>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template</name>
     <x>30</x>
@@ -16,7 +20,7 @@
     <height>716</height>
     <line_width>2</line_width>
     <line_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="GREEN" red="61" green="216" blue="61">
       </color>
     </line_color>
     <arrows>1</arrows>
@@ -43,7 +47,7 @@ $(pv_value)</tooltip>
     <height>610</height>
     <line_width>2</line_width>
     <line_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="GREEN" red="61" green="216" blue="61">
       </color>
     </line_color>
     <points>
@@ -71,11 +75,11 @@ $(pv_value)</tooltip>
     <height>171</height>
     <line_width>1</line_width>
     <line_color>
-      <color name="IO Line" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </line_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
       </color>
     </background_color>
     <corner_width>16</corner_width>
@@ -92,13 +96,13 @@ $(pv_value)</tooltip>
     <x>652</x>
     <y>297</y>
     <width>137</width>
-    <height>43</height>
+    <height>42</height>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -118,7 +122,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <line_width>2</line_width>
     <line_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="GREEN" red="61" green="216" blue="61">
       </color>
     </line_color>
     <points>
@@ -154,7 +158,7 @@ $(pv_value)</tooltip>
     <height>1</height>
     <line_width>2</line_width>
     <line_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="GREEN" red="61" green="216" blue="61">
       </color>
     </line_color>
     <points>
@@ -176,7 +180,7 @@ $(pv_value)</tooltip>
     <height>30</height>
     <line_width>2</line_width>
     <line_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="GREEN" red="61" green="216" blue="61">
       </color>
     </line_color>
     <points>
@@ -212,7 +216,7 @@ $(pv_value)</tooltip>
     <height>416</height>
     <line_width>2</line_width>
     <line_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="GREEN" red="61" green="216" blue="61">
       </color>
     </line_color>
     <points>
@@ -236,23 +240,22 @@ $(pv_value)</tooltip>
     <name>Label Template_60</name>
     <text>TT305</text>
     <x>144</x>
-    <y>652</y>
-    <width>31</width>
-    <height>13</height>
+    <y>650</y>
+    <width>36</width>
+    <height>19</height>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
@@ -264,23 +267,22 @@ $(pv_value)</tooltip>
     <name>Label Template_61</name>
     <text>TT303</text>
     <x>41</x>
-    <y>652</y>
-    <width>31</width>
-    <height>13</height>
+    <y>650</y>
+    <width>36</width>
+    <height>19</height>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
@@ -292,23 +294,22 @@ $(pv_value)</tooltip>
     <name>Label Template_62</name>
     <text>TT304</text>
     <x>61</x>
-    <y>758</y>
-    <width>31</width>
-    <height>13</height>
+    <y>757</y>
+    <width>36</width>
+    <height>18</height>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
@@ -320,23 +321,22 @@ $(pv_value)</tooltip>
     <name>Label Template_63</name>
     <text>TT306</text>
     <x>236</x>
-    <y>755</y>
-    <width>31</width>
-    <height>12</height>
+    <y>757</y>
+    <width>36</width>
+    <height>19</height>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
@@ -349,22 +349,21 @@ $(pv_value)</tooltip>
     <text>TT307</text>
     <x>208</x>
     <y>582</y>
-    <width>31</width>
-    <height>13</height>
+    <width>36</width>
+    <height>19</height>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
@@ -377,194 +376,48 @@ $(pv_value)</tooltip>
     <text>TT308</text>
     <x>356</x>
     <y>582</y>
-    <width>31</width>
-    <height>13</height>
+    <width>36</width>
+    <height>19</height>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
     </border_color>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-SHe:EH302</name>
-    <pv_name>$(name):sHtrOn</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</symbol>
-    </symbols>
-    <x>292</x>
-    <y>463</y>
-    <width>115</width>
-    <height>93</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Heater1.opi</file>
-        <macros>
-          <Heater1>$(name)</Heater1>
-        </macros>
-        <target>tab</target>
-      </action>
-    </actions>
-    <rules>
-      <rule name="bordercolor" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>&lt;color blue="0" green="128" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0">
-          <value>9</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_77</name>
-    <text>EH302</text>
-    <x>382</x>
-    <y>507</y>
-    <width>33</width>
-    <height>13</height>
-    <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_84</name>
-    <text>EH301</text>
-    <x>110</x>
-    <y>504</y>
-    <width>33</width>
-    <height>13</height>
-    <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-SHe:EH301</name>
-    <pv_name>$(name):sHtrOn</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</symbol>
-    </symbols>
-    <x>118</x>
-    <y>463</y>
-    <width>115</width>
-    <height>93</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Heater1.opi</file>
-        <macros>
-          <Heater1>$(name)</Heater1>
-        </macros>
-        <target>tab</target>
-      </action>
-    </actions>
-    <rules>
-      <rule name="bordercolor" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>&lt;color blue="0" green="128" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0">
-          <value>9</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <auto_size>true</auto_size>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_79</name>
     <text>PT302</text>
     <x>402</x>
-    <y>338</y>
-    <width>31</width>
-    <height>13</height>
+    <y>340</y>
+    <width>37</width>
+    <height>19</height>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
@@ -576,169 +429,22 @@ $(pv_value)</tooltip>
     <name>Label Template_80</name>
     <text>FT302</text>
     <x>476</x>
-    <y>338</y>
-    <width>31</width>
-    <height>13</height>
-    <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-SHe:CV302</name>
-    <pv_name>$(name):sRdV</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</symbol>
-    </symbols>
-    <x>540</x>
-    <y>335</y>
-    <width>47</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Cvalve.opi</file>
-        <macros>
-          <Cvalve>$(name)</Cvalve>
-        </macros>
-        <target>tab</target>
-      </action>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="bordercolor" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>&lt;color blue="0" green="128" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_81</name>
-    <text>CV302</text>
-    <x>551</x>
-    <y>336</y>
-    <width>27</width>
-    <height>10</height>
-    <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-SHe:FV302</name>
-    <pv_name>$(name):sOn</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-    </symbols>
-    <x>594</x>
-    <y>335</y>
+    <y>340</y>
     <width>36</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Valve.opi</file>
-        <macros>
-          <v_name>$(name)</v_name>
-        </macros>
-        <target>tab</target>
-        <description>Valve control</description>
-      </action>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>&lt;color blue="255" green="128" red="0"/&gt;</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>&lt;color blue="0" green="128" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="BorderRule2" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_82</name>
-    <text>FV302</text>
-    <x>600</x>
-    <y>336</y>
-    <width>26</width>
-    <height>10</height>
+    <height>19</height>
     <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
@@ -751,22 +457,21 @@ $(pv_value)</tooltip>
     <text>TT311</text>
     <x>305</x>
     <y>320</y>
-    <width>31</width>
-    <height>13</height>
+    <width>36</width>
+    <height>19</height>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
@@ -776,17 +481,17 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="rectangle" version="2.0.0">
     <name>Rectangle Template</name>
-    <x>330</x>
+    <x>329</x>
     <y>408</y>
     <width>11</width>
     <height>41</height>
     <line_width>1</line_width>
     <line_color>
-      <color name="IO Line" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </line_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
       </color>
     </background_color>
     <actions>
@@ -796,17 +501,17 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="rectangle" version="2.0.0">
     <name>Rectangle Template_1</name>
-    <x>187</x>
+    <x>188</x>
     <y>408</y>
     <width>11</width>
     <height>41</height>
     <line_width>1</line_width>
     <line_color>
-      <color name="IO Line" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </line_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
       </color>
     </background_color>
     <actions>
@@ -816,17 +521,17 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="rectangle" version="2.0.0">
     <name>Rectangle Template_2</name>
-    <x>27</x>
+    <x>24</x>
     <y>317</y>
     <width>11</width>
     <height>79</height>
     <line_width>1</line_width>
     <line_color>
-      <color name="IO Line" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </line_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
       </color>
     </background_color>
     <actions>
@@ -834,98 +539,26 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-SHe:EH303</name>
-    <pv_name>$(name):sHtrOn</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Heat_Exchangers/HX General A.png</symbol>
-    </symbols>
-    <y>311</y>
-    <width>115</width>
-    <height>93</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Heater1.opi</file>
-        <macros>
-          <Heater1>$(name)</Heater1>
-        </macros>
-        <target>tab</target>
-      </action>
-    </actions>
-    <rules>
-      <rule name="bordercolor" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>&lt;color blue="0" green="128" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0">
-          <value>9</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_74</name>
-    <text>EH303</text>
-    <x>80</x>
-    <y>355</y>
-    <width>33</width>
-    <height>13</height>
-    <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_72</name>
     <text>TT300</text>
     <x>52</x>
     <y>403</y>
-    <width>31</width>
-    <height>13</height>
+    <width>36</width>
+    <height>19</height>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
@@ -938,22 +571,21 @@ $(pv_value)</tooltip>
     <text>TT309</text>
     <x>52</x>
     <y>273</y>
-    <width>31</width>
-    <height>13</height>
+    <width>36</width>
+    <height>19</height>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
@@ -965,23 +597,22 @@ $(pv_value)</tooltip>
     <name>Label Template_85</name>
     <text>TT310</text>
     <x>231</x>
-    <y>228</y>
-    <width>31</width>
-    <height>13</height>
+    <y>226</y>
+    <width>36</width>
+    <height>19</height>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
@@ -993,23 +624,22 @@ $(pv_value)</tooltip>
     <name>Label Template_86</name>
     <text>PT301</text>
     <x>329</x>
-    <y>223</y>
-    <width>31</width>
-    <height>13</height>
+    <y>225</y>
+    <width>37</width>
+    <height>19</height>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
@@ -1021,169 +651,22 @@ $(pv_value)</tooltip>
     <name>Label Template_87</name>
     <text>FT301</text>
     <x>418</x>
-    <y>223</y>
-    <width>31</width>
-    <height>13</height>
-    <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-SHe:CV301</name>
-    <pv_name>$(name):sRdV</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</symbol>
-    </symbols>
-    <x>518</x>
-    <y>220</y>
-    <width>47</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Cvalve.opi</file>
-        <macros>
-          <Cvalve>$(name)</Cvalve>
-        </macros>
-        <target>tab</target>
-      </action>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="bordercolor" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>&lt;color blue="0" green="128" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_88</name>
-    <text>CV301</text>
-    <x>529</x>
-    <y>221</y>
-    <width>27</width>
-    <height>10</height>
-    <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-SHe:FV301</name>
-    <pv_name>$(name):sOn</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-    </symbols>
-    <x>572</x>
-    <y>220</y>
+    <y>224</y>
     <width>36</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Valve.opi</file>
-        <macros>
-          <v_name>$(name)</v_name>
-        </macros>
-        <target>tab</target>
-        <description>Valve control</description>
-      </action>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>&lt;color blue="255" green="128" red="0"/&gt;</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>&lt;color blue="0" green="128" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="BorderRule2" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_89</name>
-    <text>FV301</text>
-    <x>578</x>
-    <y>221</y>
-    <width>26</width>
-    <height>10</height>
+    <height>19</height>
     <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
@@ -1195,142 +678,28 @@ $(pv_value)</tooltip>
     <name>Label Template_107</name>
     <text>PT300</text>
     <x>576</x>
-    <y>38</y>
-    <width>31</width>
-    <height>12</height>
+    <y>40</y>
+    <width>37</width>
+    <height>19</height>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
     </border_color>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-SHe:FV300</name>
-    <pv_name>$(name):sOn</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-    </symbols>
-    <x>778</x>
-    <y>35</y>
-    <width>36</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Valve.opi</file>
-        <macros>
-          <v_name>$(name)</v_name>
-        </macros>
-        <target>tab</target>
-        <description>Valve control</description>
-      </action>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>&lt;color blue="255" green="128" red="0"/&gt;</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>&lt;color blue="0" green="128" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="BorderRule2" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_108</name>
-    <text>FV300</text>
-    <x>784</x>
-    <y>39</y>
-    <width>26</width>
-    <height>10</height>
-    <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>CstatH-SHe:TIC302</name>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-PID.opi</file>
-        <macros>
-          <PID>$(name)</PID>
-        </macros>
-        <target>tab</target>
-      </action>
-    </actions>
-    <text>TIC302</text>
-    <x>448</x>
-    <y>715</y>
-    <width>70</width>
-    <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Foreground" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <rules>
-      <rule name="Border color" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>&lt;color blue="0" green="128" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="Border style" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <tooltip>$(actions)</tooltip>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>CstatH-SHe:TIC302</name>
@@ -1340,7 +709,7 @@ $(pv_value)</tooltip>
     <height>41</height>
     <line_width>1</line_width>
     <line_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </line_color>
     <line_style>1</line_style>
@@ -1359,45 +728,6 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>CstatH-SHe:TIC301</name>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-PID.opi</file>
-        <macros>
-          <PID>$(name)</PID>
-        </macros>
-        <target>tab</target>
-      </action>
-    </actions>
-    <text>TIC301</text>
-    <x>141</x>
-    <y>125</y>
-    <width>70</width>
-    <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Foreground" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <rules>
-      <rule name="Border color" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>&lt;color blue="0" green="128" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="Border style" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <tooltip>$(actions)</tooltip>
-  </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template_6</name>
     <x>61</x>
@@ -1406,7 +736,7 @@ $(pv_value)</tooltip>
     <height>481</height>
     <line_width>1</line_width>
     <line_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </line_color>
     <line_style>1</line_style>
@@ -1425,45 +755,6 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>CstatH-SHe:FIC302</name>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-PID.opi</file>
-        <macros>
-          <PID>$(name)</PID>
-        </macros>
-        <target>tab</target>
-      </action>
-    </actions>
-    <text>FIC302</text>
-    <x>470</x>
-    <y>413</y>
-    <width>70</width>
-    <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Foreground" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <rules>
-      <rule name="Border color" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>&lt;color blue="0" green="128" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="Border style" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <tooltip>$(actions)</tooltip>
-  </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template_7</name>
     <x>500</x>
@@ -1472,7 +763,7 @@ $(pv_value)</tooltip>
     <height>41</height>
     <line_width>1</line_width>
     <line_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </line_color>
     <line_style>1</line_style>
@@ -1495,7 +786,7 @@ $(pv_value)</tooltip>
     <height>71</height>
     <line_width>1</line_width>
     <line_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </line_color>
     <line_style>1</line_style>
@@ -1512,45 +803,6 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="action_button" version="3.0.0">
-    <name>CstatH-SHe:FIC301</name>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-PID.opi</file>
-        <macros>
-          <PID>$(name)</PID>
-        </macros>
-        <target>tab</target>
-      </action>
-    </actions>
-    <text>FIC301</text>
-    <x>470</x>
-    <y>160</y>
-    <width>70</width>
-    <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Foreground" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <rules>
-      <rule name="Border color" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>&lt;color blue="0" green="128" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="Border style" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <tooltip>$(actions)</tooltip>
-  </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template_9</name>
     <x>425</x>
@@ -1559,7 +811,7 @@ $(pv_value)</tooltip>
     <height>26</height>
     <line_width>1</line_width>
     <line_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </line_color>
     <line_style>1</line_style>
@@ -1584,7 +836,7 @@ $(pv_value)</tooltip>
     <height>26</height>
     <line_width>1</line_width>
     <line_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </line_color>
     <line_style>1</line_style>
@@ -1613,11 +865,11 @@ $(pv_value)</tooltip>
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -1685,33 +937,24 @@ $(pv_value)</tooltip>
     <width>66</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <precision>2</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -1723,33 +966,24 @@ $(pv_value)</tooltip>
     <width>66</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <precision>2</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -1757,36 +991,28 @@ $(pv_value)</tooltip>
     <name>Text Update Template_61</name>
     <pv_name>CstatH-SHe:TT310:sRdV</pv_name>
     <x>222</x>
-    <y>245</y>
+    <y>247</y>
     <width>66</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188">
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
       </color>
     </background_color>
     <precision>2</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -1798,32 +1024,24 @@ $(pv_value)</tooltip>
     <width>66</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188">
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
       </color>
     </background_color>
     <precision>2</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -1835,15 +1053,15 @@ $(pv_value)</tooltip>
     <width>66</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <transparent>true</transparent>
@@ -1851,55 +1069,38 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_56</name>
     <pv_name>CstatH-SHe:TT308:sRdV</pv_name>
-    <x>342</x>
+    <x>340</x>
     <y>599</y>
     <width>66</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <precision>2</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -1907,57 +1108,48 @@ $(pv_value)</tooltip>
     <name>Text Update Template_45</name>
     <pv_name>CstatH-SHe:TT305:sRdV</pv_name>
     <x>130</x>
-    <y>669</y>
+    <y>671</y>
     <width>66</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <precision>2</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_46</name>
     <pv_name>CstatH-SHe:TT303:sRdV</pv_name>
-    <x>32</x>
-    <y>669</y>
+    <x>34</x>
+    <y>671</y>
     <width>66</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <transparent>true</transparent>
@@ -1965,17 +1157,9 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -1983,37 +1167,28 @@ $(pv_value)</tooltip>
     <name>Text Update Template_47</name>
     <pv_name>CstatH-SHe:TT304:sRdV</pv_name>
     <x>52</x>
-    <y>775</y>
+    <y>777</y>
     <width>66</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <precision>2</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -2021,19 +1196,19 @@ $(pv_value)</tooltip>
     <name>Text Update Template_48</name>
     <pv_name>CstatH-SHe:TT306:sRdV</pv_name>
     <x>227</x>
-    <y>775</y>
+    <y>777</y>
     <width>66</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <transparent>true</transparent>
@@ -2041,17 +1216,9 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -2059,37 +1226,28 @@ $(pv_value)</tooltip>
     <name>Text Update Template_59</name>
     <pv_name>CstatH-SHe:FT302:sRdV</pv_name>
     <x>457</x>
-    <y>360</y>
+    <y>362</y>
     <width>91</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <precision>2</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -2097,87 +1255,69 @@ $(pv_value)</tooltip>
     <name>Text Update Template_63</name>
     <pv_name>CstatH-SHe:FT301:sRdV</pv_name>
     <x>410</x>
-    <y>245</y>
+    <y>247</y>
     <width>97</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <precision>2</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_76</name>
     <pv_name>CstatH-SHe:PT300:sRdV</pv_name>
-    <x>551</x>
-    <y>65</y>
+    <x>552</x>
+    <y>63</y>
     <width>89</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <precision>2</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template_11</name>
     <x>671</x>
-    <y>398</y>
+    <y>402</y>
     <width>129</width>
     <height>52</height>
     <line_width>2</line_width>
     <line_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </line_color>
     <arrows>1</arrows>
@@ -2194,55 +1334,19 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>Boolean Symbol Image Monitor Template</name>
-    <pv_name>CstatH-SHe:FV309:cOn</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-    </symbols>
-    <x>730</x>
-    <y>429</y>
-    <width>51</width>
-    <height>39</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/LocBinaryOnOff.opi</file>
-        <macros>
-          <OFF_ACT>Close</OFF_ACT>
-          <ON_ACT>Open</ON_ACT>
-          <P>CstatH-SHe:FV309</P>
-        </macros>
-        <target>tab</target>
-        <description>Binary Cmd</description>
-      </action>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
-  </widget>
   <widget type="rectangle" version="2.0.0">
     <name>Rounded Rectangle Template_1</name>
-    <x>800</x>
-    <y>440</y>
+    <x>799</x>
+    <y>443</y>
     <width>98</width>
     <height>19</height>
     <line_width>1</line_width>
     <line_color>
-      <color name="IO Line" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </line_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
       </color>
     </background_color>
     <corner_width>16</corner_width>
@@ -2255,128 +1359,25 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_34</name>
     <text>GHe 3.5 bars</text>
-    <x>808</x>
-    <y>421</y>
-    <width>65</width>
-    <height>12</height>
+    <x>810</x>
+    <y>427</y>
+    <width>74</width>
+    <height>19</height>
     <font>
-      <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_113</name>
-    <text>FV309</text>
-    <x>733</x>
-    <y>429</y>
-    <width>26</width>
-    <height>10</height>
-    <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_60</name>
-    <pv_name>CstatH-SHe:CV302:sRdV</pv_name>
-    <x>549</x>
-    <y>359</y>
-    <width>58</width>
-    <font>
-      <font name="Fine Print" family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color red="240" green="240" blue="240">
-      </color>
-    </background_color>
-    <transparent>true</transparent>
-    <precision>1</precision>
-    <show_units>false</show_units>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_64</name>
-    <pv_name>CstatH-SHe:CV301:sRdV</pv_name>
-    <x>521</x>
-    <y>250</y>
-    <width>70</width>
-    <font>
-      <font name="Fine Print" family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color red="240" green="240" blue="240">
-      </color>
-    </background_color>
-    <transparent>true</transparent>
-    <precision>1</precision>
-    <show_units>false</show_units>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
@@ -2390,34 +1391,25 @@ $(pv_value)</tooltip>
     <width>66</width>
     <height>16</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <precision>2</precision>
     <show_units>false</show_units>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -2429,34 +1421,25 @@ $(pv_value)</tooltip>
     <width>66</width>
     <height>16</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <precision>2</precision>
     <show_units>false</show_units>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -2468,34 +1451,25 @@ $(pv_value)</tooltip>
     <width>66</width>
     <height>16</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <precision>2</precision>
     <show_units>false</show_units>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -2507,15 +1481,15 @@ $(pv_value)</tooltip>
     <width>66</width>
     <height>16</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <transparent>true</transparent>
@@ -2524,17 +1498,9 @@ $(pv_value)</tooltip>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -2542,37 +1508,28 @@ $(pv_value)</tooltip>
     <name>Text Update Template_58</name>
     <pv_name>CstatH-SHe:PT302:sRdV</pv_name>
     <x>342</x>
-    <y>360</y>
+    <y>362</y>
     <width>105</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <precision>2</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -2580,38 +1537,223 @@ $(pv_value)</tooltip>
     <name>Text Update Template_62</name>
     <pv_name>CstatH-SHe:PT301:sRdV</pv_name>
     <x>307</x>
-    <y>245</y>
+    <y>247</y>
     <width>92</width>
     <height>17</height>
     <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <precision>2</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_17</name>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
+    <macros>
+      <MULTI_HTR></MULTI_HTR>
+      <P>CstatH</P>
+      <S>SHe</S>
+      <V>EH303</V>
+    </macros>
+    <y>309</y>
+    <width>110</width>
+    <height>95</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_18</name>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-ll-pv.bob</file>
+    <macros>
+      <MULTI_HTR></MULTI_HTR>
+      <P>CstatH</P>
+      <S>SHe</S>
+      <V>EH301</V>
+    </macros>
+    <x>145</x>
+    <y>466</y>
+    <width>110</width>
+    <height>95</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_19</name>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
+    <macros>
+      <MULTI_HTR></MULTI_HTR>
+      <P>CstatH</P>
+      <S>SHe</S>
+      <V>EH302</V>
+    </macros>
+    <x>298</x>
+    <y>466</y>
+    <width>110</width>
+    <height>95</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_20</name>
+    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
+    <macros>
+      <L>TIC301</L>
+    </macros>
+    <x>141</x>
+    <y>119</y>
+    <width>66</width>
+    <height>37</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_21</name>
+    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
+    <macros>
+      <L>FIC301</L>
+    </macros>
+    <x>470</x>
+    <y>153</y>
+    <width>66</width>
+    <height>37</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_26</name>
+    <file>../../freia-symbols/display-builder/CstatH-CtrlValve-h-pv.bob</file>
+    <macros>
+      <P>CstatH</P>
+      <S>SHe</S>
+      <V>CV301</V>
+    </macros>
+    <x>522</x>
+    <y>220</y>
+    <width>55</width>
+    <height>50</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_27</name>
+    <file>../../freia-symbols/display-builder/CstatHValve-h-lu-pv.bob</file>
+    <macros>
+      <P>CstatH</P>
+      <S>SHe</S>
+      <V>FV301</V>
+    </macros>
+    <x>589</x>
+    <y>221</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_28</name>
+    <file>../../freia-symbols/display-builder/CstatH-CtrlValve-h-pv.bob</file>
+    <macros>
+      <P>CstatH</P>
+      <S>SHe</S>
+      <V>CV302</V>
+    </macros>
+    <x>542</x>
+    <y>334</y>
+    <width>55</width>
+    <height>50</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_29</name>
+    <file>../../freia-symbols/display-builder/CstatHValve-h-lu-pv.bob</file>
+    <macros>
+      <P>CstatH</P>
+      <S>SHe</S>
+      <V>FV302</V>
+    </macros>
+    <x>598</x>
+    <y>336</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_30</name>
+    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
+    <macros>
+      <L>FIC302</L>
+    </macros>
+    <x>470</x>
+    <y>405</y>
+    <width>66</width>
+    <height>37</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_31</name>
+    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
+    <macros>
+      <L>TIC302</L>
+    </macros>
+    <x>449</x>
+    <y>709</y>
+    <width>66</width>
+    <height>37</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_45</name>
+    <file>../../freia-symbols/display-builder/CstatHValve-binary-h-ld-pv.bob</file>
+    <macros>
+      <OFF_ACT>Close</OFF_ACT>
+      <ON_ACT>Open</ON_ACT>
+      <P>CstatH</P>
+      <S>SHe</S>
+      <V>FV309</V>
+    </macros>
+    <x>726</x>
+    <y>442</y>
+    <width>33</width>
+    <height>33</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_46</name>
+    <file>../../freia-symbols/display-builder/CstatHValve-h-lu-pv.bob</file>
+    <macros>
+      <P>CstatH</P>
+      <S>SHe</S>
+      <V>FV300</V>
+    </macros>
+    <x>732</x>
+    <y>36</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Action Button Template_20</name>
+    <text>Purging system</text>
+    <x>945</x>
+    <y>46</y>
+    <width>103</width>
+    <height>21</height>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <horizontal_alignment>1</horizontal_alignment>
+    <auto_size>true</auto_size>
+    <actions>
+      <action type="execute">
+        <script file="EmbeddedJs">
+          <text><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
+
+display.getWidget("tabcontainer").setActiveTabIndex(3);]]></text>
+        </script>
+      </action>
+    </actions>
+    <tooltip>$(actions)</tooltip>
   </widget>
 </display>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
   <name>Seq5</name>
-  <width>540</width>
+  <width>580</width>
   <height>355</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
@@ -29,8 +29,7 @@
     <text>CV550:</text>
     <x>55</x>
     <y>264</y>
-    <width>46</width>
-    <height>21</height>
+    <width>43</width>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>
@@ -57,8 +56,7 @@
     <text>CV100:</text>
     <x>55</x>
     <y>289</y>
-    <width>46</width>
-    <height>21</height>
+    <width>43</width>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>
@@ -141,8 +139,7 @@
     <text>Flow [m³/h]:</text>
     <x>311</x>
     <y>261</y>
-    <width>83</width>
-    <height>21</height>
+    <width>78</width>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>
@@ -170,8 +167,7 @@
     <text>Pressure [mbar]:</text>
     <x>311</x>
     <y>286</y>
-    <width>111</width>
-    <height>21</height>
+    <width>104</width>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>
@@ -283,8 +279,7 @@
     <text>Low level [%]:</text>
     <x>55</x>
     <y>165</y>
-    <width>93</width>
-    <height>21</height>
+    <width>87</width>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>
@@ -311,8 +306,7 @@
     <text>High level [%]:</text>
     <x>304</x>
     <y>163</y>
-    <width>96</width>
-    <height>21</height>
+    <width>90</width>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>
@@ -368,7 +362,7 @@
     <x>20</x>
     <y>143</y>
     <width>26</width>
-    <height>23</height>
+    <height>24</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -396,7 +390,7 @@
     <x>27</x>
     <y>237</y>
     <width>138</width>
-    <height>23</height>
+    <height>24</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -424,7 +418,7 @@
     <x>297</x>
     <y>237</y>
     <width>123</width>
-    <height>23</height>
+    <height>24</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -451,8 +445,7 @@
     <text>Filling temperature [K]:</text>
     <x>150</x>
     <y>315</y>
-    <width>155</width>
-    <height>21</height>
+    <width>146</width>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>
@@ -508,8 +501,7 @@
     <text>Set Point [%]:</text>
     <x>304</x>
     <y>192</y>
-    <width>91</width>
-    <height>21</height>
+    <width>86</width>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>

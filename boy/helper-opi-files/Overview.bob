@@ -455,6 +455,34 @@ $(pv_value)</tooltip>
         </color>
       </border_color>
     </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label Template_4</name>
+      <text>Box</text>
+      <x>329</x>
+      <y>185</y>
+      <width>31</width>
+      <height>23</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="18.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="BACKGROUND" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <vertical_alignment>1</vertical_alignment>
+      <auto_size>true</auto_size>
+      <actions>
+      </actions>
+      <border_color>
+        <color name="IO Border" red="215" green="215" blue="215">
+        </color>
+      </border_color>
+    </widget>
   </widget>
   <widget type="group" version="2.0.0">
     <name>2K Pumps</name>
@@ -474,7 +502,6 @@ $(pv_value)</tooltip>
     <transparent>true</transparent>
     <actions>
     </actions>
-    <tooltip>Click for details</tooltip>
     <widget type="label" version="2.0.0">
       <name>Label Template</name>
       <text>2K Pumps</text>
@@ -1623,6 +1650,92 @@ Click for details</tooltip>
     <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label Template_2</name>
+    <text>Supercritical</text>
+    <x>159</x>
+    <y>591</y>
+    <width>80</width>
+    <height>18</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label Template_3</name>
+    <text>Helium</text>
+    <x>178</x>
+    <y>608</y>
+    <width>45</width>
+    <height>18</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label Template_36</name>
+    <text>Overview</text>
+    <x>617</x>
+    <y>13</y>
+    <width>85</width>
+    <height>27</height>
+    <font>
+      <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215">
       </color>
     </border_color>
   </widget>

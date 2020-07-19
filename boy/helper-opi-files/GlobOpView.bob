@@ -12,6 +12,50 @@
   <actions>
   </actions>
   <grid_visible>false</grid_visible>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline Template_33</name>
+    <x>1164</x>
+    <y>158</y>
+    <width>13</width>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
+    <points>
+      <point x="0.0" y="19.53488372093023">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget type="polyline" version="2.0.0">
+    <name>Polyline Template_31</name>
+    <x>1099</x>
+    <y>94</y>
+    <width>13</width>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
+    <points>
+      <point x="0.0" y="19.53488372093023">
+      </point>
+      <point x="0.0" y="0.0">
+      </point>
+    </points>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
   <widget type="rectangle" version="2.0.0">
     <name>LHe 4K</name>
     <x>586</x>
@@ -61,13 +105,14 @@ $(pv_value)</tooltip>
     <name>Embedded Display_1</name>
     <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <macros>
+      <MULTI_HTR>AB</MULTI_HTR>
       <P>CstatH</P>
       <S>LHe</S>
       <V>EH105</V>
     </macros>
     <x>271</x>
     <y>326</y>
-    <width>110</width>
+    <width>130</width>
     <height>95</height>
   </widget>
   <widget type="rectangle" version="2.0.0">
@@ -180,13 +225,14 @@ $(pv_value)</tooltip>
       <name>Embedded Display_4</name>
       <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
       <macros>
+        <MULTI_HTR>AD</MULTI_HTR>
         <P>CstatH</P>
         <S>LHe</S>
         <V>EH100</V>
       </macros>
       <x>143</x>
       <y>26</y>
-      <width>110</width>
+      <width>130</width>
       <height>95</height>
     </widget>
     <widget type="label" version="2.0.0">
@@ -195,7 +241,7 @@ $(pv_value)</tooltip>
       <x>281</x>
       <y>62</y>
       <width>57</width>
-      <height>24</height>
+      <height>23</height>
       <font>
         <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
         </font>
@@ -673,11 +719,11 @@ $(pv_value)</tooltip>
       <name>Embedded Display_5</name>
       <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
       <macros>
-        <B>LIC100</B>
+        <L>LIC100</L>
       </macros>
-      <x>23</x>
+      <x>27</x>
       <y>9</y>
-      <width>76</width>
+      <width>66</width>
       <height>37</height>
     </widget>
   </widget>
@@ -919,7 +965,7 @@ $(pv_value)</tooltip>
       <text>LHe 2 K</text>
       <x>85</x>
       <width>57</width>
-      <height>24</height>
+      <height>23</height>
       <font>
         <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
         </font>
@@ -1355,11 +1401,11 @@ $(pv_value)</tooltip>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_92</name>
-      <text>MKS3 LO</text>
-      <x>203</x>
-      <y>62</y>
-      <width>41</width>
-      <height>15</height>
+      <text>MKS3</text>
+      <x>213</x>
+      <y>59</y>
+      <width>24</width>
+      <height>13</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="10.0">
         </font>
@@ -1473,14 +1519,45 @@ HI</text>
       <name>Embedded Display_20</name>
       <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
       <macros>
+        <MULTI_HTR>AB</MULTI_HTR>
         <P>CstatH</P>
         <S>LHe</S>
         <V>EH102</V>
       </macros>
       <x>81</x>
       <y>3</y>
-      <width>110</width>
+      <width>130</width>
       <height>95</height>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label Template_93</name>
+      <text>LO</text>
+      <x>214</x>
+      <y>71</y>
+      <width>12</width>
+      <height>13</height>
+      <font>
+        <font family="Source Sans Pro" style="REGULAR" size="10.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="BACKGROUND" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+      <auto_size>true</auto_size>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color name="IO Border" red="215" green="215" blue="215">
+        </color>
+      </border_color>
     </widget>
   </widget>
   <widget type="label" version="2.0.0">
@@ -1861,13 +1938,14 @@ $(pv_value)</tooltip>
       <name>Embedded Display</name>
       <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
       <macros>
+        <MULTI_HTR>AB</MULTI_HTR>
         <P>CstatH</P>
         <S>LHe</S>
         <V>EH106</V>
       </macros>
       <x>2</x>
       <y>20</y>
-      <width>110</width>
+      <width>130</width>
       <height>95</height>
     </widget>
     <widget type="textupdate" version="2.0.0">
@@ -2615,8 +2693,8 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_44</name>
     <text>MKS2 HI</text>
-    <x>968</x>
-    <y>24</y>
+    <x>973</x>
+    <y>26</y>
     <width>56</width>
     <height>21</height>
     <font>
@@ -2639,33 +2717,6 @@ $(pv_value)</tooltip>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
     </border_color>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-RHtr:CV550</name>
-    <pv_name>$(name):sRdV</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</symbol>
-    </symbols>
-    <x>1033</x>
-    <y>31</y>
-    <width>47</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
-    <auto_size>true</auto_size>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template_17</name>
@@ -2727,11 +2778,11 @@ $(pv_value)</tooltip>
     <width>74</width>
     <height>21</height>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -2763,154 +2814,6 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-RHtr:FV550</name>
-    <pv_name>$(name):sOn</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-    </symbols>
-    <x>1158</x>
-    <y>12</y>
-    <width>36</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Valve.opi</file>
-        <macros>
-          <v_name>$(name)</v_name>
-        </macros>
-        <target>tab</target>
-        <description>Valve control</description>
-      </action>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>&lt;color blue="255" green="128" red="0"/&gt;</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>&lt;color blue="0" green="255" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="BorderRule2" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_47</name>
-    <text>FV550</text>
-    <x>1142</x>
-    <y>28</y>
-    <width>26</width>
-    <height>10</height>
-    <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-RHtr:FV558</name>
-    <pv_name>$(name):sOn</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-    </symbols>
-    <x>1188</x>
-    <y>31</y>
-    <width>36</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Valve.opi</file>
-        <macros>
-          <v_name>$(name)</v_name>
-        </macros>
-        <target>tab</target>
-        <description>Valve control</description>
-      </action>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>&lt;color blue="255" green="128" red="0"/&gt;</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>&lt;color blue="0" green="255" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="BorderRule2" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_48</name>
-    <text>FV558</text>
-    <x>1191</x>
-    <y>37</y>
-    <width>26</width>
-    <height>10</height>
-    <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template_19</name>
     <x>1236</x>
@@ -2939,11 +2842,11 @@ $(pv_value)</tooltip>
     <width>112</width>
     <height>21</height>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
@@ -2962,10 +2865,6 @@ $(pv_value)</tooltip>
     <width>1</width>
     <height>37</height>
     <line_width>2</line_width>
-    <line_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
@@ -2976,80 +2875,6 @@ $(pv_value)</tooltip>
     </actions>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-RHtr:FV552</name>
-    <pv_name>$(name):sOn</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-    </symbols>
-    <x>1214</x>
-    <y>51</y>
-    <width>36</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Valve.opi</file>
-        <macros>
-          <v_name>$(name)</v_name>
-        </macros>
-        <target>tab</target>
-        <description>Valve control</description>
-      </action>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>&lt;color blue="255" green="128" red="0"/&gt;</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>&lt;color blue="0" green="255" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="BorderRule2" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_50</name>
-    <text>FV552</text>
-    <x>1240</x>
-    <y>67</y>
-    <width>26</width>
-    <height>10</height>
-    <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_51</name>
@@ -3081,24 +2906,23 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_52</name>
     <text>CV550</text>
-    <x>1020</x>
-    <y>37</y>
-    <width>27</width>
-    <height>10</height>
+    <x>1044</x>
+    <y>58</y>
+    <width>31</width>
+    <height>16</height>
     <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
@@ -3128,80 +2952,6 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-RHtr:FV553</name>
-    <pv_name>$(name):sOn</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-    </symbols>
-    <x>1213</x>
-    <y>101</y>
-    <width>36</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Valve.opi</file>
-        <macros>
-          <v_name>$(name)</v_name>
-        </macros>
-        <target>tab</target>
-        <description>Valve control</description>
-      </action>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>&lt;color blue="255" green="128" red="0"/&gt;</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>&lt;color blue="0" green="255" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="BorderRule2" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_54</name>
-    <text>FV553</text>
-    <x>1240</x>
-    <y>117</y>
-    <width>26</width>
-    <height>10</height>
-    <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template_22</name>
     <x>1236</x>
@@ -3226,154 +2976,6 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-RHtr:FV551</name>
-    <pv_name>$(name):sOn</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-    </symbols>
-    <x>1244</x>
-    <y>134</y>
-    <width>36</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Valve.opi</file>
-        <macros>
-          <v_name>$(name)</v_name>
-        </macros>
-        <target>tab</target>
-        <description>Valve control</description>
-      </action>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>&lt;color blue="255" green="128" red="0"/&gt;</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>&lt;color blue="0" green="255" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="BorderRule2" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_56</name>
-    <text>FV551</text>
-    <x>1250</x>
-    <y>140</y>
-    <width>26</width>
-    <height>10</height>
-    <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-RHtr:FV555</name>
-    <pv_name>$(name):sOn</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-    </symbols>
-    <x>1272</x>
-    <y>39</y>
-    <width>36</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Valve.opi</file>
-        <macros>
-          <v_name>$(name)</v_name>
-        </macros>
-        <target>tab</target>
-        <description>Valve control</description>
-      </action>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>&lt;color blue="255" green="128" red="0"/&gt;</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>&lt;color blue="0" green="255" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="BorderRule2" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_57</name>
-    <text>FV555</text>
-    <x>1260</x>
-    <y>40</y>
-    <width>26</width>
-    <height>10</height>
-    <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template_23</name>
     <x>1293</x>
@@ -3393,80 +2995,6 @@ $(pv_value)</tooltip>
     </actions>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-  </widget>
-  <widget type="symbol" version="2.0.0">
-    <name>CstatH-RHtr:FV554</name>
-    <pv_name>$(name):sOn</pv_name>
-    <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-    </symbols>
-    <x>1322</x>
-    <y>88</y>
-    <width>36</width>
-    <height>36</height>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-Valve.opi</file>
-        <macros>
-          <v_name>$(name)</v_name>
-        </macros>
-        <target>tab</target>
-        <description>Valve control</description>
-      </action>
-    </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_color" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>&lt;color blue="255" green="128" red="0"/&gt;</value>
-        </exp>
-        <exp bool_exp="pv1==0">
-          <value>&lt;color blue="0" green="255" name="Minor" red="255"/&gt;</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-      <rule name="BorderRule2" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==0">
-          <value>1</value>
-        </exp>
-        <pv_name>$(name):sAuto</pv_name>
-      </rule>
-    </rules>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_58</name>
-    <text>FV554</text>
-    <x>1348</x>
-    <y>104</y>
-    <width>26</width>
-    <height>10</height>
-    <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_59</name>
@@ -3687,7 +3215,7 @@ $(pv_value)</tooltip>
     <x>962</x>
     <y>556</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4008,7 +3536,7 @@ $(pv_value)</tooltip>
   <widget type="rectangle" version="2.0.0">
     <name>Rectangle Template</name>
     <x>1152</x>
-    <y>207</y>
+    <y>204</y>
     <width>90</width>
     <height>14</height>
     <line_width>1</line_width>
@@ -4031,7 +3559,7 @@ $(pv_value)</tooltip>
     <x>1269</x>
     <y>209</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4114,7 +3642,7 @@ $(pv_value)</tooltip>
     <x>1157</x>
     <y>442</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4246,7 +3774,7 @@ $(pv_value)</tooltip>
     <x>1088</x>
     <y>330</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4274,7 +3802,7 @@ $(pv_value)</tooltip>
     <x>1175</x>
     <y>309</y>
     <width>37</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4302,7 +3830,7 @@ $(pv_value)</tooltip>
     <x>1249</x>
     <y>309</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -4350,30 +3878,6 @@ $(pv_value)</tooltip>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
     </border_color>
-  </widget>
-  <widget type="tank" version="2.0.0">
-    <name>Progress Bar Template</name>
-    <pv_name>$(system):LT101:sRdV</pv_name>
-    <x>563</x>
-    <y>408</y>
-    <width>21</width>
-    <height>362</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <fill_color>
-      <color name="IO 4.8K ≈ vapor return to LHe plant and primary loop return" red="0" green="204" blue="255">
-      </color>
-    </fill_color>
-    <scale_visible>false</scale_visible>
-    <actions>
-    </actions>
-    <limits_from_pv>false</limits_from_pv>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_92</name>
@@ -4527,7 +4031,6 @@ $(pv_value)</tooltip>
       <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <transparent>true</transparent>
     <precision>2</precision>
     <show_units>false</show_units>
     <wrap_words>false</wrap_words>
@@ -5216,12 +4719,12 @@ $(pv_value)</tooltip>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_40</name>
     <pv_name>CstatH-MKS:MKS2:sOutV</pv_name>
-    <x>966</x>
+    <x>983</x>
     <y>7</y>
-    <width>66</width>
-    <height>17</height>
+    <width>50</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -5305,12 +4808,12 @@ $(pv_value)</tooltip>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_43</name>
     <pv_name>CstatH-MKS:MKS1:sOutV</pv_name>
-    <x>1042</x>
+    <x>1075</x>
     <y>137</y>
-    <width>66</width>
-    <height>17</height>
+    <width>50</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -5336,12 +4839,12 @@ $(pv_value)</tooltip>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_66</name>
     <pv_name>CstatH-MKS:MKS3:sOutV</pv_name>
-    <x>1274</x>
-    <y>170</y>
-    <width>66</width>
-    <height>17</height>
+    <x>1081</x>
+    <y>174</y>
+    <width>50</width>
+    <height>14</height>
     <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
@@ -5680,7 +5183,7 @@ $(pv_value)</tooltip>
     <x>771</x>
     <y>686</y>
     <width>63</width>
-    <height>24</height>
+    <height>23</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -5708,7 +5211,7 @@ $(pv_value)</tooltip>
     <x>934</x>
     <y>683</y>
     <width>74</width>
-    <height>24</height>
+    <height>23</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -5796,7 +5299,7 @@ $(pv_value)</tooltip>
     <x>267</x>
     <y>683</y>
     <width>63</width>
-    <height>24</height>
+    <height>23</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -5844,7 +5347,7 @@ $(pv_value)</tooltip>
     <x>74</x>
     <y>683</y>
     <width>74</width>
-    <height>24</height>
+    <height>23</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -6086,35 +5589,6 @@ $(pv_value)</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_68</name>
-    <pv_name>$(system):TT115:sRdV</pv_name>
-    <x>271</x>
-    <y>747</y>
-    <width>66</width>
-    <height>17</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <precision>2</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
-    <border_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </border_color>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_7</name>
     <text>TT144C</text>
@@ -6202,7 +5676,7 @@ $(pv_value)</tooltip>
     <x>747</x>
     <y>576</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -7253,164 +6727,6 @@ $(pv_value)</tooltip>
       </border_color>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
-    <name>Grouping Container</name>
-    <macros>
-      <OFF_ACT>Close</OFF_ACT>
-      <ON_ACT>Open</ON_ACT>
-      <P>CstatH-RHtr:FV562</P>
-      <name>CstatH-RHtr:FV562</name>
-    </macros>
-    <x>878</x>
-    <y>26</y>
-    <width>57</width>
-    <height>57</height>
-    <style>3</style>
-    <foreground_color>
-      <color red="0" green="128" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color red="240" green="240" blue="240">
-      </color>
-    </background_color>
-    <transparent>true</transparent>
-    <actions>
-    </actions>
-    <widget type="symbol" version="2.0.0">
-      <name>FV</name>
-      <pv_name>$(name):VisuState</pv_name>
-      <symbols>
-        <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-        <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      </symbols>
-      <y>3</y>
-      <width>36</width>
-      <height>36</height>
-      <background_color>
-        <color red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <actions>
-        <action type="open_display">
-          <file>../CmdPanels/LocBinaryOnOff.opi</file>
-          <macros>
-            <v_name>$(name)</v_name>
-          </macros>
-          <target>tab</target>
-          <description>Valve control</description>
-        </action>
-      </actions>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="led" version="2.0.0">
-      <name>LED</name>
-      <pv_name>$(name):cOn</pv_name>
-      <x>8</x>
-      <y>9</y>
-      <width>6</width>
-      <height>6</height>
-      <off_color>
-        <color red="0" green="100" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </on_color>
-      <foreground_color>
-        <color red="192" green="192" blue="192">
-        </color>
-      </foreground_color>
-      <line_color>
-        <color red="150" green="150" blue="150">
-        </color>
-      </line_color>
-      <square>true</square>
-      <actions>
-      </actions>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-    </widget>
-  </widget>
-  <widget type="group" version="2.0.0">
-    <name>Grouping Container_2</name>
-    <macros>
-      <OFF_ACT>Close</OFF_ACT>
-      <ON_ACT>Open</ON_ACT>
-      <P>CstatH-RHtr:FV563</P>
-      <name>CstatH-RHtr:FV563</name>
-    </macros>
-    <x>878</x>
-    <y>64</y>
-    <width>57</width>
-    <height>57</height>
-    <style>3</style>
-    <foreground_color>
-      <color red="0" green="128" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color red="240" green="240" blue="240">
-      </color>
-    </background_color>
-    <transparent>true</transparent>
-    <actions>
-    </actions>
-    <widget type="symbol" version="2.0.0">
-      <name>FV</name>
-      <pv_name>$(name):VisuState</pv_name>
-      <symbols>
-        <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-        <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VG 2 way-Valves On-Off On.png</symbol>
-      </symbols>
-      <y>3</y>
-      <width>36</width>
-      <height>36</height>
-      <background_color>
-        <color red="255" green="255" blue="205">
-        </color>
-      </background_color>
-      <actions>
-        <action type="open_display">
-          <file>../CmdPanels/LocBinaryOnOff.opi</file>
-          <macros>
-            <v_name>$(name)</v_name>
-          </macros>
-          <target>tab</target>
-          <description>Valve control</description>
-        </action>
-      </actions>
-      <auto_size>true</auto_size>
-    </widget>
-    <widget type="led" version="2.0.0">
-      <name>LED</name>
-      <pv_name>$(name):cOn</pv_name>
-      <x>8</x>
-      <y>9</y>
-      <width>6</width>
-      <height>6</height>
-      <off_color>
-        <color red="0" green="100" blue="0">
-        </color>
-      </off_color>
-      <on_color>
-        <color red="0" green="255" blue="0">
-        </color>
-      </on_color>
-      <foreground_color>
-        <color red="192" green="192" blue="192">
-        </color>
-      </foreground_color>
-      <line_color>
-        <color red="150" green="150" blue="150">
-        </color>
-      </line_color>
-      <square>true</square>
-      <actions>
-      </actions>
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-    </widget>
-  </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_137</name>
     <pv_name>CstatH-RHtr:TT131:sRdV</pv_name>
@@ -7592,6 +6908,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(6);]]></text>
     <x>804</x>
     <y>20</y>
     <width>57</width>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>
@@ -7654,7 +6971,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(3);]]></text>
     <text>2K
 Pumps</text>
     <x>1269</x>
-    <y>75</y>
+    <y>83</y>
     <width>51</width>
     <height>44</height>
     <font>
@@ -7734,15 +7051,19 @@ $(pv_value)</tooltip>
     <name>Text Update Template_72</name>
     <pv_name>CstatH-RHtr:FT551:sCalcV</pv_name>
     <x>1352</x>
-    <y>65</y>
+    <y>61</y>
     <width>82</width>
     <height>17</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
+      </font>
+    </font>
     <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Shape Fill" red="188" green="188" blue="188">
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
       </color>
     </background_color>
     <precision>2</precision>
@@ -7751,7 +7072,7 @@ $(pv_value)</tooltip>
     </actions>
     <border_width>2</border_width>
     <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -8125,7 +7446,7 @@ $(pv_value)</tooltip>
       <x>9</x>
       <y>17</y>
       <width>38</width>
-      <height>19</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -8151,7 +7472,7 @@ $(pv_value)</tooltip>
       <name>Label Template_126</name>
       <text>Reheater</text>
       <width>54</width>
-      <height>19</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -8178,11 +7499,11 @@ $(pv_value)</tooltip>
     <name>Embedded Display_2</name>
     <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
     <macros>
-      <B>TIC101</B>
+      <L>TIC101</L>
     </macros>
-    <x>169</x>
+    <x>174</x>
     <y>233</y>
-    <width>76</width>
+    <width>66</width>
     <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -8295,7 +7616,7 @@ $(pv_value)</tooltip>
     <x>257</x>
     <y>46</y>
     <width>50</width>
-    <height>22</height>
+    <height>25</height>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_7</name>
@@ -8321,7 +7642,7 @@ $(pv_value)</tooltip>
     <x>450</x>
     <y>42</y>
     <width>50</width>
-    <height>22</height>
+    <height>25</height>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_10</name>
@@ -8379,22 +7700,22 @@ $(pv_value)</tooltip>
     <name>Embedded Display_9</name>
     <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
     <macros>
-      <B>LIC101A</B>
+      <L>LIC101A</L>
     </macros>
     <x>538</x>
     <y>296</y>
-    <width>76</width>
+    <width>66</width>
     <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_14</name>
     <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
     <macros>
-      <B>LIC101B</B>
+      <L>LIC101B</L>
     </macros>
-    <x>598</x>
+    <x>602</x>
     <y>334</y>
-    <width>76</width>
+    <width>66</width>
     <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -8414,6 +7735,7 @@ $(pv_value)</tooltip>
     <name>Embedded Display_16</name>
     <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <macros>
+      <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>LHe</S>
       <V>EH101</V>
@@ -8487,6 +7809,7 @@ $(pv_value)</tooltip>
     <name>Embedded Display_17</name>
     <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <macros>
+      <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>SHe</S>
       <V>EH300</V>
@@ -8617,6 +7940,7 @@ $(pv_value)</tooltip>
     <name>Embedded Display_19</name>
     <file>../../freia-symbols/display-builder/CstatH-Heater1-MIRRORED-ll-pv.bob</file>
     <macros>
+      <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>SHe</S>
       <V>EH301</V>
@@ -8630,6 +7954,7 @@ $(pv_value)</tooltip>
     <name>Embedded Display_21</name>
     <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <macros>
+      <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>SHe</S>
       <V>EH302</V>
@@ -8643,6 +7968,7 @@ $(pv_value)</tooltip>
     <name>Embedded Display_22</name>
     <file>../../freia-symbols/display-builder/CstatH-Heater1-MIRRORED-lu-pv.bob</file>
     <macros>
+      <MULTI_HTR>AC</MULTI_HTR>
       <P>CstatH</P>
       <S>LHe</S>
       <V>EH104</V>
@@ -8656,6 +7982,7 @@ $(pv_value)</tooltip>
     <name>Embedded Display_23</name>
     <file>../../freia-symbols/display-builder/CstatH-Heater1-FLIPPED-lr-pv.bob</file>
     <macros>
+      <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>LHe</S>
       <V>EH108</V>
@@ -8669,6 +7996,7 @@ $(pv_value)</tooltip>
     <name>Embedded Display_24</name>
     <file>../../freia-symbols/display-builder/CstatH-Heater1-lnw-pv.bob</file>
     <macros>
+      <MULTI_HTR>AC</MULTI_HTR>
       <P>CstatH</P>
       <S>LHe</S>
       <V>EH103</V>
@@ -8769,13 +8097,14 @@ $(pv_value)</tooltip>
     <name>Embedded Display_25</name>
     <file>../../freia-symbols/display-builder/CstatH-Heater1-FLIPPED-ll-pv.bob</file>
     <macros>
+      <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>LHe</S>
       <V>EH107</V>
     </macros>
     <x>153</x>
     <y>691</y>
-    <width>110</width>
+    <width>130</width>
     <height>95</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -8834,188 +8163,345 @@ $(pv_value)</tooltip>
     <name>Embedded Display_29</name>
     <file>../../freia-symbols/display-builder/CstatH-Heater1-FLIPPED-lr-pv.bob</file>
     <macros>
+      <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>SHe</S>
       <V>EH303</V>
     </macros>
     <x>1136</x>
-    <y>188</y>
+    <y>185</y>
     <width>110</width>
     <height>95</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_30</name>
-    <file>../../freia-symbols/display-builder/CstatH-MKS-button.bob</file>
-    <macros>
-      <B>MKS3</B>
-      <GHI>CstatH-LHe:PT101:sRdV</GHI>
-      <GLO>CstatH-LHe:PT102:sRdV</GLO>
-    </macros>
-    <x>1198</x>
-    <y>165</y>
-    <width>76</width>
-    <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_31</name>
     <file>../../freia-symbols/display-builder/CstatH-MKS-button.bob</file>
     <macros>
-      <B>MKS1</B>
       <GHI>CstatH-RHtr:PT551:sRdV</GHI>
       <GLO>CstatH-RHtr:PT552:sRdV</GLO>
+      <L>MKS1</L>
     </macros>
-    <x>1037</x>
+    <x>1067</x>
     <y>100</y>
-    <width>76</width>
+    <width>66</width>
     <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_32</name>
     <file>../../freia-symbols/display-builder/CstatH-MKS-button.bob</file>
     <macros>
-      <B>MKS2</B>
       <GHI>CstatH-RHtr:PT550:sRdV</GHI>
       <GLO>CstatH-LHe:PT100:sRdV</GLO>
+      <L>MKS2</L>
     </macros>
-    <x>891</x>
+    <x>917</x>
     <y>1</y>
-    <width>76</width>
+    <width>66</width>
     <height>37</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_33</name>
-    <file>../../freia-symbols/display-builder/CstatH-CtrlValve-h-pv.bob</file>
-    <macros>
-      <P>CstatH</P>
-      <S>RHtr</S>
-      <V>CV551</V>
-    </macros>
-    <x>1129</x>
-    <y>134</y>
-    <width>55</width>
-    <height>50</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_34</name>
-    <file>../../freia-symbols/display-builder/CstatH-CtrlValve-h-pv.bob</file>
-    <macros>
-      <P>CstatH</P>
-      <S>RHtr</S>
-      <V>CV552</V>
-    </macros>
-    <x>1104</x>
-    <y>69</y>
-    <width>55</width>
-    <height>50</height>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_53</name>
     <text>CV552</text>
-    <x>1071</x>
-    <y>77</y>
-    <width>27</width>
-    <height>10</height>
+    <x>1078</x>
+    <y>71</y>
+    <width>31</width>
+    <height>16</height>
     <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
     </font>
     <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
     <actions>
     </actions>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
     </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label Template_55</name>
+    <text>CV551</text>
+    <x>1145</x>
+    <y>134</y>
+    <width>31</width>
+    <height>16</height>
+    <font>
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update Template_68</name>
+    <pv_name>$(system):TT115:sRdV</pv_name>
+    <x>271</x>
+    <y>747</y>
+    <width>66</width>
+    <height>17</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <precision>2</precision>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_width>2</border_width>
+    <border_color>
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="tank" version="2.0.0">
+    <name>Progress Bar Template</name>
+    <pv_name>$(system):LT101:sRdV</pv_name>
+    <x>563</x>
+    <y>408</y>
+    <width>21</width>
+    <height>362</height>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <fill_color>
+      <color name="IO 4.8K ≈ vapor return to LHe plant and primary loop return" red="0" green="204" blue="255">
+      </color>
+    </fill_color>
+    <scale_visible>false</scale_visible>
+    <actions>
+    </actions>
+    <limits_from_pv>false</limits_from_pv>
+  </widget>
+  <widget type="symbol" version="2.0.0">
+    <name>CstatH-RHtr:CV550</name>
+    <pv_name>$(name):sRdV</pv_name>
+    <symbols>
+      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
+    </symbols>
+    <x>1038</x>
+    <y>40</y>
+    <width>41</width>
+    <height>27</height>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)
+- controlled from associated MKS!</tooltip>
+    <auto_size>true</auto_size>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>CstatH-RHtr:CV552</name>
     <pv_name>$(name):sRdV</pv_name>
     <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
     </symbols>
-    <x>1065</x>
-    <y>73</y>
-    <width>47</width>
-    <height>36</height>
+    <x>1078</x>
+    <y>79</y>
+    <width>41</width>
+    <height>27</height>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
-    <auto_size>true</auto_size>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_55</name>
-    <text>CV551</text>
-    <x>1198</x>
-    <y>142</y>
-    <width>27</width>
-    <height>10</height>
-    <font>
-      <font family="Sans" style="REGULAR" size="7.920792079207921">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
-    <vertical_alignment>1</vertical_alignment>
-    <auto_size>true</auto_size>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
+    <tooltip>$(pv_name)
+$(pv_value)
+- controlled from associated MKS!</tooltip>
   </widget>
   <widget type="symbol" version="2.0.0">
     <name>CstatH-RHtr:CV551</name>
     <pv_name>$(name):sRdV</pv_name>
     <symbols>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</symbol>
-      <symbol>../../SymbolLibrary/PNG/Fluid/Valves/VC 2 way-Valves Control.png</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_RED.svg</symbol>
+      <symbol>../../freia-symbols/cryogenics/valve_control_GREEN.svg</symbol>
     </symbols>
-    <x>1190</x>
-    <y>138</y>
-    <width>47</width>
-    <height>36</height>
+    <x>1143</x>
+    <y>144</y>
+    <width>41</width>
+    <height>27</height>
     <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
+      <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
     <actions>
     </actions>
-    <rules>
-      <rule name="BorderRule" prop_id="border_style" out_exp="false">
-        <exp bool_exp="pv0==1">
-          <value>9</value>
-        </exp>
-        <pv_name>$(pv_name).SIMM</pv_name>
-      </rule>
-    </rules>
-    <auto_size>true</auto_size>
+    <tooltip>$(pv_name)
+$(pv_value)
+-  controlled from associated MKS!</tooltip>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_33</name>
+    <file>../../freia-symbols/display-builder/CstatHValve-v-ll-pv.bob</file>
+    <macros>
+      <P>CstatH</P>
+      <S>RHtr</S>
+      <V>FV550</V>
+    </macros>
+    <x>1143</x>
+    <y>20</y>
+    <width>50</width>
+    <height>25</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_35</name>
+    <file>../../freia-symbols/display-builder/CstatHValve-h-lu-pv.bob</file>
+    <macros>
+      <P>CstatH</P>
+      <S>RHtr</S>
+      <V>FV558</V>
+    </macros>
+    <x>1196</x>
+    <y>32</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_37</name>
+    <file>../../freia-symbols/display-builder/CstatHValve-v-lr-pv.bob</file>
+    <macros>
+      <P>CstatH</P>
+      <S>RHtr</S>
+      <V>FV552</V>
+    </macros>
+    <x>1226</x>
+    <y>60</y>
+    <width>50</width>
+    <height>25</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_39</name>
+    <file>../../freia-symbols/display-builder/CstatHValve-v-lr-pv.bob</file>
+    <macros>
+      <P>CstatH</P>
+      <S>RHtr</S>
+      <V>FV555</V>
+    </macros>
+    <x>1285</x>
+    <y>51</y>
+    <width>50</width>
+    <height>25</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_41</name>
+    <file>../../freia-symbols/display-builder/CstatHValve-v-lr-pv.bob</file>
+    <macros>
+      <P>CstatH</P>
+      <S>RHtr</S>
+      <V>FV554</V>
+    </macros>
+    <x>1334</x>
+    <y>91</y>
+    <width>50</width>
+    <height>25</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_43</name>
+    <file>../../freia-symbols/display-builder/CstatHValve-h-lu-pv.bob</file>
+    <macros>
+      <P>CstatH</P>
+      <S>RHtr</S>
+      <V>FV551</V>
+    </macros>
+    <x>1249</x>
+    <y>135</y>
+    <width>35</width>
+    <height>35</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_44</name>
+    <file>../../freia-symbols/display-builder/CstatHValve-v-ll-pv.bob</file>
+    <macros>
+      <P>CstatH</P>
+      <S>RHtr</S>
+      <V>FV553</V>
+    </macros>
+    <x>1198</x>
+    <y>110</y>
+    <width>50</width>
+    <height>25</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_45</name>
+    <file>../../freia-symbols/display-builder/CstatHValve-binary-LED-h-ld-pv.bob</file>
+    <macros>
+      <OFF_ACT>Close</OFF_ACT>
+      <ON_ACT>Open</ON_ACT>
+      <P>CstatH</P>
+      <S>RHtr</S>
+      <V>FV562</V>
+    </macros>
+    <x>884</x>
+    <y>35</y>
+    <width>45</width>
+    <height>45</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_46</name>
+    <file>../../freia-symbols/display-builder/CstatHValve-binary-LED-h-ld-pv.bob</file>
+    <macros>
+      <OFF_ACT>Close</OFF_ACT>
+      <ON_ACT>Open</ON_ACT>
+      <P>CstatH</P>
+      <S>RHtr</S>
+      <V>FV563</V>
+    </macros>
+    <x>884</x>
+    <y>73</y>
+    <width>45</width>
+    <height>45</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_30</name>
+    <file>../../freia-symbols/display-builder/CstatH-MKS-button.bob</file>
+    <macros>
+      <GHI>CstatH-LHe:PT101:sRdV</GHI>
+      <GLO>CstatH-LHe:PT102:sRdV</GLO>
+      <L>MKS3</L>
+    </macros>
+    <x>1132</x>
+    <y>164</y>
+    <width>66</width>
+    <height>37</height>
   </widget>
 </display>
