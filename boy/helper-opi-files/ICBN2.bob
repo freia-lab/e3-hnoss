@@ -82,7 +82,7 @@ $(pv_value)</tooltip>
     <text>Interconnection Box - Liquid Nitrogen</text>
     <x>289</x>
     <width>337</width>
-    <height>27</height>
+    <height>28</height>
     <font>
       <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
       </font>
@@ -657,7 +657,7 @@ $(pv_value)</tooltip>
     <name>Label Template_62</name>
     <text>PRV400</text>
     <x>192</x>
-    <y>144</y>
+    <y>150</y>
     <width>44</width>
     <height>19</height>
     <font>
@@ -971,7 +971,7 @@ $(pv_value)</tooltip>
       <text>Vacuum</text>
       <x>3</x>
       <width>48</width>
-      <height>18</height>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -999,7 +999,7 @@ $(pv_value)</tooltip>
       <text>Pumping</text>
       <y>15</y>
       <width>54</width>
-      <height>18</height>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1028,7 +1028,7 @@ $(pv_value)</tooltip>
       <x>5</x>
       <y>31</y>
       <width>44</width>
-      <height>18</height>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1218,5 +1218,22 @@ display.getWidget("tabcontainer").setActiveTabIndex(2);]]></text>
       </action>
     </actions>
     <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="symbol" version="2.0.0">
+    <name>Boolean Symbol Monitor_1</name>
+    <symbols>
+      <symbol>../../freia-symbols/cryogenics/valve_relief.svg</symbol>
+    </symbols>
+    <x>192</x>
+    <y>132</y>
+    <width>41</width>
+    <height>27</height>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip></tooltip>
   </widget>
 </display>

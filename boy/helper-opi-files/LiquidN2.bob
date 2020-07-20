@@ -317,7 +317,7 @@ $(pv_value)</tooltip>
     <name>Label Template_5</name>
     <text>PRV200</text>
     <x>257</x>
-    <y>233</y>
+    <y>219</y>
     <width>44</width>
     <height>19</height>
     <font>
@@ -370,7 +370,7 @@ $(pv_value)</tooltip>
     <name>Label Template_6</name>
     <text>PRV201</text>
     <x>295</x>
-    <y>134</y>
+    <y>122</y>
     <width>44</width>
     <height>19</height>
     <font>
@@ -733,7 +733,7 @@ $(pv_value)</tooltip>
       </point>
       <point x="118.0" y="0.0">
       </point>
-      <point x="118.0" y="7.0">
+      <point x="118.0" y="9.0">
       </point>
     </points>
     <actions>
@@ -744,7 +744,7 @@ $(pv_value)</tooltip>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template_12</name>
     <x>609</x>
-    <y>41</y>
+    <y>43</y>
     <width>42</width>
     <height>30</height>
     <line_width>1</line_width>
@@ -756,11 +756,7 @@ $(pv_value)</tooltip>
     <points>
       <point x="0.0" y="29.0">
       </point>
-      <point x="23.0" y="29.0">
-      </point>
-      <point x="23.0" y="0.0">
-      </point>
-      <point x="41.0" y="0.0">
+      <point x="35.0" y="29.0">
       </point>
     </points>
     <actions>
@@ -773,7 +769,7 @@ $(pv_value)</tooltip>
     <x>108</x>
     <y>48</y>
     <width>442</width>
-    <height>19</height>
+    <height>27</height>
     <line_width>1</line_width>
     <line_color>
       <color name="BLACK" red="0" green="0" blue="0">
@@ -781,9 +777,9 @@ $(pv_value)</tooltip>
     </line_color>
     <line_style>1</line_style>
     <points>
-      <point x="441.0" y="18.0">
+      <point x="441.0" y="25.57894736842105">
       </point>
-      <point x="401.0" y="18.0">
+      <point x="401.0" y="25.57894736842105">
       </point>
       <point x="401.0" y="0.0">
       </point>
@@ -999,7 +995,7 @@ $(pv_value)</tooltip>
     <x>651</x>
     <y>683</y>
     <width>37</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1027,7 +1023,7 @@ $(pv_value)</tooltip>
     <x>811</x>
     <y>620</y>
     <width>37</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1344,7 +1340,7 @@ $(pv_value)</tooltip>
     <x>1072</x>
     <y>660</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1399,7 +1395,7 @@ $(pv_value)</tooltip>
     <x>927</x>
     <y>464</y>
     <width>37</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1427,7 +1423,7 @@ $(pv_value)</tooltip>
     <x>1016</x>
     <y>390</y>
     <width>36</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1455,7 +1451,7 @@ $(pv_value)</tooltip>
     <x>1297</x>
     <y>297</y>
     <width>37</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1483,7 +1479,7 @@ $(pv_value)</tooltip>
     <x>1302</x>
     <y>606</y>
     <width>37</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1646,7 +1642,7 @@ $(pv_value)</tooltip>
     <x>448</x>
     <y>5</y>
     <width>140</width>
-    <height>27</height>
+    <height>28</height>
     <font>
       <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
       </font>
@@ -2255,7 +2251,7 @@ $(pv_value)</tooltip>
   <widget type="textupdate" version="2.0.0">
     <pv_name>CstatH-LN2:FIC201:sOutV</pv_name>
     <x>549</x>
-    <y>83</y>
+    <y>94</y>
     <width>66</width>
     <height>16</height>
     <font>
@@ -2525,7 +2521,7 @@ $(pv_value)</tooltip>
     <x>639</x>
     <y>698</y>
     <width>67</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2553,7 +2549,7 @@ $(pv_value)</tooltip>
     <x>802</x>
     <y>634</y>
     <width>67</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2584,7 +2580,7 @@ $(pv_value)</tooltip>
       <V>CV200</V>
     </macros>
     <x>455</x>
-    <y>68</y>
+    <y>92</y>
     <width>55</width>
     <height>50</height>
   </widget>
@@ -2606,7 +2602,7 @@ $(pv_value)</tooltip>
       <L>FIC201</L>
     </macros>
     <x>550</x>
-    <y>46</y>
+    <y>57</y>
     <width>66</width>
     <height>37</height>
   </widget>
@@ -2618,8 +2614,8 @@ $(pv_value)</tooltip>
       <S>LN2</S>
       <V>CV201</V>
     </macros>
-    <x>630</x>
-    <y>18</y>
+    <x>627</x>
+    <y>32</y>
     <width>55</width>
     <height>50</height>
   </widget>
@@ -3204,5 +3200,39 @@ display.getWidget("tabcontainer").setActiveTabIndex(7);]]></text>
       </action>
     </actions>
     <tooltip>$(actions)</tooltip>
+  </widget>
+  <widget type="symbol" version="2.0.0">
+    <name>Boolean Symbol Monitor_1</name>
+    <symbols>
+      <symbol>../../freia-symbols/cryogenics/valve_relief.svg</symbol>
+    </symbols>
+    <x>296</x>
+    <y>138</y>
+    <width>41</width>
+    <height>27</height>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip></tooltip>
+  </widget>
+  <widget type="symbol" version="2.0.0">
+    <name>Boolean Symbol Monitor_2</name>
+    <symbols>
+      <symbol>../../freia-symbols/cryogenics/valve_relief.svg</symbol>
+    </symbols>
+    <x>259</x>
+    <y>236</y>
+    <width>41</width>
+    <height>27</height>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <actions>
+    </actions>
+    <tooltip></tooltip>
   </widget>
 </display>
