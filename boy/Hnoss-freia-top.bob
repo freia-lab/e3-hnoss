@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
+  <macros>
+    <P>CstatH</P>
+  </macros>
   <width>1750</width>
   <height>1024</height>
   <background_color>
@@ -589,9 +592,6 @@ Conditioning He circuits</tooltip>
   </widget>
   <widget type="tabs" version="2.0.0">
     <name>tabcontainer</name>
-    <macros>
-      <P>CstatH</P>
-    </macros>
     <tabs>
       <tab>
         <name>Overview</name>
@@ -944,7 +944,7 @@ Conditioning He circuits</tooltip>
     <x>30</x>
     <y>10</y>
     <width>109</width>
-    <height>48</height>
+    <height>46</height>
     <font>
       <font name="Header 1" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
       </font>
@@ -2064,7 +2064,7 @@ $(actions)</tooltip>
     <name>Action Button Template_20</name>
     <actions>
       <action type="open_display">
-        <file>CmdPanels/CstatH-AI-sim-top.bob</file>
+        <file>../freia-symbols/display-builder/CmdPanels/Cstat-AI-sim-top.bob</file>
         <target>standalone</target>
         <description>Simulate Analog Input</description>
       </action>
@@ -2089,8 +2089,8 @@ Analog Input</text>
     <name>Label</name>
     <text>Cryomode</text>
     <y>129</y>
-    <width>57</width>
-    <height>17</height>
+    <width>53</width>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
