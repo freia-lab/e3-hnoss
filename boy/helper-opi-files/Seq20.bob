@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Seq20</name>
+  <width>600</width>
+  <height>500</height>
+  <background_color>
+    <color name="BACKGROUND" red="220" green="225" blue="221">
+    </color>
+  </background_color>
+  <actions>
+  </actions>
+  <grid_visible>false</grid_visible>
+  <widget type="checkbox" version="2.0.0">
+    <name>Check Box Template</name>
+    <pv_name>CstatH-Ctrl:$(seq_no):cP_SHe</pv_name>
+    <bit>-1</bit>
+    <label>He Super-critical</label>
+    <x>284</x>
+    <y>293</y>
+    <width>190</width>
+    <height>25</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Linking Container Template</name>
+    <file>Seq_top3+.bob</file>
+    <width>540</width>
+    <height>180</height>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED Template</name>
+    <pv_name>CstatH-Ctrl:$(seq_no):sP_SHe</pv_name>
+    <bit>0</bit>
+    <x>437</x>
+    <y>293</y>
+    <width>25</width>
+    <height>25</height>
+    <off_label>OFF</off_label>
+    <off_color>
+      <color name="LED-BLUE-OFF" red="90" green="110" blue="110">
+      </color>
+    </off_color>
+    <on_label>ON</on_label>
+    <on_color>
+      <color name="LED-BLUE-ON" red="81" green="232" blue="255">
+      </color>
+    </on_color>
+    <font>
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <line_color>
+      <color name="GRAY" red="169" green="169" blue="169">
+      </color>
+    </line_color>
+    <actions>
+    </actions>
+  </widget>
+  <widget type="radio" version="2.0.0">
+    <name>Choice Button Template</name>
+    <pv_name>CstatH-Ctrl:$(seq_no):cP_Op</pv_name>
+    <x>312</x>
+    <y>189</y>
+    <height>80</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD" size="12.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <horizontal>false</horizontal>
+    <actions>
+    </actions>
+    <items>
+      <item>1 - 4K</item>
+      <item>2 - 2K</item>
+      <item>3 - Standby</item>
+    </items>
+    <items_from_pv>false</items_from_pv>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Text Update Template_2</name>
+    <text>###</text>
+    <x>429</x>
+    <y>196</y>
+    <width>78</width>
+    <height>17</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <transparent>false</transparent>
+    <actions>
+    </actions>
+    <rules>
+      <rule name="TextRule" prop_id="text" out_exp="true">
+        <exp bool_exp="pv0== 1">
+          <expression>"4K"</expression>
+        </exp>
+        <exp bool_exp="pv0== 2">
+          <expression>"2K"</expression>
+        </exp>
+        <exp bool_exp="pv0== 3">
+          <expression>"Standby"</expression>
+        </exp>
+        <pv_name>CstatH-Ctrl:$(seq_no):sP_Op</pv_name>
+      </rule>
+    </rules>
+    <tooltip>Selected operation
+CstatH-Ctrl:$(seq_no):sP_Op
+</tooltip>
+    <border_width>2</border_width>
+    <border_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label Template_1</name>
+    <text>Operation:</text>
+    <x>314</x>
+    <y>160</y>
+    <width>72</width>
+    <font>
+      <font family="Source Sans Pro" style="BOLD" size="15.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name> Conditioning </name>
+    <y>175</y>
+    <width>220</width>
+    <height>125</height>
+    <foreground_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <actions>
+    </actions>
+    <widget type="checkbox" version="2.0.0">
+      <name>Check Box Template_7</name>
+      <pv_name>CstatH-Ctrl:$(seq_no):cP_CondCoupl</pv_name>
+      <bit>-1</bit>
+      <label>Couplers</label>
+      <y>31</y>
+      <width>151</width>
+      <height>25</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED Template_2</name>
+      <pv_name>CstatH-Ctrl:$(seq_no):sP_CDCryo</pv_name>
+      <bit>0</bit>
+      <x>152</x>
+      <y>60</y>
+      <width>16</width>
+      <height>16</height>
+      <off_color>
+        <color name="LED-BLUE-OFF" red="90" green="110" blue="110">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="LED-BLUE-ON" red="81" green="232" blue="255">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="GRAY" red="169" green="169" blue="169">
+        </color>
+      </line_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED Template_5</name>
+      <pv_name>CstatH-Ctrl:$(seq_no):sP_CondCryo</pv_name>
+      <bit>0</bit>
+      <x>152</x>
+      <y>12</y>
+      <width>16</width>
+      <height>16</height>
+      <off_color>
+        <color name="LED-BLUE-OFF" red="90" green="110" blue="110">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="LED-BLUE-ON" red="81" green="232" blue="255">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="GRAY" red="169" green="169" blue="169">
+        </color>
+      </line_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED Template_6</name>
+      <pv_name>CstatH-Ctrl:$(seq_no):sP_CondCoupl</pv_name>
+      <bit>0</bit>
+      <x>152</x>
+      <y>36</y>
+      <width>16</width>
+      <height>16</height>
+      <off_color>
+        <color name="LED-BLUE-OFF" red="90" green="110" blue="110">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="LED-BLUE-ON" red="81" green="232" blue="255">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="GRAY" red="169" green="169" blue="169">
+        </color>
+      </line_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>Check Box Template_6</name>
+      <pv_name>CstatH-Ctrl:$(seq_no):cP_CondCryo</pv_name>
+      <bit>-1</bit>
+      <label>Cryostat</label>
+      <y>7</y>
+      <width>151</width>
+      <height>25</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>Check Box Template_2</name>
+      <pv_name>CstatH-Ctrl:$(seq_no):cP_CDCryo</pv_name>
+      <bit>-1</bit>
+      <label>Cryostat cool-down</label>
+      <y>55</y>
+      <width>151</width>
+      <height>25</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <actions execute_as_one="true">
+      </actions>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name> Stop actions </name>
+    <y>326</y>
+    <width>552</width>
+    <height>79</height>
+    <foreground_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </background_color>
+    <transparent>true</transparent>
+    <actions>
+    </actions>
+    <widget type="checkbox" version="2.0.0">
+      <name>Check Box Template_5</name>
+      <pv_name>CstatH-Ctrl:$(seq_no):cP_WarmUp</pv_name>
+      <bit>-1</bit>
+      <label>Warm-up</label>
+      <x>10</x>
+      <y>6</y>
+      <width>131</width>
+      <height>25</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED Template_4</name>
+      <pv_name>CstatH-Ctrl:$(seq_no):sP_WarmUp</pv_name>
+      <bit>0</bit>
+      <x>92</x>
+      <y>11</y>
+      <width>16</width>
+      <height>16</height>
+      <off_color>
+        <color name="LED-BLUE-OFF" red="90" green="110" blue="110">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="LED-BLUE-ON" red="81" green="232" blue="255">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="GRAY" red="169" green="169" blue="169">
+        </color>
+      </line_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>Check Box Template_3</name>
+      <pv_name>CstatH-Ctrl:$(seq_no):cP_Isolated</pv_name>
+      <bit>-1</bit>
+      <label>Cryostat isolated</label>
+      <x>150</x>
+      <y>6</y>
+      <width>131</width>
+      <height>25</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED Template_3</name>
+      <pv_name>CstatH-Ctrl:$(seq_no):sP_Isolated</pv_name>
+      <bit>0</bit>
+      <x>282</x>
+      <y>11</y>
+      <width>16</width>
+      <height>16</height>
+      <off_color>
+        <color name="LED-BLUE-OFF" red="90" green="110" blue="110">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="LED-BLUE-ON" red="81" green="232" blue="255">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="GRAY" red="169" green="169" blue="169">
+        </color>
+      </line_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="checkbox" version="2.0.0">
+      <name>Check Box Template_1</name>
+      <pv_name>CstatH-Ctrl:$(seq_no):cP_StopSeq</pv_name>
+      <bit>-1</bit>
+      <label>Stop sequences</label>
+      <x>341</x>
+      <y>6</y>
+      <width>131</width>
+      <height>25</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="12.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <actions>
+      </actions>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED Template_1</name>
+      <pv_name>CstatH-Ctrl:$(seq_no):sP_StopSeq</pv_name>
+      <bit>0</bit>
+      <x>473</x>
+      <y>11</y>
+      <width>16</width>
+      <height>16</height>
+      <off_color>
+        <color name="LED-BLUE-OFF" red="90" green="110" blue="110">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="LED-BLUE-ON" red="81" green="232" blue="255">
+        </color>
+      </on_color>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <line_color>
+        <color name="GRAY" red="169" green="169" blue="169">
+        </color>
+      </line_color>
+      <actions>
+      </actions>
+    </widget>
+  </widget>
+</display>
