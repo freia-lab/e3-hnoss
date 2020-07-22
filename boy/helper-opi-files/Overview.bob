@@ -80,7 +80,7 @@ $(pv_value)</tooltip>
       <x>42</x>
       <y>137</y>
       <width>35</width>
-      <height>27</height>
+      <height>26</height>
       <font>
         <font family="Source Sans Pro" style="BOLD" size="20.0">
         </font>
@@ -169,7 +169,7 @@ $(pv_value)</tooltip>
       <x>152</x>
       <y>137</y>
       <width>35</width>
-      <height>27</height>
+      <height>26</height>
       <font>
         <font family="Source Sans Pro" style="BOLD" size="20.0">
         </font>
@@ -270,7 +270,7 @@ $(pv_value)</tooltip>
       <x>280</x>
       <y>165</y>
       <width>128</width>
-      <height>24</height>
+      <height>23</height>
       <font>
         <font family="Source Sans Pro" style="BOLD" size="18.0">
         </font>
@@ -507,6 +507,7 @@ $(pv_value)</tooltip>
       <text>2K Pumps</text>
       <x>60</x>
       <width>66</width>
+      <height>19</height>
       <font>
         <font family="Source Sans Pro" style="BOLD" size="15.0">
         </font>
@@ -1056,7 +1057,7 @@ $(pv_value)</tooltip>
     <name>Text Update Template</name>
     <pv_name>CstatH-Vac:PT010:sRdV</pv_name>
     <x>568</x>
-    <y>314</y>
+    <y>319</y>
     <width>49</width>
     <height>16</height>
     <font>
@@ -1087,7 +1088,7 @@ $(pv_value)</tooltip>
     <name>Label Template_6</name>
     <text>Pi</text>
     <x>624</x>
-    <y>313</y>
+    <y>318</y>
     <width>12</width>
     <height>19</height>
     <font>
@@ -1419,7 +1420,12 @@ $(pv_value)</tooltip>
       <pv_name>CstatH-Vac:TP001:sStatus</pv_name>
       <symbols>
         <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
+        <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
+        <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
         <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+        <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+        <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_GREEN.svg</symbol>
+        <symbol>../../freia-symbols/cryogenics/PV_Vacuum_Pump_RED.svg</symbol>
       </symbols>
       <width>30</width>
       <height>30</height>
@@ -1659,7 +1665,7 @@ Click for details</tooltip>
     <x>159</x>
     <y>591</y>
     <width>80</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="BOLD" size="14.0">
       </font>
@@ -1688,7 +1694,7 @@ Click for details</tooltip>
     <x>178</x>
     <y>608</y>
     <width>45</width>
-    <height>18</height>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="BOLD" size="14.0">
       </font>
@@ -1717,7 +1723,7 @@ Click for details</tooltip>
     <x>617</x>
     <y>13</y>
     <width>85</width>
-    <height>27</height>
+    <height>28</height>
     <font>
       <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
       </font>
@@ -1736,6 +1742,23 @@ Click for details</tooltip>
     </actions>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>CstatH-Vac:TP001:sStatus</pv_name>
+    <x>567</x>
+    <y>284</y>
+    <width>76</width>
+    <height>16</height>
+    <font>
+      <font family="Source Sans Pro" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <border_width>1</border_width>
+    <border_color>
+      <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </border_color>
   </widget>
