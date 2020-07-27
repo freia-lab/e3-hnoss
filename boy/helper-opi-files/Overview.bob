@@ -895,7 +895,7 @@ $(pv_value)</tooltip>
     <x>532</x>
     <y>499</y>
     <width>57</width>
-    <height>24</height>
+    <height>23</height>
     <font>
       <font family="Source Sans Pro" style="BOLD" size="18.0">
       </font>
@@ -985,7 +985,7 @@ $(pv_value)</tooltip>
     <x>546</x>
     <y>228</y>
     <width>12</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1022,7 +1022,7 @@ $(pv_value)</tooltip>
     <x>546</x>
     <y>251</y>
     <width>15</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1090,7 +1090,7 @@ $(pv_value)</tooltip>
     <x>624</x>
     <y>318</y>
     <width>12</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1211,7 +1211,7 @@ $(pv_value)</tooltip>
     <x>950</x>
     <y>557</y>
     <width>12</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1248,7 +1248,7 @@ $(pv_value)</tooltip>
     <x>950</x>
     <y>577</y>
     <width>15</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1316,7 +1316,7 @@ $(pv_value)</tooltip>
     <x>1040</x>
     <y>640</y>
     <width>12</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1450,7 +1450,7 @@ Click for details</tooltip>
       <name>Action Button_70</name>
       <actions>
         <action type="open_display">
-          <file>TP001.bob</file>
+          <file>../../freia-symbols/display-builder/CmdPanels/TP001.bob</file>
           <macros>
             <P>CstatH-Vac:TP001</P>
           </macros>
@@ -1508,7 +1508,7 @@ Click for details</tooltip>
       <name>Action Button_71</name>
       <actions>
         <action type="open_display">
-          <file>TP002.bob</file>
+          <file>../../freia-symbols/display-builder/CmdPanels/TP002.bob</file>
           <macros>
             <P>$(pv)</P>
           </macros>
@@ -1665,7 +1665,7 @@ Click for details</tooltip>
     <x>159</x>
     <y>591</y>
     <width>80</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="BOLD" size="14.0">
       </font>
@@ -1694,7 +1694,7 @@ Click for details</tooltip>
     <x>178</x>
     <y>608</y>
     <width>45</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="BOLD" size="14.0">
       </font>
@@ -1723,7 +1723,7 @@ Click for details</tooltip>
     <x>617</x>
     <y>13</y>
     <width>85</width>
-    <height>28</height>
+    <height>27</height>
     <font>
       <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
       </font>
