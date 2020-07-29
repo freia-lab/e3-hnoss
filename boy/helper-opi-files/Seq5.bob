@@ -12,7 +12,7 @@
   <grid_visible>false</grid_visible>
   <widget type="embedded" version="2.0.0">
     <name>Linking Container Template</name>
-    <file>Seq_top3+.bob</file>
+    <file>Seq_top3plus.bob</file>
     <x>1</x>
     <width>540</width>
     <height>140</height>

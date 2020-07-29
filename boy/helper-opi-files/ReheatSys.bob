@@ -186,7 +186,7 @@ $(pv_value)</tooltip>
     <text>Helium Pumping and Reheating system</text>
     <x>352</x>
     <width>354</width>
-    <height>27</height>
+    <height>28</height>
     <font>
       <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
       </font>
@@ -380,42 +380,6 @@ $(pv_value)</tooltip>
         </color>
       </border_color>
     </widget>
-    <widget type="textupdate" version="2.0.0">
-      <name>Text Update Template_35</name>
-      <pv_name>CstatH-RHtr:TT550:sRdV</pv_name>
-      <x>60</x>
-      <y>50</y>
-      <width>66</width>
-      <height>19</height>
-      <font>
-        <font family="Source Sans Pro" style="BOLD" size="13.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="BACKGROUND" red="220" green="225" blue="221">
-        </color>
-      </background_color>
-      <precision>2</precision>
-      <wrap_words>false</wrap_words>
-      <actions>
-        <action type="open_display">
-          <file>../CmdPanels/CstatH-AI.opi</file>
-          <macros>
-            <AI>$(P)-RHtr:TT550</AI>
-          </macros>
-          <target>tab</target>
-        </action>
-      </actions>
-      <border_width>2</border_width>
-      <border_color>
-        <color name="GRAY-BORDER" red="121" green="121" blue="121">
-        </color>
-      </border_color>
-    </widget>
     <widget type="group" version="2.0.0">
       <name>$(pv)</name>
       <macros>
@@ -453,7 +417,7 @@ $(pv_value)</tooltip>
         <square>true</square>
         <actions>
           <action type="open_display">
-            <file>../../freia-symbols/display-builder/CmdPanels/CstatV-DI.opi</file>
+            <file>../../freia-symbols/display-builder/CmdPanels/CstatV-DI.bob</file>
             <macros>
               <DI>$(P)-RHtr:LS580</DI>
             </macros>
@@ -497,6 +461,70 @@ $(pv_value)</tooltip>
       <y>61</y>
       <width>110</width>
       <height>95</height>
+    </widget>
+    <widget type="group" version="2.0.0">
+      <name>$(pv)</name>
+      <macros>
+        <pv>CstatH-RHtr:TT550</pv>
+      </macros>
+      <x>60</x>
+      <y>50</y>
+      <width>66</width>
+      <height>19</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="textupdate" version="2.0.0">
+        <name>Text Update Template_35</name>
+        <pv_name>CstatH-RHtr:TT550:sRdV</pv_name>
+        <width>66</width>
+        <height>19</height>
+        <font>
+          <font family="Source Sans Pro" style="BOLD" size="13.0">
+          </font>
+        </font>
+        <foreground_color>
+          <color name="BLACK" red="0" green="0" blue="0">
+          </color>
+        </foreground_color>
+        <background_color>
+          <color name="BACKGROUND" red="220" green="225" blue="221">
+          </color>
+        </background_color>
+        <precision>2</precision>
+        <wrap_words>false</wrap_words>
+        <actions>
+          <action type="open_display">
+            <file>../CmdPanels/CstatH-AI.bob</file>
+            <macros>
+              <AI>$(P)-RHtr:TT550</AI>
+            </macros>
+            <target>tab</target>
+          </action>
+        </actions>
+        <border_width>2</border_width>
+        <border_color>
+          <color name="GRAY-BORDER" red="121" green="121" blue="121">
+          </color>
+        </border_color>
+      </widget>
+      <widget type="action_button" version="3.0.0">
+        <name>Action Button_29</name>
+        <actions>
+          <action type="open_display">
+            <file>../../freia-symbols/display-builder/CmdPanels/CstatH-AI.bob</file>
+            <macros>
+              <AI>$(pv)</AI>
+            </macros>
+            <target>standalone</target>
+            <description>AI Control</description>
+          </action>
+        </actions>
+        <text></text>
+        <width>66</width>
+        <height>18</height>
+        <transparent>true</transparent>
+        <tooltip>$(pv)</tooltip>
+      </widget>
     </widget>
   </widget>
   <widget type="polyline" version="2.0.0">
@@ -585,7 +613,7 @@ $(pv_value)</tooltip>
     <x>418</x>
     <y>411</y>
     <width>26</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -1349,7 +1377,7 @@ the state was active for at least 10 s.</tooltip>
     <x>82</x>
     <y>493</y>
     <width>34</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -1396,71 +1424,6 @@ the state was active for at least 10 s.</tooltip>
     </actions>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_37</name>
-    <pv_name>CstatH-RHtr:PT551:sRdV</pv_name>
-    <x>433</x>
-    <y>607</y>
-    <width>114</width>
-    <height>16</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <precision>2</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-AI.opi</file>
-        <macros>
-          <AI>$(P)-RHtr:PT551</AI>
-        </macros>
-        <target>tab</target>
-      </action>
-    </actions>
-    <border_width>2</border_width>
-    <border_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_38</name>
-    <pv_name>CstatH-RHtr:PT552:sRdV</pv_name>
-    <x>430</x>
-    <y>698</y>
-    <width>117</width>
-    <height>17</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
-    <precision>2</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_width>2</border_width>
-    <border_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </border_color>
   </widget>
@@ -1764,14 +1727,6 @@ $(pv_value)</tooltip>
       <square>true</square>
       <actions>
       </actions>
-      <rules>
-        <rule name="BorderRule" prop_id="border_style" out_exp="false">
-          <exp bool_exp="pv0==1">
-            <value>9</value>
-          </exp>
-          <pv_name>$(pv_name).SIMM</pv_name>
-        </rule>
-      </rules>
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template</name>
@@ -2005,41 +1960,6 @@ $(pv_value)</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_141</name>
-    <pv_name>CstatH-LHe:FT131:sRdV</pv_name>
-    <x>459</x>
-    <y>315</y>
-    <width>101</width>
-    <height>17</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
-      </color>
-    </background_color>
-    <wrap_words>false</wrap_words>
-    <actions>
-      <action type="open_display">
-        <file>../CmdPanels/CstatH-AI.opi</file>
-        <macros>
-          <AI>$(P)-LHe:FT131</AI>
-        </macros>
-        <target>tab</target>
-      </action>
-    </actions>
-    <border_width>2</border_width>
-    <border_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </border_color>
-  </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_89</name>
     <text>FT131</text>
@@ -2133,7 +2053,7 @@ $(pv_value)</tooltip>
     <x>87</x>
     <y>506</y>
     <width>24</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2162,7 +2082,7 @@ $(pv_value)</tooltip>
     <x>83</x>
     <y>632</y>
     <width>34</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2191,7 +2111,7 @@ $(pv_value)</tooltip>
     <x>88</x>
     <y>645</y>
     <width>24</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2686,7 +2606,7 @@ $(pv_value)
     <x>426</x>
     <y>425</y>
     <width>11</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2715,7 +2635,7 @@ $(pv_value)
     <x>435</x>
     <y>590</y>
     <width>11</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2744,7 +2664,7 @@ $(pv_value)
     <x>427</x>
     <y>576</y>
     <width>26</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2773,7 +2693,7 @@ $(pv_value)
     <x>438</x>
     <y>682</y>
     <width>13</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2802,7 +2722,7 @@ $(pv_value)
     <x>430</x>
     <y>669</y>
     <width>26</width>
-    <height>14</height>
+    <height>15</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2956,5 +2876,173 @@ $(pv_value)
       <color red="0" green="128" blue="255">
       </color>
     </border_color>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(pv)</name>
+    <macros>
+      <pv>CstatH-RHtr:PT551</pv>
+    </macros>
+    <x>433</x>
+    <y>605</y>
+    <width>114</width>
+    <height>18</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update Template_37</name>
+      <pv_name>CstatH-RHtr:PT551:sRdV</pv_name>
+      <y>2</y>
+      <width>114</width>
+      <height>16</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="13.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="BACKGROUND" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <precision>2</precision>
+      <wrap_words>false</wrap_words>
+      <actions>
+        <action type="open_display">
+          <file>../CmdPanels/CstatH-AI.bob</file>
+          <macros>
+            <AI>$(P)-RHtr:PT551</AI>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <border_width>2</border_width>
+      <border_color>
+        <color name="GRAY-BORDER" red="121" green="121" blue="121">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_30</name>
+      <actions>
+        <action type="open_display">
+          <file>../../freia-symbols/display-builder/CmdPanels/CstatH-AI.bob</file>
+          <macros>
+            <AI>$(pv)</AI>
+          </macros>
+          <target>standalone</target>
+          <description>AI Control</description>
+        </action>
+      </actions>
+      <text></text>
+      <x>2</x>
+      <width>112</width>
+      <height>18</height>
+      <transparent>true</transparent>
+      <tooltip>$(pv)</tooltip>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(pv)</name>
+    <macros>
+      <pv>CstatH-RHtr:PT552</pv>
+    </macros>
+    <x>430</x>
+    <y>698</y>
+    <width>117</width>
+    <height>18</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update Template_38</name>
+      <pv_name>CstatH-RHtr:PT552:sRdV</pv_name>
+      <width>117</width>
+      <height>17</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="13.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="BACKGROUND" red="220" green="225" blue="221">
+        </color>
+      </background_color>
+      <precision>2</precision>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_width>2</border_width>
+      <border_color>
+        <color name="GRAY-BORDER" red="121" green="121" blue="121">
+        </color>
+      </border_color>
+    </widget>
+  </widget>
+  <widget type="group" version="2.0.0">
+    <name>$(pv)</name>
+    <macros>
+      <pv>CstatH-LHe:FT131</pv>
+    </macros>
+    <x>459</x>
+    <y>315</y>
+    <width>101</width>
+    <height>18</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update Template_141</name>
+      <pv_name>CstatH-LHe:FT131:sRdV</pv_name>
+      <width>101</width>
+      <height>17</height>
+      <font>
+        <font family="Source Sans Pro" style="BOLD" size="13.0">
+        </font>
+      </font>
+      <foreground_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </foreground_color>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
+      <wrap_words>false</wrap_words>
+      <actions>
+        <action type="open_display">
+          <file>../CmdPanels/CstatH-AI.bob</file>
+          <macros>
+            <AI>$(P)-LHe:FT131</AI>
+          </macros>
+          <target>tab</target>
+        </action>
+      </actions>
+      <border_width>2</border_width>
+      <border_color>
+        <color name="GRAY-BORDER" red="121" green="121" blue="121">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_32</name>
+      <actions>
+        <action type="open_display">
+          <file>../../freia-symbols/display-builder/CmdPanels/CstatH-AI.bob</file>
+          <macros>
+            <AI>$(pv)</AI>
+          </macros>
+          <target>standalone</target>
+          <description>AI Control</description>
+        </action>
+      </actions>
+      <text></text>
+      <width>101</width>
+      <height>18</height>
+      <transparent>true</transparent>
+      <tooltip>$(pv)</tooltip>
+    </widget>
   </widget>
 </display>
