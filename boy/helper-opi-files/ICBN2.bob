@@ -82,7 +82,7 @@ $(pv_value)</tooltip>
     <text>Interconnection Box - Liquid Nitrogen</text>
     <x>289</x>
     <width>337</width>
-    <height>28</height>
+    <height>27</height>
     <font>
       <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
       </font>
@@ -971,7 +971,7 @@ $(pv_value)</tooltip>
       <text>Vacuum</text>
       <x>3</x>
       <width>48</width>
-      <height>19</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -999,7 +999,7 @@ $(pv_value)</tooltip>
       <text>Pumping</text>
       <y>15</y>
       <width>54</width>
-      <height>19</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1028,7 +1028,7 @@ $(pv_value)</tooltip>
       <x>5</x>
       <y>31</y>
       <width>44</width>
-      <height>19</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -1054,12 +1054,12 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_44</name>
-    <file>../../freia-symbols/display-builder/CstatHValve-h-lu-pv.bob</file>
     <macros>
       <P>CstatH</P>
       <S>Vac</S>
       <V>FV000</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatHValve-h-lu-pv.bob</file>
     <x>796</x>
     <y>586</y>
     <width>35</width>
@@ -1067,12 +1067,12 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_45</name>
-    <file>../../freia-symbols/display-builder/CstatEvalve-h-lu-pv.bob</file>
     <macros>
       <P>CstatH</P>
       <S>IBoxN2</S>
       <V>EV400</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatEvalve-h-lu-pv.bob</file>
     <x>195</x>
     <y>192</y>
     <width>35</width>
@@ -1080,12 +1080,12 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_46</name>
-    <file>../../freia-symbols/display-builder/CstatHValve-v-lr-pv.bob</file>
     <macros>
       <P>CstatH</P>
       <S>IBoxN2</S>
       <V>FV401</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatHValve-v-lr-pv.bob</file>
     <x>414</x>
     <y>447</y>
     <width>50</width>
@@ -1093,12 +1093,12 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_47</name>
-    <file>../../freia-symbols/display-builder/CstatHValve-v-lr-pv.bob</file>
     <macros>
       <P>CstatH</P>
       <S>IBoxN2</S>
       <V>FV400</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatHValve-v-lr-pv.bob</file>
     <x>571</x>
     <y>447</y>
     <width>50</width>
@@ -1106,13 +1106,13 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_48</name>
-    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <macros>
       <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>IBoxN2</S>
       <V>EH400</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <x>277</x>
     <y>285</y>
     <width>110</width>
@@ -1120,13 +1120,13 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_49</name>
-    <file>../../freia-symbols/display-builder/CstatH-Heater1-FLIPPED-lr-pv.bob</file>
     <macros>
       <MULTI_HTR>AC</MULTI_HTR>
       <P>CstatH</P>
       <S>IBoxN2</S>
       <V>EH401</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-FLIPPED-lr-pv.bob</file>
     <x>476</x>
     <y>529</y>
     <width>130</width>
@@ -1225,7 +1225,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(2);]]></text>
       <symbol>../../freia-symbols/cryogenics/valve_relief.svg</symbol>
     </symbols>
     <x>192</x>
-    <y>132</y>
+    <y>128</y>
     <width>41</width>
     <height>27</height>
     <background_color>
