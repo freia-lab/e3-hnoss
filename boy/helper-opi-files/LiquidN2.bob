@@ -995,7 +995,7 @@ $(pv_value)</tooltip>
     <x>651</x>
     <y>683</y>
     <width>37</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1023,7 +1023,7 @@ $(pv_value)</tooltip>
     <x>811</x>
     <y>620</y>
     <width>37</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1340,7 +1340,7 @@ $(pv_value)</tooltip>
     <x>1072</x>
     <y>660</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1395,7 +1395,7 @@ $(pv_value)</tooltip>
     <x>927</x>
     <y>464</y>
     <width>37</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1423,7 +1423,7 @@ $(pv_value)</tooltip>
     <x>1016</x>
     <y>390</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1451,7 +1451,7 @@ $(pv_value)</tooltip>
     <x>1297</x>
     <y>297</y>
     <width>37</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1479,7 +1479,7 @@ $(pv_value)</tooltip>
     <x>1302</x>
     <y>606</y>
     <width>37</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -1642,7 +1642,7 @@ $(pv_value)</tooltip>
     <x>448</x>
     <y>5</y>
     <width>140</width>
-    <height>28</height>
+    <height>27</height>
     <font>
       <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
       </font>
@@ -2395,7 +2395,7 @@ $(pv_value)</tooltip>
       <text>Vacuum</text>
       <x>3</x>
       <width>48</width>
-      <height>19</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2423,7 +2423,7 @@ $(pv_value)</tooltip>
       <text>Pumping</text>
       <y>15</y>
       <width>54</width>
-      <height>19</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2452,7 +2452,7 @@ $(pv_value)</tooltip>
       <x>5</x>
       <y>31</y>
       <width>44</width>
-      <height>19</height>
+      <height>18</height>
       <font>
         <font family="Source Sans Pro" style="REGULAR" size="14.0">
         </font>
@@ -2478,12 +2478,12 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_44</name>
-    <file>../../freia-symbols/display-builder/CstatHValve-h-lu-pv.bob</file>
     <macros>
       <P>CstatH</P>
       <S>Vac</S>
       <V>FV001</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatHValve-h-lu-pv.bob</file>
     <x>1272</x>
     <y>771</y>
     <width>35</width>
@@ -2491,12 +2491,12 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_45</name>
-    <file>../../freia-symbols/display-builder/CstatEvalve-h-lu-pv.bob</file>
     <macros>
       <P>CstatH</P>
       <S>LN2</S>
       <V>EV201</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatEvalve-h-lu-pv.bob</file>
     <x>301</x>
     <y>167</y>
     <width>35</width>
@@ -2504,12 +2504,12 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_46</name>
-    <file>../../freia-symbols/display-builder/CstatEvalve-h-lu-pv.bob</file>
     <macros>
       <P>CstatH</P>
       <S>LN2</S>
       <V>EV200</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatEvalve-h-lu-pv.bob</file>
     <x>265</x>
     <y>265</y>
     <width>35</width>
@@ -2521,7 +2521,7 @@ $(pv_value)</tooltip>
     <x>639</x>
     <y>698</y>
     <width>67</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2549,7 +2549,7 @@ $(pv_value)</tooltip>
     <x>802</x>
     <y>634</y>
     <width>67</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -2573,12 +2573,12 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_48</name>
-    <file>../../freia-symbols/display-builder/CstatH-CtrlValve-h-pv.bob</file>
     <macros>
       <P>CstatH</P>
       <S>LN2</S>
       <V>CV200</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-CtrlValve-h-pv.bob</file>
     <x>455</x>
     <y>92</y>
     <width>55</width>
@@ -2586,10 +2586,10 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_49</name>
-    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
     <macros>
       <L>FIC200</L>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
     <x>306</x>
     <y>58</y>
     <width>66</width>
@@ -2597,10 +2597,10 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_50</name>
-    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
     <macros>
       <L>FIC201</L>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
     <x>550</x>
     <y>57</y>
     <width>66</width>
@@ -2608,12 +2608,12 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_51</name>
-    <file>../../freia-symbols/display-builder/CstatH-CtrlValve-h-pv.bob</file>
     <macros>
       <P>CstatH</P>
       <S>LN2</S>
       <V>CV201</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-CtrlValve-h-pv.bob</file>
     <x>627</x>
     <y>32</y>
     <width>55</width>
@@ -2621,12 +2621,12 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_52</name>
-    <file>../../freia-symbols/display-builder/CstatHValve-v-lr-pv.bob</file>
     <macros>
       <P>CstatH</P>
       <S>IBoxN2</S>
       <V>FV400</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatHValve-v-lr-pv.bob</file>
     <x>879</x>
     <y>100</y>
     <width>50</width>
@@ -2634,10 +2634,10 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_53</name>
-    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
     <macros>
       <L>TIC200</L>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
     <x>476</x>
     <y>486</y>
     <width>66</width>
@@ -2645,10 +2645,10 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_54</name>
-    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
     <macros>
       <L>TIC201</L>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
     <x>635</x>
     <y>485</y>
     <width>66</width>
@@ -2656,12 +2656,12 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_55</name>
-    <file>../../freia-symbols/display-builder/CstatHValve-h-lu-pv.bob</file>
     <macros>
       <P>CstatH</P>
       <S>LN2</S>
       <V>FV200</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatHValve-h-lu-pv.bob</file>
     <x>825</x>
     <y>767</y>
     <width>35</width>
@@ -2669,13 +2669,13 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_56</name>
-    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <macros>
       <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>LN2</S>
       <V>EH200</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <x>282</x>
     <y>351</y>
     <width>110</width>
@@ -2712,13 +2712,13 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_57</name>
-    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <macros>
       <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>LN2</S>
       <V>EH201</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <x>432</x>
     <y>351</y>
     <width>110</width>
@@ -2755,13 +2755,13 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_58</name>
-    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <macros>
       <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>LN2</S>
       <V>EH202</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <x>592</x>
     <y>351</y>
     <width>110</width>
@@ -2798,13 +2798,13 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_59</name>
-    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <macros>
       <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>LN2</S>
       <V>EH203</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <x>757</x>
     <y>351</y>
     <width>110</width>
@@ -2841,13 +2841,13 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_60</name>
-    <file>../../freia-symbols/display-builder/CstatH-Heater1-FLIPPED-lr-pv.bob</file>
     <macros>
       <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>LN2</S>
       <V>EH205</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-FLIPPED-lr-pv.bob</file>
     <x>994</x>
     <y>400</y>
     <width>130</width>
@@ -2884,13 +2884,13 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_61</name>
-    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <macros>
       <MULTI_HTR>AC</MULTI_HTR>
       <P>CstatH</P>
       <S>LN2</S>
       <V>EH204</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <x>192</x>
     <y>464</y>
     <width>130</width>
@@ -2985,13 +2985,13 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_62</name>
-    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <macros>
       <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>LN2</S>
       <V>EH207</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <x>208</x>
     <y>714</y>
     <width>110</width>
@@ -3028,13 +3028,13 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_63</name>
-    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <macros>
       <MULTI_HTR></MULTI_HTR>
       <P>CstatH</P>
       <S>LN2</S>
       <V>EH208</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
     <x>1106</x>
     <y>638</y>
     <width>110</width>
@@ -3071,13 +3071,13 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_64</name>
-    <file>../../freia-symbols/display-builder/CstatH-Heater1-FLIPPED-lr-pv.bob</file>
     <macros>
       <MULTI_HTR>AF</MULTI_HTR>
       <P>CstatH</P>
       <S>LN2</S>
       <V>EH206</V>
     </macros>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-FLIPPED-lr-pv.bob</file>
     <x>974</x>
     <y>799</y>
     <width>130</width>
@@ -3207,7 +3207,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(7);]]></text>
       <symbol>../../freia-symbols/cryogenics/valve_relief.svg</symbol>
     </symbols>
     <x>296</x>
-    <y>138</y>
+    <y>135</y>
     <width>41</width>
     <height>27</height>
     <background_color>
@@ -3224,7 +3224,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(7);]]></text>
       <symbol>../../freia-symbols/cryogenics/valve_relief.svg</symbol>
     </symbols>
     <x>259</x>
-    <y>236</y>
+    <y>233</y>
     <width>41</width>
     <height>27</height>
     <background_color>
