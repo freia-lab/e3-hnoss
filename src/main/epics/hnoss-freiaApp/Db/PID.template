@@ -127,6 +127,7 @@ record(bo, "CstatH-$(SUBS):$(DEV):cmdAuto") {
   field(ONAM, "CmdAuto")
   field(PINI, "NO")
   field(HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
   field(SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 
@@ -137,6 +138,7 @@ record(bo, "CstatH-$(SUBS):$(DEV):cmdMan") {
   field(ONAM, "CmdMan")
   field(PINI, "NO")
   field(HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
   field(SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 
@@ -147,6 +149,7 @@ record(bo, "CstatH-$(SUBS):$(DEV):cmdRegOn") {
   field(ONAM, "CmdRegOn")
   field(PINI, "NO")
   field(HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
   field(SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 
@@ -157,6 +160,7 @@ record(bo, "CstatH-$(SUBS):$(DEV):cmdRegOff") {
   field(ONAM, "CmdRegOff")
   field(PINI, "NO")
   field(HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
   field(SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 
@@ -167,6 +171,7 @@ record(bo, "CstatH-$(SUBS):$(DEV):cmdSetP") {
   field(ONAM, "CmdSetP")
   field(PINI, "NO")
   field(HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
   field(SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 
@@ -177,6 +182,7 @@ record(bo, "CstatH-$(SUBS):$(DEV):cmdOutput") {
   field(ONAM, "CmdOutput")
   field(PINI, "NO")
   field(HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
   field(SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 
@@ -187,6 +193,7 @@ record(bo, "CstatH-$(SUBS):$(DEV):cmdASPon") {
   field(ONAM, "CmdAnalogSPon")
   field(PINI, "NO")
   field(HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
   field(SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 
@@ -197,6 +204,7 @@ record(bo, "CstatH-$(SUBS):$(DEV):cmdASPoff") {
   field(ONAM, "CmdAnalogSPoff")
   field(PINI, "NO")
   field(HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
   field(SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 

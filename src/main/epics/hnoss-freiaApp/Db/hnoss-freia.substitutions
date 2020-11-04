@@ -268,7 +268,7 @@ file "Heater2.template" { pattern
 file "SQbinary.template" { pattern
 {SUBS, OFFS2, OFFS, ONST, TWST, THST, FRST, FVST, SXST, SVST}
 {SQ0,   2808, 4180, "SQ1 mustn't be running", "SQ2 mustn't be running", "", "", "", "", ""}
-{SQ1,   2892, 4282, "SQ0 mustn't be running", "SQ2 mustn't be running", "", "", "", "", ""}
+{SQ1,   2892, 4282, "SQ0 mustn't be running", "SQ2 mustn't be running", "CM must be in S2 state", "", "", "", ""}
 {SQ2,   2976, 4384, "SQ0 mustn't be running", "SQ1 mustn't be running", "", "", "", "", ""}
 {SQ3A,  3060, 4486, "", "", "", "", "", "", ""}
 {SQ3B,  3144, 4588, "SQ3A must be running", "", "", "", "", "", ""}

@@ -16,6 +16,7 @@ record (bo, "CstatH-Ctrl:opMode:cmdLocal") {
   field (ONAM, "CmdLocal")
   field (PINI, "NO")
   field (HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
 }
 record (bo, "CstatH-Ctrl:opMode:cmdRemote") {
   field (DTYP, "S7plc")
@@ -24,6 +25,7 @@ record (bo, "CstatH-Ctrl:opMode:cmdRemote") {
   field (ONAM, "CmdRemote")
   field (PINI, "NO")
   field (HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
 }
 
 record (bi, "CstatH-Ctrl:opMode:sLocal") {
@@ -256,6 +258,7 @@ record (bo, "CstatH-Ctrl:opMode:cmdSetParam") {
   field (ONAM, "CmdSetParam")
   field (PINI, "NO")
   field (HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
 }
 
 record (bo, "CstatH-Ctrl:opMode:cmdSetAck") {
@@ -265,6 +268,7 @@ record (bo, "CstatH-Ctrl:opMode:cmdSetAck") {
   field (ONAM, "CmdSetAck")
   field (PINI, "NO")
   field (HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
 }
 
 record (bo, "CstatH-RHtr:opMode:cmdSet2KtoBaloon") {
@@ -274,6 +278,7 @@ record (bo, "CstatH-RHtr:opMode:cmdSet2KtoBaloon") {
   field (ONAM, "CmdSet2KtoBalloon")
   field (PINI, "NO")
   field (HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
   field (SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 record (bo, "CstatH-RHtr:opMode:cmdRst2KtoBaloon") {
@@ -283,6 +288,7 @@ record (bo, "CstatH-RHtr:opMode:cmdRst2KtoBaloon") {
   field (ONAM, "CmdSet2KtoCompr")
   field (PINI, "NO")
   field (HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
   field (SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 record (bo, "CstatH-RHtr:opMode:cmdSet4KtoBaloon") {
@@ -292,6 +298,7 @@ record (bo, "CstatH-RHtr:opMode:cmdSet4KtoBaloon") {
   field (ONAM, "CmdSet4KtoBalloon")
   field (PINI, "NO")
   field (HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
   field (SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 record (bo, "CstatH-RHtr:opMode:cmdRst4KtoBaloon") {
@@ -301,6 +308,7 @@ record (bo, "CstatH-RHtr:opMode:cmdRst4KtoBaloon") {
   field (ONAM, "CmdSet4KtoCompr")
   field (PINI, "NO")
   field (HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
   field (SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 
@@ -311,6 +319,7 @@ record (bo, "CstatH-Ctrl:opMode:cmdSetCMmode") {
   field (ONAM, "CmdSetCMmode")
   field (PINI, "NO")
   field (HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
   field (SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 record (bo, "CstatH-Ctrl:opMode:cmdRstCMmode") {
@@ -320,6 +329,7 @@ record (bo, "CstatH-Ctrl:opMode:cmdRstCMmode") {
   field (ONAM, "CmdRstCMmode")
   field (PINI, "NO")
   field (HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
   field (SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 
