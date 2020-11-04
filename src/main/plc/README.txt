@@ -177,7 +177,11 @@ PLC_Cryostat_2019_06_20.zip - KG - Added sending state of SQ9 to the CM PLC (cha
 
 PLC_Cryostat_2019_06_26.zip - KG - Added starting of sequence 9 from the CM only after detection of transition to step6 (FC210 Network 6)
 PLC_Cryostat_2019_06_27.zip - KG - Finally fixed automatic starting/stopping of SQ9 (FC210 Network 6). 2K operation with CM tested succesfully.
-
+PLC_Cryostat_2019_10_03.zip - KG - Prepared to fully automatize CM warm-up (not completed). Added Transfer of CV5202 related data to the CM PLC.
+	Changes only in FC132.
+PLC_Cryostat_2020_11_04.zip - KG - Added initial conditions in SQ1 when in CM's mode - CM must be in S2 (Conditioning) state (FC201).
+	Added condition for closing FV550 when the Sequence 1 is running (FC556)
+	
 
 ============================================================================================================
 SCADA
