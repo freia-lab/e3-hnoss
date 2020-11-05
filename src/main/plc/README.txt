@@ -181,6 +181,8 @@ PLC_Cryostat_2019_10_03.zip - KG - Prepared to fully automatize CM warm-up (not 
 	Changes only in FC132.
 PLC_Cryostat_2020_11_04.zip - KG - Added initial conditions in SQ1 when in CM's mode - CM must be in S2 (Conditioning) state (FC201).
 	Added condition for closing FV550 when the Sequence 1 is running (FC556)
+PLC_Cryostat_2020_11_05.zip - KG - Made CV552 closed in the purging sequence (sequence 1) to avoid pumping the oil from FT552 (FC600).
+	Made CV101, CV102 and CV103 closed in sequence 1 when in cryomodule mode.
 	
 
 ============================================================================================================
