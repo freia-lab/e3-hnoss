@@ -524,3 +524,37 @@ record(bo, "CstatH:Ctrl:sIocConn-stat") {
   field(OMSL, "closed_loop")
 }
 
+# Records with data form the fgc ioc (magnet power converters)
+
+record(ao, CstatH-Ctrl:MAG:PC1_CURR) {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/40 T=FLOAT")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field(DOL, "MAG-RCH1:I_MEAS CA")
+  field(OMSL, "closed_loop")
+}
+record(ao, CstatH-Ctrl:MAG:PC2_CURR) {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/44 T=FLOAT")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field(DOL, "MAG-RCH2:I_MEAS CA")
+  field(OMSL, "closed_loop")
+}
+record(longout, CstatH-Ctrl:MAG:PC1_CURR-SEVR) {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/6 T=INT16")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field(DOL, "MAG-RCH1:I_MEAS.SEVR CA")
+  field(OMSL, "closed_loop")
+}
+record(longout, CstatH-Ctrl:MAG:PC2_CURR-SEVR) {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/8 T=INT16")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field(DOL, "MAG-RCH2:I_MEAS.SEVR CA")
+  field(OMSL, "closed_loop")
+}

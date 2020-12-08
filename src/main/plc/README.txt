@@ -183,7 +183,9 @@ PLC_Cryostat_2020_11_04.zip - KG - Added initial conditions in SQ1 when in CM's 
 	Added condition for closing FV550 when the Sequence 1 is running (FC556)
 PLC_Cryostat_2020_11_05.zip - KG - Made CV552 closed in the purging sequence (sequence 1) to avoid pumping the oil from FT552 (FC600).
 	Made CV101, CV102 and CV103 closed in sequence 1 when in cryomodule mode.
-	
+PLC_Cryostat_2020_12_08.zip - KG - Added tranfer of PVs for the magnet current to Gersemi PLC. (new S7PLC_PSI_CodacStruc130 source file, changes
+	in FC130. NOTE - did not updated source file Com_PLC_Vertical but added the new entries directly into db131.
+
 
 ============================================================================================================
 SCADA
