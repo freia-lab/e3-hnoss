@@ -185,6 +185,7 @@ PLC_Cryostat_2020_11_05.zip - KG - Made CV552 closed in the purging sequence (se
 	Made CV101, CV102 and CV103 closed in sequence 1 when in cryomodule mode.
 PLC_Cryostat_2020_12_08.zip - KG - Added tranfer of PVs for the magnet current to Gersemi PLC. (new S7PLC_PSI_CodacStruc130 source file, changes
 	in FC130. NOTE - did not updated source file Com_PLC_Vertical but added the new entries directly into db131.
+PLC_Cryostat_2020_12_17.zip - KG - Removed setting MKS2 (CV550) from the CM's parameter CM-RHtr:CV550:sSetV during the CM's warm-up sequence.
 
 
 ============================================================================================================
