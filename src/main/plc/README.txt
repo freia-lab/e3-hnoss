@@ -186,6 +186,8 @@ PLC_Cryostat_2020_11_05.zip - KG - Made CV552 closed in the purging sequence (se
 PLC_Cryostat_2020_12_08.zip - KG - Added tranfer of PVs for the magnet current to Gersemi PLC. (new S7PLC_PSI_CodacStruc130 source file, changes
 	in FC130. NOTE - did not updated source file Com_PLC_Vertical but added the new entries directly into db131.
 PLC_Cryostat_2020_12_17.zip - KG - Removed setting MKS2 (CV550) from the CM's parameter CM-RHtr:CV550:sSetV during the CM's warm-up sequence.
+PLC_Cryostat_2021_01_07.zip - KG - Improved #FC_MKS function - added check if the valve position set point has been written correctly (by comparing the
+	value in S1 command to the value received in R1 command) and in case of mis-match forcing to resend the S1 command.
 
 
 ============================================================================================================
