@@ -188,6 +188,8 @@ PLC_Cryostat_2020_12_08.zip - KG - Added tranfer of PVs for the magnet current t
 PLC_Cryostat_2020_12_17.zip - KG - Removed setting MKS2 (CV550) from the CM's parameter CM-RHtr:CV550:sSetV during the CM's warm-up sequence.
 PLC_Cryostat_2021_01_07.zip - KG - Improved #FC_MKS function - added check if the valve position set point has been written correctly (by comparing the
 	value in S1 command to the value received in R1 command) and in case of mis-match forcing to resend the S1 command.
+PLC_Cryostat_2021_03_24.zip - KG - Enabled the set-point for MKS2 set by CstatH-Ctrl:SQ9:cP_CM_SP_MKS2 parameter (CM's alias CM-Ctrl:S8:cP_SP_PT01) in
+	cryomodule's 2K operation (S8). Changed only in FC600.
 
 
 ============================================================================================================
