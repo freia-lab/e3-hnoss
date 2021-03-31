@@ -265,6 +265,25 @@ file "Heater2.template" { pattern
 {RHtr,	EH550,     3872,    2500}
 }
 
+file "PID_param.template" { pattern
+{SUBS,	DEV,      OFFS2}
+{LN2,    TIC200,  2598}
+{LN2,    FIC200,  2612}
+{LN2,    TIC201,  2626}
+{LN2,    FIC201,  2640}
+{SHe,    TIC301,  2654}
+{SHe,    FIC301,  2668}
+{SHe,    TIC302,  2682}
+{SHe,    FIC302,  2696}
+{LHe,    TIC101,  2710}
+{MKS,    MKS1,    2724}
+{MKS,    MKS2,    2738}
+{MKS,    MKS3,    2752}
+{LHe,    LIC100,  2766}
+{LHe,    LIC101A, 2780}
+{LHe,    LIC101B, 2794}
+}
+
 file "SQbinary.template" { pattern
 {SUBS, OFFS2, OFFS, ONST, TWST, THST, FRST, FVST, SXST, SVST}
 {SQ0,   2808, 4180, "SQ1 mustn't be running", "SQ2 mustn't be running", "", "", "", "", ""}

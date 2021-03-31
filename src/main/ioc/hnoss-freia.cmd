@@ -1,4 +1,4 @@
-#require autosave
+require autosave,5.7+
 
 epicsEnvSet("AUTOSAVE_SYSM_PV_PREFIX","hnoss:")
 
@@ -10,7 +10,7 @@ requireSnippet(userPreDriverConf-hnoss-freia.cmd, IP_ADDR=$(PLC_IPADDR))
 sleep 2
 
 requireSnippet(dbToLoad-hnoss-freia.cmd)
-#requireSnippet(hnoss-freia-preSaveRestore.cmd)
+requireSnippet(hnoss-freia-preSaveRestore.cmd)
 
 #############################################
 ## IOC initialization                      ##
@@ -18,6 +18,6 @@ requireSnippet(dbToLoad-hnoss-freia.cmd)
 
 iocInit
 
-#requireSnippet(hnoss-freia-postSaveRestore.cmd)
+requireSnippet(hnoss-freia-postSaveRestore.cmd)
 requireSnippet(userPostDriverConf-hnoss-freia.cmd)
 

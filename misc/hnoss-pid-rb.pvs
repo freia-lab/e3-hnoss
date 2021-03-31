@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<pvtable version="3.0">
+    <nbMeasure>1</nbMeasure>
+    <timeout>60</timeout>
+    <pvlist>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LHe:LIC100:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LHe:LIC100:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LHe:LIC100:sTd</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LHe:LIC101A:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LHe:LIC101A:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LHe:LIC101A:sTd</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LHe:LIC101B:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LHe:LIC101B:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LHe:LIC101B:sTd</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LHe:TIC101:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LHe:TIC101:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LHe:TIC101:sTd</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LN2:FIC200:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LN2:FIC200:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LN2:FIC200:sTd</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LN2:FIC201:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LN2:FIC201:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LN2:FIC201:sTd</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LN2:TIC200:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LN2:TIC200:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LN2:TIC200:sTd</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LN2:TIC201:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LN2:TIC201:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-LN2:TIC201:sTd</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-MKS:MKS1:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-MKS:MKS1:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-MKS:MKS2:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-MKS:MKS2:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-MKS:MKS3:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-MKS:MKS3:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-SHe:FIC301:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-SHe:FIC301:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-SHe:FIC301:sTd</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-SHe:FIC302:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-SHe:FIC302:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-SHe:FIC302:sTd</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-SHe:TIC301:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-SHe:TIC301:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-SHe:TIC301:sTd</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-SHe:TIC302:sKp</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-SHe:TIC302:sTi</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+        <pv>
+            <selected>true</selected>
+            <name>CstatH-SHe:TIC302:sTd</name>
+            <tolerance>0.01</tolerance>
+            <saved_value_timestamp></saved_value_timestamp>
+            <timestamp_measure>2018-01-30 11:44:16.877000000</timestamp_measure>
+            <conf>false</conf>
+            <measure>false</measure>
+            <completion>false</completion>
+        </pv>
+    </pvlist>
+</pvtable>
