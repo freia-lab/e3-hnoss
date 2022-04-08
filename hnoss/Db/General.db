@@ -392,7 +392,7 @@ record(longin, "CstatH-Ctrl:HeartBeat:Gersemi") {
   field (SCAN, "I/O Intr")
 }
 
-record(ao, CstatH-Ctrl:HeartBeat:HBcounter) {
+record(longout, CstatH-Ctrl:HeartBeat:HBcounter) {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/2 T=INT16")
   field(SCAN, "10 second")
@@ -402,7 +402,7 @@ record(ao, CstatH-Ctrl:HeartBeat:HBcounter) {
 
 # Heart-bit to the PLC (from this IOC)
 
-record(ao, "CstatH-Ctrl:HBcounter-ioc") {
+record(longout, "CstatH-Ctrl:HBcounter-ioc") {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/4 T=INT16")
   field(DOL, "CstatH-Ctrl:s7-mod-scounter")

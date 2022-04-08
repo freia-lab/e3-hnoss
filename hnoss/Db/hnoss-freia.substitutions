@@ -305,22 +305,32 @@ file "SQbinary.template" { pattern
 {SQ20,  4152, 5812, "", "", "", "", "", "", ""}
 }
 
-file "SQanalog.template" { pattern
+file "SQanalogInt.template" { pattern
 {SUBS,	 SIG,          OFFS2, TYPE, SIG2,	OFFS, EGU}
 {SQ0,	cNcycle,       2810, INT16, sNcycle, 4200, ""}
 {SQ0,	cVacRate,      2812, INT16, sVacRate, 4202,	"s"}
 {SQ0,	cPressRate,    2814, INT16, sPressRate, 4204,	"s"}
 {SQ0,	cVacRateAlrm,  2816, INT16, sVacRateAlrm, 4206,	"s"}
 {SQ0,	cPresRateAlrm, 2818, INT16, sPresRateAlrm, 4208,"s"}
-{SQ0,	cVac,          2828, FLOAT, sVac, 4218,	   "mbar"}
-{SQ0,	cVacFlt,       2832, FLOAT, sVacFlt, 4222, "mbar"}
-{SQ0,	cPressEOF,     2836, FLOAT, sPressEOF, 4226, "mbar"}
-{SQ0,	cPressFlt,     2840, FLOAT, sPressFlt, 4230, "mbar"}
-{SQ1,	cNcycle,       2894, INT16, sNcycle, 4302,   ""}
 {SQ1,	cVacRate,      2896, INT16, sVacRate, 4304,  "s"}
 {SQ1,	cPressRate,    2898, INT16, sPressRate, 4306,	"s"}
 {SQ1,	cVacRateAlrm,  2900, INT16, sVacRateAlrm, 4308,	"s"}
 {SQ1,	cPresRateAlrm, 2902, INT16, sPresRateAlrm, 4310,	"s"}
+{SQ1,	cNcycle,       2894, INT16, sNcycle, 4302,   ""}
+{SQ2,	cNcycle,       2978, INT16, sNcycle, 4404,   "%"}
+{SQ2,	cVacRate,      2980, INT16, sVacRate, 4406	"s"}
+{SQ2,	cPressRate,    2982, INT16, sPressRate, 4408	"s"}
+{SQ2,	cVacRateAlrm,  2984, INT16, sVacRateAlrm, 4410	"s"}
+{SQ2,	cPresRateAlrm, 2986, INT16, sPresRateAlrm, 4412	"s"}
+{SQ20,	cP_Op,         4154,  INT16, sP_Op,   	 5832	""}
+}
+
+file "SQanalog.template" { pattern
+{SUBS,	 SIG,          OFFS2, TYPE, SIG2,	OFFS, EGU}
+{SQ0,	cVac,          2828, FLOAT, sVac, 4218,	   "mbar"}
+{SQ0,	cVacFlt,       2832, FLOAT, sVacFlt, 4222, "mbar"}
+{SQ0,	cPressEOF,     2836, FLOAT, sPressEOF, 4226, "mbar"}
+{SQ0,	cPressFlt,     2840, FLOAT, sPressFlt, 4230, "mbar"}
 {SQ1,	cVac,          2912, FLOAT, sVac, 4320,	   "mbar"}
 {SQ1,	cVacFlt,       2916, FLOAT, sVacFlt, 4324,	   "mbar"}
 {SQ1,	cPressEOF,     2920, FLOAT, sPressEOF, 4328,	   "mbar"}
@@ -334,11 +344,6 @@ file "SQanalog.template" { pattern
 {SQ1,	cP_CV550,      2952, FLOAT, sP_CV550, 4360,   "%"}
 {SQ1,	cP_CV551,      2956, FLOAT, sP_CV551, 4364,   "%"}
 {SQ1,	cP_CV552,      2960, FLOAT, sP_CV552, 4368,   "%"}
-{SQ2,	cNcycle,       2978, INT16, sNcycle, 4404,   "%"}
-{SQ2,	cVacRate,      2980, INT16, sVacRate, 4406	"s"}
-{SQ2,	cPressRate,    2982, INT16, sPressRate, 4408	"s"}
-{SQ2,	cVacRateAlrm,  2984, INT16, sVacRateAlrm, 4410	"s"}
-{SQ2,	cPresRateAlrm, 2986, INT16, sPresRateAlrm, 4412	"s"}
 {SQ2,	cVac,          2996, FLOAT, sVac, 4422	"mbar"}
 {SQ2,	cVacFlt,       3000, FLOAT, sVacFlt, 4426	"mbar"}
 {SQ2,	cPressEOF,     3004, FLOAT, sPressEOF, 4430	"mbar"}
@@ -456,7 +461,6 @@ file "SQanalog.template" { pattern
 {SQ13,	cP_Al_He,      4092,  FLOAT, sP_Al_He,   5752	"mbar"}
 {SQ13,	cP_SHe,        4096,  FLOAT, sP_SHe,   	 5756	"mbar"}
 {SQ13,	cP_He,         4100,  FLOAT, sP_He,   	 5760	"mbar"}
-{SQ20,	cP_Op,         4154,  INT16, sP_Op,   	 5832	""}
 }
 
 file "SQbinPar.template" { pattern
