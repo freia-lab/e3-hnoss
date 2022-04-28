@@ -79,14 +79,14 @@ file "AI.template" { pattern
 {LN2,   PT200,    770,     514,   0,    500,   mbar,  6}
 {LHe,   LT100,    780,     520,   0,    500,   "%",  6}
 {LHe,   LT101,    790,     526,   0,    500,   "%",  6}
-{LN2,   FT200,    800,     532,   0,    500,   m3/h,  6}
-{LN2,   FT201,    810,     538,   0,    500,   m3/h,  6}
-{LN2,   FT202,    820,     544,   0,    500,   m3/h,  6}
+{LN2,   FT200,    800,     532,   0,    500,   "m³/h",  6}
+{LN2,   FT201,    810,     538,   0,    500,   "m³/h",  6}
+{LN2,   FT202,    820,     544,   0,    500,   "m³/h",  6}
 {SHe,   FT301,    830,     550,   0,    500,   mg/s,  2}
 {SHe,   FT302,    840,     556,   0,    500,   mg/s,  2}
-{RHtr,  FT550,    850,     562,   0,    500,   m3/h,  6}
-{RHtr,  FT551,    860,     568,   0,    500,   m3/h,  6}
-{RHtr,  FT552,    870,     574,   0,    500,   m3/h,  6}
+{RHtr,  FT550,    850,     562,   0,    500,   "m³/h",  6}
+{RHtr,  FT551,    860,     568,   0,    500,   "m³/h",  6}
+{RHtr,  FT552,    870,     574,   0,    500,   "m³/h",  6}
 {RHtr,  TT131,    880,     580,   0, 	500,   "K",  6}
 {LHe,   PT103,    890,     586,   0, 	100,   "mbar",  6}
 {LHe,   FT131,    900,     592,   0, 	2000,  "mg/s",  1}
@@ -215,9 +215,9 @@ file "AValves.template" { pattern
 file "PID.template" { pattern
 {SUBS,   DEV,     OFFS,   OFFS2,    EGU_OUT,	EGU_SP}
 {LN2,    TIC200,  2696,   1720,    "%",		"K"}
-{LN2,    FIC200,  2718,   1730,    "%",		"m3/h"}
+{LN2,    FIC200,  2718,   1730,    "%",		"m³/h"}
 {LN2,    TIC201,  2740,   1740,    "%",		"K"}
-{LN2,    FIC201,  2762,   1750,    "%",		"m3/h"}
+{LN2,    FIC201,  2762,   1750,    "%",		"m³/h"}
 {SHe,    TIC301,  2784,   1760,    "%",		"K"}
 {SHe,    FIC301,  2806,   1770,    "%",		"mg/s"}
 {SHe,    TIC302,  2828,   1780,    "%",		"K"}
@@ -361,7 +361,7 @@ file "SQanalog.template" { pattern
 {SQ4,	cP_CV201_Tt,   3256, FLOAT, sP_CV201_Tt, 4736	"K"}
 {SQ4,	cP_CV201_Ft,   3260, FLOAT, sP_CV201_Ft, 4740	"mg/s"}
 {SQ5,	cP_PT,         3332,  FLOAT, sP_PT,      4830	"mbar"}
-{SQ5,	cP_FT,         3336,  FLOAT, sP_FT,      4834	"m3/h"}
+{SQ5,	cP_FT,         3336,  FLOAT, sP_FT,      4834	"m³/h"}
 {SQ5,	cP_CV550,      3340,  FLOAT, sP_CV550,   4838	"%"}
 {SQ5,	cP_LowLt,      3344,  FLOAT, sP_LowLt,   4842	"K"}
 {SQ5,	cP_CoolD_Tt,   3348,  FLOAT, sP_CoolD_Tt,4846	"K"}
@@ -371,12 +371,12 @@ file "SQanalog.template" { pattern
 {SQ6,	cP_Tt,         3416,  FLOAT, sP_Tt,      4932	"K"}
 {SQ6,	cP_Lt,         3420,  FLOAT, sP_Lt,      4936	"%"}
 {SQ7,	cP_PT,         3500,  FLOAT, sP_PT,      5034	"mbar"}
-{SQ7,	cP_FT550,      3504,  FLOAT, sP_FT550,   5038	"m3/h"}
+{SQ7,	cP_FT550,      3504,  FLOAT, sP_FT550,   5038	"m³/h"}
 {SQ7,	cP_Tt_Cold,    3508,  FLOAT, sP_Tt_Cold, 5042	"K"}
 {SQ7,	cP_SP_Tt,      3512,  FLOAT, sP_SP_Tt,   5046	"K"}
 {SQ7,	cP_CV550,      3516,  FLOAT, sP_CV550,   5050	"%"}
 {SQ7,	cP_CV551,      3520,  FLOAT, sP_CV551,   5054	"%"}
-{SQ7,	cP_FT552,      3524,  FLOAT, sP_FT552,   5058	"m3/h"}
+{SQ7,	cP_FT552,      3524,  FLOAT, sP_FT552,   5058	"m³/h"}
 {SQ7,	cP_HighLt,     3528,  FLOAT, sP_HighLt,  5062	"K"}
 {SQ7,	cP_LowLt,      3532,  FLOAT, sP_LowLt,   5066	"K"}
 {SQ7,	cP_CV552,      3536,  FLOAT, sP_CV552,   5070	"%"}
