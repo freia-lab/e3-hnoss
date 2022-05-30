@@ -511,3 +511,55 @@ file "Valve-alias.template" { pattern
 {CstatH,  MKS2,	   CV550}
 {CstatH,  MKS3,	   CV551}
 }
+
+file "cernox-calibr.template" { pattern
+{P               D        PORT    DEST         A_SW   A_A   A_B   A_C   A_D }
+{CstatH-Ctrl:   TT100     G_S7    DB360.DBD      36    48    68    88   108 }
+{CstatH-Ctrl:   TT101     G_S7    DB360.DBD     172   184   204   224   244 }
+{CstatH-Ctrl:   TT102     G_S7    DB360.DBD     308   320   340   360   380 }
+{CstatH-Ctrl:   TT103     G_S7    DB360.DBD     444   456   476   496   516 }
+{CstatH-Ctrl:   TT104     G_S7    DB360.DBD     580   592   612   632   652 }
+{CstatH-Ctrl:   TT105     G_S7    DB360.DBD     716   728   748   768   788 }
+{CstatH-Ctrl:   TT106     G_S7    DB360.DBD     852   864   884   904   924 }
+{CstatH-Ctrl:   TT107     G_S7    DB360.DBD     988  1000  1020  1040  1060 }
+{CstatH-Ctrl:   TT108     G_S7    DB360.DBD    1124  1136  1156  1176  1196 }
+{CstatH-Ctrl:   TT109     G_S7    DB360.DBD    1260  1272  1292  1312  1332 }
+{CstatH-Ctrl:   TT110     G_S7    DB360.DBD    1396  1408  1428  1448  1468 }
+{CstatH-Ctrl:   TT111     G_S7    DB360.DBD    1532  1544  1564  1584  1604 }
+{CstatH-Ctrl:   TT112     G_S7    DB360.DBD    1668  1680  1700  1720  1740 }
+{CstatH-Ctrl:   TT113     G_S7    DB360.DBD    1804  1816  1836  1856  1876 }
+{CstatH-Ctrl:   TT114     G_S7    DB360.DBD    1940  1952  1972  1992  2012 }
+{CstatH-Ctrl:   TT115     G_S7    DB360.DBD    2076  2088  2108  2128  2148 }
+{CstatH-Ctrl:   TT116     G_S7    DB360.DBD    2212  2224  2244  2264  2284 }
+{CstatH-Ctrl:   TT117     G_S7    DB360.DBD    2348  2360  2380  2400  2420 }
+{CstatH-Ctrl:   TT118     G_S7    DB360.DBD    2484  2496  2516  2536  2556 }
+{CstatH-Ctrl:   TT119     G_S7    DB360.DBD    2620  2632  2652  2672  2692 }
+{CstatH-Ctrl:   TT120     G_S7    DB360.DBD    2756  2768  2788  2808  2828 }
+{CstatH-Ctrl:   TT121     G_S7    DB360.DBD    2892  2904  2924  2944  2964 }
+{CstatH-Ctrl:   TT122     G_S7    DB360.DBD    3028  3040  3060  3080  3100 }
+{CstatH-Ctrl:   TT123     G_S7    DB360.DBD    3164  3176  3196  3216  3236 }
+{CstatH-Ctrl:   TT124     G_S7    DB360.DBD    3300  3312  3332  3352  3372 }
+{CstatH-Ctrl:   TT125     G_S7    DB360.DBD    3436  3448  3468  3488  3508 }
+{CstatH-Ctrl:   TT126     G_S7    DB360.DBD    3572  3584  3604  3624  3644 }
+{CstatH-Ctrl:   TT127     G_S7    DB360.DBD    3708  3720  3740  3760  3780 }
+{CstatH-Ctrl:   TT128     G_S7    DB360.DBD    3844  3856  3876  3896  3916 }
+{CstatH-Ctrl:   TT129     G_S7    DB360.DBD    3980  3992  4012  4032  4052 }
+{CstatH-Ctrl:   TT130     G_S7    DB360.DBD    4116  4128  4148  4168  4188 }
+{CstatH-Ctrl:   TT302     G_S7    DB360.DBD    4252  4264  4284  4304  4324 }
+{CstatH-Ctrl:   TT303     G_S7    DB360.DBD    4388  4400  4420  4440  4460 }
+{CstatH-Ctrl:   TT304     G_S7    DB360.DBD    4524  4536  4556  4576  4596 }
+{CstatH-Ctrl:   TT305     G_S7    DB360.DBD    4660  4672  4692  4712  4732 }
+{CstatH-Ctrl:   TT306     G_S7    DB360.DBD    4796  4808  4828  4848  4868 }
+{CstatH-Ctrl:   TT500     G_S7    DB360.DBD    4932  4944  4964  4984  5004 }
+{CstatH-Ctrl:   TT501     G_S7    DB360.DBD    5068  5080  5100  5120  5140 }
+{CstatH-Ctrl:   TT502     G_S7    DB360.DBD    5204  5216  5236  5256  5276 }
+{CstatH-Ctrl:   TT01x     G_S7    DB360.DBD    5340  5352  5372  5392  5412 }
+{CstatH-Ctrl:   TT02x     G_S7    DB360.DBD    5476  5488  5508  5528  5548 }
+{CstatH-Ctrl:   TT03x     G_S7    DB360.DBD    5612  5624  5644  5664  5684 }
+{CstatH-Ctrl:   TT04x     G_S7    DB360.DBD    5748  5760  5780  5800  5820 }
+{CstatH-Ctrl:   TT05x     G_S7    DB360.DBD    5884  5896  5916  5936  5956 }
+{CstatH-Ctrl:   TT06x     G_S7    DB360.DBD    6020  6032  6052  6072  6092 }
+{CstatH-Ctrl:   TT07x     G_S7    DB360.DBD    6156  6168  6188  6208  6228 }
+{CstatH-Ctrl:   TT08x     G_S7    DB360.DBD    6292  6304  6324  6344  6364 }
+{CstatH-Ctrl:   TT09x     G_S7    DB360.DBD    6428  6440  6460  6480  6500 }
+}

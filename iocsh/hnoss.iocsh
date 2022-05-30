@@ -28,6 +28,7 @@
 #<sendIntervall> : time to wait before sending new data to PLC [ms]
 
 s7plcConfigure PLC:HNOSS,$(PLC_IP),2000,6664,4868,1,1000,500
+s7nodaveConfigureIsoTcpPort("G_S7", $(PLC_IP),0,0,0)
 
 dbLoadRecords("General.db")
 dbLoadRecords("hnoss-freia.db")

@@ -41,6 +41,11 @@ ifneq ($(strip $(AUTOSAVE_DEP_VERSION)),)
   autosave_VERSION=$(AUTOSAVE_DEP_VERSION)
 endif
 
+REQUIRED += s7nodave
+ifneq ($(strip $(S7NODAVE_DEP_VERSION)),)
+  s7nodave_VERSION=$(S7NODAVE_DEP_VERSION)
+endif
+
 # Since this file (hnoss.Makefile) is copied into
 # the module directory at build-time, these paths have to be relative
 # to that path
@@ -70,6 +75,7 @@ SCRIPTS += $(wildcard ../iocsh/*.iocsh)
 USR_DBFLAGS += -I . -I ..
 USR_DBFLAGS += -I $(EPICS_BASE)/db
 USR_DBFLAGS += -I $(APPDB)
+USR_DBFLAGS += -I $(E3_SITEMODS_PATH)/s7nodave/$(S7NODAVE_DEP_VERSION)/db
 
 .PHONY: vlibs
 vlibs:

@@ -1,0 +1,48 @@
+   TT100 : "UDT_CERNOX_INPUT";	//Cool down transfer line, Cernox thermometer
+   TT101 : "UDT_CERNOX_INPUT";	//4K vessel, Cernox thermometer
+   TT102 : "UDT_CERNOX_INPUT";	//Cool down circuit cavity 1, Cernox thermometer
+   TT103 : "UDT_CERNOX_INPUT";	//Cool down circuit cavity 2, Cernox thermometer
+   TT104 : "UDT_CERNOX_INPUT";	//Cavity 1 cool down, Cernox thermometer
+   TT105 : "UDT_CERNOX_INPUT";	//Cavity 2 cool down, Cernox thermometer
+   TT106 : "UDT_CERNOX_INPUT";	//Input table, Cernox thermometer
+   TT107 : "UDT_CERNOX_INPUT";	//Output table, Cernox thermometer
+   TT108 : "UDT_CERNOX_INPUT";	//Table, Cernox thermometer
+   TT109 : "UDT_CERNOX_INPUT";	//Table, Cernox thermometer
+   TT110 : "UDT_CERNOX_INPUT";	//HX100, Input atmospheric circuit, Cernox thermometer
+   TT111 : "UDT_CERNOX_INPUT";	//HX100, Output atmospheric circuit, Cernox thermometer
+   TT112 : "UDT_CERNOX_INPUT";	//Top 2K vessel, Cernox thermometer
+   TT113 : "UDT_CERNOX_INPUT";	//2K vessel, Cernox thermometer
+   TT114 : "UDT_CERNOX_INPUT";	//Output 2K vessel, Cernox thermometer
+   TT115 : "UDT_CERNOX_INPUT";	//Cavity tank 1, Cernox thermometer
+   TT116 : "UDT_CERNOX_INPUT";	//Cavity tank 2, Cernox thermometer
+   TT117 : "UDT_CERNOX_INPUT";	//Top Cavity tank 1, Cernox thermometer
+   TT118 : "UDT_CERNOX_INPUT";	//Top Cavity tank 2, Cernox thermometer
+   TT119 : "UDT_CERNOX_INPUT";	//Hx100, Input sub-atmospheric circuit, Cernox thermometer
+   TT120 : "UDT_CERNOX_INPUT";	//Hx100, Output sub-atmospheric circuit, Cernox thermometer
+   TT121 : "UDT_CERNOX_INPUT";	//Hx300, Output sub-atmospheric circuit, Cernox thermometer
+   TT122 : "UDT_CERNOX_INPUT";	//Sub-atmospheric circuit, Output valve box, Cernox thermometer
+   TT123 : "UDT_CERNOX_INPUT";	//Table circuit, Output valve box, Cernox thermometer
+   TT124 : "UDT_CERNOX_INPUT";	//Outgassing 4K vessel, Cernox thermometer
+   TT125 : "UDT_CERNOX_INPUT";	//Outgassing Cavity 1, Cernox thermometer
+   TT126 : "UDT_CERNOX_INPUT";	//Outgassing Cavity 2, Cernox thermometer
+   TT127 : "UDT_CERNOX_INPUT";	//Input Magnetic Shield, Cernox thermometer
+   TT128 : "UDT_CERNOX_INPUT";	//Output Magnetic Shield, Cernox thermometer
+   TT129 : "UDT_CERNOX_INPUT";	//Magnetic Shield, Cernox thermometer
+   TT130 : "UDT_CERNOX_INPUT";	//Magnetic Shield, Cernox thermometer
+   TT302 : "UDT_CERNOX_INPUT";	//Output HX300, Cernox thermometer
+   TT303 : "UDT_CERNOX_INPUT";	//Input coupler 1, Cernox thermometer
+   TT304 : "UDT_CERNOX_INPUT";	//Input coupler 2, Cernox thermometer
+   TT305 : "UDT_CERNOX_INPUT";	//Output coupler 1, Cernox thermometer
+   TT306 : "UDT_CERNOX_INPUT";	//Output coupler 2, Cernox thermometer
+   TT500 : "UDT_CERNOX_INPUT";	//Input Lhe circuit, Cernox thermometer
+   TT501 : "UDT_CERNOX_INPUT";	//Cryostat Lhe circuit, Cernox thermometer
+   TT502 : "UDT_CERNOX_INPUT";	//Cryomodule Lhe circuit, Cernox thermometer
+   TT01x : "UDT_CERNOX_INPUT";	//Cernox sensor PEW640 
+   TT02x : "UDT_CERNOX_INPUT";	//Cernox sensor PEW644 
+   TT03x : "UDT_CERNOX_INPUT";	//Cernox sensor PEW648
+   TT04x : "UDT_CERNOX_INPUT";	//Cernox sensor PEW652 
+   TT05x : "UDT_CERNOX_INPUT";	//Cernox sensor PEW656 
+   TT06x : "UDT_CERNOX_INPUT";	//Cernox sensor PEW660 
+   TT07x : "UDT_CERNOX_INPUT";	//Cernox sensor PEW664 
+   TT08x : "UDT_CERNOX_INPUT";	//Cernox sensor PEW668 
+   TT09x : "UDT_CERNOX_INPUT";	//Cernox sensor PEW496 
