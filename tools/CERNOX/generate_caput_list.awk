@@ -7,7 +7,7 @@ BEGIN {
   tag = ""
   sig = ""
   i = 0
-  p = "CstatV-Ctrl:"
+  p = "CstatH-Ctrl:"
   sigPoly["A"] = "cPolyA"
   sigPoly["B"] = "cPolyB"
   sigPoly["C"] = "cPolyC"

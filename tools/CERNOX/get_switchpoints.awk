@@ -1,10 +1,6 @@
-# Extract the switching point between the polynomials. The calibration files are of two types.
-# The one with the temperature range descending the last switching point are the following
-# Switch 1 (cSwitchR[0]) - the last data point in 4.5K...20.0K file
-# Switch 2 (cSwitchR[1]) - the last data point in 20.0K...100.0K file
-# Switch 3 (cSwitchR[2]) - the last data point in 100.0K...310.0K file
-# The one with the temperatures in the ascending order:
-# Switch 1 (cSwitchR[0]) - the last data point in 4.5K...20.0K file
+# Extract the switching point between the polynomials. The calibration files for 1.5 to 4.5 K
+# range are of two types (but it seems that they're not used for extracting the switch point.
+# Switch 1 (cSwitchR[0]) - the first point in 4.5K...20.0K file
 # Switch 2 (cSwitchR[1]) - find the 20 K entry in 4.5K...20.0K and put it in the last entry, 
 #          find the 20 K entry in 20.0K...100.0K file and put it in the first entry
 # Switch 3 (cSwitchR[2]) - the last data point in 100.0K...310.0K file
@@ -52,9 +48,9 @@ END {
 	    if ((last_t - first_t) < 20) {
 # 4.5 .. 20.0
 		if (lastbut1_t == 20) {
-		    printf "1 %13.6f %6.3f\n", lastbut1, lastbut1_err
+		    printf "1 %13.6f %6.3f %13.6f\n", lastbut1, lastbut1_err, first
 		} else {
-		    printf "1 %13.6f %6.3f\n", last, last_err
+		    printf "1 %13.6f %6.3f %13.6f\n", last, last_err, first
 		}
 	    } else {
 		if ((last_t - first_t) < 90) {
@@ -71,6 +67,6 @@ END {
 	    }
 	}
     } else {
-	printf "0 %13.6f\n", last
+# only possible in 1.5 to 5.5 K file - not used
     }
 }
