@@ -568,8 +568,8 @@ Conditioning He circuits</tooltip>
     <text>Automatic sequences</text>
     <x>5</x>
     <y>187</y>
-    <width>151</width>
-    <height>21</height>
+    <width>152</width>
+    <height>25</height>
     <font>
       <font name="Default Bold" family="Source Sans Pro" style="BOLD" size="16.0">
       </font>
@@ -925,7 +925,7 @@ Conditioning He circuits</tooltip>
       <color name="BACKGROUND" red="220" green="225" blue="221">
       </color>
     </background_color>
-    <active_tab>8</active_tab>
+    <active_tab>2</active_tab>
     <tab_height>10</tab_height>
     <actions>
     </actions>
@@ -935,8 +935,8 @@ Conditioning He circuits</tooltip>
     <text>HNOSS</text>
     <x>30</x>
     <y>10</y>
-    <width>109</width>
-    <height>48</height>
+    <width>110</width>
+    <height>54</height>
     <font>
       <font name="Header 1" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
       </font>
@@ -2082,7 +2082,7 @@ Analog Input</text>
     <text>Cryomode</text>
     <y>129</y>
     <width>53</width>
-    <height>16</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
