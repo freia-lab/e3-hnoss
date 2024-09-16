@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-09-09 14:53:12 by konrad-->
 <display version="2.0.0">
   <name>SeqTop3+</name>
   <macros>
@@ -48,18 +49,6 @@
     <y>100</y>
     <width>35</width>
     <height>19</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <actions>
     </actions>
@@ -74,16 +63,8 @@
     <x>96</x>
     <y>102</y>
     <width>347</width>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
+      <color name="Read_Background" red="230" green="235" blue="232">
       </color>
     </background_color>
     <transparent>false</transparent>
@@ -138,7 +119,6 @@
     </rules>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -186,14 +166,6 @@ $(pv_value)</tooltip>
     <y>32</y>
     <width>80</width>
     <height>31</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>Action Button Template_4</name>
@@ -210,14 +182,6 @@ $(pv_value)</tooltip>
     <y>32</y>
     <width>80</width>
     <height>31</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>Action Button Template_5</name>
@@ -234,16 +198,8 @@ $(pv_value)</tooltip>
     <y>32</y>
     <width>80</width>
     <height>31</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Panel 2</name>
     <x>313</x>
     <y>32</y>
@@ -254,6 +210,10 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -275,14 +235,6 @@ $(pv_value)</tooltip>
       <x>130</x>
       <y>15</y>
       <width>80</width>
-      <font>
-        <font family="Source Sans Pro" style="BOLD" size="13.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED Template_1</name>
@@ -358,24 +310,11 @@ $(pv_value)</tooltip>
     <y>102</y>
     <width>25</width>
     <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <show_units>false</show_units>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -388,7 +327,7 @@ Cond.</text>
     <x>460</x>
     <y>94</y>
     <width>35</width>
-    <height>37</height>
+    <height>39</height>
     <font>
       <font name="Fine Print" family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -453,14 +392,6 @@ Cond.</text>
     <y>67</y>
     <width>80</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <tooltip>Opens Grafcet diagram
 in the web browser</tooltip>
   </widget>
@@ -471,18 +402,6 @@ in the web browser</tooltip>
     <y>102</y>
     <width>32</width>
     <height>17</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
@@ -495,7 +414,6 @@ in the web browser</tooltip>
       </script>
     </scripts>
     <border_alarm_sensitive>false</border_alarm_sensitive>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-09-09 15:06:18 by konrad-->
 <display version="2.0.0">
   <name>Seq4</name>
-  <width>580</width>
+  <width>600</width>
   <height>295</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
@@ -13,6 +14,7 @@
   <widget type="embedded" version="2.0.0">
     <name>Linking Container Template</name>
     <file>Seq_top3plus.bob</file>
+    <x>20</x>
     <width>540</width>
     <height>140</height>
     <actions>
@@ -27,20 +29,8 @@
     <text>Setpoint coupler 1 [m³/h]</text>
     <x>14</x>
     <y>232</y>
-    <width>149</width>
+    <width>171</width>
     <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -55,20 +45,8 @@
     <text>Setpoint coupler 2 [m³/h]</text>
     <x>15</x>
     <y>257</y>
-    <width>149</width>
+    <width>171</width>
     <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -81,26 +59,13 @@
   <widget type="textentry" version="3.0.0">
     <name>Text Input Template</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV200_Ft</pv_name>
-    <x>180</x>
+    <x>186</x>
     <y>232</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -109,26 +74,13 @@
   <widget type="textentry" version="3.0.0">
     <name>Text Input Template_1</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV201_Ft</pv_name>
-    <x>180</x>
+    <x>186</x>
     <y>257</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -143,14 +95,6 @@
     <y>150</y>
     <width>111</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <actions>
     </actions>
   </widget>
@@ -163,14 +107,6 @@
     <y>150</y>
     <width>108</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <actions>
     </actions>
   </widget>
@@ -242,23 +178,11 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_9</name>
-    <text>Setpoint coupler 1 [K]</text>
-    <x>314</x>
-    <y>232</y>
-    <width>128</width>
-    <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
+    <text>Setpoint coupler 1</text>
+    <x>340</x>
+    <y>234</y>
+    <width>124</width>
+    <height>21</height>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -270,23 +194,11 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_10</name>
-    <text>Setpoint coupler 2 [K]</text>
-    <x>314</x>
-    <y>257</y>
-    <width>128</width>
-    <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="REGULAR" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
+    <text>Setpoint coupler 2</text>
+    <x>340</x>
+    <y>259</y>
+    <width>124</width>
+    <height>21</height>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -299,26 +211,13 @@
   <widget type="textentry" version="3.0.0">
     <name>Text Input Template_2</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV200_Tt</pv_name>
-    <x>459</x>
+    <x>480</x>
     <y>232</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -327,26 +226,13 @@
   <widget type="textentry" version="3.0.0">
     <name>Text Input Template_3</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV201_Tt</pv_name>
-    <x>459</x>
+    <x>480</x>
     <y>257</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -361,14 +247,6 @@
     <y>185</y>
     <width>111</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <actions execute_as_one="true">
     </actions>
   </widget>
@@ -381,14 +259,6 @@
     <y>185</y>
     <width>108</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <actions>
     </actions>
   </widget>
@@ -463,25 +333,12 @@
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV200_Ft</pv_name>
     <x>240</x>
     <y>234</y>
-    <width>52</width>
+    <width>70</width>
     <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -492,25 +349,12 @@
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV201_Ft</pv_name>
     <x>240</x>
     <y>259</y>
-    <width>52</width>
+    <width>70</width>
     <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -519,27 +363,14 @@
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_7</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV200_Tt</pv_name>
-    <x>519</x>
+    <x>540</x>
     <y>234</y>
     <width>52</width>
     <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -548,27 +379,14 @@
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_8</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV201_Tt</pv_name>
-    <x>519</x>
+    <x>540</x>
     <y>259</y>
     <width>52</width>
     <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>

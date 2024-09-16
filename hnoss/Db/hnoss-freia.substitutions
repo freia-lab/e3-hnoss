@@ -317,7 +317,7 @@ file "SQanalogInt.template" { pattern
 {SQ1,	cVacRateAlrm,  2900, INT16, sVacRateAlrm, 4308,	"s"}
 {SQ1,	cPresRateAlrm, 2902, INT16, sPresRateAlrm, 4310,	"s"}
 {SQ1,	cNcycle,       2894, INT16, sNcycle, 4302,   ""}
-{SQ2,	cNcycle,       2978, INT16, sNcycle, 4404,   "%"}
+{SQ2,	cNcycle,       2978, INT16, sNcycle, 4404,   ""}
 {SQ2,	cVacRate,      2980, INT16, sVacRate, 4406	"s"}
 {SQ2,	cPressRate,    2982, INT16, sPressRate, 4408	"s"}
 {SQ2,	cVacRateAlrm,  2984, INT16, sVacRateAlrm, 4410	"s"}
@@ -363,7 +363,7 @@ file "SQanalog.template" { pattern
 {SQ5,	cP_PT,         3332,  FLOAT, sP_PT,      4830	"mbar"}
 {SQ5,	cP_FT,         3336,  FLOAT, sP_FT,      4834	"m³/h"}
 {SQ5,	cP_CV550,      3340,  FLOAT, sP_CV550,   4838	"%"}
-{SQ5,	cP_LowLt,      3344,  FLOAT, sP_LowLt,   4842	"K"}
+{SQ5,	cP_LowLt,      3344,  FLOAT, sP_LowLt,   4842	"%"}
 {SQ5,	cP_CoolD_Tt,   3348,  FLOAT, sP_CoolD_Tt,4846	"K"}
 {SQ5,	cP_HighLt,     3352,  FLOAT, sP_HighLt,  4850	"K"}
 {SQ5,	cP_CV100,      3356,  FLOAT, sP_CV100,   4854	"%"}
