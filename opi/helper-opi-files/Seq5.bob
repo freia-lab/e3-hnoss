@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-09-16 17:40:18 by konrad-->
+<!--Saved on 2024-10-04 13:10:33 by konrad-->
 <display version="2.0.0">
   <name>Seq5</name>
   <width>580</width>
@@ -30,7 +30,8 @@
     <text>CV550:</text>
     <x>55</x>
     <y>264</y>
-    <width>55</width>
+    <width>46</width>
+    <height>21</height>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -45,7 +46,8 @@
     <text>CV100:</text>
     <x>55</x>
     <y>289</y>
-    <width>55</width>
+    <width>46</width>
+    <height>21</height>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -300,7 +302,8 @@
     <text>Filling temperature [K]:</text>
     <x>150</x>
     <y>315</y>
-    <width>146</width>
+    <width>155</width>
+    <height>21</height>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -365,10 +368,6 @@
     <y>189</y>
     <width>116</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="12.0">
-      </font>
-    </font>
     <foreground_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>

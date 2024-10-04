@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-10-04 14:06:19 by konrad-->
 <display version="2.0.0">
   <name>Seq10</name>
   <width>550</width>
@@ -31,14 +32,6 @@
     <y>155</y>
     <width>83</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <actions>
     </actions>
   </widget>
@@ -51,14 +44,6 @@
     <y>155</y>
     <width>86</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <actions>
     </actions>
   </widget>
@@ -66,7 +51,7 @@
     <name>LED Template</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_C1</pv_name>
     <bit>0</bit>
-    <x>165</x>
+    <x>170</x>
     <y>155</y>
     <width>25</width>
     <height>25</height>
@@ -137,14 +122,6 @@
     <y>214</y>
     <width>111</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <actions execute_as_one="true">
     </actions>
   </widget>
@@ -153,18 +130,10 @@
     <pv_name>CstatH-Ctrl:$(seq_no):cP_Tt</pv_name>
     <bit>-1</bit>
     <label>Temp. control</label>
-    <x>295</x>
+    <x>315</x>
     <y>214</y>
     <width>108</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <actions>
     </actions>
   </widget>
@@ -205,7 +174,7 @@
     <name>LED Template_3</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_Tt</pv_name>
     <bit>0</bit>
-    <x>417</x>
+    <x>445</x>
     <y>214</y>
     <width>25</width>
     <height>25</height>
@@ -241,14 +210,6 @@
     <y>280</y>
     <width>111</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -265,22 +226,9 @@
     <y>252</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -289,26 +237,13 @@
   <widget type="textentry" version="3.0.0">
     <name>Text Input Template_3</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV302_Tt</pv_name>
-    <x>417</x>
+    <x>437</x>
     <y>282</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -317,18 +252,10 @@
   <widget type="label" version="2.0.0">
     <name>Label Template_10</name>
     <text>Coupler 2 [K]</text>
-    <x>296</x>
+    <x>316</x>
     <y>280</y>
     <width>87</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -345,22 +272,9 @@
     <y>282</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -369,26 +283,13 @@
   <widget type="textentry" version="3.0.0">
     <name>Text Input Template_2</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV301_Tt</pv_name>
-    <x>417</x>
+    <x>437</x>
     <y>252</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -397,18 +298,10 @@
   <widget type="label" version="2.0.0">
     <name>Label Template_9</name>
     <text>Coupler 1 [K]</text>
-    <x>294</x>
+    <x>314</x>
     <y>250</y>
     <width>87</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -425,14 +318,6 @@
     <y>250</y>
     <width>111</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -444,21 +329,21 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline Template</name>
-    <x>280</x>
+    <x>300</x>
     <y>216</y>
     <width>1</width>
     <height>93</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="92.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -470,17 +355,17 @@ $(pv_value)</tooltip>
     <y>190</y>
     <width>530</width>
     <height>1</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="529.0" y="0.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -520,20 +405,11 @@ $(pv_value)</tooltip>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV301_Ft</pv_name>
     <x>212</x>
     <y>252</y>
-    <width>52</width>
+    <width>68</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -544,20 +420,11 @@ $(pv_value)</tooltip>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV302_Ft</pv_name>
     <x>212</x>
     <y>282</y>
-    <width>52</width>
+    <width>68</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -566,23 +433,14 @@ $(pv_value)</tooltip>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_7</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV301_Tt</pv_name>
-    <x>477</x>
+    <x>497</x>
     <y>252</y>
     <width>46</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -591,23 +449,14 @@ $(pv_value)</tooltip>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_8</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV302_Tt</pv_name>
-    <x>477</x>
+    <x>497</x>
     <y>282</y>
     <width>46</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>

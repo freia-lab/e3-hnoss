@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-10-04 14:10:32 by konrad-->
 <display version="2.0.0">
   <name>Seq11</name>
   <width>550</width>
@@ -29,14 +30,6 @@
     <y>205</y>
     <width>173</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -56,14 +49,6 @@ TT128 - otherwise</tooltip>
     <y>230</y>
     <width>170</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -81,22 +66,9 @@ TT128 - otherwise</tooltip>
     <y>206</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -109,22 +81,9 @@ TT128 - otherwise</tooltip>
     <y>231</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -139,14 +98,6 @@ TT128 - otherwise</tooltip>
     <y>136</y>
     <width>66</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <actions>
     </actions>
   </widget>
@@ -159,14 +110,6 @@ TT128 - otherwise</tooltip>
     <y>136</y>
     <width>128</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <actions>
     </actions>
   </widget>
@@ -174,7 +117,7 @@ TT128 - otherwise</tooltip>
     <name>LED Template</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_Tbl</pv_name>
     <bit>0</bit>
-    <x>143</x>
+    <x>150</x>
     <y>136</y>
     <width>25</width>
     <height>25</height>
@@ -207,7 +150,7 @@ TT128 - otherwise</tooltip>
     <name>LED Template_1</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_MS</pv_name>
     <bit>0</bit>
-    <x>437</x>
+    <x>440</x>
     <y>136</y>
     <width>25</width>
     <height>25</height>
@@ -240,17 +183,9 @@ TT128 - otherwise</tooltip>
     <name>Label Template_9</name>
     <text>LHe flow temperature [K]</text>
     <x>335</x>
-    <y>208</y>
+    <y>205</y>
     <width>169</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -268,22 +203,9 @@ TT128 - otherwise</tooltip>
     <y>229</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -296,14 +218,6 @@ TT128 - otherwise</tooltip>
     <y>290</y>
     <width>46</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -320,14 +234,6 @@ TT128 - otherwise</tooltip>
     <y>315</y>
     <width>46</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -344,22 +250,9 @@ TT128 - otherwise</tooltip>
     <y>292</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -372,22 +265,9 @@ TT128 - otherwise</tooltip>
     <y>317</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -400,14 +280,6 @@ TT128 - otherwise</tooltip>
     <y>292</y>
     <width>46</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -424,14 +296,6 @@ TT128 - otherwise</tooltip>
     <y>317</y>
     <width>103</width>
     <height>21</height>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="BACKGROUND" red="220" green="225" blue="221">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -448,22 +312,9 @@ TT128 - otherwise</tooltip>
     <y>292</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -476,22 +327,9 @@ TT128 - otherwise</tooltip>
     <y>317</y>
     <width>52</width>
     <height>21</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="GRAY-BORDER" red="121" green="121" blue="121">
-      </color>
-    </background_color>
     <show_units>false</show_units>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -530,25 +368,12 @@ TT128 - otherwise</tooltip>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_SP_Tt</pv_name>
     <x>244</x>
     <y>208</y>
-    <width>52</width>
+    <width>76</width>
     <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -559,25 +384,12 @@ TT128 - otherwise</tooltip>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_Pt</pv_name>
     <x>244</x>
     <y>233</y>
-    <width>52</width>
+    <width>76</width>
     <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -590,23 +402,10 @@ TT128 - otherwise</tooltip>
     <y>294</y>
     <width>52</width>
     <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -619,23 +418,10 @@ TT128 - otherwise</tooltip>
     <y>319</y>
     <width>52</width>
     <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -648,23 +434,10 @@ TT128 - otherwise</tooltip>
     <y>294</y>
     <width>52</width>
     <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -677,23 +450,10 @@ TT128 - otherwise</tooltip>
     <y>319</y>
     <width>52</width>
     <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -706,23 +466,10 @@ TT128 - otherwise</tooltip>
     <y>231</y>
     <width>52</width>
     <height>18</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <precision>0</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -737,14 +484,6 @@ TT128 - otherwise</tooltip>
     <y>171</y>
     <width>75</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <actions>
     </actions>
   </widget>
@@ -757,14 +496,6 @@ TT128 - otherwise</tooltip>
     <y>171</y>
     <width>128</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <actions>
     </actions>
   </widget>
@@ -772,7 +503,7 @@ TT128 - otherwise</tooltip>
     <name>LED Template_2</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_C1</pv_name>
     <bit>0</bit>
-    <x>146</x>
+    <x>150</x>
     <y>171</y>
     <width>25</width>
     <height>25</height>

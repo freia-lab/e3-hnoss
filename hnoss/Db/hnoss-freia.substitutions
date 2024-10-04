@@ -365,7 +365,7 @@ file "SQanalog.template" { pattern
 {SQ5,	cP_CV550,      3340,  FLOAT, sP_CV550,   4838	"%"}
 {SQ5,	cP_LowLt,      3344,  FLOAT, sP_LowLt,   4842	"%"}
 {SQ5,	cP_CoolD_Tt,   3348,  FLOAT, sP_CoolD_Tt,4846	"K"}
-{SQ5,	cP_HighLt,     3352,  FLOAT, sP_HighLt,  4850	"K"}
+{SQ5,	cP_HighLt,     3352,  FLOAT, sP_HighLt,  4850	"%"}
 {SQ5,	cP_CV100,      3356,  FLOAT, sP_CV100,   4854	"%"}
 {SQ5,	cP_SP_LIC100,  3360,  FLOAT, sP_SP_LIC100,4858	"%"}
 {SQ6,	cP_Tt,         3416,  FLOAT, sP_Tt,      4932	"K"}
@@ -377,8 +377,8 @@ file "SQanalog.template" { pattern
 {SQ7,	cP_CV550,      3516,  FLOAT, sP_CV550,   5050	"%"}
 {SQ7,	cP_CV551,      3520,  FLOAT, sP_CV551,   5054	"%"}
 {SQ7,	cP_FT552,      3524,  FLOAT, sP_FT552,   5058	"m³/h"}
-{SQ7,	cP_HighLt,     3528,  FLOAT, sP_HighLt,  5062	"K"}
-{SQ7,	cP_LowLt,      3532,  FLOAT, sP_LowLt,   5066	"K"}
+{SQ7,	cP_HighLt,     3528,  FLOAT, sP_HighLt,  5062	"%"}
+{SQ7,	cP_LowLt,      3532,  FLOAT, sP_LowLt,   5066	"%"}
 {SQ7,	cP_CV552,      3536,  FLOAT, sP_CV552,   5070	"%"}
 {SQ7,	cP_CV101,      3540,  FLOAT, sP_CV101,   5074	"%"}
 {SQ7,	cP_CV102,      3544,  FLOAT, sP_CV102,   5078	"%"}
@@ -386,8 +386,8 @@ file "SQanalog.template" { pattern
 {SQ7,	cP_CV104,      3552,  FLOAT, sP_CV104,   5086	"%"}
 {SQ7,	cP_CM_SP_MKS2, 3556,  FLOAT, sP_CM_SP_MKS2,5090 "mbar"}
 {SQ8,	cP_CV550,      3584,  FLOAT, sP_CV550,   5136	"%"}
-{SQ8,	cP_LowLt,      3588,  FLOAT, sP_LowLt,   5140	"K"}
-{SQ8,	cP_HighLt,     3592,  FLOAT, sP_HighLt,  5144	"K"}
+{SQ8,	cP_LowLt,      3588,  FLOAT, sP_LowLt,   5140	"%"}
+{SQ8,	cP_HighLt,     3592,  FLOAT, sP_HighLt,  5144	"%"}
 {SQ8,	cP_Pt,         3596,  FLOAT, sP_Pt,      5148	"mbar"}
 {SQ8,	cP_SP_Tt,      3600,  FLOAT, sP_SP_Tt,   5152	"K"}
 {SQ8,	cP_CV551,      3604,  FLOAT, sP_CV551,   5156	"%"}
@@ -396,8 +396,8 @@ file "SQanalog.template" { pattern
 {SQ8,	cP_SP_LIC101,  3616,  FLOAT, sP_SP_LIC101,5168	"%"}
 {SQ8,	cP_CM_SP_MKS2, 3620,  FLOAT, sP_CM_SP_MKS2,5172	"mbar"}
 {SQ9,	cP_CV550,      3668,  FLOAT, sP_CV550,   5238	"%"}
-{SQ9,	cP_LowLt,      3672,  FLOAT, sP_LowLt,   5242	"K"}
-{SQ9,	cP_HighLt,     3676,  FLOAT, sP_HighLt,  5246	"K"}
+{SQ9,	cP_LowLt,      3672,  FLOAT, sP_LowLt,   5242	"%"}
+{SQ9,	cP_HighLt,     3676,  FLOAT, sP_HighLt,  5246	"%"}
 {SQ9,	cP_Pt,         3680,  FLOAT, sP_Pt,      5250	"mbar"}
 {SQ9,	cP_SP_Tt,      3684,  FLOAT, sP_SP_Tt,   5254	"K"}
 {SQ9,	cP_CV105,      3688,  FLOAT, sP_CV105,   5258	"%"}

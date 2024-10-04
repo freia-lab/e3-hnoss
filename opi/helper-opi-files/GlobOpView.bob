@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2023-09-21 10:59:28 by konrad-->
+<!--Saved on 2024-10-04 15:41:29 by konrad-->
 <display version="2.0.0">
   <macros>
     <system>CstatH-LHe</system>
@@ -182,7 +182,7 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Panel 2_2</name>
     <x>318</x>
     <y>117</y>
@@ -193,6 +193,10 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -943,7 +947,7 @@ $(pv_value)</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>2K_tank</name>
     <x>601</x>
     <y>407</y>
@@ -954,6 +958,10 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -1794,7 +1802,7 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Panel 2_8</name>
     <x>5</x>
     <y>130</y>
@@ -1805,6 +1813,10 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -1917,7 +1929,7 @@ $(pv_value)</tooltip>
       </border_color>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Panel 2_7</name>
     <x>110</x>
     <y>107</y>
@@ -1928,6 +1940,10 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -2143,7 +2159,7 @@ $(pv_value)</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Panel 2_9</name>
     <x>169</x>
     <y>327</y>
@@ -2154,6 +2170,10 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -6206,7 +6226,7 @@ $(pv_value)</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Panel 2</name>
     <x>1271</x>
     <y>597</y>
@@ -6217,6 +6237,10 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -6868,6 +6892,7 @@ $(pv_value)</tooltip>
 
 display.getWidget("tabcontainer").setActiveTabIndex(3);]]></text>
         </script>
+        <description>Execute Script</description>
       </action>
     </actions>
     <tooltip>$(actions)</tooltip>
@@ -6899,6 +6924,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(3);]]></text>
 
 display.getWidget("tabcontainer").setActiveTabIndex(6);]]></text>
         </script>
+        <description>Execute Script</description>
       </action>
     </actions>
     <tooltip>$(actions)</tooltip>
@@ -6931,6 +6957,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(6);]]></text>
 
 display.getWidget("tabcontainer").setActiveTabIndex(4);]]></text>
         </script>
+        <description>Execute Script</description>
       </action>
     </actions>
     <tooltip>$(actions)</tooltip>
@@ -6962,6 +6989,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(4);]]></text>
 
 display.getWidget("tabcontainer").setActiveTabIndex(3);]]></text>
         </script>
+        <description>Execute Script</description>
       </action>
     </actions>
     <tooltip>$(actions)</tooltip>
@@ -6996,6 +7024,7 @@ Pumps</text>
 
 display.getWidget("tabcontainer").setActiveTabIndex(4);]]></text>
         </script>
+        <description>Execute Script</description>
       </action>
     </actions>
     <tooltip>$(actions)</tooltip>
@@ -7225,8 +7254,8 @@ $(pv_value)</tooltip>
     <pv_name>CstatH-SHe:PT300:sRdV</pv_name>
     <x>1346</x>
     <y>225</y>
-    <width>74</width>
-    <height>34</height>
+    <width>90</width>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
@@ -7432,7 +7461,7 @@ $(pv_value)</tooltip>
     </actions>
     <tooltip>Reheater</tooltip>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Group</name>
     <x>111</x>
     <y>57</y>

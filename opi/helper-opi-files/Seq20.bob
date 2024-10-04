@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-10-04 15:39:48 by konrad-->
 <display version="2.0.0">
   <name>Seq20</name>
-  <width>600</width>
-  <height>500</height>
+  <width>545</width>
+  <height>420</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
@@ -19,14 +20,6 @@
     <y>293</y>
     <width>190</width>
     <height>25</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <actions>
     </actions>
   </widget>
@@ -80,15 +73,8 @@
     <pv_name>CstatH-Ctrl:$(seq_no):cP_Op</pv_name>
     <x>312</x>
     <y>189</y>
+    <width>117</width>
     <height>80</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="12.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
     <horizontal>false</horizontal>
     <actions>
     </actions>
@@ -102,22 +88,10 @@
   <widget type="label" version="2.0.0">
     <name>Text Update Template_2</name>
     <text>###</text>
-    <x>429</x>
-    <y>196</y>
-    <width>78</width>
+    <x>437</x>
+    <y>189</y>
+    <width>84</width>
     <height>17</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="13.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <transparent>false</transparent>
     <actions>
     </actions>
@@ -138,7 +112,6 @@
     <tooltip>Selected operation
 CstatH-Ctrl:$(seq_no):sP_Op
 </tooltip>
-    <border_width>2</border_width>
     <border_color>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
@@ -171,15 +144,19 @@ CstatH-Ctrl:$(seq_no):sP_Op
       </color>
     </border_color>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name> Conditioning </name>
     <y>175</y>
-    <width>220</width>
+    <width>260</width>
     <height>125</height>
     <foreground_color>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -195,14 +172,6 @@ CstatH-Ctrl:$(seq_no):sP_Op
       <y>31</y>
       <width>151</width>
       <height>25</height>
-      <font>
-        <font family="Source Sans Pro" style="BOLD" size="12.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
       <actions>
       </actions>
     </widget>
@@ -210,8 +179,8 @@ CstatH-Ctrl:$(seq_no):sP_Op
       <name>LED Template_2</name>
       <pv_name>CstatH-Ctrl:$(seq_no):sP_CDCryo</pv_name>
       <bit>0</bit>
-      <x>152</x>
-      <y>60</y>
+      <x>179</x>
+      <y>61</y>
       <width>16</width>
       <height>16</height>
       <off_color>
@@ -237,8 +206,8 @@ CstatH-Ctrl:$(seq_no):sP_Op
       <name>LED Template_5</name>
       <pv_name>CstatH-Ctrl:$(seq_no):sP_CondCryo</pv_name>
       <bit>0</bit>
-      <x>152</x>
-      <y>12</y>
+      <x>179</x>
+      <y>13</y>
       <width>16</width>
       <height>16</height>
       <off_color>
@@ -264,8 +233,8 @@ CstatH-Ctrl:$(seq_no):sP_Op
       <name>LED Template_6</name>
       <pv_name>CstatH-Ctrl:$(seq_no):sP_CondCoupl</pv_name>
       <bit>0</bit>
-      <x>152</x>
-      <y>36</y>
+      <x>179</x>
+      <y>37</y>
       <width>16</width>
       <height>16</height>
       <off_color>
@@ -295,14 +264,6 @@ CstatH-Ctrl:$(seq_no):sP_Op
       <y>7</y>
       <width>151</width>
       <height>25</height>
-      <font>
-        <font family="Source Sans Pro" style="BOLD" size="12.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
       <actions>
       </actions>
     </widget>
@@ -314,19 +275,11 @@ CstatH-Ctrl:$(seq_no):sP_Op
       <y>55</y>
       <width>151</width>
       <height>25</height>
-      <font>
-        <font family="Source Sans Pro" style="BOLD" size="12.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
       <actions execute_as_one="true">
       </actions>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name> Stop actions </name>
     <y>326</y>
     <width>552</width>
@@ -335,6 +288,10 @@ CstatH-Ctrl:$(seq_no):sP_Op
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -351,14 +308,6 @@ CstatH-Ctrl:$(seq_no):sP_Op
       <y>6</y>
       <width>131</width>
       <height>25</height>
-      <font>
-        <font family="Source Sans Pro" style="BOLD" size="12.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
       <actions>
       </actions>
     </widget>
@@ -366,7 +315,7 @@ CstatH-Ctrl:$(seq_no):sP_Op
       <name>LED Template_4</name>
       <pv_name>CstatH-Ctrl:$(seq_no):sP_WarmUp</pv_name>
       <bit>0</bit>
-      <x>92</x>
+      <x>111</x>
       <y>11</y>
       <width>16</width>
       <height>16</height>
@@ -398,14 +347,6 @@ CstatH-Ctrl:$(seq_no):sP_Op
       <y>6</y>
       <width>131</width>
       <height>25</height>
-      <font>
-        <font family="Source Sans Pro" style="BOLD" size="12.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
       <actions>
       </actions>
     </widget>
@@ -413,7 +354,7 @@ CstatH-Ctrl:$(seq_no):sP_Op
       <name>LED Template_3</name>
       <pv_name>CstatH-Ctrl:$(seq_no):sP_Isolated</pv_name>
       <bit>0</bit>
-      <x>282</x>
+      <x>300</x>
       <y>11</y>
       <width>16</width>
       <height>16</height>
@@ -445,14 +386,6 @@ CstatH-Ctrl:$(seq_no):sP_Op
       <y>6</y>
       <width>131</width>
       <height>25</height>
-      <font>
-        <font family="Source Sans Pro" style="BOLD" size="12.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
       <actions>
       </actions>
     </widget>
@@ -460,7 +393,7 @@ CstatH-Ctrl:$(seq_no):sP_Op
       <name>LED Template_1</name>
       <pv_name>CstatH-Ctrl:$(seq_no):sP_StopSeq</pv_name>
       <bit>0</bit>
-      <x>473</x>
+      <x>484</x>
       <y>11</y>
       <width>16</width>
       <height>16</height>

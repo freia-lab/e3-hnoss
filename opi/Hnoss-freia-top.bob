@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-10-04 15:49:12 by konrad-->
 <display version="2.0.0">
   <name>HNOSS</name>
   <macros>
     <P>CstatH</P>
+    <W>freia.physics.uu.se</W>
   </macros>
   <width>1750</width>
   <height>1024</height>
@@ -32,6 +34,7 @@
           <step8>Filling up with GHe</step8>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 0</text>
@@ -68,6 +71,7 @@ Conditioning He circuits</tooltip>
           <step8>Filling up with GHe</step8>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 1</text>
@@ -103,6 +107,7 @@ Conditioning He circuits</tooltip>
           <step8>Filling up with GHe</step8>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 2</text>
@@ -135,6 +140,7 @@ Conditioning He circuits</tooltip>
           <step8>Keeping cooled - LN2 flow off</step8>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 3A</text>
@@ -166,6 +172,7 @@ Conditioning He circuits</tooltip>
           <step6>Keeping cooled</step6>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 3B</text>
@@ -197,6 +204,7 @@ Conditioning He circuits</tooltip>
           <step6>Keeping cooled</step6>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 4</text>
@@ -228,6 +236,7 @@ Conditioning He circuits</tooltip>
           <step6>Keeping cooled</step6>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 10</text>
@@ -259,6 +268,7 @@ Conditioning He circuits</tooltip>
           <step6>Keeping at Set point temperature</step6>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 11</text>
@@ -289,6 +299,7 @@ Conditioning He circuits</tooltip>
           <step4>Warming up</step4>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 12A</text>
@@ -319,6 +330,7 @@ Conditioning He circuits</tooltip>
           <step4>Warming up</step4>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 12B</text>
@@ -352,6 +364,7 @@ Conditioning He circuits</tooltip>
           <step8>LHe filling or kept at set point</step8>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 5</text>
@@ -382,6 +395,7 @@ Conditioning He circuits</tooltip>
           <step4>Doing measurements</step4>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 6</text>
@@ -413,6 +427,7 @@ Conditioning He circuits</tooltip>
           <step6>Cooling...</step6>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 7</text>
@@ -444,6 +459,7 @@ Conditioning He circuits</tooltip>
           <step6>Keeping cooled</step6>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 8</text>
@@ -477,6 +493,7 @@ Conditioning He circuits</tooltip>
           <step8>Waiting for pressures to go below settings</step8>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 13</text>
@@ -509,6 +526,7 @@ Conditioning He circuits</tooltip>
           <step8>Step 8</step8>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Semi-automatic</text>
@@ -547,6 +565,7 @@ Conditioning He circuits</tooltip>
           <step8>Waiting 10 s for closing CV552 and FV552.</step8>
         </macros>
         <target>standalone</target>
+        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 9</text>
@@ -568,8 +587,8 @@ Conditioning He circuits</tooltip>
     <text>Automatic sequences</text>
     <x>5</x>
     <y>187</y>
-    <width>152</width>
-    <height>25</height>
+    <width>151</width>
+    <height>21</height>
     <font>
       <font name="Default Bold" family="Source Sans Pro" style="BOLD" size="16.0">
       </font>
@@ -830,8 +849,6 @@ Conditioning He circuits</tooltip>
             </background_color>
             <actions>
             </actions>
-            <rules>
-            </rules>
             <limits_from_pv>false</limits_from_pv>
             <maximum>2.0</maximum>
             <needle_color>
@@ -852,8 +869,6 @@ Conditioning He circuits</tooltip>
             </fill_color>
             <actions>
             </actions>
-            <rules>
-            </rules>
             <limits_from_pv>false</limits_from_pv>
           </widget>
           <widget type="progressbar" version="2.0.0">
@@ -869,8 +884,6 @@ Conditioning He circuits</tooltip>
             </fill_color>
             <actions>
             </actions>
-            <rules>
-            </rules>
             <limits_from_pv>false</limits_from_pv>
           </widget>
           <widget type="progressbar" version="2.0.0">
@@ -886,8 +899,6 @@ Conditioning He circuits</tooltip>
             </fill_color>
             <actions>
             </actions>
-            <rules>
-            </rules>
             <limits_from_pv>false</limits_from_pv>
           </widget>
         </children>
@@ -910,9 +921,9 @@ Conditioning He circuits</tooltip>
     <name>Label Template_4</name>
     <text>HNOSS</text>
     <x>30</x>
-    <y>10</y>
-    <width>110</width>
-    <height>54</height>
+    <y>5</y>
+    <width>109</width>
+    <height>48</height>
     <font>
       <font name="Header 1" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
       </font>
@@ -934,7 +945,7 @@ Conditioning He circuits</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Panel 2</name>
     <x>140</x>
     <y>213</y>
@@ -945,6 +956,10 @@ Conditioning He circuits</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -1886,7 +1901,7 @@ Alarms</text>
     <x>20</x>
     <y>820</y>
     <width>126</width>
-    <height>56</height>
+    <height>40</height>
     <font>
       <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
@@ -1928,7 +1943,7 @@ Alarms</text>
 $(pv_name)
 $(actions)</tooltip>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container</name>
     <x>10</x>
     <y>50</y>
@@ -1939,6 +1954,10 @@ $(actions)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -2040,9 +2059,9 @@ $(actions)</tooltip>
     <text>Simulate
 Analog Input</text>
     <x>20</x>
-    <y>885</y>
+    <y>865</y>
     <width>126</width>
-    <height>50</height>
+    <height>45</height>
     <font>
       <font family="Source Sans Pro" style="BOLD" size="13.0">
       </font>
@@ -2058,7 +2077,7 @@ Analog Input</text>
     <text>Cryomode</text>
     <y>129</y>
     <width>53</width>
-    <height>18</height>
+    <height>16</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="12.0">
       </font>
@@ -2101,5 +2120,65 @@ Analog Input</text>
     </line_color>
     <actions>
     </actions>
+  </widget>
+  <widget type="multi_state_led" version="2.0.0">
+    <name>LED (Multi State)_1</name>
+    <pv_name>Cryo-System:Operation:VisuState</pv_name>
+    <x>22</x>
+    <y>935</y>
+    <width>124</width>
+    <height>22</height>
+    <square>true</square>
+    <states>
+      <state>
+        <value>1</value>
+        <label>OFF</label>
+        <color>
+          <color name="RED" red="252" green="13" blue="27">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>2</value>
+        <label>STANDBY</label>
+        <color>
+          <color name="BLUE" red="79" green="228" blue="250">
+          </color>
+        </color>
+      </state>
+      <state>
+        <value>3</value>
+        <label>ON</label>
+        <color>
+          <color name="ON" red="70" green="255" blue="70">
+          </color>
+        </color>
+      </state>
+    </states>
+    <fallback_label>Invalid</fallback_label>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>Liquifier status:</text>
+    <x>20</x>
+    <y>915</y>
+    <width>126</width>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
   </widget>
 </display>
