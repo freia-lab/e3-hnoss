@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-10-11 09:24:14 by konrad-->
 <display version="2.0.0">
   <width>300</width>
   <height>300</height>
@@ -57,18 +58,6 @@
     <y>54</y>
     <width>120</width>
     <height>26</height>
-    <font>
-      <font name="IO Input 1" family="arial" style="BOLD" size="9.900990099009901">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="IO Foreground" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Button" red="178" green="178" blue="178">
-      </color>
-    </background_color>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_5</name>
@@ -76,7 +65,7 @@
     <x>25</x>
     <y>25</y>
     <width>185</width>
-    <height>23</height>
+    <height>24</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -114,14 +103,6 @@
     <y>160</y>
     <width>96</width>
     <height>21</height>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -138,14 +119,6 @@
     <y>124</y>
     <width>96</width>
     <height>21</height>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -162,19 +135,9 @@
     <y>122</y>
     <width>120</width>
     <height>30</height>
-    <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-    </rules>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
@@ -187,19 +150,9 @@
     <y>158</y>
     <width>120</width>
     <height>30</height>
-    <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-    </rules>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
@@ -212,14 +165,6 @@
     <y>201</y>
     <width>103</width>
     <height>21</height>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
@@ -236,25 +181,15 @@
     <y>199</y>
     <width>120</width>
     <height>30</height>
-    <foreground_color>
-      <color name="IO InputPV Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO InputPV Bg" red="255" green="255" blue="255">
-      </color>
-    </background_color>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
-    <rules>
-    </rules>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
     </border_color>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container</name>
     <x>30</x>
     <y>85</y>
@@ -266,6 +201,10 @@
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -297,8 +236,6 @@
       </background_color>
       <actions>
       </actions>
-      <rules>
-      </rules>
       <border_color>
         <color name="IO Border" red="215" green="215" blue="215">
         </color>
@@ -335,14 +272,6 @@
     <y>54</y>
     <width>114</width>
     <height>21</height>
-    <foreground_color>
-      <color name="IO Text Fg" red="0" green="32" blue="92">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="IO Background" red="255" green="255" blue="205">
-      </color>
-    </background_color>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>

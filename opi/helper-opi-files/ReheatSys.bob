@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2023-09-21 13:26:32 by konrad-->
+<!--Saved on 2024-10-11 09:05:12 by konrad-->
 <display version="2.0.0">
   <x>2</x>
-  <width>1250</width>
+  <width>1350</width>
   <height>800</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
@@ -56,7 +56,7 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Group</name>
     <x>1138</x>
     <y>404</y>
@@ -134,6 +134,31 @@ $(pv_value)</tooltip>
       </fill_color>
       <actions>
       </actions>
+    </widget>
+    <widget type="tank" version="2.0.0">
+      <name>Tank_5</name>
+      <pv_name>Cryo-Rec:LP:GasBagLidar-perc</pv_name>
+      <x>23</x>
+      <y>11</y>
+      <width>55</width>
+      <height>63</height>
+      <font>
+        <font name="MICRO-SANS-PLAIN" family="Source Sans Pro" style="REGULAR" size="10.0">
+        </font>
+      </font>
+      <background_color>
+        <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+        </color>
+      </background_color>
+      <fill_color>
+        <color name="YELLOW-BORDER" red="150" green="144" blue="10">
+        </color>
+      </fill_color>
+      <tooltip>Scale: % between the switches controlling the HP storage comperssor.
+$(pv_name)
+$(pv_value)</tooltip>
+      <limits_from_pv>false</limits_from_pv>
+      <maximum>115.0</maximum>
     </widget>
   </widget>
   <widget type="polyline" version="2.0.0">
@@ -289,7 +314,7 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Panel 2</name>
     <x>130</x>
     <y>476</y>
@@ -300,6 +325,10 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -381,7 +410,7 @@ $(pv_value)</tooltip>
         </color>
       </border_color>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>$(pv)</name>
       <macros>
         <pv>$(P)-RHtr:LS550</pv>
@@ -423,6 +452,7 @@ $(pv_value)</tooltip>
               <DI>$(P)-RHtr:LS580</DI>
             </macros>
             <target>tab</target>
+            <description>Open Display</description>
           </action>
         </actions>
         <tooltip>Water level switch
@@ -463,7 +493,7 @@ $(pv_value)</tooltip>
       <width>110</width>
       <height>95</height>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>$(pv)</name>
       <macros>
         <pv>CstatH-RHtr:TT550</pv>
@@ -500,6 +530,7 @@ $(pv_value)</tooltip>
               <AI>$(P)-RHtr:TT550</AI>
             </macros>
             <target>tab</target>
+            <description>Open Display</description>
           </action>
         </actions>
         <border_width>2</border_width>
@@ -718,7 +749,7 @@ $(pv_value)</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Panel 2_15</name>
     <x>810</x>
     <y>535</y>
@@ -729,6 +760,10 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -995,7 +1030,7 @@ He lines</text>
       </color>
     </border_color>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Select He exhaust</name>
     <x>452</x>
     <y>75</y>
@@ -1005,6 +1040,10 @@ He lines</text>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -1014,6 +1053,7 @@ He lines</text>
       <action type="write_pv">
         <pv_name>CstatH-RHtr:opMode:</pv_name>
         <value>1</value>
+        <description>WritePV</description>
       </action>
     </actions>
     <widget type="action_button" version="3.0.0">
@@ -1022,6 +1062,7 @@ He lines</text>
         <action type="write_pv">
           <pv_name>CstatH-RHtr:opMode:cmdRst4KtoBaloon</pv_name>
           <value>1</value>
+          <description>WritePV</description>
         </action>
       </actions>
       <pv_name>CstatH-RHtr:opMode:cmdRst4KtoBaloon</pv_name>
@@ -1041,6 +1082,7 @@ He lines</text>
         <action type="write_pv">
           <pv_name>CstatH-RHtr:opMode:cmdSet4KtoBaloon</pv_name>
           <value>1</value>
+          <description>WritePV</description>
         </action>
       </actions>
       <pv_name>CstatH-RHtr:opMode:cmdSet4KtoBaloon</pv_name>
@@ -1060,6 +1102,7 @@ He lines</text>
         <action type="write_pv">
           <pv_name>CstatH-RHtr:opMode:cmdRst2KtoBaloon</pv_name>
           <value>1</value>
+          <description>WritePV</description>
         </action>
       </actions>
       <pv_name>CstatH-RHtr:opMode:cmdRst2KtoBaloon</pv_name>
@@ -1079,6 +1122,7 @@ He lines</text>
         <action type="write_pv">
           <pv_name>CstatH-RHtr:opMode:cmdSet2KtoBaloon</pv_name>
           <value>1</value>
+          <description>WritePV</description>
         </action>
       </actions>
       <pv_name>CstatH-RHtr:opMode:cmdSet2KtoBaloon</pv_name>
@@ -1170,7 +1214,7 @@ He lines</text>
         </color>
       </border_color>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container</name>
       <x>27</x>
       <y>100</y>
@@ -1181,6 +1225,10 @@ He lines</text>
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -1270,7 +1318,7 @@ the state was active for at least 10 s.</tooltip>
         </border_color>
       </widget>
     </widget>
-    <widget type="group" version="2.0.0">
+    <widget type="group" version="3.0.0">
       <name>Grouping Container_1</name>
       <x>301</x>
       <y>100</y>
@@ -1281,6 +1329,10 @@ the state was active for at least 10 s.</tooltip>
         <color red="0" green="128" blue="255">
         </color>
       </foreground_color>
+      <line_color>
+        <color red="0" green="128" blue="255">
+        </color>
+      </line_color>
       <background_color>
         <color red="240" green="240" blue="240">
         </color>
@@ -1428,7 +1480,7 @@ the state was active for at least 10 s.</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_4</name>
     <x>1025</x>
     <y>412</y>
@@ -1439,6 +1491,10 @@ the state was active for at least 10 s.</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -1457,7 +1513,7 @@ the state was active for at least 10 s.</tooltip>
       </actions>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_5</name>
     <x>1095</x>
     <y>419</y>
@@ -1468,6 +1524,10 @@ the state was active for at least 10 s.</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="188" green="188" blue="188">
       </color>
@@ -1518,7 +1578,7 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_6</name>
     <x>941</x>
     <y>357</y>
@@ -1529,6 +1589,10 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="188" green="188" blue="188">
       </color>
@@ -1579,7 +1643,7 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_8</name>
     <x>756</x>
     <y>445</y>
@@ -1590,6 +1654,10 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="188" green="188" blue="188">
       </color>
@@ -1660,7 +1728,7 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Panel 2_17</name>
     <macros>
       <name>CstatH-RHtr:EH131</name>
@@ -1674,6 +1742,10 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="240" green="240" blue="240">
       </color>
@@ -1871,7 +1943,7 @@ $(pv_value)</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Grouping Container_9</name>
     <x>941</x>
     <y>315</y>
@@ -1882,6 +1954,10 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </foreground_color>
+    <line_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </line_color>
     <background_color>
       <color red="188" green="188" blue="188">
       </color>
@@ -2824,31 +2900,7 @@ $(pv_value)
       </color>
     </border_color>
   </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update_3</name>
-    <pv_name>Cryo-Rec:LP:GasBagSonar</pv_name>
-    <x>1163</x>
-    <y>490</y>
-    <width>50</width>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="WHITE" red="255" green="255" blue="255">
-      </color>
-    </background_color>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <border_color>
-      <color red="0" green="128" blue="255">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>$(pv)</name>
     <macros>
       <pv>CstatH-RHtr:PT551</pv>
@@ -2886,6 +2938,7 @@ $(pv_value)
             <AI>$(P)-RHtr:PT551</AI>
           </macros>
           <target>tab</target>
+          <description>Open Display</description>
         </action>
       </actions>
       <border_width>2</border_width>
@@ -2914,7 +2967,7 @@ $(pv_value)
       <tooltip>$(pv)</tooltip>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>$(pv)</name>
     <macros>
       <pv>CstatH-RHtr:PT552</pv>
@@ -2953,7 +3006,7 @@ $(pv_value)
       </border_color>
     </widget>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>$(pv)</name>
     <macros>
       <pv>CstatH-LHe:FT131</pv>
@@ -2989,6 +3042,7 @@ $(pv_value)
             <AI>$(P)-LHe:FT131</AI>
           </macros>
           <target>tab</target>
+          <description>Open Display</description>
         </action>
       </actions>
       <border_width>2</border_width>
@@ -3060,7 +3114,7 @@ $(pv_value)
     <x>330</x>
     <y>430</y>
     <width>70</width>
-    <height>0</height>
+    <height>1</height>
     <points>
       <point x="0.0" y="0.0">
       </point>
@@ -3139,5 +3193,13 @@ $(pv_value)
       <color name="GRAY-BORDER" red="121" green="121" blue="121">
       </color>
     </line_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_2</name>
+    <file>../../freia-symbols/display-builder/gasBagLidar.bob</file>
+    <x>1096</x>
+    <y>511</y>
+    <width>200</width>
+    <height>210</height>
   </widget>
 </display>
