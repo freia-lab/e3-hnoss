@@ -1,3 +1,9 @@
 alias("$(P)-MKS:$(MKS):sOutV","$(P)-RHtr:$(CV):sRdV")
 alias("$(P)-MKS:$(MKS):sAuto","$(P)-RHtr:$(CV):sAuto")
 alias("$(P)-MKS:$(MKS):cOutput","$(P)-RHtr:$(CV):cSetV")
+
+record(calc, "$(P)-RHtr:$(CV):sOn") {
+  field(INPA, "$(P)-MKS:$(MKS):sOutV")
+  field(CALC, "A#0?1:0")
+  field(SCAN, "1 second")
+}
