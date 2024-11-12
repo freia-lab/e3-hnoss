@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-10-04 15:41:29 by konrad-->
+<!--Saved on 2024-11-12 15:00:29 by konrad-->
 <display version="2.0.0">
   <macros>
     <system>CstatH-LHe</system>
@@ -7440,90 +7440,6 @@ $(pv_value)</tooltip>
       </color>
     </border_color>
   </widget>
-  <widget type="rectangle" version="2.0.0">
-    <name>Rounded Rectangle Template_4</name>
-    <x>97</x>
-    <y>52</y>
-    <width>81</width>
-    <height>54</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
-    <background_color>
-      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
-      </color>
-    </background_color>
-    <corner_width>16</corner_width>
-    <corner_height>16</corner_height>
-    <actions>
-    </actions>
-    <tooltip>Reheater</tooltip>
-  </widget>
-  <widget type="group" version="3.0.0">
-    <name>Group</name>
-    <x>111</x>
-    <y>57</y>
-    <width>54</width>
-    <height>36</height>
-    <style>3</style>
-    <transparent>true</transparent>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_128</name>
-      <text>EH131</text>
-      <x>9</x>
-      <y>17</y>
-      <width>38</width>
-      <height>19</height>
-      <font>
-        <font family="Source Sans Pro" style="REGULAR" size="14.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="BACKGROUND" red="220" green="225" blue="221">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-    <widget type="label" version="2.0.0">
-      <name>Label Template_126</name>
-      <text>Reheater</text>
-      <width>54</width>
-      <height>19</height>
-      <font>
-        <font family="Source Sans Pro" style="REGULAR" size="14.0">
-        </font>
-      </font>
-      <foreground_color>
-        <color name="BLACK" red="0" green="0" blue="0">
-        </color>
-      </foreground_color>
-      <background_color>
-        <color name="BACKGROUND" red="220" green="225" blue="221">
-        </color>
-      </background_color>
-      <vertical_alignment>1</vertical_alignment>
-      <auto_size>true</auto_size>
-      <actions>
-      </actions>
-      <border_color>
-        <color name="IO Border" red="215" green="215" blue="215">
-        </color>
-      </border_color>
-    </widget>
-  </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_2</name>
     <macros>
@@ -8531,5 +8447,19 @@ $(pv_value)
     <y>164</y>
     <width>66</width>
     <height>37</height>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display_56</name>
+    <macros>
+      <MULTI_HTR></MULTI_HTR>
+      <P>CstatH</P>
+      <S>RHtr</S>
+      <V>EH131</V>
+    </macros>
+    <file>../../freia-symbols/display-builder/CstatH-Heater1-lr-pv.bob</file>
+    <x>98</x>
+    <y>28</y>
+    <width>110</width>
+    <height>95</height>
   </widget>
 </display>

@@ -87,7 +87,8 @@ record(bi, "CstatH-$(SUBS):$(DEV):sFlt")  {
 record(ai, "CstatH-$(SUBS):$(DEV):sL1") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS)+2 T=FLOAT")
-  field(PREC, "6")
+  field(PREC, "2")
+  field(EGU, "K")
   field(SCAN, "I/O Intr")
   field(PINI, "YES")
   field(FLNK, "CstatH-$(SUBS):$(DEV):sL1-cL1-link")
@@ -119,7 +120,8 @@ record(calcout, "CstatH-$(SUBS):$(DEV):sL1-cL1-remInitLink") {
 record(ai, "CstatH-$(SUBS):$(DEV):sL2") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS)+6 T=FLOAT")
-  field(PREC, "6")
+  field(PREC, "2")
+  field(EGU, "K")
   field(SCAN, "I/O Intr")
   field(PINI, "YES")
   field(FLNK, "CstatH-$(SUBS):$(DEV):sL2-cL2-link")
@@ -151,7 +153,8 @@ record(calcout, "CstatH-$(SUBS):$(DEV):sL2-cL2-remInitLink") {
 record(ai, "CstatH-$(SUBS):$(DEV):sL3") {
   field(DTYP, "S7plc")
   field(INP, "@PLC:HNOSS/$(OFFS)+10 T=FLOAT")
-  field(PREC, "6")
+  field(PREC, "2")
+  field(EGU, "K")
   field(SCAN, "I/O Intr")
   field(PINI, "YES")
   field(FLNK, "CstatH-$(SUBS):$(DEV):sL3-cL3-link")
@@ -365,7 +368,8 @@ record(ao, "CstatH-$(SUBS):$(DEV):cL1") {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/$(OFFS2)+2 T=FLOAT")
   field(PINI, "NO")
-  field(PREC, "6")
+  field(PREC, "2")
+  field(EGU, "K")
   field(FLNK, "CstatH-$(SUBS):$(DEV):cmdL1-link")
 }
 
@@ -373,7 +377,8 @@ record(ao, "CstatH-$(SUBS):$(DEV):cL2") {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/$(OFFS2)+6 T=FLOAT")
   field(PINI, "NO")
-  field(PREC, "6")
+  field(PREC, "2")
+  field(EGU, "K")
   field(FLNK, "CstatH-$(SUBS):$(DEV):cmdL2-link")
 }
 
@@ -381,7 +386,8 @@ record(ao, "CstatH-$(SUBS):$(DEV):cL3") {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/$(OFFS2)+10 T=FLOAT")
   field(PINI, "NO")
-  field(PREC, "6")
+  field(PREC, "2")
+  field(EGU, "K")
   field(FLNK, "CstatH-$(SUBS):$(DEV):cmdL3-link")
 }
 

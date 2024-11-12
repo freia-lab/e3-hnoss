@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-10-04 14:12:38 by konrad-->
+<!--Saved on 2024-11-12 09:14:48 by konrad-->
 <display version="2.0.0">
   <name>Seq12A</name>
   <width>550</width>
-  <height>180</height>
+  <height>220</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
@@ -70,5 +70,19 @@
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </border_color>
+  </widget>
+  <widget type="embedded" version="2.0.0">
+    <name>Embedded Display</name>
+    <macros>
+      <C>CstatH</C>
+      <S>IBoxN2</S>
+      <HtrNr>401</HtrNr>
+      <TTNr>401</TTNr>
+    </macros>
+    <file>../Embedded/heater3T.bob</file>
+    <x>10</x>
+    <y>180</y>
+    <width>520</width>
+    <height>40</height>
   </widget>
 </display>
