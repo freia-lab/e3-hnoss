@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-11-12 11:00:03 by konrad-->
+<!--Saved on 2024-11-13 11:07:42 by konrad-->
 <display version="2.0.0">
   <x>2</x>
   <width>1350</width>
@@ -212,7 +212,7 @@ $(pv_value)</tooltip>
     <text>Helium Pumping and Reheating system</text>
     <x>352</x>
     <width>354</width>
-    <height>28</height>
+    <height>27</height>
     <font>
       <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
       </font>
@@ -646,7 +646,7 @@ $(pv_value)</tooltip>
     <x>396</x>
     <y>397</y>
     <width>26</width>
-    <height>15</height>
+    <height>14</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -1431,7 +1431,7 @@ the state was active for at least 10 s.</tooltip>
     <x>82</x>
     <y>493</y>
     <width>34</width>
-    <height>15</height>
+    <height>14</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2131,7 +2131,7 @@ $(pv_value)</tooltip>
     <x>87</x>
     <y>506</y>
     <width>24</width>
-    <height>15</height>
+    <height>14</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2160,7 +2160,7 @@ $(pv_value)</tooltip>
     <x>83</x>
     <y>632</y>
     <width>34</width>
-    <height>15</height>
+    <height>14</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2189,7 +2189,7 @@ $(pv_value)</tooltip>
     <x>88</x>
     <y>645</y>
     <width>24</width>
-    <height>15</height>
+    <height>14</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2437,10 +2437,10 @@ $(pv_value)</tooltip>
       <GLO>CstatH-LHe:PT100:sRdV</GLO>
       <L>MKS2</L>
     </macros>
-    <file>../../freia-symbols/display-builder/CstatH-MKS-button.bob</file>
-    <x>529</x>
+    <file>../../freia-symbols/display-builder/CstatH-MKS-buttonLED.bob</file>
+    <x>519</x>
     <y>397</y>
-    <width>66</width>
+    <width>76</width>
     <height>37</height>
   </widget>
   <widget type="label" version="2.0.0">
@@ -2498,10 +2498,10 @@ $(pv_value)
       <GLO>CstatH-RHtr:PT552:sRdV</GLO>
       <L>MKS1</L>
     </macros>
-    <file>../../freia-symbols/display-builder/CstatH-MKS-button.bob</file>
-    <x>579</x>
+    <file>../../freia-symbols/display-builder/CstatH-MKS-buttonLED.bob</file>
+    <x>569</x>
     <y>549</y>
-    <width>66</width>
+    <width>76</width>
     <height>37</height>
   </widget>
   <widget type="textupdate" version="2.0.0">
@@ -2619,10 +2619,10 @@ $(pv_value)
       <GLO>CstatH-LHe:PT102:sRdV</GLO>
       <L>MKS3</L>
     </macros>
-    <file>../../freia-symbols/display-builder/CstatH-MKS-button.bob</file>
-    <x>637</x>
+    <file>../../freia-symbols/display-builder/CstatH-MKS-buttonLED.bob</file>
+    <x>627</x>
     <y>684</y>
-    <width>66</width>
+    <width>76</width>
     <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -2683,7 +2683,7 @@ $(pv_value)
     <x>404</x>
     <y>411</y>
     <width>11</width>
-    <height>15</height>
+    <height>14</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2712,7 +2712,7 @@ $(pv_value)
     <x>429</x>
     <y>531</y>
     <width>11</width>
-    <height>15</height>
+    <height>14</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2741,7 +2741,7 @@ $(pv_value)
     <x>429</x>
     <y>517</y>
     <width>26</width>
-    <height>15</height>
+    <height>14</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>
@@ -2770,7 +2770,7 @@ $(pv_value)
     <x>435</x>
     <y>569</y>
     <width>13</width>
-    <height>15</height>
+    <height>14</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
       </font>

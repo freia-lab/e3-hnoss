@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-11-13 11:04:19 by konrad-->
 <display version="2.0.0">
   <macros>
     <system>CstatH-LN2</system>
@@ -18,12 +19,6 @@
     <y>190</y>
     <width>446</width>
     <height>481</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
-    <arrows>1</arrows>
     <points>
       <point x="0.0" y="0.0">
       </point>
@@ -32,6 +27,12 @@
       <point x="445.0" y="480.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
+    <arrows>1</arrows>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -43,12 +44,6 @@ $(pv_value)</tooltip>
     <y>115</y>
     <width>605</width>
     <height>602</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
-    <arrows>1</arrows>
     <points>
       <point x="0.0" y="0.0">
       </point>
@@ -57,6 +52,12 @@ $(pv_value)</tooltip>
       <point x="604.0" y="601.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
+    <arrows>1</arrows>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -68,12 +69,6 @@ $(pv_value)</tooltip>
     <y>55</y>
     <width>770</width>
     <height>601</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
-    <arrows>1</arrows>
     <points>
       <point x="0.0" y="0.0">
       </point>
@@ -82,6 +77,12 @@ $(pv_value)</tooltip>
       <point x="769.0" y="600.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
+    <arrows>1</arrows>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -93,18 +94,18 @@ $(pv_value)</tooltip>
     <y>86</y>
     <width>1</width>
     <height>743</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
-    <arrows>2</arrows>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="742.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
+    <arrows>2</arrows>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -116,12 +117,6 @@ $(pv_value)</tooltip>
     <y>190</y>
     <width>96</width>
     <height>255</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
-    <arrows>1</arrows>
     <points>
       <point x="0.0" y="0.0">
       </point>
@@ -134,6 +129,12 @@ $(pv_value)</tooltip>
       <point x="0.0" y="254.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
+    <arrows>1</arrows>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -145,18 +146,18 @@ $(pv_value)</tooltip>
     <y>606</y>
     <width>666</width>
     <height>1</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
-    <arrows>2</arrows>
     <points>
       <point x="665.0" y="0.0">
       </point>
       <point x="0.0" y="0.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
+    <arrows>2</arrows>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -168,17 +169,17 @@ $(pv_value)</tooltip>
     <y>670</y>
     <width>231</width>
     <height>1</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="230.0" y="0.0">
       </point>
       <point x="0.0" y="0.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -190,17 +191,17 @@ $(pv_value)</tooltip>
     <y>789</y>
     <width>262</width>
     <height>1</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="261.0" y="0.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -293,11 +294,6 @@ $(pv_value)</tooltip>
     <y>250</y>
     <width>81</width>
     <height>39</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="38.0">
       </point>
@@ -308,6 +304,11 @@ $(pv_value)</tooltip>
       <point x="80.0" y="38.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -346,11 +347,6 @@ $(pv_value)</tooltip>
     <y>152</y>
     <width>81</width>
     <height>39</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="38.0">
       </point>
@@ -361,6 +357,11 @@ $(pv_value)</tooltip>
       <point x="80.0" y="38.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -695,12 +696,6 @@ $(pv_value)</tooltip>
     <y>85</y>
     <width>178</width>
     <height>48</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
-    <line_style>1</line_style>
     <points>
       <point x="177.0" y="0.0">
       </point>
@@ -711,6 +706,12 @@ $(pv_value)</tooltip>
       <point x="0.0" y="47.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -722,12 +723,6 @@ $(pv_value)</tooltip>
     <y>85</y>
     <width>119</width>
     <height>12</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
-    <line_style>1</line_style>
     <points>
       <point x="0.0" y="0.0">
       </point>
@@ -736,6 +731,12 @@ $(pv_value)</tooltip>
       <point x="118.0" y="9.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -747,18 +748,18 @@ $(pv_value)</tooltip>
     <y>43</y>
     <width>42</width>
     <height>30</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
-    <line_style>1</line_style>
     <points>
       <point x="0.0" y="29.0">
       </point>
       <point x="35.0" y="29.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -770,12 +771,6 @@ $(pv_value)</tooltip>
     <y>48</y>
     <width>442</width>
     <height>27</height>
-    <line_width>1</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
-    <line_style>1</line_style>
     <points>
       <point x="441.0" y="25.57894736842105">
       </point>
@@ -786,6 +781,12 @@ $(pv_value)</tooltip>
       <point x="0.0" y="0.0">
       </point>
     </points>
+    <line_width>1</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -959,11 +960,6 @@ $(pv_value)</tooltip>
     <y>716</y>
     <width>30</width>
     <height>45</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
@@ -984,6 +980,11 @@ $(pv_value)</tooltip>
       <point x="0.0" y="44.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1051,11 +1052,6 @@ $(pv_value)</tooltip>
     <y>655</y>
     <width>30</width>
     <height>45</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
@@ -1076,6 +1072,11 @@ $(pv_value)</tooltip>
       <point x="0.0" y="44.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1087,17 +1088,17 @@ $(pv_value)</tooltip>
     <y>760</y>
     <width>1</width>
     <height>30</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="29.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1109,17 +1110,17 @@ $(pv_value)</tooltip>
     <y>699</y>
     <width>1</width>
     <height>91</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="0.0" y="90.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1239,12 +1240,6 @@ $(pv_value)</tooltip>
     <y>315</y>
     <width>1216</width>
     <height>546</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
-    <line_style>2</line_style>
     <points>
       <point x="298.0" y="0.0">
       </point>
@@ -1275,6 +1270,12 @@ $(pv_value)</tooltip>
       <point x="298.0" y="0.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
+    <line_style>2</line_style>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1286,12 +1287,6 @@ $(pv_value)</tooltip>
     <y>430</y>
     <width>926</width>
     <height>226</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
-    <line_style>1</line_style>
     <points>
       <point x="0.0" y="207.0">
       </point>
@@ -1302,6 +1297,12 @@ $(pv_value)</tooltip>
       <point x="925.0" y="225.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -1313,12 +1314,6 @@ $(pv_value)</tooltip>
     <y>636</y>
     <width>901</width>
     <height>193</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color red="255" green="153" blue="0">
-      </color>
-    </line_color>
-    <line_style>1</line_style>
     <points>
       <point x="900.0" y="1.0">
       </point>
@@ -1329,6 +1324,12 @@ $(pv_value)</tooltip>
       <point x="0.0" y="0.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color red="255" green="153" blue="0">
+      </color>
+    </line_color>
+    <line_style>1</line_style>
     <actions>
     </actions>
     <tooltip>$(pv_name)
@@ -2366,23 +2367,23 @@ $(pv_value)</tooltip>
     <y>793</y>
     <width>56</width>
     <height>1</height>
-    <line_width>2</line_width>
-    <line_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </line_color>
     <points>
       <point x="0.0" y="0.0">
       </point>
       <point x="55.0" y="0.0">
       </point>
     </points>
+    <line_width>2</line_width>
+    <line_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </line_color>
     <actions>
     </actions>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
   </widget>
-  <widget type="group" version="2.0.0">
+  <widget type="group" version="3.0.0">
     <name>Group</name>
     <x>1321</x>
     <y>766</y>
@@ -2588,22 +2589,24 @@ $(pv_value)</tooltip>
     <name>Embedded Display_49</name>
     <macros>
       <L>FIC200</L>
+      <S>LN2</S>
     </macros>
-    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
+    <file>../../freia-symbols/display-builder/CstatH-PID-buttonLED.bob</file>
     <x>306</x>
     <y>58</y>
-    <width>66</width>
+    <width>76</width>
     <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_50</name>
     <macros>
       <L>FIC201</L>
+      <S>LN2</S>
     </macros>
-    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
+    <file>../../freia-symbols/display-builder/CstatH-PID-buttonLED.bob</file>
     <x>550</x>
     <y>57</y>
-    <width>66</width>
+    <width>76</width>
     <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -2636,22 +2639,24 @@ $(pv_value)</tooltip>
     <name>Embedded Display_53</name>
     <macros>
       <L>TIC200</L>
+      <S>LN2</S>
     </macros>
-    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
+    <file>../../freia-symbols/display-builder/CstatH-PID-buttonLED.bob</file>
     <x>476</x>
     <y>486</y>
-    <width>66</width>
+    <width>76</width>
     <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_54</name>
     <macros>
       <L>TIC201</L>
+      <S>LN2</S>
     </macros>
-    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
+    <file>../../freia-symbols/display-builder/CstatH-PID-buttonLED.bob</file>
     <x>635</x>
     <y>485</y>
-    <width>66</width>
+    <width>76</width>
     <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -3197,6 +3202,7 @@ $(pv_value)</tooltip>
 
 display.getWidget("tabcontainer").setActiveTabIndex(7);]]></text>
         </script>
+        <description>Execute Script</description>
       </action>
     </actions>
     <tooltip>$(actions)</tooltip>

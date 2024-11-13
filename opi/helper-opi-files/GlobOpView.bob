@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-11-12 15:00:29 by konrad-->
+<!--Saved on 2024-11-13 10:55:02 by konrad-->
 <display version="2.0.0">
   <macros>
     <system>CstatH-LHe</system>
@@ -724,11 +724,12 @@ $(pv_value)</tooltip>
       <name>Embedded Display_5</name>
       <macros>
         <L>LIC100</L>
+        <S>LHe</S>
       </macros>
-      <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
+      <file>../../freia-symbols/display-builder/CstatH-PID-buttonLED.bob</file>
       <x>27</x>
       <y>9</y>
-      <width>66</width>
+      <width>76</width>
       <height>37</height>
     </widget>
   </widget>
@@ -4860,7 +4861,7 @@ $(pv_value)</tooltip>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_66</name>
     <pv_name>CstatH-MKS:MKS3:sOutV</pv_name>
-    <x>1081</x>
+    <x>1071</x>
     <y>174</y>
     <width>50</width>
     <height>14</height>
@@ -7444,11 +7445,12 @@ $(pv_value)</tooltip>
     <name>Embedded Display_2</name>
     <macros>
       <L>TIC101</L>
+      <S>LHe</S>
     </macros>
-    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
+    <file>../../freia-symbols/display-builder/CstatH-PID-buttonLED.bob</file>
     <x>174</x>
     <y>233</y>
-    <width>66</width>
+    <width>76</width>
     <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -7645,22 +7647,24 @@ $(pv_value)</tooltip>
     <name>Embedded Display_9</name>
     <macros>
       <L>LIC101A</L>
+      <S>LHe</S>
     </macros>
-    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
+    <file>../../freia-symbols/display-builder/CstatH-PID-buttonLED.bob</file>
     <x>538</x>
     <y>296</y>
-    <width>66</width>
+    <width>76</width>
     <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>Embedded Display_14</name>
     <macros>
       <L>LIC101B</L>
+      <S>LHe</S>
     </macros>
-    <file>../../freia-symbols/display-builder/CstatH-PID-button.bob</file>
+    <file>../../freia-symbols/display-builder/CstatH-PID-buttonLED.bob</file>
     <x>602</x>
     <y>334</y>
-    <width>66</width>
+    <width>76</width>
     <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -8125,10 +8129,10 @@ $(pv_value)</tooltip>
       <GLO>CstatH-RHtr:PT552:sRdV</GLO>
       <L>MKS1</L>
     </macros>
-    <file>../../freia-symbols/display-builder/CstatH-MKS-button.bob</file>
-    <x>1067</x>
+    <file>../../freia-symbols/display-builder/CstatH-MKS-buttonLED.bob</file>
+    <x>1057</x>
     <y>100</y>
-    <width>66</width>
+    <width>76</width>
     <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -8138,10 +8142,10 @@ $(pv_value)</tooltip>
       <GLO>CstatH-LHe:PT100:sRdV</GLO>
       <L>MKS2</L>
     </macros>
-    <file>../../freia-symbols/display-builder/CstatH-MKS-button.bob</file>
-    <x>917</x>
+    <file>../../freia-symbols/display-builder/CstatH-MKS-buttonLED.bob</file>
+    <x>907</x>
     <y>1</y>
-    <width>66</width>
+    <width>76</width>
     <height>37</height>
   </widget>
   <widget type="label" version="2.0.0">
@@ -8442,10 +8446,10 @@ $(pv_value)
       <GLO>CstatH-LHe:PT102:sRdV</GLO>
       <L>MKS3</L>
     </macros>
-    <file>../../freia-symbols/display-builder/CstatH-MKS-button.bob</file>
-    <x>1132</x>
+    <file>../../freia-symbols/display-builder/CstatH-MKS-buttonLED.bob</file>
+    <x>1122</x>
     <y>164</y>
-    <width>66</width>
+    <width>76</width>
     <height>37</height>
   </widget>
   <widget type="embedded" version="2.0.0">
