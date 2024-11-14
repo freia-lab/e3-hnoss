@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-11-12 10:30:59 by konrad-->
+<!--Saved on 2024-11-14 10:28:42 by konrad-->
 <display version="2.0.0">
   <name>Seq12B</name>
   <width>580</width>
@@ -60,7 +60,7 @@
     <x>10</x>
     <y>480</y>
     <width>164</width>
-    <height>27</height>
+    <height>28</height>
     <font>
       <font name="Header 2" family="Source Sans Pro" style="BOLD_ITALIC" size="21.0">
       </font>
@@ -911,7 +911,7 @@
       <C>CstatH</C>
       <S>SHe</S>
       <HtrNr>300</HtrNr>
-      <TTNr>212</TTNr>
+      <TTNr>312</TTNr>
     </macros>
     <file>../Embedded/heater1T.bob</file>
     <x>20</x>

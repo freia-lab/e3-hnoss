@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-11-13 10:55:02 by konrad-->
+<!--Saved on 2024-11-14 14:34:22 by konrad-->
 <display version="2.0.0">
   <macros>
     <system>CstatH-LHe</system>
@@ -246,7 +246,7 @@ $(pv_value)</tooltip>
       <x>281</x>
       <y>62</y>
       <width>57</width>
-      <height>24</height>
+      <height>23</height>
       <font>
         <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
         </font>
@@ -736,8 +736,8 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_10</name>
     <text>TT104</text>
-    <x>331</x>
-    <y>787</y>
+    <x>343</x>
+    <y>786</y>
     <width>36</width>
     <height>19</height>
     <font>
@@ -975,7 +975,7 @@ $(pv_value)</tooltip>
       <text>LHe 2 K</text>
       <x>85</x>
       <width>57</width>
-      <height>24</height>
+      <height>23</height>
       <font>
         <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
         </font>
@@ -3207,7 +3207,7 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template_61</name>
     <text>TT303</text>
-    <x>205</x>
+    <x>124</x>
     <y>576</y>
     <width>36</width>
     <height>19</height>
@@ -3237,7 +3237,7 @@ $(pv_value)</tooltip>
     <x>962</x>
     <y>556</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3315,7 +3315,7 @@ $(pv_value)</tooltip>
     <x>1045</x>
     <y>370</y>
     <width>0</width>
-    <height>13</height>
+    <height>12</height>
     <font>
       <font name="IO Normal" family="arial" style="REGULAR" size="9.900990099009901">
       </font>
@@ -3581,7 +3581,7 @@ $(pv_value)</tooltip>
     <x>1269</x>
     <y>209</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3664,7 +3664,7 @@ $(pv_value)</tooltip>
     <x>1157</x>
     <y>442</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3796,7 +3796,7 @@ $(pv_value)</tooltip>
     <x>1088</x>
     <y>330</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3824,7 +3824,7 @@ $(pv_value)</tooltip>
     <x>1175</x>
     <y>309</y>
     <width>37</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3852,7 +3852,7 @@ $(pv_value)</tooltip>
     <x>1249</x>
     <y>309</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -3979,7 +3979,7 @@ $(pv_value)</tooltip>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_46</name>
     <pv_name>CstatH-SHe:TT303:sRdV</pv_name>
-    <x>196</x>
+    <x>115</x>
     <y>593</y>
     <width>66</width>
     <height>17</height>
@@ -4183,8 +4183,8 @@ $(pv_value)</tooltip>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_10</name>
     <pv_name>$(system):TT104:sRdV</pv_name>
-    <x>322</x>
-    <y>804</y>
+    <x>334</x>
+    <y>803</y>
     <width>66</width>
     <height>17</height>
     <font>
@@ -5202,10 +5202,10 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template</name>
     <text>Cavity 2</text>
-    <x>771</x>
-    <y>686</y>
+    <x>825</x>
+    <y>593</y>
     <width>63</width>
-    <height>24</height>
+    <height>23</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -5233,7 +5233,7 @@ $(pv_value)</tooltip>
     <x>934</x>
     <y>683</y>
     <width>74</width>
-    <height>24</height>
+    <height>23</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -5318,10 +5318,10 @@ $(pv_value)</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label Template</name>
     <text>Cavity 1</text>
-    <x>267</x>
-    <y>683</y>
+    <x>220</x>
+    <y>593</y>
     <width>63</width>
-    <height>24</height>
+    <height>23</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -5369,7 +5369,7 @@ $(pv_value)</tooltip>
     <x>74</x>
     <y>683</y>
     <width>74</width>
-    <height>24</height>
+    <height>23</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -5698,7 +5698,7 @@ $(pv_value)</tooltip>
     <x>747</x>
     <y>576</y>
     <width>36</width>
-    <height>19</height>
+    <height>18</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="14.0">
       </font>
@@ -6936,6 +6936,7 @@ display.getWidget("tabcontainer").setActiveTabIndex(6);]]></text>
     <x>804</x>
     <y>20</y>
     <width>57</width>
+    <height>19</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="15.0">
       </font>
@@ -6994,46 +6995,6 @@ display.getWidget("tabcontainer").setActiveTabIndex(3);]]></text>
       </action>
     </actions>
     <tooltip>$(actions)</tooltip>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Action Button Template_4</name>
-    <text>2K
-Pumps</text>
-    <x>1269</x>
-    <y>83</y>
-    <width>51</width>
-    <height>44</height>
-    <font>
-      <font family="Source Sans Pro" style="BOLD" size="14.0">
-      </font>
-    </font>
-    <foreground_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </foreground_color>
-    <background_color>
-      <color name="Button_Background" red="236" green="236" blue="236">
-      </color>
-    </background_color>
-    <transparent>false</transparent>
-    <horizontal_alignment>1</horizontal_alignment>
-    <vertical_alignment>1</vertical_alignment>
-    <actions>
-      <action type="execute">
-        <script file="EmbeddedJs">
-          <text><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
-
-display.getWidget("tabcontainer").setActiveTabIndex(4);]]></text>
-        </script>
-        <description>Execute Script</description>
-      </action>
-    </actions>
-    <tooltip>$(actions)</tooltip>
-    <border_width>1</border_width>
-    <border_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </border_color>
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>Polyline MKS3:PT102-CV551</name>
@@ -8465,5 +8426,94 @@ $(pv_value)
     <y>28</y>
     <width>110</width>
     <height>95</height>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <pv_name>$(P)-2Kpumps:Ctrl:sOn</pv_name>
+    <x>1268</x>
+    <y>85</y>
+    <width>55</width>
+    <height>44</height>
+    <off_label>2K
+Pumps</off_label>
+    <off_color>
+      <color red="240" green="240" blue="240">
+      </color>
+    </off_color>
+    <on_label>2K
+Pumps</on_label>
+    <square>true</square>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>$(P)-Vac:PT024:PrsR</pv_name>
+    <x>241</x>
+    <y>691</y>
+    <width>90</width>
+    <format>2</format>
+    <precision>1</precision>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label Template_66</name>
+    <text>PT024</text>
+    <x>241</x>
+    <y>675</y>
+    <width>42</width>
+    <height>19</height>
+    <font>
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label Template_69</name>
+    <text>PT020</text>
+    <x>779</x>
+    <y>678</y>
+    <width>42</width>
+    <height>19</height>
+    <font>
+      <font family="Source Sans Pro" style="REGULAR" size="14.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>$(P)-Vac:PT020:PrsR</pv_name>
+    <x>779</x>
+    <y>694</y>
+    <width>90</width>
+    <format>2</format>
+    <precision>1</precision>
   </widget>
 </display>

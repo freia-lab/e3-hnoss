@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-10-09 16:55:01 by konrad-->
+<!--Saved on 2024-11-14 14:36:12 by konrad-->
 <display version="2.0.0">
   <name>HNOSS</name>
   <macros>
     <P>CstatH</P>
     <W>freia.physics.uu.se</W>
   </macros>
-  <width>1750</width>
-  <height>1024</height>
+  <width>1720</width>
+  <height>975</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
@@ -196,14 +196,14 @@ Conditioning He circuits</tooltip>
         <file>helper-opi-files/Seq4.bob</file>
         <macros>
           <seq_no>SQ4</seq_no>
-          <seq_title>Sequence 4: Tesla couplers cooling</seq_title>
+          <seq_title>Sequence 4: Tesla couplers LN2 cooling</seq_title>
           <step0>Not running</step0>
           <step1>Checking equipment</step1>
           <step2>Checking parameters</step2>
           <step4>Cooling down</step4>
           <step6>Keeping cooled</step6>
         </macros>
-        <target>standalone</target>
+        <target>window</target>
         <description>Open Display</description>
       </action>
     </actions>
@@ -219,7 +219,7 @@ Conditioning He circuits</tooltip>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </foreground_color>
-    <tooltip>Tesla couplers cooling</tooltip>
+    <tooltip>Tesla couplers LN2 cooling</tooltip>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>Action Button Template_8</name>
@@ -863,7 +863,7 @@ Conditioning He circuits</tooltip>
     <x>30</x>
     <y>5</y>
     <width>109</width>
-    <height>46</height>
+    <height>48</height>
     <font>
       <font name="Header 1" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
       </font>
