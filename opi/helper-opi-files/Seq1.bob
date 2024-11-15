@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-09-09 13:47:08 by konrad-->
+<!--Saved on 2024-11-15 15:06:00 by konrad-->
 <display version="2.0.0">
   <name>Seq1</name>
   <width>600</width>
@@ -87,6 +87,7 @@
     <vertical_alignment>1</vertical_alignment>
     <actions>
     </actions>
+    <tooltip>PT552</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
@@ -102,6 +103,7 @@
     <vertical_alignment>1</vertical_alignment>
     <actions>
     </actions>
+    <tooltip>PT552</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
@@ -117,6 +119,7 @@
     <vertical_alignment>1</vertical_alignment>
     <actions>
     </actions>
+    <tooltip>PT551</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
@@ -132,6 +135,7 @@
     <vertical_alignment>1</vertical_alignment>
     <actions>
     </actions>
+    <tooltip>PT551</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
@@ -318,57 +322,16 @@
     </border_color>
   </widget>
   <widget type="label" version="2.0.0">
-    <name>Label Template_15</name>
-    <text>(PT552)</text>
-    <x>220</x>
-    <y>192</y>
-    <width>54</width>
-    <height>19</height>
-    <vertical_alignment>1</vertical_alignment>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_16</name>
-    <text>(PT552)</text>
-    <x>220</x>
-    <y>217</y>
-    <width>54</width>
-    <height>19</height>
-    <vertical_alignment>1</vertical_alignment>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="label" version="2.0.0">
     <name>Label Template_17</name>
-    <text>(PT551)</text>
-    <x>220</x>
-    <y>242</y>
+    <text>PT551</text>
+    <x>228</x>
+    <y>249</y>
     <width>54</width>
     <height>19</height>
-    <vertical_alignment>1</vertical_alignment>
-    <actions>
-    </actions>
-    <border_color>
-      <color name="IO Border" red="215" green="215" blue="215">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="label" version="2.0.0">
-    <name>Label Template_18</name>
-    <text>(PT551)</text>
-    <x>220</x>
-    <y>267</y>
-    <width>54</width>
-    <height>19</height>
+    <font>
+      <font name="Fine Print" family="Source Sans Pro" style="REGULAR" size="14.0">
+      </font>
+    </font>
     <vertical_alignment>1</vertical_alignment>
     <actions>
     </actions>
@@ -1010,5 +973,46 @@
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>CstatH-RHtr:PT551:sRdV</pv_name>
+    <x>225</x>
+    <y>268</y>
+    <width>50</width>
+    <height>18</height>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <wrap_words>false</wrap_words>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label Template_15</name>
+    <text>PT552</text>
+    <x>228</x>
+    <y>200</y>
+    <width>50</width>
+    <height>19</height>
+    <font>
+      <font name="Fine Print" family="Source Sans Pro" style="REGULAR" size="14.0">
+      </font>
+    </font>
+    <vertical_alignment>1</vertical_alignment>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="IO Border" red="215" green="215" blue="215">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>CstatH-RHtr:PT552:sRdV</pv_name>
+    <x>225</x>
+    <y>218</y>
+    <width>50</width>
+    <height>18</height>
+    <precision>1</precision>
+    <show_units>false</show_units>
+    <wrap_words>false</wrap_words>
   </widget>
 </display>

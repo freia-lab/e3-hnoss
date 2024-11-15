@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-09-09 14:55:40 by konrad-->
+<!--Saved on 2024-11-15 15:29:32 by konrad-->
 <display version="2.0.0">
   <name>Seq3A</name>
   <width>550</width>
@@ -28,13 +28,13 @@
     <text>Cool down temperature [K]:</text>
     <x>20</x>
     <y>138</y>
-    <width>206</width>
+    <width>186</width>
     <height>21</height>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
     </actions>
-    <tooltip>TT400 &amp; TT403</tooltip>
+    <tooltip>TT400 or TT403</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
@@ -45,7 +45,7 @@
     <text>High temperatire cooling [K]:</text>
     <x>20</x>
     <y>163</y>
-    <width>214</width>
+    <width>194</width>
     <height>21</height>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
@@ -62,13 +62,13 @@
     <text>Low temperature cooling [K]:</text>
     <x>20</x>
     <y>188</y>
-    <width>215</width>
+    <width>195</width>
     <height>21</height>
     <vertical_alignment>1</vertical_alignment>
     <auto_size>true</auto_size>
     <actions>
     </actions>
-    <tooltip>TT400 &amp; TT401B</tooltip>
+    <tooltip>TT400 or TT401B</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
@@ -155,6 +155,75 @@
     <name>Text Update Template_7</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_Low_Tt</pv_name>
     <x>304</x>
+    <y>190</y>
+    <width>67</width>
+    <height>18</height>
+    <precision>0</precision>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>TT400:</text>
+    <x>390</x>
+    <y>138</y>
+    <width>60</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>TT401B:</text>
+    <x>390</x>
+    <y>163</y>
+    <width>60</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_2</name>
+    <text>TT403:</text>
+    <x>390</x>
+    <y>188</y>
+    <width>60</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update Template_8</name>
+    <pv_name>CstatH-IBoxN2:TT400:sRdV</pv_name>
+    <x>460</x>
+    <y>140</y>
+    <width>67</width>
+    <height>18</height>
+    <precision>0</precision>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update Template_9</name>
+    <pv_name>CstatH-IBoxN2:TT401B:sRdV</pv_name>
+    <x>460</x>
+    <y>165</y>
+    <width>67</width>
+    <height>18</height>
+    <precision>0</precision>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update Template_10</name>
+    <pv_name>CstatH-IBoxN2:TT403:sRdV</pv_name>
+    <x>460</x>
     <y>190</y>
     <width>67</width>
     <height>18</height>

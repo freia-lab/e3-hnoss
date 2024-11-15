@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-11-14 10:28:42 by konrad-->
+<!--Saved on 2024-11-15 19:22:09 by konrad-->
 <display version="2.0.0">
   <name>Seq12B</name>
   <width>580</width>
@@ -34,6 +34,8 @@
     <auto_size>true</auto_size>
     <actions>
     </actions>
+    <tooltip>The sequence ends when TT101, TT106, TT112, TT120, TT125-6, 
+TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>

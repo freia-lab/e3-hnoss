@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-11-12 09:14:48 by konrad-->
+<!--Saved on 2024-11-15 17:11:51 by konrad-->
 <display version="2.0.0">
   <name>Seq12A</name>
   <width>550</width>
@@ -34,7 +34,7 @@
     <auto_size>true</auto_size>
     <actions>
     </actions>
-    <tooltip>TT402</tooltip>
+    <tooltip>TT402 above threshold ends the sequence</tooltip>
     <border_color>
       <color name="IO Border" red="215" green="215" blue="215">
       </color>
@@ -84,5 +84,28 @@
     <y>180</y>
     <width>520</width>
     <height>40</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update Template_6</name>
+    <pv_name>CstatH-IBoxN2:TT402:sRdV</pv_name>
+    <x>450</x>
+    <y>146</y>
+    <width>67</width>
+    <height>18</height>
+    <precision>0</precision>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>TT402:</text>
+    <x>400</x>
+    <y>146</y>
+    <width>50</width>
   </widget>
 </display>
