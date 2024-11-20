@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-10-04 13:12:10 by konrad-->
+<!--Saved on 2024-11-20 10:54:30 by konrad-->
 <display version="2.0.0">
   <name>Seq6</name>
   <width>540</width>
@@ -27,8 +27,8 @@
   <widget type="label" version="2.0.0">
     <name>Label Template_7</name>
     <text>Temperature [K]:</text>
-    <x>124</x>
-    <y>153</y>
+    <x>20</x>
+    <y>158</y>
     <width>114</width>
     <height>21</height>
     <foreground_color>
@@ -52,8 +52,8 @@
   <widget type="label" version="2.0.0">
     <name>Label Template_8</name>
     <text>Level [%]:</text>
-    <x>124</x>
-    <y>178</y>
+    <x>20</x>
+    <y>183</y>
     <width>66</width>
     <height>21</height>
     <foreground_color>
@@ -77,8 +77,8 @@
   <widget type="textentry" version="3.0.0">
     <name>Text Input Template</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_Tt</pv_name>
-    <x>244</x>
-    <y>153</y>
+    <x>140</x>
+    <y>158</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -92,8 +92,8 @@
   <widget type="textentry" version="3.0.0">
     <name>Text Input Template_1</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_Lt</pv_name>
-    <x>244</x>
-    <y>178</y>
+    <x>140</x>
+    <y>183</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -107,8 +107,8 @@
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_5</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_Tt</pv_name>
-    <x>304</x>
-    <y>155</y>
+    <x>200</x>
+    <y>160</y>
     <width>67</width>
     <height>18</height>
     <precision>0</precision>
@@ -123,11 +123,165 @@
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_6</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_Lt</pv_name>
-    <x>304</x>
-    <y>180</y>
+    <x>200</x>
+    <y>185</y>
     <width>67</width>
     <height>18</height>
     <precision>0</precision>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_12</name>
+    <text>cP</text>
+    <x>159</x>
+    <y>137</y>
+    <width>18</width>
+    <height>21</height>
+    <font>
+      <font name="Default Bold" family="Source Sans Pro" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_13</name>
+    <text>sP</text>
+    <x>218</x>
+    <y>137</y>
+    <width>17</width>
+    <height>21</height>
+    <font>
+      <font name="Default Bold" family="Source Sans Pro" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_14</name>
+    <text>sRdV</text>
+    <x>346</x>
+    <y>137</y>
+    <width>35</width>
+    <height>21</height>
+    <font>
+      <font name="Default Bold" family="Source Sans Pro" style="BOLD" size="16.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="WHITE" red="255" green="255" blue="255">
+      </color>
+    </background_color>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+    <auto_size>true</auto_size>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color red="0" green="128" blue="255">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update Template_7</name>
+    <pv_name>CstatH-LHe:TT101:sRdV</pv_name>
+    <x>294</x>
+    <y>160</y>
+    <width>67</width>
+    <height>18</height>
+    <precision>1</precision>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update Template_8</name>
+    <pv_name>CstatH-LHe:TT113:sRdV</pv_name>
+    <x>380</x>
+    <y>160</y>
+    <width>67</width>
+    <height>18</height>
+    <precision>1</precision>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update Template_9</name>
+    <pv_name>CstatH-LHe:LT100:sRdV</pv_name>
+    <x>294</x>
+    <y>185</y>
+    <width>67</width>
+    <height>18</height>
+    <precision>1</precision>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update Template_10</name>
+    <pv_name>CstatH-LHe:LT101:sRdV</pv_name>
+    <x>380</x>
+    <y>185</y>
+    <width>67</width>
+    <height>18</height>
+    <precision>1</precision>
     <wrap_words>false</wrap_words>
     <actions>
     </actions>
