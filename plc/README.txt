@@ -192,6 +192,10 @@ PLC_Cryostat_2021_03_24.zip - KG - Enabled the set-point for MKS2 set by CstatH-
 	cryomodule's 2K operation (S8). Changed only in FC600.
 PLC_Cryostat_2021_03_31.zip - KG - Added possibility to set the PID parameters from Epics. New source file S7PLC_PSI_CodacStruc131 compiled. The Epics
 	buffers sizes did not change (removed some of the reserve heater2 sturctures). Added handling of data from Epics in FC251 (EPICS_Commands).
+PLC_Cryostat_2025_01_03.zip - KG - Added control of CV5202 from the PLC. It requests opening of CV5202 when SQ5 is in states 6, 8 or 10. 
+  One problem remains to be solved: CV5202 and FV500 are closed at the same time when SQ5 stops leaving the cold Helium in the transfer line.
+  There is a safety valve there but it would be better to keep FV500 open for some time until the temperature of the He (TT500) will almost reach the 
+  ambient temperature. 
 
 
 ============================================================================================================
