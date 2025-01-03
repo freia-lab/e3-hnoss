@@ -1,0 +1,7 @@
+record(ai, "CstatH-$(SUBS):$(DEV):sAccumV") {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS) T=FLOAT")
+  field(PREC, "4")
+  field(SCAN, "I/O Intr")
+  field(EGU, "$(EGU)")
+}

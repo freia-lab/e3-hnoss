@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-11-13 11:07:42 by konrad-->
+<!--Saved on 2025-01-03 17:39:04 by konrad-->
 <display version="2.0.0">
   <x>2</x>
   <width>1350</width>
@@ -3202,5 +3202,61 @@ $(pv_value)
     <y>511</y>
     <width>200</width>
     <height>210</height>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update Template_73</name>
+    <pv_name>CstatH-RHtr:FT551:sAccumV</pv_name>
+    <x>927</x>
+    <y>472</y>
+    <width>98</width>
+    <height>17</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+      </color>
+    </background_color>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_width>2</border_width>
+    <border_color>
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
+      </color>
+    </border_color>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update Template_74</name>
+    <pv_name>CstatH-RHtr:FT552:sAccumV</pv_name>
+    <x>666</x>
+    <y>645</y>
+    <width>88</width>
+    <height>17</height>
+    <font>
+      <font family="Source Sans Pro" style="BOLD" size="13.0">
+      </font>
+    </font>
+    <foreground_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </foreground_color>
+    <background_color>
+      <color name="GROUP-BACKGROUND" red="200" green="205" blue="201">
+      </color>
+    </background_color>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_width>2</border_width>
+    <border_color>
+      <color name="GRAY-BORDER" red="121" green="121" blue="121">
+      </color>
+    </border_color>
   </widget>
 </display>

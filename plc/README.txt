@@ -197,6 +197,9 @@ PLC_Cryostat_2025_01_03.zip - KG - Added control of CV5202 from the PLC. It requ
   There is a safety valve there but it would be better to keep FV500 open for some time until the temperature of the He (TT500) will almost reach the 
   ambient temperature. 
 PLC_Cryostat_2025_01_03-1.zip - KG - Added logic for keeping FV500 open under the condition that CV5202 is closed and TT500 < 200 K
+PLC_Cryostat_2025_01_03-2.zip - KG - Added logic for transferring accumulated volume from FT551 and FT552 to Epics. Added also automatic
+  reset of the accumulated volume every time SQ0 is started (to keep the total volume small enough in order to preserve the accuracy of about 1-e-4 m3).
+  Modified funtion blocks FC380 and FC480. The accumulated volume is returned in sRealRdV field of the FT55* structure.
 
 
 ============================================================================================================

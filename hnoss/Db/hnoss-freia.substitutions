@@ -563,3 +563,9 @@ file "cernox-calibr.template" { pattern
 {CstatH-Ctrl:   TT08x     G_S7    DB360.DBD    6292  6304  6324  6344  6364 }
 {CstatH-Ctrl:   TT09x     G_S7    DB360.DBD    6428  6440  6460  6480  6500 }
 }
+
+file "accum-flow.template" { pattern
+{SUBS,	DEV,     OFFS,   EGU}
+{RHtr,	FT551,   866,    "m³"}
+{RHtr,	FT552,   876,    "m³"}
+}
