@@ -196,6 +196,7 @@ PLC_Cryostat_2025_01_03.zip - KG - Added control of CV5202 from the PLC. It requ
   One problem remains to be solved: CV5202 and FV500 are closed at the same time when SQ5 stops leaving the cold Helium in the transfer line.
   There is a safety valve there but it would be better to keep FV500 open for some time until the temperature of the He (TT500) will almost reach the 
   ambient temperature. 
+PLC_Cryostat_2025_01_03-1.zip - KG - Added logic for keeping FV500 open under the condition that CV5202 is closed and TT500 < 200 K
 
 
 ============================================================================================================
