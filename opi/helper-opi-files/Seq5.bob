@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-11-20 09:59:17 by konrad-->
+<!--Saved on 2025-01-10 16:09:59 by konrad-->
 <display version="2.0.0">
   <name>Seq5</name>
-  <width>620</width>
+  <width>650</width>
   <height>400</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
@@ -54,7 +54,7 @@
   <widget type="embedded" version="2.0.0">
     <name>Linking Container Template</name>
     <file>Seq_top3plus.bob</file>
-    <x>30</x>
+    <x>50</x>
     <width>540</width>
     <height>140</height>
     <resize>1</resize>
@@ -259,7 +259,7 @@
     <x>20</x>
     <y>143</y>
     <width>26</width>
-    <height>23</height>
+    <height>24</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -287,7 +287,7 @@
     <x>27</x>
     <y>255</y>
     <width>138</width>
-    <height>23</height>
+    <height>24</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -315,7 +315,7 @@
     <x>329</x>
     <y>255</y>
     <width>123</width>
-    <height>23</height>
+    <height>24</height>
     <font>
       <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
       </font>
@@ -879,5 +879,73 @@
         </color>
       </border_color>
     </widget>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <pv_name>CstatH-Ctrl:$(seq_no):sHiddenFlags</pv_name>
+    <bit>1</bit>
+    <x>611</x>
+    <y>310</y>
+    <off_color>
+      <color name="MINOR" red="252" green="242" blue="17">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="OK" red="61" green="216" blue="61">
+      </color>
+    </on_color>
+    <tooltip>$(pv_name)
+Flow warning</tooltip>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_1</name>
+    <pv_name>CstatH-Ctrl:$(seq_no):sHiddenFlags</pv_name>
+    <bit>0</bit>
+    <x>611</x>
+    <y>341</y>
+    <off_color>
+      <color name="MINOR" red="252" green="242" blue="17">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="OK" red="61" green="216" blue="61">
+      </color>
+    </on_color>
+    <tooltip>$(pv_name)
+Pressure warning</tooltip>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_2</name>
+    <pv_name>CstatH-Ctrl:$(seq_no):sHiddenFlags</pv_name>
+    <bit>2</bit>
+    <x>611</x>
+    <y>259</y>
+    <off_color>
+      <color name="OK" red="61" green="216" blue="61">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="MINOR" red="252" green="242" blue="17">
+      </color>
+    </on_color>
+    <tooltip>$(pv_name)
+Sum of FT and PT warnings</tooltip>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_3</name>
+    <pv_name>CstatH-Ctrl:$(seq_no):sHiddenFlags</pv_name>
+    <bit>8</bit>
+    <x>570</x>
+    <y>259</y>
+    <off_color>
+      <color name="OK" red="61" green="216" blue="61">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="MINOR" red="252" green="242" blue="17">
+      </color>
+    </on_color>
+    <tooltip>$(pv_name)
+TT101 &gt;= 50K</tooltip>
   </widget>
 </display>

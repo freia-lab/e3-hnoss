@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-12-06 10:31:45 by konrad-->
+<!--Saved on 2025-01-10 17:13:02 by konrad-->
 <display version="2.0.0">
   <name>Seq12B</name>
   <width>580</width>
-  <height>680</height>
+  <height>710</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
@@ -60,7 +60,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Label Template_19</name>
     <text>Valves control [%]</text>
     <x>10</x>
-    <y>520</y>
+    <y>550</y>
     <width>164</width>
     <height>28</height>
     <font>
@@ -88,7 +88,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Label Template_20</name>
     <text>CV100:</text>
     <x>10</x>
-    <y>578</y>
+    <y>608</y>
     <width>50</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -103,7 +103,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Input Template_8</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV100</pv_name>
     <x>67</x>
-    <y>577</y>
+    <y>607</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -118,7 +118,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Label Template_21</name>
     <text>CV101:</text>
     <x>206</x>
-    <y>581</y>
+    <y>611</y>
     <width>50</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -133,7 +133,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Input Template_9</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV101</pv_name>
     <x>257</x>
-    <y>579</y>
+    <y>609</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -148,7 +148,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Label Template_22</name>
     <text>CV102:</text>
     <x>400</x>
-    <y>580</y>
+    <y>610</y>
     <width>50</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -163,7 +163,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Input Template_10</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV102</pv_name>
     <x>449</x>
-    <y>579</y>
+    <y>609</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -178,7 +178,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Label Template_23</name>
     <text>CV103:</text>
     <x>10</x>
-    <y>602</y>
+    <y>632</y>
     <width>50</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -193,7 +193,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Input Template_11</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV103</pv_name>
     <x>67</x>
-    <y>601</y>
+    <y>631</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -208,7 +208,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Label Template_24</name>
     <text>CV104:</text>
     <x>206</x>
-    <y>605</y>
+    <y>635</y>
     <width>50</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -223,7 +223,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Input Template_12</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV104</pv_name>
     <x>257</x>
-    <y>603</y>
+    <y>633</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -238,7 +238,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Label Template_25</name>
     <text>CV105:</text>
     <x>400</x>
-    <y>604</y>
+    <y>634</y>
     <width>50</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -253,7 +253,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Input Template_13</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV105</pv_name>
     <x>449</x>
-    <y>603</y>
+    <y>633</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -268,7 +268,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Label Template_26</name>
     <text>CV550:</text>
     <x>10</x>
-    <y>554</y>
+    <y>584</y>
     <width>50</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -283,7 +283,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Input Template_14</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV550</pv_name>
     <x>67</x>
-    <y>553</y>
+    <y>583</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -298,7 +298,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Label Template_27</name>
     <text>CV551:</text>
     <x>206</x>
-    <y>557</y>
+    <y>587</y>
     <width>50</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -313,7 +313,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Input Template_15</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV551</pv_name>
     <x>257</x>
-    <y>555</y>
+    <y>585</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -328,7 +328,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Label Template_28</name>
     <text>CV552:</text>
     <x>400</x>
-    <y>556</y>
+    <y>586</y>
     <width>50</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -343,7 +343,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Input Template_16</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV552</pv_name>
     <x>449</x>
-    <y>555</y>
+    <y>585</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -358,7 +358,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Label Template_29</name>
     <text>CV200:</text>
     <x>10</x>
-    <y>626</y>
+    <y>656</y>
     <width>50</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -373,7 +373,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Input Template_17</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV200</pv_name>
     <x>67</x>
-    <y>625</y>
+    <y>655</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -388,7 +388,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Label Template_30</name>
     <text>CV201:</text>
     <x>206</x>
-    <y>629</y>
+    <y>659</y>
     <width>50</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -403,7 +403,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Input Template_18</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV201</pv_name>
     <x>257</x>
-    <y>627</y>
+    <y>657</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -418,7 +418,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Label Template_31</name>
     <text>CV302:</text>
     <x>10</x>
-    <y>650</y>
+    <y>680</y>
     <width>50</width>
     <height>18</height>
     <vertical_alignment>1</vertical_alignment>
@@ -433,7 +433,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Input Template_19</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV302</pv_name>
     <x>67</x>
-    <y>649</y>
+    <y>679</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -448,7 +448,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Label Template_32</name>
     <text>CV301:</text>
     <x>206</x>
-    <y>653</y>
+    <y>683</y>
     <width>50</width>
     <height>18</height>
     <vertical_alignment>1</vertical_alignment>
@@ -463,7 +463,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Input Template_20</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV301</pv_name>
     <x>257</x>
-    <y>651</y>
+    <y>681</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -494,7 +494,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Update Template_19</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV550</pv_name>
     <x>127</x>
-    <y>555</y>
+    <y>585</y>
     <width>55</width>
     <height>18</height>
     <precision>0</precision>
@@ -510,7 +510,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Update Template_13</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV100</pv_name>
     <x>127</x>
-    <y>579</y>
+    <y>609</y>
     <width>55</width>
     <height>18</height>
     <precision>0</precision>
@@ -526,7 +526,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Update Template_16</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV103</pv_name>
     <x>127</x>
-    <y>603</y>
+    <y>633</y>
     <width>55</width>
     <height>18</height>
     <precision>0</precision>
@@ -542,7 +542,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Update Template_22</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV200</pv_name>
     <x>127</x>
-    <y>627</y>
+    <y>657</y>
     <width>55</width>
     <height>18</height>
     <precision>0</precision>
@@ -558,7 +558,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Update Template_24</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV302</pv_name>
     <x>127</x>
-    <y>651</y>
+    <y>681</y>
     <width>55</width>
     <height>18</height>
     <precision>0</precision>
@@ -574,7 +574,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Update Template_20</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV551</pv_name>
     <x>317</x>
-    <y>557</y>
+    <y>587</y>
     <width>55</width>
     <height>18</height>
     <precision>0</precision>
@@ -590,7 +590,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Update Template_14</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV101</pv_name>
     <x>317</x>
-    <y>581</y>
+    <y>611</y>
     <width>55</width>
     <height>18</height>
     <precision>0</precision>
@@ -606,7 +606,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Update Template_17</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV104</pv_name>
     <x>317</x>
-    <y>605</y>
+    <y>635</y>
     <width>55</width>
     <height>18</height>
     <precision>0</precision>
@@ -622,7 +622,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Update Template_23</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV201</pv_name>
     <x>317</x>
-    <y>629</y>
+    <y>659</y>
     <width>55</width>
     <height>18</height>
     <precision>0</precision>
@@ -638,7 +638,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Update Template_25</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV301</pv_name>
     <x>317</x>
-    <y>653</y>
+    <y>683</y>
     <width>55</width>
     <height>18</height>
     <precision>0</precision>
@@ -654,7 +654,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Update Template_21</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV552</pv_name>
     <x>509</x>
-    <y>557</y>
+    <y>587</y>
     <width>55</width>
     <height>18</height>
     <precision>0</precision>
@@ -670,7 +670,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Update Template_15</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV102</pv_name>
     <x>509</x>
-    <y>581</y>
+    <y>611</y>
     <width>55</width>
     <height>18</height>
     <precision>0</precision>
@@ -686,7 +686,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <name>Text Update Template_18</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV105</pv_name>
     <x>509</x>
-    <y>605</y>
+    <y>635</y>
     <width>55</width>
     <height>18</height>
     <precision>0</precision>
@@ -722,7 +722,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <file>../Embedded/heater1T.bob</file>
     <x>20</x>
     <y>210</y>
-    <width>167</width>
+    <width>190</width>
     <height>30</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -736,7 +736,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <file>../Embedded/heater2T.bob</file>
     <x>20</x>
     <y>240</y>
-    <width>243</width>
+    <width>265</width>
     <height>30</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -750,7 +750,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <file>../Embedded/heater3T.bob</file>
     <x>20</x>
     <y>270</y>
-    <width>297</width>
+    <width>330</width>
     <height>30</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -764,7 +764,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <file>../Embedded/heater3T.bob</file>
     <x>20</x>
     <y>300</y>
-    <width>297</width>
+    <width>330</width>
     <height>30</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -778,7 +778,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <file>../Embedded/heater2T.bob</file>
     <x>20</x>
     <y>330</y>
-    <width>243</width>
+    <width>265</width>
     <height>30</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -790,9 +790,9 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
       <TTNr>146</TTNr>
     </macros>
     <file>../Embedded/heater2T.bob</file>
-    <x>263</x>
+    <x>293</x>
     <y>330</y>
-    <width>243</width>
+    <width>265</width>
     <height>30</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -806,7 +806,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <file>../Embedded/heater1T.bob</file>
     <x>20</x>
     <y>360</y>
-    <width>167</width>
+    <width>190</width>
     <height>30</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -818,9 +818,9 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
       <TTNr>148</TTNr>
     </macros>
     <file>../Embedded/heater1T.bob</file>
-    <x>206</x>
+    <x>236</x>
     <y>360</y>
-    <width>167</width>
+    <width>190</width>
     <height>30</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -832,9 +832,9 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
       <TTNr>131</TTNr>
     </macros>
     <file>../Embedded/heater1T.bob</file>
-    <x>390</x>
-    <y>360</y>
-    <width>167</width>
+    <x>20</x>
+    <y>390</y>
+    <width>190</width>
     <height>30</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -847,7 +847,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     </macros>
     <file>../Embedded/heater3T.bob</file>
     <x>20</x>
-    <y>390</y>
+    <y>420</y>
     <width>297</width>
     <height>30</height>
   </widget>
@@ -860,9 +860,9 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
       <TTNr>213</TTNr>
     </macros>
     <file>../Embedded/heater1T.bob</file>
-    <x>390</x>
-    <y>390</y>
-    <width>160</width>
+    <x>360</x>
+    <y>420</y>
+    <width>190</width>
     <height>30</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -875,8 +875,8 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     </macros>
     <file>../Embedded/heater6T.bob</file>
     <x>20</x>
-    <y>420</y>
-    <width>530</width>
+    <y>450</y>
+    <width>560</width>
     <height>30</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -889,8 +889,8 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     </macros>
     <file>../Embedded/heater1T.bob</file>
     <x>20</x>
-    <y>450</y>
-    <width>160</width>
+    <y>480</y>
+    <width>190</width>
     <height>30</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -902,9 +902,9 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
       <TTNr>217</TTNr>
     </macros>
     <file>../Embedded/heater1T.bob</file>
-    <x>206</x>
-    <y>450</y>
-    <width>160</width>
+    <x>236</x>
+    <y>480</y>
+    <width>190</width>
     <height>30</height>
   </widget>
   <widget type="embedded" version="2.0.0">
@@ -917,14 +917,14 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     </macros>
     <file>../Embedded/heater1T.bob</file>
     <x>20</x>
-    <y>480</y>
-    <width>160</width>
+    <y>510</y>
+    <width>190</width>
     <height>30</height>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_6</name>
     <pv_name>CstatH-LHe:TT120:sRdV</pv_name>
-    <x>186</x>
+    <x>215</x>
     <y>213</y>
     <width>60</width>
     <height>18</height>
@@ -942,7 +942,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_7</name>
     <pv_name>CstatH-LHe:TT110:sRdV</pv_name>
-    <x>250</x>
+    <x>280</x>
     <y>213</y>
     <width>60</width>
     <height>18</height>
@@ -958,7 +958,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label</name>
     <text>Ext. Cmd:</text>
-    <x>320</x>
+    <x>350</x>
     <y>212</y>
     <width>70</width>
     <tooltip>is ON when TT110 &lt; 100 K</tooltip>
@@ -966,13 +966,13 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
   <widget type="led" version="2.0.0">
     <name>LED</name>
     <pv_name>=(`CstatH-LHe:TT110:sRdV`&lt;100.0)</pv_name>
-    <x>390</x>
+    <x>420</x>
     <y>213</y>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_8</name>
     <pv_name>CstatH-LHe:TT115:sRdV</pv_name>
-    <x>317</x>
+    <x>350</x>
     <y>274</y>
     <width>60</width>
     <height>18</height>
@@ -988,7 +988,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label_1</name>
     <text>Ext. Cmd:</text>
-    <x>387</x>
+    <x>420</x>
     <y>273</y>
     <width>70</width>
     <tooltip>is ON when TT115 &lt; 100 K and LT101 &lt; 5%</tooltip>
@@ -996,13 +996,13 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
   <widget type="led" version="2.0.0">
     <name>LED_1</name>
     <pv_name>=(`CstatH-LHe:TT115:sRdV`&lt;100.0)</pv_name>
-    <x>457</x>
+    <x>490</x>
     <y>274</y>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_9</name>
     <pv_name>CstatH-LHe:TT116:sRdV</pv_name>
-    <x>317</x>
+    <x>350</x>
     <y>304</y>
     <width>60</width>
     <height>18</height>
@@ -1018,7 +1018,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label_2</name>
     <text>Ext. Cmd:</text>
-    <x>387</x>
+    <x>420</x>
     <y>303</y>
     <width>70</width>
     <tooltip>is ON when TT116 &lt; 100 K and LT101 &lt; 5%</tooltip>
@@ -1026,13 +1026,13 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
   <widget type="led" version="2.0.0">
     <name>LED_2</name>
     <pv_name>=(`CstatH-LHe:TT116:sRdV`&lt;100.0)</pv_name>
-    <x>457</x>
+    <x>490</x>
     <y>304</y>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_10</name>
     <pv_name>CstatH-LHe:TT113:sRdV</pv_name>
-    <x>250</x>
+    <x>280</x>
     <y>244</y>
     <width>60</width>
     <height>18</height>
@@ -1048,7 +1048,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
   <widget type="label" version="2.0.0">
     <name>Label_3</name>
     <text>Ext. Cmd:</text>
-    <x>320</x>
+    <x>350</x>
     <y>243</y>
     <width>70</width>
     <tooltip>is ON when TT113 &lt; 100 K</tooltip>
@@ -1056,7 +1056,7 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
   <widget type="led" version="2.0.0">
     <name>LED_3</name>
     <pv_name>=(`CstatH-LHe:TT113:sRdV`&lt;100.0)</pv_name>
-    <x>390</x>
+    <x>420</x>
     <y>244</y>
   </widget>
 </display>

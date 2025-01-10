@@ -569,3 +569,12 @@ file "accum-flow.template" { pattern
 {RHtr,	FT551,   866,    "m³"}
 {RHtr,	FT552,   876,    "m³"}
 }
+
+file "reheater-valve.template" { pattern
+{SUBS,	DEV,     OFFS,   BIT}
+{RHtr,	FV560,   "80",    "0"}
+{RHtr,	FV561,   "80",    "1"}
+{RHtr,	FV562,   "80",    "2"}
+{RHtr,	FV563,   "80",    "3"}
+}
+

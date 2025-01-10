@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-11-12 09:00:10 by konrad-->
+<!--Saved on 2025-01-10 16:58:00 by konrad-->
 <display version="2.0.0">
   <name>heater2T</name>
-  <width>235</width>
+  <width>265</width>
   <height>25</height>
   <widget type="textupdate" version="2.0.0">
     <name>TT</name>
     <pv_name>$(C)-$(S):TT$(TTNr)A:sRdV</pv_name>
-    <x>100</x>
+    <x>130</x>
     <y>2</y>
     <width>60</width>
   </widget>
@@ -41,7 +41,7 @@
   <widget type="textupdate" version="2.0.0">
     <name>TT_1</name>
     <pv_name>$(C)-$(S):TT$(TTNr)B:sRdV</pv_name>
-    <x>165</x>
+    <x>195</x>
     <y>2</y>
     <width>60</width>
   </widget>
@@ -77,5 +77,19 @@
     </actions>
     <tooltip>Right click to open cmd panel</tooltip>
     <border_alarm_sensitive>false</border_alarm_sensitive>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED-sHtrOn_1</name>
+    <pv_name>$(C)-$(S):EH$(HtrNr):sExtCmd</pv_name>
+    <x>100</x>
+    <y>2</y>
+    <off_color>
+      <color name="LED-RED-OFF" red="110" green="101" blue="90">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="LED-RED-ON" red="255" green="60" blue="46">
+      </color>
+    </on_color>
   </widget>
 </display>

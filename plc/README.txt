@@ -200,7 +200,13 @@ PLC_Cryostat_2025_01_03-1.zip - KG - Added logic for keeping FV500 open under th
 PLC_Cryostat_2025_01_03-2.zip - KG - Added logic for transferring accumulated volume from FT551 and FT552 to Epics. Added also automatic
   reset of the accumulated volume every time SQ0 is started (to keep the total volume small enough in order to preserve the accuracy of about 1-e-4 m3).
   Modified funtion blocks FC380 and FC480. The accumulated volume is returned in sRealRdV field of the FT55* structure.
-
+PLC_Cryostat_2025_01_10.zip - KG - A number of changes:
+   1. Updated DB100 to hold new Epics PVs
+   2. FV560-FV563: Added them to #DATA_VALVES, added sFV560*_sOpenReq in the General structure of DB100. 
+      Added logic for opening and closing them (INST_VALVES, Manage_VALVES)
+   3. Copied the heaters' ExtCmd bit to the Epics status buffer
+   4. Changed the logic of ExtCmd for EH103 and EH104 (cavity heaters) to avoid burning them again.
+   5. Copied the "hidden" sequence flags from MB300+<seq-no> to sParI8 for SQ5, SQ7, SQ8 and SQ9 (for SQ7 combined with MB407 in the high order byte).
 
 ============================================================================================================
 SCADA
