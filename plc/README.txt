@@ -207,9 +207,11 @@ PLC_Cryostat_2025_01_10.zip - KG - A number of changes:
    3. Copied the heaters' ExtCmd bit to the Epics status buffer
    4. Changed the logic of ExtCmd for EH103 and EH104 (cavity heaters) to avoid burning them again.
    5. Copied the "hidden" sequence flags from MB300+<seq-no> to sParI8 for SQ5, SQ7, SQ8 and SQ9 (for SQ7 combined with MB407 in the high order byte).
-PLC_Cryostat_2025_01_10.zip - KG - Changed the step in which the sequence number is changed for SQ0-SQ2. From step 8 moved it to the entering 
+PLC_Cryostat_2025_01_13.zip - KG - Changed the step in which the sequence number is changed for SQ0-SQ2. From step 8 moved it to the entering 
    the step 4. Change only in FC200-202.
-
+PLC_Cryostat_2025_01_15.zip - KG - Fixed small bugs in FC208, NW13 (bit M307.5 was not reset) and in FC413 NW6 (TT115 used instead of TT116).
+  Both errors where typical "cut and paste errors" (forgetting to change the name of the symbol in the pasted text).
+  
 ============================================================================================================
 SCADA
 
