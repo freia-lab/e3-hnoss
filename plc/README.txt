@@ -211,6 +211,7 @@ PLC_Cryostat_2025_01_13.zip - KG - Changed the step in which the sequence number
    the step 4. Change only in FC200-202.
 PLC_Cryostat_2025_01_15.zip - KG - Fixed small bugs in FC208, NW13 (bit M307.5 was not reset) and in FC413 NW6 (TT115 used instead of TT116).
   Both errors where typical "cut and paste errors" (forgetting to change the name of the symbol in the pasted text).
+PLC_Cryostat_2025_01_16.zip - KG - In SQ8 step 6 bypassed the condition not filling 2K tank to activate TIC101 (bypassed SQ8_2K flag)
   
 ============================================================================================================
 SCADA

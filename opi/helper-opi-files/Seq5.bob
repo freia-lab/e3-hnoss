@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-01-10 16:09:59 by konrad-->
+<!--Saved on 2025-01-20 10:21:07 by konrad-->
 <display version="2.0.0">
   <name>Seq5</name>
   <width>650</width>
@@ -938,14 +938,14 @@ Sum of FT and PT warnings</tooltip>
     <x>570</x>
     <y>259</y>
     <off_color>
-      <color name="OK" red="61" green="216" blue="61">
+      <color name="LED-BLUE-OFF" red="90" green="110" blue="110">
       </color>
     </off_color>
     <on_color>
-      <color name="MINOR" red="252" green="242" blue="17">
+      <color name="LED-BLUE-ON" red="81" green="232" blue="255">
       </color>
     </on_color>
     <tooltip>$(pv_name)
-TT101 &gt;= 50K</tooltip>
+TT101 &gt;= 50K @ entering step 6</tooltip>
   </widget>
 </display>
