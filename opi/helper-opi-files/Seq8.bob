@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-01-15 14:00:50 by konrad-->
+<!--Saved on 2025-01-20 16:44:45 by konrad-->
 <display version="2.0.0">
   <name>Seq8</name>
   <width>540</width>
@@ -194,9 +194,9 @@ Freezes CV104 when above the limit</tooltip>
   </widget>
   <widget type="group" version="3.0.0">
     <name>Grouping Container</name>
-    <x>44</x>
+    <x>10</x>
     <y>510</y>
-    <width>429</width>
+    <width>520</width>
     <height>79</height>
     <style>2</style>
     <foreground_color>
@@ -428,12 +428,45 @@ Freezes CV104 when above the limit</tooltip>
         </color>
       </border_color>
     </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update Template_13</name>
+      <pv_name>CstatH-LHe:CV104:sRdV</pv_name>
+      <x>421</x>
+      <y>49</y>
+      <width>52</width>
+      <height>18</height>
+      <precision>0</precision>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <border_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>LED_4</name>
+      <pv_name>CstatH-Ctrl:$(seq_no):sHiddenFlags</pv_name>
+      <bit>3</bit>
+      <x>485</x>
+      <y>48</y>
+      <off_color>
+        <color name="OK" red="61" green="216" blue="61">
+        </color>
+      </off_color>
+      <on_color>
+        <color name="STOP" red="222" green="33" blue="22">
+        </color>
+      </on_color>
+      <tooltip>$(pv_name)
+PT101/102 too high</tooltip>
+    </widget>
   </widget>
   <widget type="group" version="3.0.0">
     <name>Grouping Container_1</name>
-    <x>44</x>
-    <y>270</y>
-    <width>429</width>
+    <x>10</x>
+    <y>266</y>
+    <width>520</width>
     <height>184</height>
     <style>2</style>
     <foreground_color>
@@ -456,7 +489,7 @@ Freezes CV104 when above the limit</tooltip>
       <x>11</x>
       <y>2</y>
       <width>128</width>
-      <height>24</height>
+      <height>23</height>
       <font>
         <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
         </font>
@@ -862,6 +895,36 @@ $(pv_value)</tooltip>
         <color name="BLACK" red="0" green="0" blue="0">
         </color>
       </border_color>
+    </widget>
+    <widget type="group" version="3.0.0">
+      <name>Group</name>
+      <x>380</x>
+      <y>88</y>
+      <width>94</width>
+      <height>20</height>
+      <style>3</style>
+      <transparent>true</transparent>
+      <widget type="led" version="2.0.0">
+        <name>LED_3</name>
+        <pv_name>CstatH-Ctrl:$(seq_no):sHiddenFlags</pv_name>
+        <bit>2</bit>
+        <x>74</x>
+        <off_color>
+          <color name="LED-BLUE-OFF" red="90" green="110" blue="110">
+          </color>
+        </off_color>
+        <on_color>
+          <color name="LED-BLUE-ON" red="81" green="232" blue="255">
+          </color>
+        </on_color>
+        <tooltip>$(pv_name)
+LHe filling</tooltip>
+      </widget>
+      <widget type="label" version="2.0.0">
+        <name>Label</name>
+        <text>Filling On:</text>
+        <width>86</width>
+      </widget>
     </widget>
   </widget>
   <widget type="action_button" version="3.0.0">
@@ -1284,5 +1347,22 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255">
       </color>
     </border_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <pv_name>CstatH-Ctrl:$(seq_no):sHiddenFlags</pv_name>
+    <bit>0</bit>
+    <x>470</x>
+    <y>480</y>
+    <off_color>
+      <color name="MINOR" red="252" green="242" blue="17">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="OK" red="61" green="216" blue="61">
+      </color>
+    </on_color>
+    <tooltip>$(pv_name)
+PT101/PT102 OK</tooltip>
   </widget>
 </display>
