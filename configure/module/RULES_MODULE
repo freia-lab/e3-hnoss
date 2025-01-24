@@ -26,8 +26,14 @@ OPIS_HOME = /opt/epics/OPIS
 OPI_DIR = /opt/epics/opi/bob
 LINK_DIR = ../../OPIS
 
-.PHONY: opiinstall
+.PHONY: opiinstall deployhelp
+
 opiinstall:
 	mkdir -p $(OPIS_HOME)/$(E3_MODULE_NAME)
 	rsync -va --delete --no-o --no-g --no-p --chmod=ug=rwX --exclude 'README.md' --exclude *~ $(TOP)/opi/ $(OPIS_HOME)/$(E3_MODULE_NAME)/$(OPI_VERSION)/
 	cd $(OPI_DIR); rm -f $(OPI_DIRNAME); ln -s $(LINK_DIR)/$(E3_MODULE_NAME)/$(OPI_VERSION)/ $(OPI_DIRNAME)
+
+deployhelp:
+	rsync -e ssh -v \
+   	      --exclude=*~ \
+    . 	      doc/Sequences-help/*.pdf konrad@freia.physics.uu.se:/var/www/CSS/pdf/G7_SQ/

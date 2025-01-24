@@ -35,6 +35,8 @@ APPSRC := $(APP)/src
 #     HEADERS += $(APPSRC)/library.h
 #     USR_INCLUDES += -I$(where_am_I)$(APPSRC)
 
+SOURCES += $(APPSRC)/AutoStart2Kpumps.st
+
 TEMPLATES += $(wildcard $(APPDB)/*.db)
 TEMPLATES += $(wildcard $(APPDB)/*.proto)
 #TEMPLATES += $(wildcard $(APPDB)/*.template)
@@ -51,6 +53,9 @@ USR_DBFLAGS += -I . -I ..
 USR_DBFLAGS += -I $(EPICS_BASE)/db
 USR_DBFLAGS += -I $(APPDB)
 USR_DBFLAGS += -I $(E3_SITEMODS_PATH)/s7nodave/$(S7NODAVE_DEP_VERSION)/db
+
+# Sequencer flags
+SNCFLAGS = +s +W
 
 .PHONY: vlibs
 vlibs:

@@ -572,3 +572,33 @@ record(longout, CstatH-Ctrl:MAG:PC2_CURR-SEVR) {
   field(DOL, "MAG-RCH2:I_MEAS.SEVR CA")
   field(OMSL, "closed_loop")
 }
+
+#####################################################################
+#
+# PVs for the sequencer program for automatic 2K pumps start-up
+#
+#####################################################################
+
+record (ao, "CstatH-Ctrl:SQ9:cP_WHfinal") {
+  field(DESC, "WH Pumps final value at start-up")
+  field(VAL, 60)
+  field(PINI, "YES")
+  field(EGU, "%")
+  info(autosaveFields,"VAL")
+}
+
+record (bo, "CstatH-Ctrl:SQ9:c2KpumpsHold") {
+  field(DESC, "Hold 2K Pumps warm-up")
+  field(ZNAM, "Auto")
+  field(ONAM, "Hold")
+  field(VAL, "0")
+  field(PINI, "YES")
+}
+
+record (stringin, "CstatH-Ctrl:SQ9:sStep2KstartUpStr") {
+  field(DESC, "2K Pumps start-up state")
+}
+
+record (longout, "CstatH-Ctrl:SQ9:cStep2KstartUp") {
+  field(DESC, "2K pumps start-up step")
+}

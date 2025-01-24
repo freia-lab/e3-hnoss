@@ -212,6 +212,10 @@ PLC_Cryostat_2025_01_13.zip - KG - Changed the step in which the sequence number
 PLC_Cryostat_2025_01_15.zip - KG - Fixed small bugs in FC208, NW13 (bit M307.5 was not reset) and in FC413 NW6 (TT115 used instead of TT116).
   Both errors where typical "cut and paste errors" (forgetting to change the name of the symbol in the pasted text).
 PLC_Cryostat_2025_01_16.zip - KG - In SQ8 step 6 bypassed the condition not filling 2K tank to activate TIC101 (bypassed SQ8_2K flag)
+PLC_Cryostat_2025_01_23.zip - KG - Modified condition for transition from step 18 to 20 in SQ9 (2K pumps stopped). It reads the mean revolution
+  frequency of the 2K pumps and if data is valid SQ9 proceeds from step 18 to 20 without waiting for Accept from the operator. When the data
+  is not valid the transition requires Accept command from the operator. The data valid status bit is returned to Epics as HiddenFlags bit 0x0010.
+  Added hidden bit Freq_2K_p_valid in SQ9.
   
 ============================================================================================================
 SCADA
