@@ -216,7 +216,10 @@ PLC_Cryostat_2025_01_23.zip - KG - Modified condition for transition from step 1
   frequency of the 2K pumps and if data is valid SQ9 proceeds from step 18 to 20 without waiting for Accept from the operator. When the data
   is not valid the transition requires Accept command from the operator. The data valid status bit is returned to Epics as HiddenFlags bit 0x0010.
   Added hidden bit Freq_2K_p_valid in SQ9.
-  
+PLC_Cryostat_2025_01_23.zip - KG - Added controlling of parameter bit 4 in SQ9 from Epics.
+PLC_Cryostat_2025_01_24.zip - KG - Temporary modified the control of FV101 valve (FC556 NW8)- it's kept open during SQ5 step 8 when SQ4 Table
+  check box is checked.
+   
 ============================================================================================================
 SCADA
 

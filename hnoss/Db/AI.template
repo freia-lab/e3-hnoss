@@ -138,5 +138,18 @@ record(ai, "CstatH-$(SUBS):$(DEV):sRealRdV") {
   field(EGU, "$(EGU)")
   field(SDIS, "CstatH-$(SUBS):$(DEV):sRdV-stat.VAL NPP MS")
   field(DISV, "-1") # Will never disable, but will propagate severity
+  field(FLNK, "CstatH-$(SUBS):$(DEV):sLastValid")
 }
 
+record(calc, "CstatH-$(SUBS):$(DEV):sLastValid") {
+  field(DESC, "The last real value in range")
+  field(INPA, "CstatH-$(SUBS):$(DEV):sRdV-stat.VAL NMS")
+  field(INPB, "CstatH-$(SUBS):$(DEV):sRealRdV.VAL NMS")
+  field(CALC, "A?VAL:B")
+  field(EGU, "$(EGU)")
+  field(HSV, "MINOR")
+  field(HHSV, "MAJOR")
+  field(LSV, "MINOR")
+  field(HHSV, "MAJOR")
+  info(autosaveFields,"LOW LOLO HIGH HIHI")
+}
