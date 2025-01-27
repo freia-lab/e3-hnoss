@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-01-21 09:22:49 by konrad-->
+<!--Saved on 2025-01-27 14:02:13 by konrad-->
 <display version="2.0.0">
   <name>Seq12B</name>
   <width>580</width>
@@ -740,54 +740,12 @@ TT128, TT147-8, TT201-4 &amp; TT302 are over the threshold</tooltip>
     <height>30</height>
   </widget>
   <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_4</name>
-    <macros>
-      <C>CstatH</C>
-      <S>LHe</S>
-      <HtrNr>103</HtrNr>
-      <TTNr>143</TTNr>
-    </macros>
-    <file>../Embedded/heater3T.bob</file>
-    <x>20</x>
-    <y>270</y>
-    <width>330</width>
-    <height>30</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_5</name>
-    <macros>
-      <C>CstatH</C>
-      <S>LHe</S>
-      <HtrNr>104</HtrNr>
-      <TTNr>144</TTNr>
-    </macros>
-    <file>../Embedded/heater3T.bob</file>
-    <x>20</x>
-    <y>300</y>
-    <width>330</width>
-    <height>30</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
     <name>Embedded Display_6</name>
     <macros>
       <C>CstatH</C>
       <S>LHe</S>
       <HtrNr>105</HtrNr>
       <TTNr>145</TTNr>
-    </macros>
-    <file>../Embedded/heater2T.bob</file>
-    <x>20</x>
-    <y>330</y>
-    <width>265</width>
-    <height>30</height>
-  </widget>
-  <widget type="embedded" version="2.0.0">
-    <name>Embedded Display_7</name>
-    <macros>
-      <C>CstatH</C>
-      <S>LHe</S>
-      <HtrNr>106</HtrNr>
-      <TTNr>146</TTNr>
     </macros>
     <file>../Embedded/heater2T.bob</file>
     <x>20</x>
@@ -1035,71 +993,8 @@ Used for ExtCmd</tooltip>
     </border_color>
   </widget>
   <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_27</name>
-    <pv_name>CstatH-LHe:TT115:sRdV</pv_name>
-    <x>500</x>
-    <y>274</y>
-    <width>60</width>
-    <background_color>
-      <color name="RED-BACKGROUND" red="225" green="192" blue="188">
-      </color>
-    </background_color>
-    <precision>2</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <tooltip>$(pv_name)
-Used for ExtCmd</tooltip>
-    <border_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_28</name>
-    <pv_name>CstatH-LHe:TT116:sRdV</pv_name>
-    <x>500</x>
-    <y>302</y>
-    <width>60</width>
-    <background_color>
-      <color name="RED-BACKGROUND" red="225" green="192" blue="188">
-      </color>
-    </background_color>
-    <precision>2</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <tooltip>$(pv_name)
-Used for ExtCmd</tooltip>
-    <border_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_29</name>
     <pv_name>CstatH-LHe:TT107:sRdV</pv_name>
-    <x>500</x>
-    <y>332</y>
-    <width>60</width>
-    <background_color>
-      <color name="RED-BACKGROUND" red="225" green="192" blue="188">
-      </color>
-    </background_color>
-    <precision>2</precision>
-    <wrap_words>false</wrap_words>
-    <actions>
-    </actions>
-    <tooltip>$(pv_name)
-Used for ExtCmd</tooltip>
-    <border_color>
-      <color name="BLACK" red="0" green="0" blue="0">
-      </color>
-    </border_color>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update Template_30</name>
-    <pv_name>CstatH-LHe:TT128:sRdV</pv_name>
     <x>500</x>
     <y>362</y>
     <width>60</width>
@@ -1159,5 +1054,129 @@ Used for ExtCmd</tooltip>
       <color name="BLACK" red="0" green="0" blue="0">
       </color>
     </border_color>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <x>15</x>
+    <y>269</y>
+    <width>552</width>
+    <height>92</height>
+    <style>2</style>
+    <background_color>
+      <color name="BACKGROUND" red="220" green="225" blue="221">
+      </color>
+    </background_color>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_4</name>
+      <macros>
+        <C>CstatH</C>
+        <S>LHe</S>
+        <HtrNr>103</HtrNr>
+        <TTNr>143</TTNr>
+      </macros>
+      <file>../Embedded/heater3T.bob</file>
+      <x>5</x>
+      <width>330</width>
+      <height>30</height>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_5</name>
+      <macros>
+        <C>CstatH</C>
+        <S>LHe</S>
+        <HtrNr>104</HtrNr>
+        <TTNr>144</TTNr>
+      </macros>
+      <file>../Embedded/heater3T.bob</file>
+      <x>5</x>
+      <y>30</y>
+      <width>330</width>
+      <height>30</height>
+    </widget>
+    <widget type="embedded" version="2.0.0">
+      <name>Embedded Display_7</name>
+      <macros>
+        <C>CstatH</C>
+        <S>LHe</S>
+        <HtrNr>106</HtrNr>
+        <TTNr>146</TTNr>
+      </macros>
+      <file>../Embedded/heater2T.bob</file>
+      <x>5</x>
+      <y>60</y>
+      <width>265</width>
+      <height>30</height>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update Template_27</name>
+      <pv_name>CstatH-LHe:TT115:sRdV</pv_name>
+      <x>485</x>
+      <y>4</y>
+      <width>60</width>
+      <background_color>
+        <color name="RED-BACKGROUND" red="225" green="192" blue="188">
+        </color>
+      </background_color>
+      <precision>2</precision>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <tooltip>$(pv_name)
+Used for ExtCmd</tooltip>
+      <border_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update Template_28</name>
+      <pv_name>CstatH-LHe:TT116:sRdV</pv_name>
+      <x>485</x>
+      <y>32</y>
+      <width>60</width>
+      <background_color>
+        <color name="RED-BACKGROUND" red="225" green="192" blue="188">
+        </color>
+      </background_color>
+      <precision>2</precision>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <tooltip>$(pv_name)
+Used for ExtCmd</tooltip>
+      <border_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update Template_30</name>
+      <pv_name>CstatH-Spare:TT03x:sRdV</pv_name>
+      <x>485</x>
+      <y>62</y>
+      <width>60</width>
+      <background_color>
+        <color name="RED-BACKGROUND" red="225" green="192" blue="188">
+        </color>
+      </background_color>
+      <precision>2</precision>
+      <wrap_words>false</wrap_words>
+      <actions>
+      </actions>
+      <tooltip>$(pv_name)
+Used for ExtCmd</tooltip>
+      <border_color>
+        <color name="BLACK" red="0" green="0" blue="0">
+        </color>
+      </border_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>Label</name>
+      <text>Cavities
+heaters</text>
+      <x>374</x>
+      <y>24</y>
+      <height>48</height>
+    </widget>
   </widget>
 </display>
