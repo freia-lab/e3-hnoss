@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-11-14 14:36:12 by konrad-->
+<!--Saved on 2025-01-27 16:39:53 by konrad-->
 <display version="2.0.0">
   <name>HNOSS</name>
   <macros>
@@ -682,7 +682,7 @@ Conditioning He circuits</tooltip>
               <CS>CstatH</CS>
             </macros>
             <file>../freia-symbols/display-builder/cavity-tests/embedded/cavity.bob</file>
-            <x>598</x>
+            <x>756</x>
             <y>846</y>
             <width>110</width>
             <height>60</height>
@@ -695,7 +695,7 @@ Conditioning He circuits</tooltip>
               <CS>CstatH</CS>
             </macros>
             <file>../freia-symbols/display-builder/cavity-tests/embedded/cavity.bob</file>
-            <x>768</x>
+            <x>1080</x>
             <y>846</y>
             <width>110</width>
             <height>60</height>
@@ -863,7 +863,7 @@ Conditioning He circuits</tooltip>
     <x>30</x>
     <y>5</y>
     <width>109</width>
-    <height>48</height>
+    <height>46</height>
     <font>
       <font name="Header 1" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
       </font>
