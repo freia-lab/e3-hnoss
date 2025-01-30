@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-01-27 16:39:53 by konrad-->
+<!--Saved on 2025-01-30 11:40:15 by konrad-->
 <display version="2.0.0">
   <name>HNOSS</name>
   <macros>
@@ -841,6 +841,16 @@ Conditioning He circuits</tooltip>
             <horizontal_alignment>1</horizontal_alignment>
             <vertical_alignment>1</vertical_alignment>
           </widget>
+          <widget type="embedded" version="2.0.0">
+            <name>Embedded Display_5</name>
+            <macros>
+              <P>CstatH-Ctrl:Cernox</P>
+            </macros>
+            <file>Embedded/Cernox-set-sel.bob</file>
+            <x>408</x>
+            <width>235</width>
+            <height>180</height>
+          </widget>
         </children>
       </tab>
     </tabs>
@@ -863,7 +873,7 @@ Conditioning He circuits</tooltip>
     <x>30</x>
     <y>5</y>
     <width>109</width>
-    <height>46</height>
+    <height>48</height>
     <font>
       <font name="Header 1" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
       </font>

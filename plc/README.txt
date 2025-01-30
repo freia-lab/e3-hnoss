@@ -220,6 +220,9 @@ PLC_Cryostat_2025_01_23.zip - KG - Added controlling of parameter bit 4 in SQ9 f
 PLC_Cryostat_2025_01_24.zip - KG - Temporary modified the control of FV101 valve (FC556 NW8)- it's kept open during SQ5 step 8 when SQ4 Table
   check box is checked.
 PLC_Cryostat_2025_01_27.zip - KG - Changed behaviour of EH106AB due to changed position from the magnetic shield to Cavity2A. 
+PLC_Cryostat_2025_01_27.zip - KG - Created a new S7PLC_PCI_CodacStruc133 for the new parameters in General part. Not compiled yet.
+  Added FC and DB (INST_CERNOX_SWITCH and #DATA_CERNOX_PARAM) for handling of the alternative CERNOX sensors connected to the cavities. 
+  Not called yet from the main program and not downloaded to the PLC.
    
 ============================================================================================================
 SCADA

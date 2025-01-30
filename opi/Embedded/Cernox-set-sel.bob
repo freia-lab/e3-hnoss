@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2025-01-30 11:38:46 by konrad-->
+<display version="2.0.0">
+  <name>Cernox set select</name>
+  <width>235</width>
+  <height>180</height>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Cavities CERNOX Selection</text>
+    <x>10</x>
+    <y>10</y>
+    <width>220</width>
+    <font>
+      <font name="Header 3" family="Source Sans Pro" style="BOLD_ITALIC" size="18.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>Used now:</text>
+    <x>21</x>
+    <y>40</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>$(P):sStd</pv_name>
+    <x>111</x>
+    <y>40</y>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>  Select sensors set  </name>
+    <y>70</y>
+    <width>232</width>
+    <height>72</height>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+          <description>Standard</description>
+        </action>
+      </actions>
+      <pv_name>$(P):cmdSetStd</pv_name>
+      <width>90</width>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>Action Button_1</name>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(pv_name)</pv_name>
+          <value>1</value>
+          <description>Alternative</description>
+        </action>
+      </actions>
+      <pv_name>$(P):cmdSetAlt</pv_name>
+      <x>100</x>
+      <width>90</width>
+      <tooltip>$(actions)</tooltip>
+    </widget>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_2</name>
+    <actions>
+      <action type="write_pv">
+        <pv_name>$(pv_name)</pv_name>
+        <value>1</value>
+        <description>Update calibration</description>
+      </action>
+    </actions>
+    <pv_name>$(P):cmdUpdCalibr</pv_name>
+    <x>20</x>
+    <y>140</y>
+    <width>191</width>
+    <rules>
+      <rule name="Enabled" prop_id="enabled" out_exp="false">
+        <exp bool_exp="pvInt0">
+          <value>true</value>
+        </exp>
+        <pv_name>$(P):sStd</pv_name>
+      </rule>
+    </rules>
+    <tooltip>Use only after changing the CERNOX calibration data.
+Standard set must be selected.</tooltip>
+    <enabled>false</enabled>
+  </widget>
+</display>

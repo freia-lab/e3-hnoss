@@ -347,6 +347,47 @@ record (bo, "CstatH-Ctrl:opMode:cmdRstCMmode") {
   field (SDIS, "CstatH-Ctrl:opMode:sLocal")
 }
 
+# PVs for commands and status for use of alternative CERNOX
+#
+record (bo, "CstatH-Ctrl:Cernox:cmdSetStd") {
+  field (DTYP, "S7plc")
+  field (OUT, "@PLC:HNOSS/80 T=BYTE B=0")
+  field (ZNAM, "Iddle")
+  field (ONAM, "CmdSetStd")
+  field (PINI, "NO")
+  field (HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
+  field (SDIS, "CstatH-Ctrl:opMode:sLocal")
+}
+record (bo, "CstatH-Ctrl:Cernox:cmdSetAlt") {
+  field (DTYP, "S7plc")
+  field (OUT, "@PLC:HNOSS/80 T=BYTE B=1")
+  field (ZNAM, "Idle")
+  field (ONAM, "CmdSetAlt")
+  field (PINI, "NO")
+  field (HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
+  field (SDIS, "CstatH-Ctrl:opMode:sLocal")
+}
+record (bo, "CstatH-Ctrl:Cernox:cmdUpdCalibr") {
+  field (DTYP, "S7plc")
+  field (OUT, "@PLC:HNOSS/80 T=BYTE B=2")
+  field (ZNAM, "Idle")
+  field (ONAM, "CmdUpdCalibr")
+  field (PINI, "NO")
+  field (HIGH, "0.5")
+  field(UDFS, "NO_ALARM")
+  field (SDIS, "CstatH-Ctrl:opMode:sLocal")
+}
+record (bi, "CstatH-Ctrl:Cernox:sStd") {
+  field (DTYP, "S7plc")
+  field (INP,  "@PLC:HNOSS/80 T=BYTE B=4")
+  field (PINI, "YES")
+  field (PHAS, "0")
+  field (ONAM,  "Standard")
+  field (ZNAM,  "Alternative")
+  field (SCAN, "I/O Intr")
+}
 
 record (calc, "CstatH-Ctrl:s7-status-counter")
 {
