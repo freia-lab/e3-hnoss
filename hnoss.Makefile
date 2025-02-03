@@ -35,7 +35,7 @@ APPSRC := $(APP)/src
 #     HEADERS += $(APPSRC)/library.h
 #     USR_INCLUDES += -I$(where_am_I)$(APPSRC)
 
-SOURCES += $(APPSRC)/AutoStart2Kpumps.st
+SOURCES += $(APPSRC)/AutoControl2Kpumps.st
 
 TEMPLATES += $(wildcard $(APPDB)/*.db)
 TEMPLATES += $(wildcard $(APPDB)/*.proto)

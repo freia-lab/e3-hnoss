@@ -36,3 +36,4 @@ dbLoadRecords("hnoss-aliases.db")
 
 iocshLoad("$(autosave_DIR)/autosave.iocsh", "AS_TOP=$(TOP),IOCNAME=$(IOCNAME),IOCDIR=hnoss")
 
+afterInit("seq AutoControl2KPumps", "p1=CstatH")

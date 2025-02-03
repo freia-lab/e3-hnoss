@@ -1,4 +1,4 @@
-program AutoStart2KPumps
+program AutoControl2KPumps
 
 // Variables for 2K pumps startup sequence
 int startupStep;
@@ -35,7 +35,7 @@ assign sCV551 to "{p1}-RHtr:CV551:sRdV";
 
 // PVs for the sequence
 assign startupStep to "{p1}-Ctrl:SQ9:cStep2KstartUp";
-assign autoStartUp_SQ9 to "{p1}-Ctrl:SQ9:sP_s2KpumpsAuto";
+assign autoStartUp_SQ9 to "{p1}-Ctrl:SQ9:sP_2KpumpsAuto";
 assign holdState to "{p1}-Ctrl:SQ9:c2KpumpsHold";
 assign final_WH_SQ9 to "{p1}-Ctrl:SQ9:cP_WHfinal";
 assign startupStepStr to "{p1}-Ctrl:SQ9:sStep2KstartUpStr";
