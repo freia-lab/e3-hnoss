@@ -474,6 +474,7 @@ file "SQbinPar.template" { pattern
 {SQ7,	 P_C2,          3481, 1,    5014, 1}
 {SQ7,	 P_Tbl,         3481, 2,    5014, 2}
 {SQ7,	 P_MS,          3481, 3,    5014, 3}
+{SQ7,	 P_AutStrtSQ8,	3481, 4,    5014, 4}
 {SQ8,	 P_MS,          3565, 0,    5116, 0}
 {SQ8,	 P_Tbl,         3565, 1,    5116, 1}
 {SQ8,	 P_LIC101,      3565, 2,    5116, 2}

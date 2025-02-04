@@ -223,7 +223,9 @@ PLC_Cryostat_2025_01_27.zip - KG - Changed behaviour of EH106AB due to changed p
 PLC_Cryostat_2025_01_27.zip - KG - Created a new S7PLC_PCI_CodacStruc133 for the new parameters in General part. Not compiled yet.
   Added FC and DB (INST_CERNOX_SWITCH and #DATA_CERNOX_PARAM) for handling of the alternative CERNOX sensors connected to the cavities. 
   Not called yet from the main program and not downloaded to the PLC.
-   
+PLC_Cryostat_2025_02_03.zip - KG -  Compiled source file S7PLC_PSI_CodacStruct133. Added switching CERNOX sets.
+PLC_Cryostat_2025_02_04.zip - KG -  Added automatic start of SQ8.
+ 
 ============================================================================================================
 SCADA
 
