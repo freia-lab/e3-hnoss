@@ -225,6 +225,7 @@ PLC_Cryostat_2025_01_27.zip - KG - Created a new S7PLC_PCI_CodacStruc133 for the
   Not called yet from the main program and not downloaded to the PLC.
 PLC_Cryostat_2025_02_03.zip - KG -  Compiled source file S7PLC_PSI_CodacStruct133. Added switching CERNOX sets.
 PLC_Cryostat_2025_02_04.zip - KG -  Added automatic start of SQ8.
+PLC_Cryostat_2025_02_04_1.zip - KG -  Added automatic stop of SQ7 when automatic start of SQ8 was enabled.
  
 ============================================================================================================
 SCADA

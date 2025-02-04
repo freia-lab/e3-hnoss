@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-01-20 13:37:46 by konrad-->
+<!--Saved on 2025-02-04 13:29:48 by konrad-->
 <display version="2.0.0">
   <name>Seq7</name>
   <width>620</width>
@@ -1359,7 +1359,7 @@ Cooling_Eq
     <transparent>true</transparent>
     <widget type="checkbox" version="2.0.0">
       <name>Check Box Template_4</name>
-      <pv_name>CstatH-Ctrl:$(seq_no):cP_AutoSQ8</pv_name>
+      <pv_name>CstatH-Ctrl:$(seq_no):cP_AutStrtSQ8</pv_name>
       <bit>-1</bit>
       <label>Auto start SQ8</label>
       <x>171</x>
@@ -1371,7 +1371,7 @@ Cooling_Eq
     </widget>
     <widget type="led" version="2.0.0">
       <name>LED Template_4</name>
-      <pv_name>CstatH-Ctrl:$(seq_no):sP_AutoSQ8</pv_name>
+      <pv_name>CstatH-Ctrl:$(seq_no):sP_AutStrtSQ8</pv_name>
       <bit>0</bit>
       <x>313</x>
       <y>75</y>
