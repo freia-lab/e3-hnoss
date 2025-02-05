@@ -502,6 +502,16 @@ record(ao, CstatH-2Kpumps:AllPumps:sFreq) {
   field(OMSL, "closed_loop")
 }
 
+record(ao, CstatH-2Kpumps:PT552-fromIOC:sRdV) {
+  field(DTYP, "S7plc")
+  field(OUT, "@PLC:HNOSS/48 T=FLOAT")
+  field(PINI, "NO")
+  field(SCAN, "10 second")
+  field(DOL, "CstatH-2Kpumps:PT552:sRdV CA")
+  field(PREC, "1")
+  field(OMSL, "closed_loop")
+}
+
 record(bo, CstatH-Cryo:Dwr:CV5202_Slctd) {
   field(DTYP, "S7plc")
   field(OUT, "@PLC:HNOSS/1 T=BYTE B=0")

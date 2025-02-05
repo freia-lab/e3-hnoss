@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-01-24 14:20:53 by konrad-->
+<!--Saved on 2025-02-05 16:30:23 by konrad-->
 <display version="2.0.0">
   <name>Seq9_top</name>
   <macros>
@@ -237,7 +237,7 @@ $(pv_value)</tooltip>
       <width>80</width>
       <rules>
         <rule name="Disable" prop_id="enabled" out_exp="false">
-          <exp bool_exp="(pvInt0 = 12) and (pvInt2 = 1) and ((pvInt1 &amp; 0x10) = 0x10)">
+          <exp bool_exp="((pvInt0 = 6) and (pvInt2 = 1) and ((pvInt1 &amp; 0x10) = 0x10)) or ((pvInt0 = 20) and  ((pvInt1 &amp; 0x20) = 0x20)) ">
             <value>false</value>
           </exp>
           <pv_name>CstatH-Ctrl:$(seq_no):sStep</pv_name>

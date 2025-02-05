@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-01-24 15:07:17 by konrad-->
+<!--Saved on 2025-02-05 13:33:01 by konrad-->
 <display version="2.0.0">
   <name>Seq9</name>
   <macros>
@@ -16,7 +16,7 @@
   <grid_visible>false</grid_visible>
   <widget type="embedded" version="2.0.0">
     <name>Linking Container Template</name>
-    <file>Seq_top3plus.bob</file>
+    <file>Seq9_top.bob</file>
     <x>92</x>
     <y>10</y>
     <width>540</width>
@@ -1549,20 +1549,60 @@ Filling LHe...</tooltip>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_5</name>
-    <text>Communication to 2K pumps:</text>
-    <x>420</x>
-    <y>240</y>
-    <width>214</width>
+    <text>Comm. to 2K pumps</text>
+    <x>50</x>
+    <y>280</y>
+    <width>149</width>
   </widget>
   <widget type="led" version="2.0.0">
     <name>LED_3</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sHiddenFlags</pv_name>
     <bit>4</bit>
-    <x>634</x>
-    <y>240</y>
+    <x>199</x>
+    <y>280</y>
     <off_color>
       <color name="MINOR" red="252" green="242" blue="17">
       </color>
     </off_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_9</name>
+    <text>2K pumps vented</text>
+    <x>50</x>
+    <y>305</y>
+    <width>149</width>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED_8</name>
+    <pv_name>CstatH-Ctrl:$(seq_no):sHiddenFlags</pv_name>
+    <bit>5</bit>
+    <x>199</x>
+    <y>305</y>
+    <off_color>
+      <color name="LED-BLUE-OFF" red="90" green="110" blue="110">
+      </color>
+    </off_color>
+    <on_color>
+      <color name="LED-BLUE-ON" red="81" green="232" blue="255">
+      </color>
+    </on_color>
+    <tooltip>$(pv_name)
+Filling LHe...</tooltip>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update Template_46</name>
+    <pv_name>$(C)-2Kpumps:PT552:sRdV</pv_name>
+    <x>239</x>
+    <y>305</y>
+    <width>96</width>
+    <height>18</height>
+    <precision>1</precision>
+    <wrap_words>false</wrap_words>
+    <actions>
+    </actions>
+    <border_color>
+      <color name="BLACK" red="0" green="0" blue="0">
+      </color>
+    </border_color>
   </widget>
 </display>

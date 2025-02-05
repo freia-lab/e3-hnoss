@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-01-30 11:40:15 by konrad-->
+<!--Saved on 2025-02-05 13:42:29 by konrad-->
 <display version="2.0.0">
   <name>HNOSS</name>
   <macros>
@@ -558,13 +558,13 @@ Conditioning He circuits</tooltip>
           <step16>Stopping - waiting 10s</step16>
           <step18>Waiting for stopping 2K pumps. Press Accept to go on.</step18>
           <step2>Checking parameters</step2>
-          <step20>Stopping - step 20. Press Accept again to go on.</step20>
+          <step20>Wait for venting 2K pumps. Press Accept to go on.</step20>
           <step30>Stopping - step 30</step30>
           <step4>Waiting for switching to 2K exhaust to Kaeser</step4>
           <step6>Waiting 2K pumps running. Press Accept to go on.</step6>
           <step8>Waiting 10 s for closing CV552 and FV552.</step8>
         </macros>
-        <target>standalone</target>
+        <target>window</target>
         <description>Open Display</description>
       </action>
     </actions>
