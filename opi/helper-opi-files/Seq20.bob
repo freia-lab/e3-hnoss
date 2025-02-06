@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-02-04 11:42:14 by konrad-->
+<!--Saved on 2025-02-06 14:04:18 by konrad-->
 <display version="2.0.0">
   <name>Seq20</name>
-  <width>545</width>
+  <width>555</width>
   <height>420</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
@@ -89,9 +89,9 @@
   <widget type="label" version="2.0.0">
     <name>Text Update Template_2</name>
     <text>###</text>
-    <x>437</x>
+    <x>429</x>
     <y>160</y>
-    <width>84</width>
+    <width>111</width>
     <height>17</height>
     <font>
       <font name="Default Bold" family="Source Sans Pro" style="BOLD" size="16.0">

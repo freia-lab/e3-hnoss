@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-02-05 13:33:01 by konrad-->
+<!--Saved on 2025-02-06 13:51:05 by konrad-->
 <display version="2.0.0">
   <name>Seq9</name>
   <macros>
     <C>CstatH</C>
   </macros>
-  <width>760</width>
-  <height>920</height>
+  <width>770</width>
+  <height>935</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
@@ -1591,7 +1591,7 @@ Filling LHe...</tooltip>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_46</name>
-    <pv_name>$(C)-2Kpumps:PT552:sRdV</pv_name>
+    <pv_name>$(C)-2Kpumps:PT552-fromIOC:sRdV</pv_name>
     <x>239</x>
     <y>305</y>
     <width>96</width>

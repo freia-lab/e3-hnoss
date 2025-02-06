@@ -226,9 +226,10 @@ PLC_Cryostat_2025_01_27.zip - KG - Created a new S7PLC_PCI_CodacStruc133 for the
 PLC_Cryostat_2025_02_03.zip - KG -  Compiled source file S7PLC_PSI_CodacStruct133. Added switching CERNOX sets.
 PLC_Cryostat_2025_02_04.zip - KG -  Added automatic start of SQ8.
 PLC_Cryostat_2025_02_04_1.zip - KG -  Added automatic stop of SQ7 when automatic start of SQ8 was enabled.
-PLC_Cryostat_2025_02_04.zip - KG -  Added automatic transition in SQ9 step 20 -> 30 based on the PT552 sent from the 2K system (via wtrvac IOC).
+PLC_Cryostat_2025_02_05.zip - KG -  Added automatic transition in SQ9 step 20 -> 30 based on the PT552 sent from the 2K system (via wtrvac IOC).
   Works only if the pressure could be reliably read from the 2K system. Transition is done when PT552 > 990 mbar for at least 35 s.
-
+PLC_Cryostat_2025_02_06.zip - KG -  Changed rules for opening FV556 (venting 2K pumps). This valve will be open already in SQ9 steps 14 - 18 
+  under the condition that the 2K pumps are stopped (mean frequency = 0 and the communication (Profibus DP, IOC) works ok.
 ============================================================================================================
 SCADA
 

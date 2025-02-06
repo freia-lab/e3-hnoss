@@ -150,9 +150,9 @@ float kWH = 0.25;
      entry {
         startupStep = 5;
         pvPut(startupStep);
-        sprintf (startupStepStr, "Waiting for step 10");	
+        sprintf (startupStepStr, "Waiting for step 8");	
         pvPut(startupStepStr);
-        printf ("Entered awaiting_Step10 state\n");
+        printf ("Entered awaiting_Step8 state\n");
      }
      when ((startupStep == 0) || (SQ9_state == 8)) {} state idle_2K
   }
