@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-02-06 13:51:05 by konrad-->
+<!--Saved on 2025-02-07 14:56:35 by konrad-->
 <display version="2.0.0">
   <name>Seq9</name>
   <macros>
@@ -1564,6 +1564,8 @@ Filling LHe...</tooltip>
       <color name="MINOR" red="252" green="242" blue="17">
       </color>
     </off_color>
+    <tooltip>$(pv_name)
+Data from 2K pumps system is valid</tooltip>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label_9</name>
@@ -1587,7 +1589,7 @@ Filling LHe...</tooltip>
       </color>
     </on_color>
     <tooltip>$(pv_name)
-Filling LHe...</tooltip>
+2K pumps vented - 2Kpumps:PT552 &gt; 990 mbar</tooltip>
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>Text Update Template_46</name>
