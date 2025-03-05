@@ -230,6 +230,8 @@ PLC_Cryostat_2025_02_05.zip - KG -  Added automatic transition in SQ9 step 20 ->
   Works only if the pressure could be reliably read from the 2K system. Transition is done when PT552 > 990 mbar for at least 35 s.
 PLC_Cryostat_2025_02_06.zip - KG -  Changed rules for opening FV556 (venting 2K pumps). This valve will be open already in SQ9 steps 14 - 18 
   under the condition that the 2K pumps are stopped (mean frequency = 0 and the communication (Profibus DP, IOC) works ok.
+PLC_Cryostat_2025_03_05.zip - KG -   Added reading status of GV001 and GV002 (cavity vacuum gate valves).
+
 ============================================================================================================
 SCADA
 

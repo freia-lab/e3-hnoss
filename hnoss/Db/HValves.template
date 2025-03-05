@@ -1,0 +1,43 @@
+record(bi, "$(P)-$(SUBS):$(DEV):sClosed")  {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS_CL) T=BYTE B=$(B_CL)")
+  field(ONAM, "Pos switch closed")
+  field(ZNAM, "Pos switch open")
+  field(PINI, "YES")
+  field(DISV, "-1")  # Will never disable, but will propagate severity
+  field(SDIS, "$(P)-$(SUBS):$(DEV):VisuState.VAL NPP MS")
+  field(FLNK, "$(P)-$(SUBS):$(DEV):VisuState-calc")
+  field(SCAN, "I/O Intr")
+}
+record(bi, "$(P)-$(SUBS):$(DEV):sOpen")  {
+  field(DTYP, "S7plc")
+  field(INP, "@PLC:HNOSS/$(OFFS_OP) T=BYTE B=$(B_OP)")
+  field(ONAM, "Pos switch closed")
+  field(ZNAM, "Pos switch open")
+  field(PINI, "YES")
+  field(DISV, "-1")  # Will never disable, but will propagate severity
+  field(SDIS, "$(P)-$(SUBS):$(DEV):VisuState.VAL NPP MS")
+  field(FLNK, "$(P)-$(SUBS):$(DEV):VisuState-calc")
+  field(SCAN, "I/O Intr")
+}
+
+record (calc, "$(P)-$(SUBS):$(DEV):VisuState-calc") {
+  field(INPA, "$(P)-$(SUBS):$(DEV):sClosed")
+  field(INPB, "$(P)-$(SUBS):$(DEV):sOpen")
+  field(CALC, "A+B=0?0:(A+B=2?(3:(A=1?2:1)))")
+  field(FLNK, "$(P)-$(SUBS):$(DEV):VisuState")
+}
+
+record (mbbi, "$(P)-$(SUBS):$(DEV):VisuState") {
+  field(INP, "$(P)-$(SUBS):$(DEV):VisuState-calc")
+  field(ZRVL,"0")
+  field(ONVL,"1")
+  field(TWVL,"2")
+  field(THVL,"3")
+  field(ZRST,"Both open")
+  field(ONST,"Open")
+  field(TWST,"Closed")
+  field(THST,"Both closed")
+  field(ZRSV,"MAJOR")
+  field(THSV,"MAJOR")
+}

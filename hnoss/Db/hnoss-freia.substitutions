@@ -580,3 +580,8 @@ file "reheater-valve.template" { pattern
 {RHtr,	FV563,   "80",    "3"}
 }
 
+file "HValves.template" { pattern
+{P      SUBS,	DEV,     OFFS_CL, B_CL, OFFS_OP, B_OP}
+{CstatH	Vac,	GV001,	 80,	  5,	80,	 6}
+{CstatH	Vac,	GV002,	 80,	  7,	81,	 0}
+}
