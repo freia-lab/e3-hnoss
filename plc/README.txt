@@ -232,7 +232,10 @@ PLC_Cryostat_2025_02_06.zip - KG -  Changed rules for opening FV556 (venting 2K 
   under the condition that the 2K pumps are stopped (mean frequency = 0 and the communication (Profibus DP, IOC) works ok.
 PLC_Cryostat_2025_03_05.zip - KG -  !!!!!!!!!!! DO NOT USE THIS ARCHIVE - ERROR IN DB400 !!!!!!!!!!!!!!!!!!!! (all data after 8.0 are shifted by 2 bytes)
                                   Added reading status of GV001 and GV002 (cavity vacuum gate valves).
-PLC_Cryostat_2025_03_06.zip - KG - Fixed error in DB400
+PLPLC_Cryostat_2025_03_06.zip - KG - Fixed error in DB400
+C_Cryostat_2025_03_17.zip - KG - Changed SQ3B: Transition from step 4 to 6 is now based not only on TT403 (broken sensor) but also on TT205 and TT206.
+  If any of those temperatures drops below "Cool down temperature" the sequence will go from step 4 to step 6 (it will open EV200 and EV201 and start the
+  heaters EH200 and EH201).
 
 ============================================================================================================
 SCADA

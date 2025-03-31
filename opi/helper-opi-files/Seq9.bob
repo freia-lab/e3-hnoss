@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-02-07 14:56:35 by konrad-->
+<!--Saved on 2025-03-19 09:44:18 by konrad-->
 <display version="2.0.0">
   <name>Seq9</name>
   <macros>
@@ -911,7 +911,7 @@
     </widget>
     <widget type="label" version="2.0.0">
       <name>Label Template_34</name>
-      <text>CV582 [%]</text>
+      <text>CV551 [%]</text>
       <x>175</x>
       <width>68</width>
       <height>21</height>
