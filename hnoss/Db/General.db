@@ -659,3 +659,14 @@ record (stringin, "CstatH-Ctrl:SQ9:sStep2KstartUpStr") {
 record (longout, "CstatH-Ctrl:SQ9:cStep2KstartUp") {
   field(DESC, "2K pumps start-up step")
 }
+
+## Set B field to 1 to start the timer, set B=0 to reset it
+#
+record(calc, "CstatH-Ctrl:SQ9:2KpumpsWarmUp-timer") {
+   field(DESC, "2K pumps warm-up progress")
+   field(INPA, "600")
+   field(HOPR, "600")
+   field(LOPR, "0")
+   field(SCAN, "1 second")
+   field(CALC, "B?(VAL>=A?A:VAL+1):0")
+}

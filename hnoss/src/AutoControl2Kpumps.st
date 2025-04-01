@@ -16,6 +16,7 @@ float cSetV_DV;
 float cSetV_WH;
 float final_WH_SQ9;
 float sCV551;
+int warmUpTimer;
 string startupStepStr;
 
 
@@ -31,6 +32,7 @@ assign cPumpOn to "{p1}-2Kpumps:Ctrl:cOn";
 assign sPumpOn to "{p1}-2Kpumps:Ctrl:sOn";
 assign sPBcomOK "{p1}-2Kpumps:Ctrl:sPBcomOK";
 assign sCV551 to "{p1}-RHtr:CV551:sRdV";
+assign warmUpTimer to "{p1}-Ctrl:SQ9:2KpumpsWarmUp-timer.B";
 
 
 // PVs for the sequence
@@ -65,6 +67,8 @@ float kWH = 0.25;
       sprintf (startupStepStr, "Idle");	
       pvPut(startupStepStr);
       printf ("Entered idle_2K state\n");	
+      warmUpTimer = 0;
+      pvPut(warmUpTimer);
    }
 
    when ((SQ9_state == 6) && autoStartUp_SQ9 && PumpsRdy && !holdState) {
@@ -116,6 +120,8 @@ float kWH = 0.25;
      entry {
         startupStep = 3;
       	pvPut(startupStep);
+	warmUpTimer = 1;
+	pvPut(warmUpTimer);
         sprintf (startupStepStr, "Warming-up at full speed");	
         pvPut(startupStepStr);
       	printf ("Entered warm_up state\n");
@@ -125,6 +131,8 @@ float kWH = 0.25;
      	printf("Warm-up ready - set the WH to 0 and DV to 10\n");
         cSetV_WH = final_WH_SQ9;
      	pvPut(cSetV_WH);
+	warmUpTimer = 0;
+	pvPut(warmUpTimer);
      } state ramping_down
   }
 

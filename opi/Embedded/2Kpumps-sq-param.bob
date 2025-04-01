@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-01-24 14:22:17 by konrad-->
+<!--Saved on 2025-04-01 14:15:39 by konrad-->
 <display version="2.0.0">
   <name>2K_start-up</name>
   <width>760</width>
@@ -39,20 +39,6 @@
     <x>390</x>
     <y>50</y>
     <width>40</width>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update_3</name>
-    <pv_name>$(C)-Ctrl:SQ9:cStep2KstartUp</pv_name>
-    <x>430</x>
-    <y>50</y>
-    <width>30</width>
-  </widget>
-  <widget type="textupdate" version="2.0.0">
-    <name>Text Update_5</name>
-    <pv_name>$(C)-Ctrl:SQ9:sStep2KstartUpStr</pv_name>
-    <x>470</x>
-    <y>50</y>
-    <width>280</width>
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>Action Button_3</name>
@@ -296,5 +282,58 @@
     <off_label>OFF</off_label>
     <on_label>ON</on_label>
     <square>true</square>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Group</name>
+    <x>430</x>
+    <y>50</y>
+    <width>320</width>
+    <height>20</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_3</name>
+      <pv_name>$(C)-Ctrl:SQ9:cStep2KstartUp</pv_name>
+      <width>30</width>
+    </widget>
+    <widget type="rectangle" version="2.0.0">
+      <name>Rectangle</name>
+      <x>40</x>
+      <width>280</width>
+      <line_width>0</line_width>
+      <line_color>
+        <color name="Read_Background" red="230" green="235" blue="232">
+        </color>
+      </line_color>
+      <background_color>
+        <color name="Read_Background" red="230" green="235" blue="232">
+        </color>
+      </background_color>
+    </widget>
+    <widget type="progressbar" version="2.0.0">
+      <name>Progress Bar</name>
+      <pv_name>$(C)-Ctrl:SQ9:2KpumpsWarmUp-timer</pv_name>
+      <x>40</x>
+      <width>280</width>
+      <visible>false</visible>
+      <rules>
+        <rule name="Visibility" prop_id="visible" out_exp="false">
+          <exp bool_exp="pvInt0=3">
+            <value>true</value>
+          </exp>
+          <pv_name>$(C)-Ctrl:SQ9:cStep2KstartUp</pv_name>
+        </rule>
+      </rules>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <limits_from_pv>false</limits_from_pv>
+      <maximum>600.0</maximum>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>Text Update_5</name>
+      <pv_name>$(C)-Ctrl:SQ9:sStep2KstartUpStr</pv_name>
+      <x>40</x>
+      <width>280</width>
+      <transparent>true</transparent>
+    </widget>
   </widget>
 </display>
