@@ -237,6 +237,8 @@ PLC_Cryostat_2025_03_17.zip - KG - Changed SQ3B: Transition from step 4 to 6 is 
   If any of those temperatures drops below "Cool down temperature" the sequence will go from step 4 to step 6 (it will open EV200 and EV201 and start the
   heaters EH200 and EH201).
 PLC_Cryostat_2025_03_31.zip - KG - Changed SQ8: Added transition from state 20 to 0 when SQ12B is activated (cryostat warm-up)
+PLC_Cryostat_2025_04_03.zip - KG - Added new hardware (32 DI module). Prepared for moving FV560-FV563 to HNOSS PLC from wtrvac PLC. In principle it's
+  ready to disconnect the valves from wtrvac PLC and connect it to HNOSS. There must be done changes in the EPICS database on wtrvac and hnoss IOCs
 
 ============================================================================================================
 SCADA
