@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-01-03 17:39:04 by konrad-->
+<!--Saved on 2025-04-02 10:36:20 by konrad-->
 <display version="2.0.0">
   <x>2</x>
   <width>1350</width>
@@ -2127,10 +2127,10 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_80</name>
-    <text>&amp; CM</text>
-    <x>87</x>
-    <y>506</y>
-    <width>24</width>
+    <text>CM</text>
+    <x>89</x>
+    <y>546</y>
+    <width>15</width>
     <height>14</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">
@@ -2185,10 +2185,10 @@ $(pv_value)</tooltip>
   </widget>
   <widget type="label" version="2.0.0">
     <name>Label Template_82</name>
-    <text>&amp; CM</text>
+    <text>CM</text>
     <x>88</x>
-    <y>645</y>
-    <width>24</width>
+    <y>689</y>
+    <width>15</width>
     <height>14</height>
     <font>
       <font family="Source Sans Pro" style="REGULAR" size="11.0">

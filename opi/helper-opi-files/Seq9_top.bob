@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-02-05 16:30:23 by konrad-->
+<!--Saved on 2025-04-03 20:33:12 by konrad-->
 <display version="2.0.0">
   <name>Seq9_top</name>
   <macros>
@@ -90,6 +90,9 @@
         <exp bool_exp="pv0== 6">
           <value>$(step6)</value>
         </exp>
+        <exp bool_exp="((pvInt0 = 6) and (pvInt2 = 1) and ((pvInt1 &amp; 0x10) = 0x10)) or ((pvInt0 = 20) and  ((pvInt1 &amp; 0x20) = 0x20)) ">
+          <value>$(step6_auto)</value>
+        </exp>
         <exp bool_exp="pv0== 8">
           <value>$(step8)</value>
         </exp>
@@ -108,13 +111,21 @@
         <exp bool_exp="pv0== 18">
           <value>$(step18)</value>
         </exp>
+        <exp bool_exp="((pvInt0 = 18) and (pvInt2 = 1) and ((pvInt1 &amp; 0x10) = 0x10)) or ((pvInt0 = 20) and  ((pvInt1 &amp; 0x20) = 0x20)) ">
+          <value>$(step18_auto)</value>
+        </exp>
         <exp bool_exp="pv0== 20">
           <value>$(step20)</value>
+        </exp>
+        <exp bool_exp="((pvInt0 = 20) and (pvInt2 = 1) and ((pvInt1 &amp; 0x10) = 0x10)) or ((pvInt0 = 20) and  ((pvInt1 &amp; 0x20) = 0x20)) ">
+          <value>$(step20_auto)</value>
         </exp>
         <exp bool_exp="pv0== 30">
           <value>$(step30)</value>
         </exp>
         <pv_name>CstatH-Ctrl:$(seq_no):sStep</pv_name>
+        <pv_name>CstatH-Ctrl:$(seq_no):sHiddenFlags</pv_name>
+        <pv_name>CstatH-Ctrl:$(seq_no):sP_2KpumpsAuto</pv_name>
       </rule>
     </rules>
     <tooltip>$(pv_name)
