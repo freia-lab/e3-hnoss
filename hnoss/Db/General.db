@@ -192,7 +192,7 @@ record (calc, "CstatH-Ctrl:Alarms:sMKS1") {
   field(INPD, "CstatH-Ctrl:Alarms:sAlarmB4")
   field(INPE, "0x0F")
   field(PREC, "10")
-  field(CALC, "(A>>5)+(B<<5)+(C<<13)+((D&E)<<21)")
+  field(CALC, "(A>>5)+(B<<3)+(C<<11)+((D&E)<<19)")
   field (FLNK, "CstatH-Ctrl:MKS1:SEV")
 }
 record (mbbi, "CstatH-Ctrl:MKS1:SEV") {
@@ -246,7 +246,7 @@ record (calc, "CstatH-Ctrl:Alarms:sMKS3") {
   field(INPD, "CstatH-Ctrl:Alarms:sAlarmB10")
   field(INPE, "0x03")
   field(PREC, "10")
-  field(CALC, "(A>>3)+(B<<3)+(C<<11)+((D&E)<<19)")
+  field(CALC, "(A>>3)+(B<<5)+(C<<13)+((D&E)<<21)")
   field (FLNK, "CstatH-Ctrl:MKS3:SEV")
 }
 record (mbbi, "CstatH-Ctrl:MKS3:SEV") {
