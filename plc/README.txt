@@ -240,13 +240,15 @@ PLC_Cryostat_2025_03_31.zip - KG - Changed SQ8: Added transition from state 20 t
 PLC_Cryostat_2025_04_03.zip - KG - Added new hardware (32 DI module). Prepared for moving FV560-FV563 to HNOSS PLC from wtrvac PLC. In principle it's
   ready to disconnect the valves from wtrvac PLC and connect it to HNOSS. There must be done changes in the EPICS database on wtrvac and hnoss IOCs
 PLC_Cryostat_2025_06_19.zip - KG - Modified FC350 (#FC_MKS) and UDT_MKS to work with the new valves (the communication to MKSs worked unacceptably poorly 
-  after adding instances of FV560-FV563). Changin the delay time for triggering P_SEND function from 200 ms to 500 ms made that the MKS communication
-  worked ok even with the new valves. During the tests found iut that R7 request in step 26 was sent twice. Devided step 26 to 26+27 and it fixed the 
+  after adding instances of FV560-FV563). Changing the delay time for triggering P_SEND function from 200 ms to 500 ms made that the MKS communication
+  worked ok even with the new valves. During the tests found out that R7 request in step 26 was sent twice. Devided step 26 to 26+27 and it fixed the 
   ddouble sending of request R7. Added new error bits Act_sensor_R7 in UDT_MKS for Flt_write and Flt_Verif - not copied to Epics yet.
   There is still something that should be done about setting the send request bit triggering the P_SEND function - the delay of 500 ms seconds should be 
-  unnecessary if one can set this trigger bit only after receiving the reply (or tmine-out). Now this bit is reset directly after receiving SEND_DONE or 
+  unnecessary if one can set this trigger bit only after receiving the reply (or time-out). Now this bit is reset directly after receiving SEND_DONE or 
   SEMD_ERROR. This is ok for SEND_ERROR but for SEND_DONE it is ok only for the commands not getting any reply. For the requests waiting for the response 
   this bit should be reset only after receiving the reply or the time-out.
+PLC_Cryostat_2025_06_24.zip - KG - Modified FC350. Decreased the time-out for serial communication from 15 s to 5 s.
+  Tried to get rid of the 500 ms delay but all the ways to avoid it didn't work. I suspect some timing issues in the CP module.
   
 ============================================================================================================
 SCADA
