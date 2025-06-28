@@ -249,7 +249,9 @@ PLC_Cryostat_2025_06_19.zip - KG - Modified FC350 (#FC_MKS) and UDT_MKS to work 
   this bit should be reset only after receiving the reply or the time-out.
 PLC_Cryostat_2025_06_24.zip - KG - Modified FC350. Decreased the time-out for serial communication from 15 s to 5 s.
   Tried to get rid of the 500 ms delay but all the ways to avoid it didn't work. I suspect some timing issues in the CP module.
-  
+PLC_Cryostat_2025_06_27.zip - KG - Added tranfering MKS alarm bits to Epics (see comment to PLC_Cryostat_2025_06_19.zip). Updated comments in 
+  S7PLC_PSI_CodacStruc135 and recompiled it. Done also "check block consistency" and "Block compare" offline/online - all good.
+
 ============================================================================================================
 SCADA
 
