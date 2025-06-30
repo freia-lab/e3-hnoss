@@ -177,11 +177,9 @@ record (longin, "CstatH-Ctrl:Alarms:sAlarmB10") {
 record (calc, "CstatH-Ctrl:Alarms:sGeneral") {
   field(SCAN, "1 second")
   field(INPA, "CstatH-Ctrl:Alarms:sAlarmB1")
-  field(INPB, "CstatH-Ctrl:Alarms:sAlarmB10")
   field(INPC, "0x1F")
-  field(INPD, "0xFC")
   field(PREC, "10")
-  field(CALC, "(A&C)+((B&D)<<8)")
+  field(CALC, "(A&C)")
 }
 
 record (calc, "CstatH-Ctrl:Alarms:sMKS1") {
@@ -191,8 +189,10 @@ record (calc, "CstatH-Ctrl:Alarms:sMKS1") {
   field(INPC, "CstatH-Ctrl:Alarms:sAlarmB3")
   field(INPD, "CstatH-Ctrl:Alarms:sAlarmB4")
   field(INPE, "0x0F")
+  field(INPF, "CstatH-Ctrl:Alarms:sAlarmB10")
+  field(INPG, "0x0C")
   field(PREC, "10")
-  field(CALC, "(A>>5)+(B<<3)+(C<<11)+((D&E)<<19)")
+  field(CALC, "(A>>5)+(B<<3)+(C<<11)+((D&E)<<19)+((F&G)<<21)")
   field (FLNK, "CstatH-Ctrl:MKS1:SEV")
 }
 record (mbbi, "CstatH-Ctrl:MKS1:SEV") {
@@ -218,8 +218,10 @@ record (calc, "CstatH-Ctrl:Alarms:sMKS2") {
   field(INPC, "CstatH-Ctrl:Alarms:sAlarmB6")
   field(INPD, "CstatH-Ctrl:Alarms:sAlarmB7")
   field(INPE, "0x07")
+  field(INPG, "0x30")
+  field(INPF, "CstatH-Ctrl:Alarms:sAlarmB10")
   field(PREC, "10")
-  field(CALC, "(A>>4)+(B<<4)+(C<<12)+((D&E)<<20)")
+  field(CALC, "(A>>4)+(B<<4)+(C<<12)+((D&E)<<20)+((F&G)<<19)")
   field (FLNK, "CstatH-Ctrl:MKS2:SEV")
 }
 record (mbbi, "CstatH-Ctrl:MKS2:SEV") {
@@ -245,8 +247,9 @@ record (calc, "CstatH-Ctrl:Alarms:sMKS3") {
   field(INPC, "CstatH-Ctrl:Alarms:sAlarmB9")
   field(INPD, "CstatH-Ctrl:Alarms:sAlarmB10")
   field(INPE, "0x03")
+  field(INPF, "0xC0")
   field(PREC, "10")
-  field(CALC, "(A>>3)+(B<<5)+(C<<13)+((D&E)<<21)")
+  field(CALC, "(A>>3)+(B<<5)+(C<<13)+((D&E)<<21)+((D&F)<<17)")
   field (FLNK, "CstatH-Ctrl:MKS3:SEV")
 }
 record (mbbi, "CstatH-Ctrl:MKS3:SEV") {
