@@ -251,7 +251,7 @@ PLC_Cryostat_2025_06_24.zip - KG - Modified FC350. Decreased the time-out for se
   Tried to get rid of the 500 ms delay but all the ways to avoid it didn't work. I suspect some timing issues in the CP module.
 PLC_Cryostat_2025_06_27.zip - KG - Added tranfering MKS alarm bits to Epics (see comment to PLC_Cryostat_2025_06_19.zip). Updated comments in 
   S7PLC_PSI_CodacStruc135 and recompiled it. Done also "check block consistency" and "Block compare" offline/online - all good.
-PLC_Cryostat_2025_06_27.zip - KG - It turned out that the status bits Alarms.AI75-AI76 were used in CstatH-Ctrl:Alarms:sGeneral PV. Removed the following
+PLC_Cryostat_2025_06_30.zip - KG - It turned out that the status bits Alarms.AI75-AI76 were used in CstatH-Ctrl:Alarms:sGeneral PV. Removed the following
   instructions in FC252:
   // Linde Communication
   // Removed because of the confict with MKS1 status
@@ -260,7 +260,10 @@ PLC_Cryostat_2025_06_27.zip - KG - It turned out that the status bits Alarms.AI7
   //      =     "CodacStates".S7PLC_PSI.Alarms.Al75
   //      A     "CodacConfiguration".S7PLC_PSI.Gen.CV5202_open
   //      =     "CodacStates".S7PLC_PSI.Alarms.Al76
-  
+PLC_Cryostat_2025_09_29.zip - KG - Changed the logic for showing the Equipment status (Manual/Auto) in the sequence command panels. Until now it was
+   showing that the equipment is in Manual mode when it stopped in state 2 of the sequence. Now it shows the inverted value of .Equip_Ok bit in the
+   sequence DB block (changes in FC252).
+   
   
 
 
