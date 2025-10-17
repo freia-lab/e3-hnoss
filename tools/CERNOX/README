@@ -83,6 +83,21 @@ The switch points are slightly different then in the
 C:\WinCC\Current\Cryostat\Parameter\para_cernox_real.csv file but it should not be
 an issue (besides "TT130.R_Switch2	5563.394" that is wrong, should be 556.3394).
 
+==========================================================================================
+Set the new values to the PVs and values specified in the file (one PV and value  per line).
+It can be used for setting the new calibration data.
+==========================================================================================
 
+while read PV; do caput -a $PV; done < file_name
 
+==========================================================================================
+Process the records of the PVs listed in the file given in the command line
+This is usefull for example to check the actual calibration settings of the CERNOX sensor.
+The read-back and set values are only updated when changing the calibration data from Epics,
+when the values have been changed otherwise (PLC program, WinCC) the PVs are not updated,
+==========================================================================================o
+Run this command and give the name of the file containing the PV names (one per line) as a
+command line argument:
+
+updateCalibrReadBack.sh file_name
 

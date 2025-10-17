@@ -1,0 +1,9 @@
+record (calc, "$(P)$(S)$(D):sRdV") {
+  field(SCAN, "10 second")
+  field(DESC, "Combined value of $(D1) & $(D2)")
+  field(INPA, "$(P)$(S)$(D1):sRdV")
+  field(INPB, "$(P)$(S)$(D2):sRdV")
+  field(C, "5000")
+  field(D, "50.0")
+  field(CALC, "A>C?(B>C?D:B):A")
+}

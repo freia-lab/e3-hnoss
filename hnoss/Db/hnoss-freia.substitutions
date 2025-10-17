@@ -581,3 +581,8 @@ file "HValves.template" { pattern
 {CstatH	Vac,	GV001,	 80,	  5,	80,	 6}
 {CstatH	Vac,	GV002,	 80,	  7,	81,	 0}
 }
+
+file "PTcombined.template" { pattern
+{P,        S,        D1,      D2,      D}
+{CstatH-,  LHe:,     PT101,   PT102,   PT101/102}
+}
