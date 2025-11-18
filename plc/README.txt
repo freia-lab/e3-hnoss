@@ -263,7 +263,8 @@ PLC_Cryostat_2025_06_30.zip - KG - It turned out that the status bits Alarms.AI7
 PLC_Cryostat_2025_09_29.zip - KG - Changed the logic for showing the Equipment status (Manual/Auto) in the sequence command panels. Until now it was
    showing that the equipment is in Manual mode when it stopped in state 2 of the sequence. Now it shows the inverted value of .Equip_Ok bit in the
    sequence DB block (changes in FC252).
-   
+PLC_Cryostat_2025_11_18.zip - KG - Changed the logic for control of CV105 in step 12 of SQ9 (FC557, NW6) in order to be able to immidiately switching 
+  between the PID and intermittent modes of control the LT101. Until this change the switching to PID mode happened only after the minimum level was reached.
   
 
 
