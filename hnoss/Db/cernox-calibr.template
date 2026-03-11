@@ -90,3 +90,10 @@ record(aao, "$(P)$(D):cPolyD") {
   field(FLNK, "$(P)$(D):sPolyD")
 }
 
+record(fanout, "$(P)$(D):cmdUpdate") {
+  field(LNK0, "$(P)$(D):sPolyA.PROC")
+  field(LNK1, "$(P)$(D):sPolyB.PROC")
+  field(LNK2, "$(P)$(D):sPolyC.PROC")
+  field(LNK3, "$(P)$(D):sPolyD.PROC")
+  field(LNK4, "$(P)$(D):sSwitchR.PROC")
+}

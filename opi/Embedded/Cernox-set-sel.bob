@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2025-01-30 11:38:46 by konrad-->
+<!--Saved on 2026-03-11 13:50:06 by konrad-->
 <display version="2.0.0">
   <name>Cernox set select</name>
   <width>235</width>
-  <height>180</height>
+  <height>240</height>
   <widget type="label" version="2.0.0">
     <name>Label</name>
     <text>Cavities CERNOX Selection</text>
@@ -63,6 +63,48 @@
   </widget>
   <widget type="action_button" version="3.0.0">
     <name>Action Button_2</name>
+    <actions execute_as_one="true">
+      <action type="write_pv">
+        <pv_name>CstatH-Ctrl:TT02x:cmdUpdate.PROC</pv_name>
+        <value>0</value>
+        <description>Update TT02x</description>
+      </action>
+      <action type="write_pv">
+        <pv_name>CstatH-Ctrl:TT03x:cmdUpdate.PROC</pv_name>
+        <value>0</value>
+        <description>Update TT03x</description>
+      </action>
+      <action type="write_pv">
+        <pv_name>CstatH-Ctrl:TT115:cmdUpdate.PROC</pv_name>
+        <value>0</value>
+        <description>Update TT115</description>
+      </action>
+      <action type="write_pv">
+        <pv_name>CstatH-Ctrl:TT125:cmdUpdate.PROC</pv_name>
+        <value>0</value>
+        <description>Update TT125</description>
+      </action>
+      <action type="write_pv">
+        <pv_name>CstatH-Ctrl:TT116:cmdUpdate.PROC</pv_name>
+        <value>0</value>
+        <description>Update TT116</description>
+      </action>
+      <action type="write_pv">
+        <pv_name>CstatH-Ctrl:TT126:cmdUpdate.PROC</pv_name>
+        <value>0</value>
+        <description>Update TT126</description>
+      </action>
+    </actions>
+    <text>Update calibration data read-back</text>
+    <x>20</x>
+    <y>140</y>
+    <width>191</width>
+    <height>50</height>
+    <tooltip>Use only after changing the CERNOX calibration data.
+Standard set must be selected.</tooltip>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>Action Button_3</name>
     <actions>
       <action type="write_pv">
         <pv_name>$(pv_name)</pv_name>
@@ -72,7 +114,7 @@
     </actions>
     <pv_name>$(P):cmdUpdCalibr</pv_name>
     <x>20</x>
-    <y>140</y>
+    <y>200</y>
     <width>191</width>
     <rules>
       <rule name="Enabled" prop_id="enabled" out_exp="false">
@@ -85,5 +127,9 @@
     <tooltip>Use only after changing the CERNOX calibration data.
 Standard set must be selected.</tooltip>
     <enabled>false</enabled>
+    <show_confirm_dialog>true</show_confirm_dialog>
+    <confirm_message>Are you sure?
+The current calibration data for TT02x, TT03x, TT115, TT116, TT125 &amp; TT126 
+will be used for transition Alternative -&gt; Standard set</confirm_message>
   </widget>
 </display>
