@@ -51,6 +51,16 @@ record (bi, "CstatH-Ctrl:CV5202:sOpenReq") {
   field (SCAN, "I/O Intr")
 }
 
+# Communication status to the Cryomodule PLC
+record (bi, "CstatH-Ctrl:CMCom:sOK") {
+  field (DTYP, "S7plc")
+  field (INP,  "@PLC:HNOSS/0 T=BYTE B=5")
+  field (PINI, "YES")
+  field (PHAS, "0")
+  field (ONAM,  "Connection OK")
+  field (ZNAM,  "Connection ERR")
+  field (SCAN, "I/O Intr")
+}
 
 record (bi, "CstatH-RHtr:opMode:s2KHeBaloon") {
   field (DTYP, "S7plc")

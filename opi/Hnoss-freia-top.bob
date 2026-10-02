@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2026-03-11 13:50:35 by konrad-->
 <display version="2.0.0">
   <name>HNOSS</name>
   <macros>
@@ -19,6 +18,7 @@
     <name>Action Button Template</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq0.bob</file>
         <macros>
           <seq_no>SQ0</seq_no>
@@ -34,7 +34,6 @@
           <step8>Filling up with GHe</step8>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 0</text>
@@ -56,6 +55,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_3</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq1.bob</file>
         <macros>
           <seq_no>SQ1</seq_no>
@@ -71,7 +71,6 @@ Conditioning He circuits</tooltip>
           <step8>Filling up with GHe</step8>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 1</text>
@@ -92,6 +91,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_4</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq2.bob</file>
         <macros>
           <seq_no>SQ2</seq_no>
@@ -107,7 +107,6 @@ Conditioning He circuits</tooltip>
           <step8>Filling up with GHe</step8>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 2</text>
@@ -128,6 +127,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_5</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq3A.bob</file>
         <macros>
           <seq_no>SQ3A</seq_no>
@@ -140,7 +140,6 @@ Conditioning He circuits</tooltip>
           <step8>Keeping cooled - LN2 flow off</step8>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 3A</text>
@@ -161,6 +160,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_6</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq3B.bob</file>
         <macros>
           <seq_no>SQ3B</seq_no>
@@ -172,7 +172,6 @@ Conditioning He circuits</tooltip>
           <step6>Keeping cooled</step6>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 3B</text>
@@ -193,6 +192,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_7</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq4.bob</file>
         <macros>
           <seq_no>SQ4</seq_no>
@@ -204,7 +204,6 @@ Conditioning He circuits</tooltip>
           <step6>Keeping cooled</step6>
         </macros>
         <target>window</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 4</text>
@@ -225,6 +224,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_8</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq10.bob</file>
         <macros>
           <seq_no>SQ10</seq_no>
@@ -236,7 +236,6 @@ Conditioning He circuits</tooltip>
           <step6>Keeping cooled</step6>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 10</text>
@@ -257,6 +256,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_9</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq11.bob</file>
         <macros>
           <seq_no>SQ11</seq_no>
@@ -268,7 +268,6 @@ Conditioning He circuits</tooltip>
           <step6>Keeping at Set point temperature</step6>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 11</text>
@@ -289,6 +288,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_10</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq12A.bob</file>
         <macros>
           <seq_no>SQ12A</seq_no>
@@ -299,7 +299,6 @@ Conditioning He circuits</tooltip>
           <step4>Warming up</step4>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 12A</text>
@@ -320,6 +319,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_11</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq12B.bob</file>
         <macros>
           <seq_no>SQ12B</seq_no>
@@ -330,7 +330,6 @@ Conditioning He circuits</tooltip>
           <step4>Warming up</step4>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 12B</text>
@@ -351,6 +350,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_12</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq5.bob</file>
         <macros>
           <seq_no>SQ5</seq_no>
@@ -364,7 +364,6 @@ Conditioning He circuits</tooltip>
           <step8>LHe filling or kept at set point</step8>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 5</text>
@@ -385,6 +384,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_13</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq6.bob</file>
         <macros>
           <seq_no>SQ6</seq_no>
@@ -395,7 +395,6 @@ Conditioning He circuits</tooltip>
           <step4>Doing measurements</step4>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 6</text>
@@ -416,6 +415,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_14</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq7.bob</file>
         <macros>
           <seq_no>SQ7</seq_no>
@@ -427,7 +427,6 @@ Conditioning He circuits</tooltip>
           <step6>Cooling...</step6>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 7</text>
@@ -448,6 +447,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_15</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq8.bob</file>
         <macros>
           <seq_no>SQ8</seq_no>
@@ -459,7 +459,6 @@ Conditioning He circuits</tooltip>
           <step6>Keeping cooled</step6>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 8</text>
@@ -480,6 +479,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_16</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq13.bob</file>
         <macros>
           <seq_no>SQ13</seq_no>
@@ -493,7 +493,6 @@ Conditioning He circuits</tooltip>
           <step8>Waiting for pressures to go below settings</step8>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 13</text>
@@ -514,6 +513,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_17</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq20.bob</file>
         <macros>
           <seq_no>SQ20</seq_no>
@@ -526,7 +526,6 @@ Conditioning He circuits</tooltip>
           <step8>Step 8</step8>
         </macros>
         <target>standalone</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Semi-automatic</text>
@@ -547,6 +546,7 @@ Conditioning He circuits</tooltip>
     <name>Action Button Template_18</name>
     <actions>
       <action type="open_display">
+        <description>Open Display</description>
         <file>helper-opi-files/Seq9.bob</file>
         <macros>
           <seq_no>SQ9</seq_no>
@@ -568,7 +568,6 @@ Conditioning He circuits</tooltip>
           <step18_auto>Waiting for stopping 2K pumps</step18_auto>
         </macros>
         <target>window</target>
-        <description>Open Display</description>
       </action>
     </actions>
     <text>Sequence 9</text>
@@ -1216,7 +1215,7 @@ $(actions)</tooltip>
     <x>30</x>
     <y>5</y>
     <width>109</width>
-    <height>48</height>
+    <height>46</height>
     <font>
       <font name="Header 1" family="Source Sans Pro" style="BOLD_ITALIC" size="36.0">
       </font>
@@ -2183,9 +2182,9 @@ $(actions)</tooltip>
     <name>Action Button Template_19</name>
     <actions>
       <action type="write_pv">
+        <description>Acknowledge pending alarms</description>
         <pv_name>$(pv_name)</pv_name>
         <value>1</value>
-        <description>Acknowledge pending alarms</description>
       </action>
     </actions>
     <pv_name>CstatH-Ctrl:opMode:cmdSetAck</pv_name>
@@ -2208,14 +2207,14 @@ Alarms</text>
     <name>Menu Button Template_2</name>
     <actions>
       <action type="write_pv">
+        <description>Cryomodule mode on</description>
         <pv_name>CstatH-Ctrl:opMode:cmdSetCMmode</pv_name>
         <value>1</value>
-        <description>Cryomodule mode on</description>
       </action>
       <action type="write_pv">
+        <description>Cryomodule mode off</description>
         <pv_name>CstatH-Ctrl:opMode:cmdRstCMmode</pv_name>
         <value>1</value>
-        <description>Cryomodule mode off</description>
       </action>
     </actions>
     <pv_name>CstatH-Ctrl:opMode:sCMmode</pv_name>
@@ -2295,9 +2294,9 @@ $(actions)</tooltip>
       <name>Action Button</name>
       <actions execute_as_one="true">
         <action type="write_pv">
+          <description>Give control to WinCC</description>
           <pv_name>$(pv_name)</pv_name>
           <value>1</value>
-          <description>Give control to WinCC</description>
         </action>
       </actions>
       <pv_name>CstatH-Ctrl:opMode:cmdLocal</pv_name>
@@ -2319,9 +2318,9 @@ $(actions)</tooltip>
       <name>Action Button_1</name>
       <actions execute_as_one="true">
         <action type="write_pv">
+          <description>Take control</description>
           <pv_name>$(pv_name)</pv_name>
           <value>1</value>
-          <description>Take control</description>
         </action>
       </actions>
       <pv_name>CstatH-Ctrl:opMode:cmdRemote</pv_name>
@@ -2344,9 +2343,9 @@ $(actions)</tooltip>
     <name>Action Button Template_20</name>
     <actions>
       <action type="open_display">
+        <description>Simulate Analog Input</description>
         <file>../freia-symbols/display-builder/CmdPanels/Cstat-AI-sim-top.bob</file>
         <target>standalone</target>
-        <description>Simulate Analog Input</description>
       </action>
     </actions>
     <text>Simulate
@@ -2473,5 +2472,18 @@ Analog Input</text>
       <color red="0" green="128" blue="255">
       </color>
     </border_color>
+  </widget>
+  <widget type="led" version="2.0.0">
+    <name>LED</name>
+    <pv_name>$(P)-Ctrl:CMCom:sOK</pv_name>
+    <x>55</x>
+    <y>127</y>
+    <width>97</width>
+    <font>
+      <font name="TINY-SANS-PLAIN" family="Source Sans Pro" style="REGULAR" size="12.0">
+      </font>
+    </font>
+    <square>true</square>
+    <labels_from_pv>true</labels_from_pv>
   </widget>
 </display>

@@ -265,7 +265,12 @@ PLC_Cryostat_2025_09_29.zip - KG - Changed the logic for showing the Equipment s
    sequence DB block (changes in FC252).
 PLC_Cryostat_2025_11_18.zip - KG - Changed the logic for control of CV105 in step 12 of SQ9 (FC557, NW6) in order to be able to immidiately switching 
   between the PID and intermittent modes of control the LT101. Until this change the switching to PID mode happened only after the minimum level was reached.
-  
+PLC_Cryostat_2026_10_03.zip - KG - Moved the whole project from my old PC to freia-cons4 and Step 7 V5.7 + SP1. Changed the hardware configuration:
+  removed S7 communication to the old CM PLC (IJCLAB) and added communication to the new CM PLC (SCK) via PN/PN Coupler.
+  Updated the function blocks FC132 (Cryomodule_PLC_Com)  and FC252 (EPICS_States) as well as DB132 and DB133. Added a new PV - CM_CommOK to the EPICS
+  status buffer - (the source code of the block should be updated - now it uses a name sParB5 of the bit in "Gen" structure).
+  When comparing the ONLINE/OFFLINE block there is a difference in FC328 (compiled from SCL) - it looks not significant but I didn't loaded the new block yet
+  (waiting after the end of the next cavities test run). 
 
 
 ============================================================================================================
