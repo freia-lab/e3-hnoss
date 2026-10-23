@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Saved on 2024-11-15 15:06:00 by konrad-->
 <display version="2.0.0">
   <name>Seq1</name>
   <width>600</width>
-  <height>410</height>
+  <height>430</height>
   <background_color>
     <color name="BACKGROUND" red="220" green="225" blue="221">
     </color>
@@ -14,9 +13,9 @@
   <widget type="embedded" version="2.0.0">
     <name>Linking Container Template</name>
     <file>Seq_top.bob</file>
-    <x>40</x>
-    <width>540</width>
-    <height>160</height>
+    <x>13</x>
+    <width>567</width>
+    <height>185</height>
     <actions>
     </actions>
     <border_color>
@@ -28,7 +27,7 @@
     <name>Label Template_5</name>
     <text>Pressure [mbar]: </text>
     <x>13</x>
-    <y>163</y>
+    <y>188</y>
     <width>134</width>
     <height>23</height>
     <font>
@@ -55,7 +54,7 @@
     <name>Label Template_6</name>
     <text>Timer [s]:</text>
     <x>317</x>
-    <y>163</y>
+    <y>188</y>
     <width>74</width>
     <height>24</height>
     <font>
@@ -82,7 +81,7 @@
     <name>Label Template_7</name>
     <text>High Vacuum:</text>
     <x>10</x>
-    <y>191</y>
+    <y>216</y>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
     <actions>
@@ -97,7 +96,7 @@
     <name>Label Template_8</name>
     <text>Low Vacuum:</text>
     <x>10</x>
-    <y>216</y>
+    <y>241</y>
     <width>97</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -113,7 +112,7 @@
     <name>Label Template_9</name>
     <text>High Filling:</text>
     <x>10</x>
-    <y>241</y>
+    <y>266</y>
     <width>88</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -129,7 +128,7 @@
     <name>Label Template_10</name>
     <text>Low Filling:</text>
     <x>10</x>
-    <y>266</y>
+    <y>291</y>
     <width>85</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -145,7 +144,7 @@
     <name>Label Template_11</name>
     <text>Vacuum Test:</text>
     <x>291</x>
-    <y>192</y>
+    <y>217</y>
     <width>110</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -160,7 +159,7 @@
     <name>Label Template_12</name>
     <text>Pressure Test:</text>
     <x>291</x>
-    <y>217</y>
+    <y>242</y>
     <width>114</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -175,7 +174,7 @@
     <name>Label Template_13</name>
     <text>Timeout Pump-down:</text>
     <x>291</x>
-    <y>242</y>
+    <y>267</y>
     <width>160</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -190,7 +189,7 @@
     <name>Label Template_14</name>
     <text>Timeout Filiing GHe:</text>
     <x>290</x>
-    <y>267</y>
+    <y>292</y>
     <width>150</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -205,7 +204,7 @@
     <name>Text Input Template</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cVacFlt</pv_name>
     <x>110</x>
-    <y>191</y>
+    <y>216</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -220,7 +219,7 @@
     <name>Text Input Template_1</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cVac</pv_name>
     <x>110</x>
-    <y>216</y>
+    <y>241</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -235,7 +234,7 @@
     <name>Text Input Template_2</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cPressEOF</pv_name>
     <x>110</x>
-    <y>241</y>
+    <y>266</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -250,7 +249,7 @@
     <name>Text Input Template_3</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cPressFlt</pv_name>
     <x>110</x>
-    <y>266</y>
+    <y>291</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -265,7 +264,7 @@
     <name>Text Input Template_4</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cVacRate</pv_name>
     <x>450</x>
-    <y>187</y>
+    <y>212</y>
     <width>66</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -280,7 +279,7 @@
     <name>Text Input Template_5</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cPressRate</pv_name>
     <x>450</x>
-    <y>212</y>
+    <y>237</y>
     <width>66</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -295,7 +294,7 @@
     <name>Text Input Template_6</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cVacRateAlrm</pv_name>
     <x>450</x>
-    <y>237</y>
+    <y>262</y>
     <width>66</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -310,7 +309,7 @@
     <name>Text Input Template_7</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cPresRateAlrm</pv_name>
     <x>450</x>
-    <y>262</y>
+    <y>287</y>
     <width>66</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -325,7 +324,7 @@
     <name>Label Template_17</name>
     <text>PT551</text>
     <x>228</x>
-    <y>249</y>
+    <y>274</y>
     <width>54</width>
     <height>19</height>
     <font>
@@ -344,7 +343,7 @@
     <name>Label Template_19</name>
     <text>Valves [%]</text>
     <x>10</x>
-    <y>300</y>
+    <y>325</y>
     <width>81</width>
     <height>23</height>
     <font>
@@ -371,7 +370,7 @@
     <name>Label Template_20</name>
     <text>CV100</text>
     <x>13</x>
-    <y>327</y>
+    <y>352</y>
     <width>64</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -386,7 +385,7 @@
     <name>Text Input Template_8</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV100</pv_name>
     <x>77</x>
-    <y>327</y>
+    <y>352</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -401,7 +400,7 @@
     <name>Label Template_21</name>
     <text>CV101</text>
     <x>213</x>
-    <y>329</y>
+    <y>354</y>
     <width>47</width>
     <height>19</height>
     <foreground_color>
@@ -424,7 +423,7 @@
     <name>Text Input Template_9</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV101</pv_name>
     <x>269</x>
-    <y>329</y>
+    <y>354</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -439,7 +438,7 @@
     <name>Label Template_22</name>
     <text>CV102</text>
     <x>410</x>
-    <y>328</y>
+    <y>353</y>
     <width>50</width>
     <height>19</height>
     <foreground_color>
@@ -462,7 +461,7 @@
     <name>Text Input Template_10</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV102</pv_name>
     <x>470</x>
-    <y>328</y>
+    <y>353</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -477,7 +476,7 @@
     <name>Label Template_23</name>
     <text>CV103</text>
     <x>13</x>
-    <y>351</y>
+    <y>376</y>
     <width>64</width>
     <height>19</height>
     <vertical_alignment>1</vertical_alignment>
@@ -492,7 +491,7 @@
     <name>Text Input Template_11</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV103</pv_name>
     <x>77</x>
-    <y>351</y>
+    <y>376</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -507,7 +506,7 @@
     <name>Label Template_24</name>
     <text>CV104</text>
     <x>213</x>
-    <y>353</y>
+    <y>378</y>
     <width>47</width>
     <height>19</height>
     <foreground_color>
@@ -530,7 +529,7 @@
     <name>Text Input Template_12</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV104</pv_name>
     <x>269</x>
-    <y>353</y>
+    <y>378</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -545,7 +544,7 @@
     <name>Label Template_25</name>
     <text>CV105</text>
     <x>410</x>
-    <y>352</y>
+    <y>377</y>
     <width>50</width>
     <height>19</height>
     <foreground_color>
@@ -568,7 +567,7 @@
     <name>Text Input Template_13</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV105</pv_name>
     <x>470</x>
-    <y>352</y>
+    <y>377</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -583,7 +582,7 @@
     <name>Label Template_26</name>
     <text>CV550</text>
     <x>13</x>
-    <y>375</y>
+    <y>400</y>
     <width>64</width>
     <height>18</height>
     <vertical_alignment>1</vertical_alignment>
@@ -598,7 +597,7 @@
     <name>Text Input Template_14</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV550</pv_name>
     <x>77</x>
-    <y>375</y>
+    <y>400</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -613,7 +612,7 @@
     <name>Label Template_27</name>
     <text>CV551</text>
     <x>213</x>
-    <y>377</y>
+    <y>402</y>
     <width>47</width>
     <height>18</height>
     <foreground_color>
@@ -636,7 +635,7 @@
     <name>Text Input Template_15</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV551</pv_name>
     <x>269</x>
-    <y>377</y>
+    <y>402</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -651,7 +650,7 @@
     <name>Text Update Template_5</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sVacFlt</pv_name>
     <x>170</x>
-    <y>193</y>
+    <y>218</y>
     <width>50</width>
     <height>18</height>
     <precision>0</precision>
@@ -668,7 +667,7 @@
     <name>Text Update Template_6</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sVac</pv_name>
     <x>170</x>
-    <y>218</y>
+    <y>243</y>
     <width>50</width>
     <height>18</height>
     <precision>0</precision>
@@ -685,7 +684,7 @@
     <name>Text Update Template_7</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sPressEOF</pv_name>
     <x>170</x>
-    <y>243</y>
+    <y>268</y>
     <width>50</width>
     <height>18</height>
     <precision>0</precision>
@@ -702,7 +701,7 @@
     <name>Text Update Template_8</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sPressFlt</pv_name>
     <x>170</x>
-    <y>268</y>
+    <y>293</y>
     <width>50</width>
     <height>18</height>
     <precision>0</precision>
@@ -719,7 +718,7 @@
     <name>Text Update Template_9</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sVacRate</pv_name>
     <x>527</x>
-    <y>189</y>
+    <y>214</y>
     <width>56</width>
     <height>18</height>
     <precision>0</precision>
@@ -736,7 +735,7 @@
     <name>Text Update Template_10</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sPressRate</pv_name>
     <x>527</x>
-    <y>214</y>
+    <y>239</y>
     <width>56</width>
     <height>18</height>
     <precision>0</precision>
@@ -753,7 +752,7 @@
     <name>Text Update Template_11</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sVacRateAlrm</pv_name>
     <x>527</x>
-    <y>239</y>
+    <y>264</y>
     <width>56</width>
     <height>18</height>
     <precision>0</precision>
@@ -770,7 +769,7 @@
     <name>Text Update Template_12</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sPresRateAlrm</pv_name>
     <x>527</x>
-    <y>264</y>
+    <y>289</y>
     <width>56</width>
     <height>18</height>
     <precision>0</precision>
@@ -787,7 +786,7 @@
     <name>Text Update Template_13</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV100</pv_name>
     <x>137</x>
-    <y>329</y>
+    <y>354</y>
     <width>47</width>
     <height>18</height>
     <precision>0</precision>
@@ -804,7 +803,7 @@
     <name>Text Update Template_16</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV103</pv_name>
     <x>137</x>
-    <y>353</y>
+    <y>378</y>
     <width>47</width>
     <height>18</height>
     <precision>0</precision>
@@ -821,7 +820,7 @@
     <name>Text Update Template_19</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV550</pv_name>
     <x>137</x>
-    <y>377</y>
+    <y>402</y>
     <width>47</width>
     <height>18</height>
     <precision>0</precision>
@@ -838,7 +837,7 @@
     <name>Text Update Template_14</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV101</pv_name>
     <x>329</x>
-    <y>331</y>
+    <y>356</y>
     <width>47</width>
     <height>18</height>
     <precision>0</precision>
@@ -855,7 +854,7 @@
     <name>Text Update Template_17</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV104</pv_name>
     <x>329</x>
-    <y>355</y>
+    <y>380</y>
     <width>47</width>
     <height>18</height>
     <precision>0</precision>
@@ -872,7 +871,7 @@
     <name>Text Update Template_20</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV551</pv_name>
     <x>329</x>
-    <y>379</y>
+    <y>404</y>
     <width>47</width>
     <height>18</height>
     <precision>0</precision>
@@ -889,7 +888,7 @@
     <name>Text Update Template_15</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV102</pv_name>
     <x>530</x>
-    <y>330</y>
+    <y>355</y>
     <width>47</width>
     <height>18</height>
     <precision>0</precision>
@@ -906,7 +905,7 @@
     <name>Text Update Template_18</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV105</pv_name>
     <x>530</x>
-    <y>354</y>
+    <y>379</y>
     <width>47</width>
     <height>18</height>
     <precision>0</precision>
@@ -923,7 +922,7 @@
     <name>Label Template_28</name>
     <text>CV552</text>
     <x>410</x>
-    <y>376</y>
+    <y>401</y>
     <width>50</width>
     <height>19</height>
     <foreground_color>
@@ -946,7 +945,7 @@
     <name>Text Input Template_16</name>
     <pv_name>CstatH-Ctrl:$(seq_no):cP_CV552</pv_name>
     <x>470</x>
-    <y>377</y>
+    <y>402</y>
     <width>52</width>
     <height>21</height>
     <show_units>false</show_units>
@@ -961,7 +960,7 @@
     <name>Text Update Template_25</name>
     <pv_name>CstatH-Ctrl:$(seq_no):sP_CV552</pv_name>
     <x>530</x>
-    <y>379</y>
+    <y>404</y>
     <width>47</width>
     <height>18</height>
     <precision>0</precision>
@@ -978,7 +977,7 @@
     <name>Text Update_1</name>
     <pv_name>CstatH-RHtr:PT551:sRdV</pv_name>
     <x>225</x>
-    <y>268</y>
+    <y>293</y>
     <width>50</width>
     <height>18</height>
     <precision>1</precision>
@@ -989,7 +988,7 @@
     <name>Label Template_15</name>
     <text>PT552</text>
     <x>228</x>
-    <y>200</y>
+    <y>225</y>
     <width>50</width>
     <height>19</height>
     <font>
@@ -1008,7 +1007,7 @@
     <name>Text Update</name>
     <pv_name>CstatH-RHtr:PT552:sRdV</pv_name>
     <x>225</x>
-    <y>218</y>
+    <y>243</y>
     <width>50</width>
     <height>18</height>
     <precision>1</precision>

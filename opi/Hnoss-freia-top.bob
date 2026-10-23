@@ -26,14 +26,14 @@
           <step0>Not running</step0>
           <step1>Checking parameters</step1>
           <step10>Keeping overpressure</step10>
-          <step12>Vacuum leak - waiting for Ack</step12>
-          <step14>Overpressure leak -waiting for Ack</step14>
+          <step12>Vacuum leak - waiting for "Ackn Alarms"</step12>
+          <step14>Overpressure leak - waiting for "Ackn Alarms"</step14>
           <step2>Checking equipment</step2>
           <step4>Pumping down</step4>
           <step6>Keeping vacuum</step6>
           <step8>Filling up with GHe</step8>
         </macros>
-        <target>standalone</target>
+        <target>window</target>
       </action>
     </actions>
     <text>Sequence 0</text>
@@ -63,14 +63,14 @@ Conditioning He circuits</tooltip>
           <step0>Not running</step0>
           <step1>Checking parameters</step1>
           <step10>Keeping overpressure</step10>
-          <step12>Vacuum leak - waiting for Ack</step12>
-          <step14>Overpressure leak -waiting for Ack</step14>
+          <step12>Vacuum leak - waiting for "Ackn Alarms"</step12>
+          <step14>Overpressure leak - waiting for "Ackn Alarms"</step14>
           <step2>Checking equipment</step2>
           <step4>Pumping down</step4>
           <step6>Keeping vacuum</step6>
           <step8>Filling up with GHe</step8>
         </macros>
-        <target>standalone</target>
+        <target>window</target>
       </action>
     </actions>
     <text>Sequence 1</text>
@@ -99,14 +99,14 @@ Conditioning He circuits</tooltip>
           <step0>Not running</step0>
           <step1>Checking parameters</step1>
           <step10>Keeping overpressure</step10>
-          <step12>Vacuum leak - waiting for Ack</step12>
-          <step14>Overpressure leak -waiting for Ack</step14>
+          <step12>Vacuum leak - waiting for "Ackn Alarms"</step12>
+          <step14>Overpressure leak - waiting for "Ackn Alarms"</step14>
           <step2>Checking equipment</step2>
           <step4>Pumping down</step4>
           <step6>Keeping vacuum</step6>
           <step8>Filling up with GHe</step8>
         </macros>
-        <target>standalone</target>
+        <target>window</target>
       </action>
     </actions>
     <text>Sequence 2</text>
